@@ -1,0 +1,20 @@
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.BizLogic.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.BizLogic.pdb
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.csprojResolveAssemblyReference.cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.BizLogic.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.BizLogic.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.csprojResolveAssemblyReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.BizLogic.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.BizLogic.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.pdb
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.BizLogic.dll
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.BizLogic.pdb
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.dll
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.BizLogic\obj\Debug\RDIFramework.BizLogic.pdb

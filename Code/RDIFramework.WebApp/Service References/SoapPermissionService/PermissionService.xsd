@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8096/PermissionService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" />
+  <xs:import schemaLocation="http://localhost:8096/PermissionService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="IsModuleAuthorizedByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q1:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="moduleCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsModuleAuthorizedByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsModuleAuthorizedByUserIdResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionScopeByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q2:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionScopeByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="GetPermissionScopeByUserIdResult" type="q3:PermissionScope" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResourcePermissionItemIds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q4:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="resourceId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResourcePermissionItemIdsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetResourcePermissionItemIdsResult" nillable="true" type="q5:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantResourcePermission">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q6:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="resourceId" nillable="true" type="xs:string" />
+        <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantPermissionItemIds" nillable="true" type="q7:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantResourcePermissionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantResourcePermissionResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeResourcePermission">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q8:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="resourceId" nillable="true" type="xs:string" />
+        <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokePermissionItemIds" nillable="true" type="q9:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeResourcePermissionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeResourcePermissionResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionScopeTargetIds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q10:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="resourceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="targetCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionScopeTargetIdsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetPermissionScopeTargetIdsResult" nillable="true" type="q11:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionScopeResourceIds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q12:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="targetResourceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="targetResourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionScopeResourceIdsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetPermissionScopeResourceIdsResult" nillable="true" type="q13:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantPermissionScopeTargets">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q14:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="resourceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="targetCategory" nillable="true" type="xs:string" />
+        <xs:element xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantTargetIds" nillable="true" type="q15:ArrayOfstring" />
+        <xs:element minOccurs="0" name="permissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantPermissionScopeTargetsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantPermissionScopeTargetsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantPermissionScopeTarget">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q16:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="resourceIds" nillable="true" type="q17:ArrayOfstring" />
+        <xs:element minOccurs="0" name="targetCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grantTargetId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantPermissionScopeTargetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantPermissionScopeTargetResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokePermissionScopeTargets">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q18:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="resourceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="targetCategory" nillable="true" type="xs:string" />
+        <xs:element xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeTargetIds" nillable="true" type="q19:ArrayOfstring" />
+        <xs:element minOccurs="0" name="permissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokePermissionScopeTargetsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokePermissionScopeTargetsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokePermissionScopeTarget">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q20:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element xmlns:q21="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="resourceIds" nillable="true" type="q21:ArrayOfstring" />
+        <xs:element minOccurs="0" name="targetCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="revokeTargetId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokePermissionScopeTargetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokePermissionScopeTargetResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearPermissionScopeTarget">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q22:UserInfo" />
+        <xs:element minOccurs="0" name="resourceCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="resourceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="targetCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearPermissionScopeTargetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ClearPermissionScopeTargetResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResourceScopeIds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q23:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="targetCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResourceScopeIdsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetResourceScopeIdsResult" nillable="true" type="q24:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTreeResourceScopeIds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q25:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="targetCategory" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="childrens" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTreeResourceScopeIdsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetTreeResourceScopeIdsResult" nillable="true" type="q26:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleIdsByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q27:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleIdsByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetModuleIdsByUserIdResult" nillable="true" type="q28:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleDTByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q29:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleDTByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetModuleDTByUserIdResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeModuleIdsByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q30:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeModuleIdsByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeModuleIdsByUserIdResult" nillable="true" type="q31:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserModuleScope1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q32:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionScopeItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grantModuleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserModuleScope1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantUserModuleScope1Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserModuleScope2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q33:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionScopeItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantModuleIds" nillable="true" type="q34:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserModuleScope2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantUserModuleScope2Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserModuleScope1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q35:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionScopeItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="revokeModuleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserModuleScope1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeUserModuleScope1Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserModuleScope2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q36:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionScopeItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q37="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeModuleIds" nillable="true" type="q37:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserModuleScope2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeUserModuleScope2Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeModuleIdsByOrganizeId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q38:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeModuleIdsByOrganizeIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeModuleIdsByOrganizeIdResult" nillable="true" type="q39:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantOrganizeModuleScope2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q40:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantModuleIds" nillable="true" type="q41:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantOrganizeModuleScope2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantOrganizeModuleScope2Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantOrganizeModuleScope1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q42:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grantModuleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantOrganizeModuleScope1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantOrganizeModuleScope1Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeOrganizeModuleScope2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q43:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeModuleIds" nillable="true" type="q44:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeOrganizeModuleScope2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeOrganizeModuleScope2Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeOrganizeModuleScope1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q45:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="revokeModuleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeOrganizeModuleScope1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeOrganizeModuleScope1Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrganizePermissionItemIds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q46:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrganizePermissionItemIdsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetOrganizePermissionItemIdsResult" nillable="true" type="q47:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrganizeIdsByPermissionItemId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q48:UserInfo" />
+        <xs:element minOccurs="0" name="permissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrganizeIdsByPermissionItemIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetOrganizeIdsByPermissionItemIdResult" nillable="true" type="q49:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantOrganizePermissionById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q50:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grantPermissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantOrganizePermissionByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantOrganizePermissionByIdResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantOrganizePermissions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q51:UserInfo" />
+        <xs:element xmlns:q52="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="organizeIds" nillable="true" type="q52:ArrayOfstring" />
+        <xs:element xmlns:q53="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantPermissionItemIds" nillable="true" type="q53:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantOrganizePermissionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantOrganizePermissionsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeOrganizePermissions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q54:UserInfo" />
+        <xs:element xmlns:q55="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="organizeIds" nillable="true" type="q55:ArrayOfstring" />
+        <xs:element xmlns:q56="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokePermissionItemIds" nillable="true" type="q56:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeOrganizePermissionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeOrganizePermissionsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeOrganizePermissionById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q57:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="revokePermissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeOrganizePermissionByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeOrganizePermissionByIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearOrganizePermission">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q58:UserInfo" />
+        <xs:element minOccurs="0" name="organizeId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearOrganizePermissionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ClearOrganizePermissionResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsInRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q59:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="roleName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsInRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsInRoleResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAuthorized">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q60:UserInfo" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAuthorizedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsAuthorizedResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAuthorizedByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q61:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAuthorizedByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsAuthorizedByUserIdResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAuthorizedByRoleId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q62:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAuthorizedByRoleIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsAuthorizedByRoleIdResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAdministrator">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q63:UserInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAdministratorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsAdministratorResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAdministratorByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q64:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsAdministratorByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsAdministratorByUserIdResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionDT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q65:UserInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionDTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPermissionDTResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionDTByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q66:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionDTByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPermissionDTByUserIdResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsModuleAuthorized">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q67:UserInfo" />
+        <xs:element minOccurs="0" name="moduleCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsModuleAuthorizedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsModuleAuthorizedResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearRolePermissionByRoleId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q68:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearRolePermissionByRoleIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ClearRolePermissionByRoleIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearRolePermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q69:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearRolePermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ClearRolePermissionScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeModuleIdsByRoleId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q70:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeModuleIdsByRoleIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeModuleIdsByRoleIdResult" nillable="true" type="q71:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleModuleScope2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q72:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q73="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantModuleIds" nillable="true" type="q73:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleModuleScope2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRoleModuleScope2Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleModuleScope1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q74:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grantModuleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleModuleScope1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRoleModuleScope1Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleModuleScope2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q75:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q76="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeModuleIds" nillable="true" type="q76:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleModuleScope2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRoleModuleScope2Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleModuleScope1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q77:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="revokeModuleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleModuleScope1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRoleModuleScope1Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserPermissionItemIds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q78:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserPermissionItemIdsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q79="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetUserPermissionItemIdsResult" nillable="true" type="q79:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserIdsByPermissionItemId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q80:UserInfo" />
+        <xs:element minOccurs="0" name="permissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserIdsByPermissionItemIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetUserIdsByPermissionItemIdResult" nillable="true" type="q81:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserPermissions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q82:UserInfo" />
+        <xs:element xmlns:q83="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userIds" nillable="true" type="q83:ArrayOfstring" />
+        <xs:element xmlns:q84="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantPermissionItemIds" nillable="true" type="q84:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserPermissionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantUserPermissionsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserPermissionById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q85:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grantPermissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserPermissionByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantUserPermissionByIdResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserPermissions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q86:UserInfo" />
+        <xs:element xmlns:q87="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userIds" nillable="true" type="q87:ArrayOfstring" />
+        <xs:element xmlns:q88="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokePermissionItemIds" nillable="true" type="q88:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserPermissionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeUserPermissionsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserPermissionById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q89:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="revokePermissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserPermissionByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeUserPermissionByIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeOrganizeIdsByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q90:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeOrganizeIdsByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeOrganizeIdsByUserIdResult" nillable="true" type="q91:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserOrganizeScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q92:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q93="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantOrganizeIds" nillable="true" type="q93:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserOrganizeScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantUserOrganizeScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserOrganizeScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q94:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q95="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeOrganizeIds" nillable="true" type="q95:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserOrganizeScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeUserOrganizeScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeUserIdsByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q96:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeUserIdsByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeUserIdsByUserIdResult" nillable="true" type="q97:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserUserScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q98:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q99="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantUserIds" nillable="true" type="q99:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserUserScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantUserUserScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserUserScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q100:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q101="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeUserIds" nillable="true" type="q101:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserUserScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeUserUserScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeRoleIdsByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q102:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeRoleIdsByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q103="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeRoleIdsByUserIdResult" nillable="true" type="q103:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserRoleScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q104:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q105="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantRoleIds" nillable="true" type="q105:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserRoleScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantUserRoleScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserRoleScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q106:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q107="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeRoleds" nillable="true" type="q107:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserRoleScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeUserRoleScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopePermissionItemIdsByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q108="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q108:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopePermissionItemIdsByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q109="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopePermissionItemIdsByUserIdResult" nillable="true" type="q109:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserPermissionItemScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q110="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q110:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q111="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantPermissionItemIds" nillable="true" type="q111:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantUserPermissionItemScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantUserPermissionItemScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserPermissionItemScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q112="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q112:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q113="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokePermissionItemIds" nillable="true" type="q113:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeUserPermissionItemScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeUserPermissionItemScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearUserPermissionByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q114="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q114:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearUserPermissionByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ClearUserPermissionByUserIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearUserPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q115="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q115:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearUserPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ClearUserPermissionScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleDT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q116="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q116:UserInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleDTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetModuleDTResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserDTByPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q117="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q117:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserDTByPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetUserDTByPermissionScopeResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserIdsByPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q118="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q118:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserIdsByPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q119="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetUserIdsByPermissionScopeResult" nillable="true" type="q119:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoleDTByPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q120="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q120:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoleDTByPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetRoleDTByPermissionScopeResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoleIdsByPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q121="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q121:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoleIdsByPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q122="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetRoleIdsByPermissionScopeResult" nillable="true" type="q122:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleDTByPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q123="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q123:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetModuleDTByPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetModuleDTByPermissionScopeResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionItemDTByPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q124="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q124:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPermissionItemDTByPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPermissionItemDTByPermissionScopeResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrganizeDTByPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q125="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q125:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrganizeDTByPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetOrganizeDTByPermissionScopeResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrganizeIdsByPermissionScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q126="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q126:UserInfo" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrganizeIdsByPermissionScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q127="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetOrganizeIdsByPermissionScopeResult" nillable="true" type="q127:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRolePermissionItemIds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q128="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q128:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRolePermissionItemIdsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q129="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetRolePermissionItemIdsResult" nillable="true" type="q129:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoleIdsByPermissionItemId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q130="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q130:UserInfo" />
+        <xs:element minOccurs="0" name="permissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoleIdsByPermissionItemIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q131="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetRoleIdsByPermissionItemIdResult" nillable="true" type="q131:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRolePermissions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q132="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q132:UserInfo" />
+        <xs:element xmlns:q133="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="roleIds" nillable="true" type="q133:ArrayOfstring" />
+        <xs:element xmlns:q134="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantPermissionItemIds" nillable="true" type="q134:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRolePermissionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRolePermissionsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRolePermission">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q135="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q135:UserInfo" />
+        <xs:element minOccurs="0" name="roleName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grantPermissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRolePermissionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRolePermissionResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRolePermissionById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q136="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q136:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grantPermissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRolePermissionByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRolePermissionByIdResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRolePermissions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q137="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q137:UserInfo" />
+        <xs:element xmlns:q138="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="roleIds" nillable="true" type="q138:ArrayOfstring" />
+        <xs:element xmlns:q139="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokePermissionItemIds" nillable="true" type="q139:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRolePermissionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRolePermissionsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRolePermission">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q140="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q140:UserInfo" />
+        <xs:element minOccurs="0" name="roleName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="revokePermissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRolePermissionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRolePermissionResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRolePermissionById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q141="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q141:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="revokePermissionItemId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRolePermissionByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRolePermissionByIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeUserIdsByRoleId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q142="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q142:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeUserIdsByRoleIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q143="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeUserIdsByRoleIdResult" nillable="true" type="q143:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeRoleIdsByRoleId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q144="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q144:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeRoleIdsByRoleIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q145="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeRoleIdsByRoleIdResult" nillable="true" type="q145:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeOrganizeIdsByRoleId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q146="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q146:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopeOrganizeIdsByRoleIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q147="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopeOrganizeIdsByRoleIdResult" nillable="true" type="q147:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleUserScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q148="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q148:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q149="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantUserIds" nillable="true" type="q149:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleUserScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRoleUserScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleUserScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q150="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q150:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q151="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeUserIds" nillable="true" type="q151:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleUserScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRoleUserScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleRoleScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q152="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q152:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q153="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantRoleIds" nillable="true" type="q153:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleRoleScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRoleRoleScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleRoleScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q154="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q154:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q155="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeRoleIds" nillable="true" type="q155:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleRoleScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRoleRoleScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleOrganizeScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q156="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q156:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q157="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantOrganizeIds" nillable="true" type="q157:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRoleOrganizeScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRoleOrganizeScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleOrganizeScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q158="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q158:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q159="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokeOrganizeIds" nillable="true" type="q159:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRoleOrganizeScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRoleOrganizeScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopePermissionItemIdsByRoleId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q160="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q160:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScopePermissionItemIdsByRoleIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q161="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetScopePermissionItemIdsByRoleIdResult" nillable="true" type="q161:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRolePermissionItemScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q162="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q162:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q163="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="grantPermissionItemIds" nillable="true" type="q163:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantRolePermissionItemScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantRolePermissionItemScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRolePermissionItemScope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q164="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" minOccurs="0" name="userInfo" nillable="true" type="q164:UserInfo" />
+        <xs:element minOccurs="0" name="roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="permissionItemCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q165="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="revokePermissionItemIds" nillable="true" type="q165:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RevokeRolePermissionItemScopeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RevokeRolePermissionItemScopeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DFEEFB2-547E-4744-B667-3103B0ACAC65}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDIFramework.BizLogic</RootNamespace>
+    <AssemblyName>RDIFramework.BizLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/RDIFramework.BizLogic/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BizEntity\BaseEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiDbLinkDefineEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiExceptionEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiFileEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiFolderEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiItemDetailsEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiItemsEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiLogEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiMessageEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiParameterEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiSequenceEntity.cs" />
+    <Compile Include="BizEntity\Entity\CiTableColumnsEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiModuleEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiOrganizeEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiPermissionEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiPermissionItemEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiPermissionScopeEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiPlatFormAddInEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiRoleEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiStaffEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiStaffOrganizeEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiTablePermissionScopeEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiUserEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiUserLogOnEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiUserOrganizeEntity.cs" />
+    <Compile Include="BizEntity\Entity\PiUserRoleEntity.cs" />
+    <Compile Include="BizEntity\Entity\QueryEngineDefineEntity.cs" />
+    <Compile Include="BizEntity\Entity\QueryEngineEntity.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\AccreditUserEntity.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\AuditMessageEntity.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\AttachmentEntity.cs" />
+    <Compile Include="BizEntity\IBaseEntity.cs" />
+    <Compile Include="BizEntity\Table\QueryEngineDefineTable.cs" />
+    <Compile Include="BizEntity\Table\QueryEngineTable.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\AccreditUserTable.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\AuditMessageTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\MainUserControlEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\MainUserControlTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\OperatorEntity.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\OperatorInstanceEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\OperatorInstanceTable.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\OperatorTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\SubWorkFlowEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\SubWorkFlowTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\TaskVarEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\TaskVarTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\UserControlsEntity.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\UserControlsLinkEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\UserControlsLinkTable.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\UserControlsTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkFlowClassEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkFlowClassTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkFlowTemplateEntity.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkFlowEventEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkFlowEventTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkFlowInstanceEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkFlowInstanceTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkFlowServiceEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkFlowServiceTable.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkFlowTemplateTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkLinkEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkLinkTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkOutTimeEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkOutTimeTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkServiceMessageEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkServiceMessageTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkTaskCommandsEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkTaskCommandsTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkTaskControlsEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkTaskControlsTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkTaskEntity.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkTaskInsNextOperEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkTaskInsNextOperTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkTaskInstanceEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkTaskInstanceTable.cs" />
+    <Compile Include="BizEntity\Entity\WorkFlow\WorkTaskPowerEntity.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkTaskPowerTable.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\WorkTaskTable.cs" />
+    <Compile Include="BizEntity\Table\CiDbLinkDefineTable.cs" />
+    <Compile Include="BizEntity\Table\CiExceptionTable.cs" />
+    <Compile Include="BizEntity\Table\CiFileTable.cs" />
+    <Compile Include="BizEntity\Table\CiFolderTable.cs" />
+    <Compile Include="BizEntity\Table\CiItemDetailsTable.cs" />
+    <Compile Include="BizEntity\Table\CiItemsTable.cs" />
+    <Compile Include="BizEntity\Table\CiLogTable.cs" />
+    <Compile Include="BizEntity\Table\CiMessageTable.cs" />
+    <Compile Include="BizEntity\Table\CiParameterTable.cs" />
+    <Compile Include="BizEntity\Table\CiSequenceTable.cs" />
+    <Compile Include="BizEntity\Table\CiTableColumnsTable.cs" />
+    <Compile Include="BizEntity\Table\PiModuleTable.cs" />
+    <Compile Include="BizEntity\Table\PiOrganizeTable.cs" />
+    <Compile Include="BizEntity\Table\PiPermissionItemTable.cs" />
+    <Compile Include="BizEntity\Table\PiPermissionScopeTable.cs" />
+    <Compile Include="BizEntity\Table\PiPermissionTable.cs" />
+    <Compile Include="BizEntity\Table\PiPlatFormAddInTable.cs" />
+    <Compile Include="BizEntity\Table\PiRoleTable.cs" />
+    <Compile Include="BizEntity\Table\PiStaffOrganizeTable.cs" />
+    <Compile Include="BizEntity\Table\PiStaffTable.cs" />
+    <Compile Include="BizEntity\Table\PiTablePermissionScopeTable.cs" />
+    <Compile Include="BizEntity\Table\PiUserLogOnTable.cs" />
+    <Compile Include="BizEntity\Table\PiUserOrganizeTable.cs" />
+    <Compile Include="BizEntity\Table\PiUserRoleTable.cs" />
+    <Compile Include="BizEntity\Table\PiUserTable.cs" />
+    <Compile Include="BizEntity\Table\PiUserTable_V27.cs" />
+    <Compile Include="BizEntity\Table\WorkFlow\AttachmentTable.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetCount.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetDataReaderByPage.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.GetDataReader.cs" />
+    <Compile Include="Common\ParameterUtil.cs" />
+    <Compile Include="Common\ServiceUtil.cs" />
+    <Compile Include="BizEntity\DRDataReader.cs" />
+    <Compile Include="BizEntity\DRDataRow.cs" />
+    <Compile Include="BizEntity\IDataRow.cs" />
+    <Compile Include="IService\Base\IQueryEngineService.QueryEngineDefine.cs" />
+    <Compile Include="IService\Base\IQueryEngineService.cs" />
+    <Compile Include="IService\Base\IUserService.Organize.cs" />
+    <Compile Include="IService\Base\IUserService.Role.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowHelperService.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowInstanceService.OperatorInstance.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.WorkFlowTemplate.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.WorkTask.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.WorkTaskCommands.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.WorkLink.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.WorkFlowClass.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowInstanceService.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.WorkFlowEvent.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.WorkOutTime.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowUserControlService.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowUserControlService.MainUserControl.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowUserControlService.UserControls.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.TaskVar.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.Operator.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowTemplateService.SubWorkFlow.cs" />
+    <Compile Include="Manager\Base\Generate\CiTableColumnsManager.Generate.cs" />
+    <Compile Include="Manager\Base\Generate\PiRoleManager.Generate.cs" />
+    <Compile Include="Manager\Base\CiLogManager.cs" />
+    <Compile Include="Manager\Base\Generate\PiModuleManager.Generate.cs" />
+    <Compile Include="Manager\Base\Generate\PiOrganizeManager.Generate.cs" />
+    <Compile Include="Manager\Base\Generate\PiStaffManager.Generate.cs" />
+    <Compile Include="Manager\Base\Generate\CiSequenceManager.Generate.cs" />
+    <Compile Include="Manager\Base\Generate\CiFileManager.Generate.cs" />
+    <Compile Include="Manager\Base\Generate\CiParameterManager.Generate.cs" />
+    <Compile Include="Manager\Base\Generate\QueryEngineDefineManager.Generate.cs" />
+    <Compile Include="Manager\Base\Generate\QueryEngineManager.Generate.cs" />
+    <Compile Include="Manager\User\PiUserManager.cs" />
+    <Compile Include="Manager\WorkFlow\Engine\InstanceTypeManager.cs" />
+    <Compile Include="IService\IServiceFactory.cs" />
+    <Compile Include="IService\Base\IDbLinkDefineService.cs" />
+    <Compile Include="IService\Base\IDBProviderService.cs" />
+    <Compile Include="IService\Base\IExceptionService.cs" />
+    <Compile Include="IService\Base\IFileService.cs" />
+    <Compile Include="IService\Base\IFolderService.cs" />
+    <Compile Include="IService\Base\IItemDetailsService.cs" />
+    <Compile Include="IService\Base\IItemsService.cs" />
+    <Compile Include="IService\Base\ILogOnService.cs" />
+    <Compile Include="IService\Base\ILogService.cs" />
+    <Compile Include="IService\Base\IMessageService.cs" />
+    <Compile Include="IService\Base\IModuleService.cs" />
+    <Compile Include="IService\Base\IOrganizeService.cs" />
+    <Compile Include="IService\Base\IParameterService.cs" />
+    <Compile Include="IService\Base\IPermissionItemService.cs" />
+    <Compile Include="IService\PermissionService\IPermissionScopeService.cs" />
+    <Compile Include="IService\PermissionService\IPermissionService.cs" />
+    <Compile Include="IService\PermissionService\IPermissionService.OrganizePermission.cs" />
+    <Compile Include="IService\PermissionService\IPermissionService.ResourcePermission.cs" />
+    <Compile Include="IService\PermissionService\IPermissionService.RolePermission.cs" />
+    <Compile Include="IService\PermissionService\IPermissionService.ScopPermission.cs" />
+    <Compile Include="IService\PermissionService\IPermissionService.UserPermission.cs" />
+    <Compile Include="IService\Base\IPiUserOrganizeService.cs" />
+    <Compile Include="IService\Base\IPiUserRoleService.cs" />
+    <Compile Include="IService\Base\IPlatFormAddInService.cs" />
+    <Compile Include="IService\Base\IRoleService.cs" />
+    <Compile Include="IService\Base\ISequenceService.cs" />
+    <Compile Include="IService\Base\IStaffService.cs" />
+    <Compile Include="IService\Base\ITableColumnsService.cs" />
+    <Compile Include="IService\Base\IUserService.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowInstanceService.WorkFlowInstance.cs" />
+    <Compile Include="Manager\Base\CiMessageManager.cs" />
+    <Compile Include="Manager\Base\Generate\CiMessageManager.Generate.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetPropertys.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.Delete.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.Exists.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetDataReader.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetDT.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.GetPropertys.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.GetList.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.SetDeleted.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.GetMaxProperty.cs" />
+    <Compile Include="Manager\Base\CiParameterManager.cs" />
+    <Compile Include="Manager\Base\PiStaffOrganizeManager.cs" />
+    <Compile Include="Manager\User\PiUserManager.Role.cs" />
+    <Compile Include="Manager\User\PiUserManager.Organize.cs" />
+    <Compile Include="Manager\Permission\OrganizePermissionManager.cs" />
+    <Compile Include="Manager\Permission\OrganizeModuleScopeManager.cs" />
+    <Compile Include="Manager\Permission\OrganizeScopeManage.cs" />
+    <Compile Include="Manager\Base\TablePermissionScopeManager.cs" />
+    <Compile Include="Manager\User\PiUserManager.CheckIPAddress.cs" />
+    <Compile Include="Manager\User\PiUserLogOnManager.Generate.cs" />
+    <Compile Include="Manager\User\PiUserLogOnManager.cs" />
+    <Compile Include="Manager\WorkFlow\Engine\AccreditUserManager.cs" />
+    <Compile Include="Manager\WorkFlow\Engine\OperatorInstanceManager.cs" />
+    <Compile Include="Manager\WorkFlow\Engine\WorkFlowInstanceManager.cs" />
+    <Compile Include="Manager\WorkFlow\Engine\WorkServiceMessageManager.cs" />
+    <Compile Include="Manager\WorkFlow\Engine\WorkTaskInstanceManager.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\AccreditUserManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\AuditMessageManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\MainUserControlManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\OperatorInstanceManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\OperatorManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\SubWorkFlowManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\TaskVarManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\UserControlsLinkManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\UserControlsManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkFlowClassManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkFlowEventManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkFlowInstanceManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkFlowTemplateManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkFlowServiceManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkLinkManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkOutTimeManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkServiceMessageManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkTaskCommandsManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkTaskControlsManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkTaskInsNextOperManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkTaskInstanceManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkTaskManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\WorkTaskPowerManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Generate\AttachmentManager.Generate.cs" />
+    <Compile Include="Manager\WorkFlow\Template\MainUserControlManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\OperatorManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\SubWorkFlowManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\TaskVarManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\UserControlsManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\WorkFlowClassManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\WorkFlowEventManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\WorkLinkManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\WorkTaskCommandsManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\WorkTaskManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\WorkFlowTemplateManager.cs" />
+    <Compile Include="Manager\WorkFlow\Template\WorkOutTimeManager.cs" />
+    <Compile Include="IService\WorkFlow\IWorkFlowInstanceService.WorkTaskInstance.cs" />
+    <Compile Include="Service\Base\QueryEngineService.QueryEngineDefine.cs" />
+    <Compile Include="Service\Base\QueryEngineService.cs" />
+    <Compile Include="Service\Base\UserService.Organize.cs" />
+    <Compile Include="Service\Base\UserService.Role.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowInstanceService.WorkTaskInstance.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowInstanceService.WorkFlowInstance.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowHelperService.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowInstanceService.OperatorInstance.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.WorkFlowTemplate.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.WorkTask.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowHelperService.AccreditUser.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.WorkTaskCommands.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.WorkLink.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.WorkFlowClass.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.WorkFlowEvent.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.WorkOutTime.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowUserControlService.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowUserControlService.MainUserControl.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowUserControlService.UserControls.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.TaskVar.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.Operator.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowTemplateService.SubWorkFlow.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowHelperService.AuditMessage.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowHelperService.Attachment.cs" />
+    <Compile Include="WorkFlowCoreEngine\SystemVarItem.cs" />
+    <Compile Include="WorkFlowCoreEngine\OperParameter.cs" />
+    <Compile Include="Service\Base\LogOnService.cs" />
+    <Compile Include="Service\Base\MessageService.cs" />
+    <Compile Include="Service\Base\ParameterService.cs" />
+    <Compile Include="Service\PermissionService\PermissionService.ScopPermission.cs" />
+    <Compile Include="Service\PermissionService\PermissionService.ResourcePermission.cs" />
+    <Compile Include="Service\PermissionService\PermissionService.OrganizePermission.cs" />
+    <Compile Include="Service\PermissionService\PermissionService.RolePermission.cs" />
+    <Compile Include="Service\PermissionService\PermissionService.UserPermission.cs" />
+    <Compile Include="Service\Base\StaffService.cs" />
+    <Compile Include="RDIFrameworkServiceFactory.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.DbHelper.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.Delete.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.Exists.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.GetDT.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.GetDTByPage.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.GetIds.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.GetProperty.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.ParentChildrens.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.PreviousNext.cs" />
+    <Compile Include="Common\DbCommonManager\DbCommonManager.SetProperty.cs" />
+    <Compile Include="Common\ConstraintUtil.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetDTByPage.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetIds.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetProperty.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.IsModifed.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.LockNoWait.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.ParentChildrens.cs" />
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.SetProperty.cs" />
+    <Compile Include="Common\DbCommonManager\IDbCommonManager.cs" />
+    <Compile Include="Common\SQLBuilder.cs" />
+    <Compile Include="Common\SQLBuilder.KeyValuePair.cs" />
+    <Compile Include="Manager\Base\CiFileManager.cs" />
+    <Compile Include="Manager\Base\CiFolderManager.cs" />
+    <Compile Include="Manager\User\PiUserManager.Add.cs" />
+    <Compile Include="Manager\User\PiUserManager.Update.cs" />
+    <Compile Include="Manager\Base\PiPlatFormAddInManager.cs" />
+    <Compile Include="Service\Base\PlatFormAddInService.cs" />
+    <Compile Include="Service\Base\FileService.cs" />
+    <Compile Include="Service\Base\FolderService.cs" />
+    <Compile Include="Manager\Base\CiDbLinkDefineManager.cs" />
+    <Compile Include="Manager\Base\CiExceptionManager.cs" />
+    <Compile Include="Manager\Base\CiItemDetailsManager.cs" />
+    <Compile Include="Manager\Base\CiItemsManager.cs" />
+    <Compile Include="Manager\Base\Generate\CiLogManager.Generate.cs" />
+    <Compile Include="Manager\Base\CiSequenceManager.cs" />
+    <Compile Include="Manager\Base\CiTableColumnsManager.cs" />
+    <Compile Include="Manager\Permission\PiPermissionItemManager.cs" />
+    <Compile Include="Manager\Permission\PiPermissionManager.cs" />
+    <Compile Include="Manager\Permission\PiPermissionScopeManager.cs" />
+    <Compile Include="Manager\Base\PiModuleManager.cs" />
+    <Compile Include="Manager\Base\PiOrganizeManager.cs" />
+    <Compile Include="Manager\Base\PiRoleManager.cs" />
+    <Compile Include="Manager\Base\PiStaffManager.cs" />
+    <Compile Include="Manager\Base\PiUserOrganizeManager.cs" />
+    <Compile Include="Manager\User\PiUserManager.Generate.cs" />
+    <Compile Include="Manager\Base\PiUserRoleManager.cs" />
+    <Compile Include="Manager\Permission\PermissionModuleManager.cs" />
+    <Compile Include="Manager\Permission\RoleModuleScopeManager.cs" />
+    <Compile Include="Manager\Permission\RoleOrganizeScopeManager.cs" />
+    <Compile Include="Manager\Permission\RolePermissionManager.cs" />
+    <Compile Include="Manager\Permission\RolePermissionScopeManager.cs" />
+    <Compile Include="Manager\Permission\RoleRoleScopeManager.cs" />
+    <Compile Include="Manager\Permission\RoleScopeManager.cs" />
+    <Compile Include="Manager\Permission\RoleUserScopeManager.cs" />
+    <Compile Include="Manager\User\PiUserManager.LogOn.cs" />
+    <Compile Include="Manager\User\PiUserManager.SetPassword.cs" />
+    <Compile Include="Service\Base\BusinessDbHelperService.cs" />
+    <Compile Include="Service\Base\ModuleService.cs" />
+    <Compile Include="Service\Base\PermissionItemService.cs" />
+    <Compile Include="Service\PermissionService\PermissionService.cs" />
+    <Compile Include="Service\Base\SequenceService.cs" />
+    <Compile Include="Service\Base\LogService.cs" />
+    <Compile Include="Service\Base\DbLinkDefineService.cs" />
+    <Compile Include="Service\Base\ItemsService.cs" />
+    <Compile Include="Service\Base\ExceptionService.cs" />
+    <Compile Include="Service\Base\ItemDetailsService.cs" />
+    <Compile Include="Service\Base\OrganizeService.cs" />
+    <Compile Include="Service\Base\RoleService.cs" />
+    <Compile Include="Service\Base\TableColumnsService.cs" />
+    <Compile Include="Service\Base\DBProviderService.cs" />
+    <Compile Include="Service\Base\UserService.cs" />
+    <Compile Include="Service\Base\RDIFrameworkDBProviderService.cs" />
+    <Compile Include="RDIFrameworkService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceFactory.cs" />
+    <Compile Include="Manager\Permission\UserModuleScopeManager.cs" />
+    <Compile Include="Manager\Permission\UserOrganizeScopeManager.cs" />
+    <Compile Include="Manager\Permission\UserPermissionManager.cs" />
+    <Compile Include="Manager\Permission\UserPermissionScopeManager.cs" />
+    <Compile Include="Manager\Permission\UserRoleScopeManager.cs" />
+    <Compile Include="Manager\Permission\UserScopeManager.cs" />
+    <Compile Include="Manager\Permission\UserUserScopeManager.cs" />
+    <Compile Include="Service\WorkFlowService\WorkFlowInstanceService.cs" />
+    <Compile Include="Manager\WorkFlow\Engine\WorkFlowHelperManager.cs" />
+    <Compile Include="WorkFlowCoreEngine\WorkConst.cs" />
+    <Compile Include="WorkFlowCoreEngine\WorkFlowEventArgs.cs" />
+    <Compile Include="WorkFlowCoreEngine\WorkFlowRuntime.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RDIFramework.Utilities\RDIFramework.Utilities.csproj">
+      <Project>{1916fe94-6129-4f93-bc55-0cf5f2cf9b05}</Project>
+      <Name>RDIFramework.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\DbCommonLibary\DbCommonLibary.GetMaxProperty.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Manager\Base\Generate\PiPermissionItemManager.Generate.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

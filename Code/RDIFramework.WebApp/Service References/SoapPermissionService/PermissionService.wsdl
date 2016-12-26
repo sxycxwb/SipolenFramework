@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PermissionService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8096/PermissionService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8096/PermissionService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8096/PermissionService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" />
+      <xsd:import schemaLocation="http://localhost:8096/PermissionService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:8096/PermissionService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPermissionService_IsModuleAuthorizedByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsModuleAuthorizedByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsModuleAuthorizedByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsModuleAuthorizedByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionScopeByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionScopeByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionScopeByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionScopeByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetResourcePermissionItemIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResourcePermissionItemIds" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetResourcePermissionItemIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResourcePermissionItemIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantResourcePermission_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantResourcePermission" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantResourcePermission_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantResourcePermissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeResourcePermission_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeResourcePermission" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeResourcePermission_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeResourcePermissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionScopeTargetIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionScopeTargetIds" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionScopeTargetIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionScopeTargetIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionScopeResourceIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionScopeResourceIds" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionScopeResourceIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionScopeResourceIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantPermissionScopeTargets_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantPermissionScopeTargets" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantPermissionScopeTargets_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantPermissionScopeTargetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantPermissionScopeTarget_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantPermissionScopeTarget" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantPermissionScopeTarget_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantPermissionScopeTargetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokePermissionScopeTargets_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokePermissionScopeTargets" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokePermissionScopeTargets_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokePermissionScopeTargetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokePermissionScopeTarget_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokePermissionScopeTarget" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokePermissionScopeTarget_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokePermissionScopeTargetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearPermissionScopeTarget_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearPermissionScopeTarget" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearPermissionScopeTarget_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearPermissionScopeTargetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetResourceScopeIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResourceScopeIds" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetResourceScopeIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResourceScopeIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetTreeResourceScopeIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTreeResourceScopeIds" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetTreeResourceScopeIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTreeResourceScopeIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetModuleIdsByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetModuleIdsByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetModuleIdsByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetModuleIdsByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetModuleDTByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetModuleDTByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetModuleDTByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetModuleDTByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeModuleIdsByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeModuleIdsByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeModuleIdsByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeModuleIdsByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserModuleScope1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserModuleScope1" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserModuleScope1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserModuleScope1Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserModuleScope2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserModuleScope2" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserModuleScope2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserModuleScope2Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserModuleScope1_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserModuleScope1" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserModuleScope1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserModuleScope1Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserModuleScope2_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserModuleScope2" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserModuleScope2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserModuleScope2Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeModuleIdsByOrganizeId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeModuleIdsByOrganizeId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeModuleIdsByOrganizeId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeModuleIdsByOrganizeIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantOrganizeModuleScope2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantOrganizeModuleScope2" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantOrganizeModuleScope2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantOrganizeModuleScope2Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantOrganizeModuleScope1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantOrganizeModuleScope1" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantOrganizeModuleScope1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantOrganizeModuleScope1Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeOrganizeModuleScope2_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeOrganizeModuleScope2" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeOrganizeModuleScope2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeOrganizeModuleScope2Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeOrganizeModuleScope1_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeOrganizeModuleScope1" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeOrganizeModuleScope1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeOrganizeModuleScope1Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetOrganizePermissionItemIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrganizePermissionItemIds" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetOrganizePermissionItemIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrganizePermissionItemIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetOrganizeIdsByPermissionItemId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrganizeIdsByPermissionItemId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetOrganizeIdsByPermissionItemId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrganizeIdsByPermissionItemIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantOrganizePermissionById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantOrganizePermissionById" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantOrganizePermissionById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantOrganizePermissionByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantOrganizePermissions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantOrganizePermissions" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantOrganizePermissions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantOrganizePermissionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeOrganizePermissions_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeOrganizePermissions" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeOrganizePermissions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeOrganizePermissionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeOrganizePermissionById_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeOrganizePermissionById" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeOrganizePermissionById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeOrganizePermissionByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearOrganizePermission_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearOrganizePermission" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearOrganizePermission_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearOrganizePermissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsInRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsInRole" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsInRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsInRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAuthorized_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthorized" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAuthorized_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthorizedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAuthorizedByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthorizedByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAuthorizedByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthorizedByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAuthorizedByRoleId_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthorizedByRoleId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAuthorizedByRoleId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthorizedByRoleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAdministrator_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAdministrator" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAdministrator_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAdministratorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAdministratorByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAdministratorByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsAdministratorByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAdministratorByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionDT_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionDT" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionDT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionDTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionDTByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionDTByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionDTByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionDTByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsModuleAuthorized_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsModuleAuthorized" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_IsModuleAuthorized_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsModuleAuthorizedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearRolePermissionByRoleId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearRolePermissionByRoleId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearRolePermissionByRoleId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearRolePermissionByRoleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearRolePermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearRolePermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearRolePermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearRolePermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeModuleIdsByRoleId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeModuleIdsByRoleId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeModuleIdsByRoleId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeModuleIdsByRoleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleModuleScope2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleModuleScope2" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleModuleScope2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleModuleScope2Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleModuleScope1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleModuleScope1" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleModuleScope1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleModuleScope1Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleModuleScope2_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleModuleScope2" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleModuleScope2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleModuleScope2Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleModuleScope1_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleModuleScope1" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleModuleScope1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleModuleScope1Response" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetUserPermissionItemIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserPermissionItemIds" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetUserPermissionItemIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserPermissionItemIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetUserIdsByPermissionItemId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserIdsByPermissionItemId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetUserIdsByPermissionItemId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserIdsByPermissionItemIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserPermissions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserPermissions" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserPermissions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserPermissionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserPermissionById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserPermissionById" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserPermissionById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserPermissionByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserPermissions_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserPermissions" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserPermissions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserPermissionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserPermissionById_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserPermissionById" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserPermissionById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserPermissionByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeOrganizeIdsByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeOrganizeIdsByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeOrganizeIdsByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeOrganizeIdsByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserOrganizeScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserOrganizeScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserOrganizeScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserOrganizeScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserOrganizeScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserOrganizeScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserOrganizeScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserOrganizeScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeUserIdsByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeUserIdsByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeUserIdsByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeUserIdsByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserUserScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserUserScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserUserScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserUserScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserUserScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserUserScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserUserScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserUserScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeRoleIdsByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeRoleIdsByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeRoleIdsByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeRoleIdsByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserRoleScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserRoleScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserRoleScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserRoleScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserRoleScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserRoleScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserRoleScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserRoleScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopePermissionItemIdsByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopePermissionItemIdsByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopePermissionItemIdsByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopePermissionItemIdsByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserPermissionItemScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserPermissionItemScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantUserPermissionItemScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantUserPermissionItemScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserPermissionItemScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserPermissionItemScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeUserPermissionItemScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeUserPermissionItemScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearUserPermissionByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearUserPermissionByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearUserPermissionByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearUserPermissionByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearUserPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearUserPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_ClearUserPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearUserPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetModuleDT_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetModuleDT" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetModuleDT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetModuleDTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetUserDTByPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDTByPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetUserDTByPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDTByPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetUserIdsByPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserIdsByPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetUserIdsByPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserIdsByPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetRoleDTByPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleDTByPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetRoleDTByPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleDTByPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetRoleIdsByPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleIdsByPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetRoleIdsByPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleIdsByPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetModuleDTByPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetModuleDTByPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetModuleDTByPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetModuleDTByPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionItemDTByPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionItemDTByPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetPermissionItemDTByPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermissionItemDTByPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetOrganizeDTByPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrganizeDTByPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetOrganizeDTByPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrganizeDTByPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetOrganizeIdsByPermissionScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrganizeIdsByPermissionScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetOrganizeIdsByPermissionScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrganizeIdsByPermissionScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetRolePermissionItemIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRolePermissionItemIds" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetRolePermissionItemIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRolePermissionItemIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetRoleIdsByPermissionItemId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleIdsByPermissionItemId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetRoleIdsByPermissionItemId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleIdsByPermissionItemIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRolePermissions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRolePermissions" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRolePermissions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRolePermissionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRolePermission_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRolePermission" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRolePermission_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRolePermissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRolePermissionById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRolePermissionById" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRolePermissionById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRolePermissionByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRolePermissions_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRolePermissions" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRolePermissions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRolePermissionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRolePermission_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRolePermission" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRolePermission_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRolePermissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRolePermissionById_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRolePermissionById" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRolePermissionById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRolePermissionByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeUserIdsByRoleId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeUserIdsByRoleId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeUserIdsByRoleId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeUserIdsByRoleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeRoleIdsByRoleId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeRoleIdsByRoleId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeRoleIdsByRoleId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeRoleIdsByRoleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeOrganizeIdsByRoleId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeOrganizeIdsByRoleId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopeOrganizeIdsByRoleId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopeOrganizeIdsByRoleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleUserScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleUserScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleUserScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleUserScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleUserScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleUserScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleUserScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleUserScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleRoleScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleRoleScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleRoleScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleRoleScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleRoleScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleRoleScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleRoleScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleRoleScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleOrganizeScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleOrganizeScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRoleOrganizeScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRoleOrganizeScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleOrganizeScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleOrganizeScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRoleOrganizeScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRoleOrganizeScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopePermissionItemIdsByRoleId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopePermissionItemIdsByRoleId" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GetScopePermissionItemIdsByRoleId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScopePermissionItemIdsByRoleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRolePermissionItemScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRolePermissionItemScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_GrantRolePermissionItemScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantRolePermissionItemScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRolePermissionItemScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRolePermissionItemScope" />
+  </wsdl:message>
+  <wsdl:message name="IPermissionService_RevokeRolePermissionItemScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RevokeRolePermissionItemScopeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPermissionService">
+    <wsdl:operation name="IsModuleAuthorizedByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/IsModuleAuthorizedByUserId" message="tns:IPermissionService_IsModuleAuthorizedByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/IsModuleAuthorizedByUserIdResponse" message="tns:IPermissionService_IsModuleAuthorizedByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionScopeByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionScopeByUserId" message="tns:IPermissionService_GetPermissionScopeByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionScopeByUserIdResponse" message="tns:IPermissionService_GetPermissionScopeByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResourcePermissionItemIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetResourcePermissionItemIds" message="tns:IPermissionService_GetResourcePermissionItemIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetResourcePermissionItemIdsResponse" message="tns:IPermissionService_GetResourcePermissionItemIds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantResourcePermission">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantResourcePermission" message="tns:IPermissionService_GrantResourcePermission_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantResourcePermissionResponse" message="tns:IPermissionService_GrantResourcePermission_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeResourcePermission">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeResourcePermission" message="tns:IPermissionService_RevokeResourcePermission_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeResourcePermissionResponse" message="tns:IPermissionService_RevokeResourcePermission_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionScopeTargetIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionScopeTargetIds" message="tns:IPermissionService_GetPermissionScopeTargetIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionScopeTargetIdsResponse" message="tns:IPermissionService_GetPermissionScopeTargetIds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionScopeResourceIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionScopeResourceIds" message="tns:IPermissionService_GetPermissionScopeResourceIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionScopeResourceIdsResponse" message="tns:IPermissionService_GetPermissionScopeResourceIds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantPermissionScopeTargets">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantPermissionScopeTargets" message="tns:IPermissionService_GrantPermissionScopeTargets_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantPermissionScopeTargetsResponse" message="tns:IPermissionService_GrantPermissionScopeTargets_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantPermissionScopeTarget">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantPermissionScopeTarget" message="tns:IPermissionService_GrantPermissionScopeTarget_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantPermissionScopeTargetResponse" message="tns:IPermissionService_GrantPermissionScopeTarget_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokePermissionScopeTargets">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokePermissionScopeTargets" message="tns:IPermissionService_RevokePermissionScopeTargets_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokePermissionScopeTargetsResponse" message="tns:IPermissionService_RevokePermissionScopeTargets_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokePermissionScopeTarget">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokePermissionScopeTarget" message="tns:IPermissionService_RevokePermissionScopeTarget_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokePermissionScopeTargetResponse" message="tns:IPermissionService_RevokePermissionScopeTarget_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearPermissionScopeTarget">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/ClearPermissionScopeTarget" message="tns:IPermissionService_ClearPermissionScopeTarget_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/ClearPermissionScopeTargetResponse" message="tns:IPermissionService_ClearPermissionScopeTarget_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResourceScopeIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetResourceScopeIds" message="tns:IPermissionService_GetResourceScopeIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetResourceScopeIdsResponse" message="tns:IPermissionService_GetResourceScopeIds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeResourceScopeIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetTreeResourceScopeIds" message="tns:IPermissionService_GetTreeResourceScopeIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetTreeResourceScopeIdsResponse" message="tns:IPermissionService_GetTreeResourceScopeIds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModuleIdsByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetModuleIdsByUserId" message="tns:IPermissionService_GetModuleIdsByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetModuleIdsByUserIdResponse" message="tns:IPermissionService_GetModuleIdsByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModuleDTByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetModuleDTByUserId" message="tns:IPermissionService_GetModuleDTByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetModuleDTByUserIdResponse" message="tns:IPermissionService_GetModuleDTByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeModuleIdsByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeModuleIdsByUserId" message="tns:IPermissionService_GetScopeModuleIdsByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeModuleIdsByUserIdResponse" message="tns:IPermissionService_GetScopeModuleIdsByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserModuleScope1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantUserModuleScope1" message="tns:IPermissionService_GrantUserModuleScope1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantUserModuleScope1Response" message="tns:IPermissionService_GrantUserModuleScope1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserModuleScope2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantUserModuleScope2" message="tns:IPermissionService_GrantUserModuleScope2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantUserModuleScope2Response" message="tns:IPermissionService_GrantUserModuleScope2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserModuleScope1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserModuleScope1" message="tns:IPermissionService_RevokeUserModuleScope1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserModuleScope1Response" message="tns:IPermissionService_RevokeUserModuleScope1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserModuleScope2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserModuleScope2" message="tns:IPermissionService_RevokeUserModuleScope2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserModuleScope2Response" message="tns:IPermissionService_RevokeUserModuleScope2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeModuleIdsByOrganizeId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeModuleIdsByOrganizeId" message="tns:IPermissionService_GetScopeModuleIdsByOrganizeId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeModuleIdsByOrganizeIdResponse" message="tns:IPermissionService_GetScopeModuleIdsByOrganizeId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantOrganizeModuleScope2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantOrganizeModuleScope2" message="tns:IPermissionService_GrantOrganizeModuleScope2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantOrganizeModuleScope2Response" message="tns:IPermissionService_GrantOrganizeModuleScope2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantOrganizeModuleScope1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantOrganizeModuleScope1" message="tns:IPermissionService_GrantOrganizeModuleScope1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantOrganizeModuleScope1Response" message="tns:IPermissionService_GrantOrganizeModuleScope1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeOrganizeModuleScope2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeOrganizeModuleScope2" message="tns:IPermissionService_RevokeOrganizeModuleScope2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeOrganizeModuleScope2Response" message="tns:IPermissionService_RevokeOrganizeModuleScope2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeOrganizeModuleScope1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeOrganizeModuleScope1" message="tns:IPermissionService_RevokeOrganizeModuleScope1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeOrganizeModuleScope1Response" message="tns:IPermissionService_RevokeOrganizeModuleScope1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganizePermissionItemIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetOrganizePermissionItemIds" message="tns:IPermissionService_GetOrganizePermissionItemIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetOrganizePermissionItemIdsResponse" message="tns:IPermissionService_GetOrganizePermissionItemIds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganizeIdsByPermissionItemId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetOrganizeIdsByPermissionItemId" message="tns:IPermissionService_GetOrganizeIdsByPermissionItemId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetOrganizeIdsByPermissionItemIdResponse" message="tns:IPermissionService_GetOrganizeIdsByPermissionItemId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantOrganizePermissionById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantOrganizePermissionById" message="tns:IPermissionService_GrantOrganizePermissionById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantOrganizePermissionByIdResponse" message="tns:IPermissionService_GrantOrganizePermissionById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantOrganizePermissions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantOrganizePermissions" message="tns:IPermissionService_GrantOrganizePermissions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantOrganizePermissionsResponse" message="tns:IPermissionService_GrantOrganizePermissions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeOrganizePermissions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeOrganizePermissions" message="tns:IPermissionService_RevokeOrganizePermissions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeOrganizePermissionsResponse" message="tns:IPermissionService_RevokeOrganizePermissions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeOrganizePermissionById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeOrganizePermissionById" message="tns:IPermissionService_RevokeOrganizePermissionById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeOrganizePermissionByIdResponse" message="tns:IPermissionService_RevokeOrganizePermissionById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearOrganizePermission">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/ClearOrganizePermission" message="tns:IPermissionService_ClearOrganizePermission_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/ClearOrganizePermissionResponse" message="tns:IPermissionService_ClearOrganizePermission_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsInRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/IsInRole" message="tns:IPermissionService_IsInRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/IsInRoleResponse" message="tns:IPermissionService_IsInRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthorized">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/IsAuthorized" message="tns:IPermissionService_IsAuthorized_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/IsAuthorizedResponse" message="tns:IPermissionService_IsAuthorized_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthorizedByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/IsAuthorizedByUserId" message="tns:IPermissionService_IsAuthorizedByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/IsAuthorizedByUserIdResponse" message="tns:IPermissionService_IsAuthorizedByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthorizedByRoleId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/IsAuthorizedByRoleId" message="tns:IPermissionService_IsAuthorizedByRoleId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/IsAuthorizedByRoleIdResponse" message="tns:IPermissionService_IsAuthorizedByRoleId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAdministrator">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/IsAdministrator" message="tns:IPermissionService_IsAdministrator_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/IsAdministratorResponse" message="tns:IPermissionService_IsAdministrator_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAdministratorByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/IsAdministratorByUserId" message="tns:IPermissionService_IsAdministratorByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/IsAdministratorByUserIdResponse" message="tns:IPermissionService_IsAdministratorByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionDT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionDT" message="tns:IPermissionService_GetPermissionDT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionDTResponse" message="tns:IPermissionService_GetPermissionDT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionDTByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionDTByUserId" message="tns:IPermissionService_GetPermissionDTByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionDTByUserIdResponse" message="tns:IPermissionService_GetPermissionDTByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsModuleAuthorized">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/IsModuleAuthorized" message="tns:IPermissionService_IsModuleAuthorized_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/IsModuleAuthorizedResponse" message="tns:IPermissionService_IsModuleAuthorized_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearRolePermissionByRoleId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/ClearRolePermissionByRoleId" message="tns:IPermissionService_ClearRolePermissionByRoleId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/ClearRolePermissionByRoleIdResponse" message="tns:IPermissionService_ClearRolePermissionByRoleId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearRolePermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/ClearRolePermissionScope" message="tns:IPermissionService_ClearRolePermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/ClearRolePermissionScopeResponse" message="tns:IPermissionService_ClearRolePermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeModuleIdsByRoleId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeModuleIdsByRoleId" message="tns:IPermissionService_GetScopeModuleIdsByRoleId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeModuleIdsByRoleIdResponse" message="tns:IPermissionService_GetScopeModuleIdsByRoleId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleModuleScope2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleModuleScope2" message="tns:IPermissionService_GrantRoleModuleScope2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleModuleScope2Response" message="tns:IPermissionService_GrantRoleModuleScope2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleModuleScope1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleModuleScope1" message="tns:IPermissionService_GrantRoleModuleScope1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleModuleScope1Response" message="tns:IPermissionService_GrantRoleModuleScope1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleModuleScope2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleModuleScope2" message="tns:IPermissionService_RevokeRoleModuleScope2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleModuleScope2Response" message="tns:IPermissionService_RevokeRoleModuleScope2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleModuleScope1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleModuleScope1" message="tns:IPermissionService_RevokeRoleModuleScope1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleModuleScope1Response" message="tns:IPermissionService_RevokeRoleModuleScope1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserPermissionItemIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetUserPermissionItemIds" message="tns:IPermissionService_GetUserPermissionItemIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetUserPermissionItemIdsResponse" message="tns:IPermissionService_GetUserPermissionItemIds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserIdsByPermissionItemId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetUserIdsByPermissionItemId" message="tns:IPermissionService_GetUserIdsByPermissionItemId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetUserIdsByPermissionItemIdResponse" message="tns:IPermissionService_GetUserIdsByPermissionItemId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserPermissions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantUserPermissions" message="tns:IPermissionService_GrantUserPermissions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantUserPermissionsResponse" message="tns:IPermissionService_GrantUserPermissions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserPermissionById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantUserPermissionById" message="tns:IPermissionService_GrantUserPermissionById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantUserPermissionByIdResponse" message="tns:IPermissionService_GrantUserPermissionById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserPermissions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserPermissions" message="tns:IPermissionService_RevokeUserPermissions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserPermissionsResponse" message="tns:IPermissionService_RevokeUserPermissions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserPermissionById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserPermissionById" message="tns:IPermissionService_RevokeUserPermissionById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserPermissionByIdResponse" message="tns:IPermissionService_RevokeUserPermissionById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeOrganizeIdsByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeOrganizeIdsByUserId" message="tns:IPermissionService_GetScopeOrganizeIdsByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeOrganizeIdsByUserIdResponse" message="tns:IPermissionService_GetScopeOrganizeIdsByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserOrganizeScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantUserOrganizeScope" message="tns:IPermissionService_GrantUserOrganizeScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantUserOrganizeScopeResponse" message="tns:IPermissionService_GrantUserOrganizeScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserOrganizeScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserOrganizeScope" message="tns:IPermissionService_RevokeUserOrganizeScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserOrganizeScopeResponse" message="tns:IPermissionService_RevokeUserOrganizeScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeUserIdsByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeUserIdsByUserId" message="tns:IPermissionService_GetScopeUserIdsByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeUserIdsByUserIdResponse" message="tns:IPermissionService_GetScopeUserIdsByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserUserScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantUserUserScope" message="tns:IPermissionService_GrantUserUserScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantUserUserScopeResponse" message="tns:IPermissionService_GrantUserUserScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserUserScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserUserScope" message="tns:IPermissionService_RevokeUserUserScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserUserScopeResponse" message="tns:IPermissionService_RevokeUserUserScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeRoleIdsByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeRoleIdsByUserId" message="tns:IPermissionService_GetScopeRoleIdsByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeRoleIdsByUserIdResponse" message="tns:IPermissionService_GetScopeRoleIdsByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserRoleScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantUserRoleScope" message="tns:IPermissionService_GrantUserRoleScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantUserRoleScopeResponse" message="tns:IPermissionService_GrantUserRoleScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserRoleScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserRoleScope" message="tns:IPermissionService_RevokeUserRoleScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserRoleScopeResponse" message="tns:IPermissionService_RevokeUserRoleScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopePermissionItemIdsByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopePermissionItemIdsByUserId" message="tns:IPermissionService_GetScopePermissionItemIdsByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopePermissionItemIdsByUserIdResponse" message="tns:IPermissionService_GetScopePermissionItemIdsByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserPermissionItemScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantUserPermissionItemScope" message="tns:IPermissionService_GrantUserPermissionItemScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantUserPermissionItemScopeResponse" message="tns:IPermissionService_GrantUserPermissionItemScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserPermissionItemScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserPermissionItemScope" message="tns:IPermissionService_RevokeUserPermissionItemScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeUserPermissionItemScopeResponse" message="tns:IPermissionService_RevokeUserPermissionItemScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearUserPermissionByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/ClearUserPermissionByUserId" message="tns:IPermissionService_ClearUserPermissionByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/ClearUserPermissionByUserIdResponse" message="tns:IPermissionService_ClearUserPermissionByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearUserPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/ClearUserPermissionScope" message="tns:IPermissionService_ClearUserPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/ClearUserPermissionScopeResponse" message="tns:IPermissionService_ClearUserPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModuleDT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetModuleDT" message="tns:IPermissionService_GetModuleDT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetModuleDTResponse" message="tns:IPermissionService_GetModuleDT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDTByPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetUserDTByPermissionScope" message="tns:IPermissionService_GetUserDTByPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetUserDTByPermissionScopeResponse" message="tns:IPermissionService_GetUserDTByPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserIdsByPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetUserIdsByPermissionScope" message="tns:IPermissionService_GetUserIdsByPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetUserIdsByPermissionScopeResponse" message="tns:IPermissionService_GetUserIdsByPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoleDTByPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetRoleDTByPermissionScope" message="tns:IPermissionService_GetRoleDTByPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetRoleDTByPermissionScopeResponse" message="tns:IPermissionService_GetRoleDTByPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoleIdsByPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetRoleIdsByPermissionScope" message="tns:IPermissionService_GetRoleIdsByPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetRoleIdsByPermissionScopeResponse" message="tns:IPermissionService_GetRoleIdsByPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModuleDTByPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetModuleDTByPermissionScope" message="tns:IPermissionService_GetModuleDTByPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetModuleDTByPermissionScopeResponse" message="tns:IPermissionService_GetModuleDTByPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionItemDTByPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionItemDTByPermissionScope" message="tns:IPermissionService_GetPermissionItemDTByPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetPermissionItemDTByPermissionScopeResponse" message="tns:IPermissionService_GetPermissionItemDTByPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganizeDTByPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetOrganizeDTByPermissionScope" message="tns:IPermissionService_GetOrganizeDTByPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetOrganizeDTByPermissionScopeResponse" message="tns:IPermissionService_GetOrganizeDTByPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganizeIdsByPermissionScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetOrganizeIdsByPermissionScope" message="tns:IPermissionService_GetOrganizeIdsByPermissionScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetOrganizeIdsByPermissionScopeResponse" message="tns:IPermissionService_GetOrganizeIdsByPermissionScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRolePermissionItemIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetRolePermissionItemIds" message="tns:IPermissionService_GetRolePermissionItemIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetRolePermissionItemIdsResponse" message="tns:IPermissionService_GetRolePermissionItemIds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoleIdsByPermissionItemId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetRoleIdsByPermissionItemId" message="tns:IPermissionService_GetRoleIdsByPermissionItemId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetRoleIdsByPermissionItemIdResponse" message="tns:IPermissionService_GetRoleIdsByPermissionItemId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRolePermissions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRolePermissions" message="tns:IPermissionService_GrantRolePermissions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRolePermissionsResponse" message="tns:IPermissionService_GrantRolePermissions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRolePermission">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRolePermission" message="tns:IPermissionService_GrantRolePermission_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRolePermissionResponse" message="tns:IPermissionService_GrantRolePermission_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRolePermissionById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRolePermissionById" message="tns:IPermissionService_GrantRolePermissionById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRolePermissionByIdResponse" message="tns:IPermissionService_GrantRolePermissionById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRolePermissions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRolePermissions" message="tns:IPermissionService_RevokeRolePermissions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRolePermissionsResponse" message="tns:IPermissionService_RevokeRolePermissions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRolePermission">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRolePermission" message="tns:IPermissionService_RevokeRolePermission_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRolePermissionResponse" message="tns:IPermissionService_RevokeRolePermission_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRolePermissionById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRolePermissionById" message="tns:IPermissionService_RevokeRolePermissionById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRolePermissionByIdResponse" message="tns:IPermissionService_RevokeRolePermissionById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeUserIdsByRoleId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeUserIdsByRoleId" message="tns:IPermissionService_GetScopeUserIdsByRoleId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeUserIdsByRoleIdResponse" message="tns:IPermissionService_GetScopeUserIdsByRoleId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeRoleIdsByRoleId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeRoleIdsByRoleId" message="tns:IPermissionService_GetScopeRoleIdsByRoleId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeRoleIdsByRoleIdResponse" message="tns:IPermissionService_GetScopeRoleIdsByRoleId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeOrganizeIdsByRoleId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopeOrganizeIdsByRoleId" message="tns:IPermissionService_GetScopeOrganizeIdsByRoleId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopeOrganizeIdsByRoleIdResponse" message="tns:IPermissionService_GetScopeOrganizeIdsByRoleId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleUserScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleUserScope" message="tns:IPermissionService_GrantRoleUserScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleUserScopeResponse" message="tns:IPermissionService_GrantRoleUserScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleUserScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleUserScope" message="tns:IPermissionService_RevokeRoleUserScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleUserScopeResponse" message="tns:IPermissionService_RevokeRoleUserScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleRoleScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleRoleScope" message="tns:IPermissionService_GrantRoleRoleScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleRoleScopeResponse" message="tns:IPermissionService_GrantRoleRoleScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleRoleScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleRoleScope" message="tns:IPermissionService_RevokeRoleRoleScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleRoleScopeResponse" message="tns:IPermissionService_RevokeRoleRoleScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleOrganizeScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleOrganizeScope" message="tns:IPermissionService_GrantRoleOrganizeScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRoleOrganizeScopeResponse" message="tns:IPermissionService_GrantRoleOrganizeScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleOrganizeScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleOrganizeScope" message="tns:IPermissionService_RevokeRoleOrganizeScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRoleOrganizeScopeResponse" message="tns:IPermissionService_RevokeRoleOrganizeScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScopePermissionItemIdsByRoleId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GetScopePermissionItemIdsByRoleId" message="tns:IPermissionService_GetScopePermissionItemIdsByRoleId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GetScopePermissionItemIdsByRoleIdResponse" message="tns:IPermissionService_GetScopePermissionItemIdsByRoleId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrantRolePermissionItemScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/GrantRolePermissionItemScope" message="tns:IPermissionService_GrantRolePermissionItemScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/GrantRolePermissionItemScopeResponse" message="tns:IPermissionService_GrantRolePermissionItemScope_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRolePermissionItemScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPermissionService/RevokeRolePermissionItemScope" message="tns:IPermissionService_RevokeRolePermissionItemScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPermissionService/RevokeRolePermissionItemScopeResponse" message="tns:IPermissionService_RevokeRolePermissionItemScope_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPermissionService" type="tns:IPermissionService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="IsModuleAuthorizedByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/IsModuleAuthorizedByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionScopeByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetPermissionScopeByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResourcePermissionItemIds">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetResourcePermissionItemIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantResourcePermission">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantResourcePermission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeResourcePermission">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeResourcePermission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionScopeTargetIds">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetPermissionScopeTargetIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionScopeResourceIds">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetPermissionScopeResourceIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantPermissionScopeTargets">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantPermissionScopeTargets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantPermissionScopeTarget">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantPermissionScopeTarget" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokePermissionScopeTargets">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokePermissionScopeTargets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokePermissionScopeTarget">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokePermissionScopeTarget" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearPermissionScopeTarget">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/ClearPermissionScopeTarget" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResourceScopeIds">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetResourceScopeIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeResourceScopeIds">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetTreeResourceScopeIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModuleIdsByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetModuleIdsByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModuleDTByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetModuleDTByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeModuleIdsByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeModuleIdsByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserModuleScope1">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantUserModuleScope1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserModuleScope2">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantUserModuleScope2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserModuleScope1">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeUserModuleScope1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserModuleScope2">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeUserModuleScope2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeModuleIdsByOrganizeId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeModuleIdsByOrganizeId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantOrganizeModuleScope2">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantOrganizeModuleScope2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantOrganizeModuleScope1">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantOrganizeModuleScope1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeOrganizeModuleScope2">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeOrganizeModuleScope2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeOrganizeModuleScope1">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeOrganizeModuleScope1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganizePermissionItemIds">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetOrganizePermissionItemIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganizeIdsByPermissionItemId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetOrganizeIdsByPermissionItemId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantOrganizePermissionById">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantOrganizePermissionById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantOrganizePermissions">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantOrganizePermissions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeOrganizePermissions">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeOrganizePermissions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeOrganizePermissionById">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeOrganizePermissionById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearOrganizePermission">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/ClearOrganizePermission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsInRole">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/IsInRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthorized">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/IsAuthorized" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthorizedByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/IsAuthorizedByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthorizedByRoleId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/IsAuthorizedByRoleId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAdministrator">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/IsAdministrator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAdministratorByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/IsAdministratorByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionDT">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetPermissionDT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionDTByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetPermissionDTByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsModuleAuthorized">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/IsModuleAuthorized" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearRolePermissionByRoleId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/ClearRolePermissionByRoleId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearRolePermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/ClearRolePermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeModuleIdsByRoleId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeModuleIdsByRoleId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleModuleScope2">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRoleModuleScope2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleModuleScope1">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRoleModuleScope1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleModuleScope2">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRoleModuleScope2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleModuleScope1">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRoleModuleScope1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserPermissionItemIds">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetUserPermissionItemIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserIdsByPermissionItemId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetUserIdsByPermissionItemId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserPermissions">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantUserPermissions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserPermissionById">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantUserPermissionById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserPermissions">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeUserPermissions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserPermissionById">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeUserPermissionById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeOrganizeIdsByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeOrganizeIdsByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserOrganizeScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantUserOrganizeScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserOrganizeScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeUserOrganizeScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeUserIdsByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeUserIdsByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserUserScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantUserUserScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserUserScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeUserUserScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeRoleIdsByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeRoleIdsByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserRoleScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantUserRoleScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserRoleScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeUserRoleScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopePermissionItemIdsByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopePermissionItemIdsByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantUserPermissionItemScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantUserPermissionItemScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeUserPermissionItemScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeUserPermissionItemScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearUserPermissionByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/ClearUserPermissionByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearUserPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/ClearUserPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModuleDT">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetModuleDT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDTByPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetUserDTByPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserIdsByPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetUserIdsByPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoleDTByPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetRoleDTByPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoleIdsByPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetRoleIdsByPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModuleDTByPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetModuleDTByPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPermissionItemDTByPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetPermissionItemDTByPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganizeDTByPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetOrganizeDTByPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganizeIdsByPermissionScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetOrganizeIdsByPermissionScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRolePermissionItemIds">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetRolePermissionItemIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoleIdsByPermissionItemId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetRoleIdsByPermissionItemId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRolePermissions">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRolePermissions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRolePermission">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRolePermission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRolePermissionById">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRolePermissionById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRolePermissions">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRolePermissions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRolePermission">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRolePermission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRolePermissionById">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRolePermissionById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeUserIdsByRoleId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeUserIdsByRoleId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeRoleIdsByRoleId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeRoleIdsByRoleId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopeOrganizeIdsByRoleId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopeOrganizeIdsByRoleId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleUserScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRoleUserScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleUserScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRoleUserScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleRoleScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRoleRoleScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleRoleScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRoleRoleScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRoleOrganizeScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRoleOrganizeScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRoleOrganizeScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRoleOrganizeScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScopePermissionItemIdsByRoleId">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GetScopePermissionItemIdsByRoleId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrantRolePermissionItemScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/GrantRolePermissionItemScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RevokeRolePermissionItemScope">
+      <soap:operation soapAction="http://tempuri.org/IPermissionService/RevokeRolePermissionItemScope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PermissionService">
+    <wsdl:port name="BasicHttpBinding_IPermissionService" binding="tns:BasicHttpBinding_IPermissionService">
+      <soap:address location="http://localhost:8096/PermissionService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

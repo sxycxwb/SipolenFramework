@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E91E412C-381B-46D8-979B-9AFA4A947562}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDIFramework.Controls</RootNamespace>
+    <AssemblyName>RDIFramework.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/RDIFramework.Controls/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UMPlatForm.ExternalReference\DevComponents.DotNetBar2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.TextEditor">
+      <HintPath>..\RDIFramework.ExternalReference\ICSharpCode.TextEditor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataGridViewExpand\DataGridViewSummary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewExpand\DataGridViewSummary.designer.cs">
+      <DependentUpon>DataGridViewSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridViewExpand\ReadOnlyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewExpand\ReadOnlyTextBox.designer.cs">
+      <DependentUpon>ReadOnlyTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridViewExpand\SummaryControlContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewExpand\TextHelper.cs" />
+    <Compile Include="UcAutoTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindForm.designer.cs">
+      <DependentUpon>FindForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReplaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReplaceForm.designer.cs">
+      <DependentUpon>ReplaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UcButton.designer.cs">
+      <DependentUpon>UcButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UcPageControlByCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcPageControlByCode.Designer.cs">
+      <DependentUpon>UcPageControlByCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcPagerEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcPagerEx.Designer.cs">
+      <DependentUpon>UcPagerEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcRichTextBoxEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcRichTextBoxEx.Designer.cs">
+      <DependentUpon>UcRichTextBoxEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ConstomToolStripRenderer.cs" />
+    <Compile Include="Utilities\ControlPaintEx.cs" />
+    <Compile Include="Utilities\ControlState.cs" />
+    <Compile Include="Utilities\ImageDrawRect.cs" />
+    <Compile Include="Utilities\ImageObject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\RenderHelper.cs" />
+    <Compile Include="UcButtonEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UcCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UcClock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcClock.designer.cs">
+      <DependentUpon>UcClock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcCombinQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcCombinQuery.designer.cs">
+      <DependentUpon>UcCombinQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcComboBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UcDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UcDataGridView.designer.cs">
+      <DependentUpon>UcDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcEditToolManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcEditToolManage.designer.cs">
+      <DependentUpon>UcEditToolManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcHtmlEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcHtmlEditor.designer.cs">
+      <DependentUpon>UcHtmlEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcImageList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcImageList.designer.cs">
+      <DependentUpon>UcImageList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcImageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcImageView.designer.cs">
+      <DependentUpon>UcImageView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcMaskTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcMaskTextBox.designer.cs">
+      <DependentUpon>UcMaskTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcNavBarEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcNavBarEx.designer.cs">
+      <DependentUpon>UcNavBarEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcPageControl.designer.cs">
+      <DependentUpon>UcPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcPicButtomEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcPicButtomEx.designer.cs">
+      <DependentUpon>UcPicButtomEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcQueryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcQueryControl.designer.cs">
+      <DependentUpon>UcQueryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UcTextBox.designer.cs">
+      <DependentUpon>UcTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcTextBoxEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcTextBoxEx.designer.cs">
+      <DependentUpon>UcTextBoxEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\Win32.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FindForm.resx">
+      <DependentUpon>FindForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReplaceForm.resx">
+      <DependentUpon>ReplaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcButton.resx">
+      <DependentUpon>UcButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcCombinQuery.resx">
+      <DependentUpon>UcCombinQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcDataGridView.resx">
+      <DependentUpon>UcDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcEditToolManage.resx">
+      <DependentUpon>UcEditToolManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcHtmlEditor.resx">
+      <DependentUpon>UcHtmlEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcImageList.resx">
+      <DependentUpon>UcImageList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcImageView.resx">
+      <DependentUpon>UcImageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcMaskTextBox.resx">
+      <DependentUpon>UcMaskTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcNavBarEx.resx">
+      <DependentUpon>UcNavBarEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcPageControl.resx">
+      <DependentUpon>UcPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcPageControlByCode.resx">
+      <DependentUpon>UcPageControlByCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcPagerEx.resx">
+      <DependentUpon>UcPagerEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcQueryControl.resx">
+      <DependentUpon>UcQueryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcRichTextBoxEx.resx">
+      <DependentUpon>UcRichTextBoxEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcTextBox.resx">
+      <DependentUpon>UcTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcTextBoxEx.resx">
+      <DependentUpon>UcTextBoxEx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\addFilter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bindingNavigatorMoveFirstItem.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bindingNavigatorMoveLastItem.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bindingNavigatorMoveNextItem.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bindingNavigatorMovePreviousItem.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Bottom2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnAdd.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnBookList.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnCancel.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnClose.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BtnDelete02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnDelete.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BtnDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnEdit.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnExport.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BtnModify02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BtnModify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnPrint.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnReceiveData1.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnReceiveData2.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnReceiveData3.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnSave.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnSoilInfo.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BtnView02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BtnView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ButtonBG01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ButtonBG02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Checkbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ControlsBg2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ControlsBg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ControlsBg4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ControlsBg5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ControlsBg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\drpReceiveData.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ExpandoIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\header.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\HeaderBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Input.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\menu_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\menu_bkg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\menu_bkg_board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\menu_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\menu_cutling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuFitSize.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuLeftRotate.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuMy.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuPrint.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuRightRotate.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuShowRecordDetail.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuShowRecordList.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuSplitShow.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuZoomIn.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mnuZoomOut.Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\mune_select_bkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\NavBarBG01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\NavBarBG02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\NavBtnBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\NavBtnMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\NavBtnManageLinkMan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\NavBtnManageUser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ok.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\query.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\removeFilter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\SideBarBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\StartLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TaskItemIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TaskPanIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Textbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TipIE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TipScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TipService.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TitleLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcCobmoQuery.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcCombinQuery.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcEditToolManage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcPageControl.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\固定查询.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\检查其它信息.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\清除查询条件.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\新增查询条件.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\著录.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\组合查询.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\MiniBrowser.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\SetBottom.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\SetDown.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\SetTop.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\SetUp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\UMPlatFormApp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\查找.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\关闭.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcClockControl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcComboboxControl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcButtonEx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcCSharpCodeTextEditor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcHtmlEditor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcImageList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcNavBarEx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcNavBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcQueryControl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcTextBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcPicButtomEx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UcRichTextBoxEx.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RDIFramework.Utilities\RDIFramework.Utilities.csproj">
+      <Project>{1916FE94-6129-4F93-BC55-0CF5F2CF9B05}</Project>
+      <Name>RDIFramework.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Aligent.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Bold.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\bullets.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Center.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Font.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fontcolor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\indent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Italic.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Left.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\outdent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Replace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\UnderLine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\wordwrap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

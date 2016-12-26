@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<dgvUser>
+  <dgvUser>
+    <ColumnName>colUserSelected</ColumnName>
+    <HeaderText>选择</HeaderText>
+    <Frozen>true</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>0</DisplayIndex>
+    <Width>50</Width>
+  </dgvUser>
+  <dgvUser>
+    <ColumnName>colUserUserName</ColumnName>
+    <HeaderText>用户</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>1</DisplayIndex>
+    <Width>150</Width>
+  </dgvUser>
+  <dgvUser>
+    <ColumnName>colUserRealName</ColumnName>
+    <HeaderText>姓名</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>2</DisplayIndex>
+    <Width>146</Width>
+  </dgvUser>
+  <dgvUser>
+    <ColumnName>colUserDescription</ColumnName>
+    <HeaderText>描述</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>3</DisplayIndex>
+    <Width>200</Width>
+  </dgvUser>
+</dgvUser>

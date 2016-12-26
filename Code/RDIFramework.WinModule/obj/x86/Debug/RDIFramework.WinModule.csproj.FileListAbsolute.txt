@@ -1,0 +1,446 @@
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinModule.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinModule.pdb
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csprojResolveAssemblyReference.cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csproj.ResolveComReference.cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmBroadcastMessage.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmMessageAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSendMessage.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddItems.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditItems.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddItemDetail.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditItemsDetail.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModulePermissionItemSet.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmCommonQueryAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogByGeneral.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogByUser.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddUserToOrganize.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostRoleAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmShowConstraintTable.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSetTableConstraint.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableConstraint.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostRoleEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmGenerateUpdaterConfig.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPlatFormAddInAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPlatFormAddInAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDataDictionaryAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditDataDictionary.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditDictionaryDetail.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsDetailAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDBLinkEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDBLinkAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmExceptionAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSetTablePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableFieldPermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmResourcePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeResourcePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmResourcePermissionScope.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserResourcePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleResourcePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmViewUserPermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionBatchSet.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleUserBatchSet.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionScope.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionScope.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleConfig.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPicture.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditOrganize.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleModulePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleModulePermissionBatchSet.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionItem.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserModulePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserModulePermissionBatchSet.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionBatchSet.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionItem.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserRoleAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserRoleBatchSet.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.Properties.Resources.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleOrganizePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserOrganizePermission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditRole.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleUserAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableFieldAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserDimission.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserOrganize.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcOrganizeSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmChangePassword.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserAdd.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserEdit.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPassword.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserUpdate.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcSortControl.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcUserSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcItemsSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csproj.GenerateResource.Cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinModule.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinModule.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csprojResolveAssemblyReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csproj.ResolveComReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmBroadcastMessage.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmMessageAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSendMessage.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddItems.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditItems.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddItemDetail.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditItemsDetail.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModulePermissionItemSet.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmCommonQueryAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogByGeneral.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogByUser.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddUserToOrganize.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostRoleAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmShowConstraintTable.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSetTableConstraint.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableConstraint.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostRoleEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmGenerateUpdaterConfig.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPlatFormAddInAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPlatFormAddInAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDataDictionaryAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditDataDictionary.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditDictionaryDetail.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsDetailAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDBLinkEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDBLinkAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmExceptionAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSetTablePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableFieldPermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmResourcePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeResourcePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmResourcePermissionScope.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserResourcePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleResourcePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmViewUserPermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionBatchSet.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleUserBatchSet.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionScope.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionScope.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleConfig.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPicture.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditOrganize.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleModulePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleModulePermissionBatchSet.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionItem.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserModulePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserModulePermissionBatchSet.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionBatchSet.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionItem.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserRoleAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserRoleBatchSet.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.Properties.Resources.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleOrganizePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserOrganizePermission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditRole.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleUserAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableFieldAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserDimission.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserOrganize.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcOrganizeSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmChangePassword.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserAdd.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserEdit.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPassword.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserUpdate.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcSortControl.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcUserSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcItemsSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csproj.GenerateResource.Cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinModule.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinModule.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csproj.ResolveComReference.cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmBroadcastMessage.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmMessageAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSendMessage.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddItems.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditItems.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddItemDetail.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditItemsDetail.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModulePermissionItemSet.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmCommonQueryAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogByGeneral.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogByUser.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddUserToOrganize.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostRoleAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmShowConstraintTable.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSetTableConstraint.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableConstraint.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostRoleEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmGenerateUpdaterConfig.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPlatFormAddInAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPlatFormAddInAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDataDictionaryAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditDataDictionary.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditDictionaryDetail.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsDetailAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDBLinkEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDBLinkAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmExceptionAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSetTablePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableFieldPermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmResourcePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeResourcePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmResourcePermissionScope.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserResourcePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleResourcePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmViewUserPermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionBatchSet.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleUserBatchSet.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionScope.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionScope.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleConfig.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPicture.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditOrganize.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleModulePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleModulePermissionBatchSet.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionItem.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserModulePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserModulePermissionBatchSet.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionBatchSet.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionItem.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserRoleAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserRoleBatchSet.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.Properties.Resources.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleOrganizePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserOrganizePermission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditRole.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleUserAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableFieldAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserDimission.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserOrganize.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcOrganizeSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmChangePassword.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserAdd.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserEdit.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPassword.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserUpdate.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcSortControl.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcUserSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcItemsSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csproj.GenerateResource.Cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.pdb
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csproj.ResolveComReference.cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmBroadcastMessage.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmMessageAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSendMessage.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddItems.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditItems.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddItemDetail.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditItemsDetail.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModulePermissionItemSet.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmParameterEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmQueryEngineDefineEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmCommonQueryAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSequenceEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogByGeneral.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogByUser.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmAddUserToOrganize.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostRoleAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmShowConstraintTable.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSetTableConstraint.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableConstraint.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPostRoleEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmGenerateUpdaterConfig.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPlatFormAddInAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPlatFormAddInAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDataDictionaryAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditDataDictionary.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditDictionaryDetail.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmItemsDetailAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDBLinkEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmDBLinkAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmExceptionAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmLogAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmSetTablePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableFieldPermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmResourcePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeResourcePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmResourcePermissionScope.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserResourcePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleResourcePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmViewUserPermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionBatchSet.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleUserBatchSet.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionScope.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionScope.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleConfig.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmModuleSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPicture.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditOrganize.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmOrganizeSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionItemAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmPermissionSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleModulePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleModulePermissionBatchSet.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRolePermissionItem.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserModulePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserModulePermissionBatchSet.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionBatchSet.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPermissionItem.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserRoleAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserRoleBatchSet.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.Properties.Resources.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleOrganizePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserOrganizePermission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmEditRole.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmRoleUserAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmStaffEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmTableFieldAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserDimission.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserOrganize.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcOrganizeSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmChangePassword.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserAdd.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserEdit.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserPassword.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.FrmUserUpdate.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcSortControl.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcUserSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.UcItemsSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.csproj.GenerateResource.Cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.dll
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinModule\obj\x86\Debug\RDIFramework.WinModule.pdb

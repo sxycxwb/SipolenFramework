@@ -1,0 +1,147 @@
+﻿var _gridlist,
+    actionURL = '/Modules/handler/${options.modelname}.ashx',
+    formurl   = '/Modules/html/${options.modelname}Form.html';
+
+$(function () {
+	autoResize({ dataGrid: '#list', gridType: 'datagrid', callback: grid.bind, height: 5 });
+	$('#a_add').click(CRUD.add);
+	$('#a_edit').click(CRUD.edit);
+	$('#a_delete').click(CRUD.del);
+	$('#a_reload').click(CRUD.refresh);
+	$('#a_search').click(CRUD.search);
+});
+
+var grid = {
+    bind: function (winSize) {
+        _gridlist = $('#list').datagrid({
+            url: actionURL,
+            toolbar: '#toolbar',
+            title: "数据列表",
+            iconCls: 'icon16_table',
+            width: winSize.width,
+            height: winSize.height,
+            nowrap: false, //折行
+            rownumbers: true, //行号
+            striped: true, //隔行变色
+            idField: 'ID',//主键
+            singleSelect: true, //单选
+            onRowContextMenu: pageContextMenu.createDataGridContextMenu,
+			onDblClickRow:function(rowIndex, rowData){
+				document.getElementById('a_edit').click();
+			},
+            columns: [[
+				#set($columns = $options.getcolumninfo())
+				#foreach($item in $columns)
+				#if($item.ispk)
+					{ title: '$item.coldescription', field: '$item.columnname', width: 10,hidden: true },
+				#else
+					{ title: '$item.coldescription', field: '$item.columnname', width: 150 },
+				#end
+				#end
+            ]],
+            pagination: true,
+            pageSize: 20,
+            pageList: [20, 10, 30, 50]
+        });
+    },
+    getSelectedRow: function () {
+        return _gridlist.datagrid('getSelected');
+    },
+    reload: function () {
+        _gridlist.datagrid('clearSelections').datagrid('reload', { filter: '' });
+    }
+};
+
+
+var CRUD = {
+    add: function () {
+        var hDialog = top.$.hDialog({
+            title: '添加', width: 630, height: 450, href: formurl, iconCls: 'icon16_add',
+            onLoad: function () { 
+            },
+            submit: function () {               
+                if (top.$('#uiform').validate().form()) {
+					var queryString = pageMethod.serializeJson(top.$('#uiform'));
+                    jQuery.ajaxjson(actionURL + '?action=SubmitForm', queryString, function (d) {
+                        if (d.Success) {
+                            msg.ok(d.Message);
+                            hDialog.dialog('close');
+                            grid.reload();
+                        } else {
+                            MessageOrRedirect(d);
+                        }
+                    });
+                }
+                return false;
+            }
+        });
+        return false;
+    },
+    edit: function () {
+        var row = grid.getSelectedRow();
+        if (row) {
+            var hDialog = top.$.hDialog({
+                title: '编辑', width: 630, height: 450, href: formurl, iconCls: 'icon16_table_edit',
+                onLoad: function () { 
+					var parm = 'action=GetEntity&key=' + row.ID;
+                    jQuery.ajaxjson(actionURL, parm, function (data) {
+                        if (data) {
+                            SetWebControls(data, true);
+                        }
+                    });         
+                },
+                submit: function () {
+                    if (top.$('#uiform').validate().form()) {
+						var queryString = pageMethod.serializeJson(top.$('#uiform'));
+                        jQuery.ajaxjson(actionURL + '?action=SubmitForm&key=' + row.ID, queryString, function (d) {
+                            if (d.Success) {
+                                msg.ok(d.Message);
+                                hDialog.dialog('close');
+                                grid.reload();
+                            } else {
+                                MessageOrRedirect(d);
+                            }
+                        });
+                    }
+                    return false;
+                }
+            });
+
+        } else {
+            msg.warning('请选择要修改的行。');
+        }
+        return false;
+    },
+    del: function () {
+        var row = grid.getSelectedRow();
+        if (row) {
+			jQuery.messager.confirm('询问提示', '确认要删除所选数据吗?', function (data) {
+                if (data) {
+                    var parm = 'key=' + row.ID;
+                    jQuery.ajaxjson(actionURL + '?action=Delete', parm, function (d) {
+                        if (d.Data > 0) {
+                            msg.ok(d.Message);
+                            grid.reload();
+                        } else {
+                            MessageOrRedirect(d);
+                        }
+                    });
+                 }
+            });
+        } else {
+            msg.warning('请选择要删除的行。');
+        }
+        return false;
+    },
+    exportData:function() {
+        var exportData = new ExportExcel('list');
+        exportData.go('${options.modelname}', 'CREATEON');
+    },
+    search:function() {
+        search.go('list');
+    },
+    refreash:function() {
+        grid.reload();
+    }
+};
+

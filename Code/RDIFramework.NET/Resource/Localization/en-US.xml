@@ -1,0 +1,2971 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <language>en-US</language>
+  <displayName>American English</displayName>
+  <version>3.0</version>
+  <author>EricHu</author>
+  <description>American English Language Package</description>
+  <items>
+    <!-- Global Language Resources Begin JiRiGaLa -->
+    <item key="MSG0000">Notice Messsage</item>
+    <item key="MSG0001">Unknown error occured.</item>
+    <item key="MSG0002">Database connection exception.</item>
+    <item key="MSG0003">WebService connection exception.</item>
+    <item key="MSG0004">No data modified.</item>
+    <item key="MSG0005">Record did not found, may be deleted by other users.</item>
+    <item key="MSG0006">Data has been modified by other users, press F5 to refresh.</item>
+    <item key="MSG0007">Can not be empty, please enter {0}.</item>
+    <item key="MSG0008">{0} already exist.</item>
+    <item key="MSG0009">Added successfully.</item>
+    <item key="MSG0010">Updated successfully.</item>
+    <item key="MSG0011">Saved successfully.</item>
+    <item key="MSG0012">Batch data saved successfully.</item>
+    <item key="MSG0013">Deleted successfully.</item>
+    <item key="MSG0014">Batch deleted successfully.</item>
+    <item key="MSG0015">Are you sure to delete it?</item>
+    <item key="MSG0016">Are you sure to delete {0}?</item>
+    <item key="MSG0017">Current data is not allowed to delete.</item>
+    <item key="MSG0018">{0} can not be deleted.</item>
+    <item key="MSG0019">Data can not be modefied, press F5 to refresh.</item>
+    <item key="MSG0020">current data {0}can not be modefied, press F5 to refresh.</item>
+    <item key="MSG0021">This is the first record.</item>
+    <item key="MSG0022">This is the last record.</item>
+    <item key="MSGC023">Please choose more than one item.</item>
+    <item key="MSGC024">Please choose only one item.</item>
+    <item key="MSG0023">Please choose more than one item.</item>
+    <item key="MSG0024">Please choose more than one item {0}.</item>
+    <item key="MSG0025">{0} must less than or equal to {1}.</item>
+    <item key="MSG0026">{0} must more than or equal to {1}.</item>
+    <item key="MSG0027">{0} must not equal to {1}.</item>
+    <item key="MSG0028">{0} invalid date.</item>
+    <item key="MSG0029">{0} invalid character.</item>
+    <item key="MSG0030">{0} invalid number.</item>
+    <item key="MSG0031">{0} is invalid amount.</item>
+    <item key="MSG0032">{0} contains illegal character.</item>
+    <item key="MSG0033">The data is already quoted, it has related data! </item>
+    <item key="MSG0034">The data is already quoted, it has related data! Do you want to delete it?</item>
+    <item key="MSG0035">{0} has some child nodes, you can not delete it.</item>
+    <item key="MSG0036">{0} can not move to {1}.</item>
+    <item key="MSG0037">{0} can not move its child nodes to {1}.</item>
+    <item key="MSG0038">Are you sure to move {0} to {1}?</item>
+    <item key="MSG0039">{0} does not equal {1}.</item>
+    <item key="MSG0040">{0} error.</item>
+    <item key="MSG0041">Are you sure to approve the review?</item>
+    <item key="MSG0042">Are you sure to reject the review?</item>
+    <item key="MSG0043">Can't lock data.</item>
+    <item key="MSG0044">Lock success.</item>
+    <item key="MSG0045">The data has changed, do you want to save it?</item>
+    <item key="MSG0046">You can't has same password at {0} times.</item>
+    <item key="MSG0047">The password has expired,the account has been locked,please contact the system anministrator.</item>
+    <item key="MSG0048">Refuse to login, the user currently logged on!</item>
+    <item key="MSG0049">Refuse to login, the MAC Address is not in accord with conditions.</item>
+    <item key="MSG0050">Refuse to login, IP Address is not in accord with conditions.</item>
+    <item key="MSG0051">The maximum limit for user connections has been reached.</item>
+    <item key="MSG0052">The IP address is invalid.</item>
+    <item key="MSG0053">The MAC address is invalid.</item>
+    <item key="MSG0054">Please key in IP address or MAC address.</item>
+    <item key="MSG0055">There is IP address conflict.</item>
+    <item key="MSG0056">IP address is added successfully.</item>
+    <item key="MSG0057">IP address is added unsuccessfully.</item>
+    <item key="MSG0058">There is MAC address conflict.</item>
+    <item key="MSG0059">MAC address is added successfully.</item>
+    <item key="MSG0060">Please create user account for this employee.</item>
+    <item key="MSG0061">MAC address is added unsuccessfully.</item>
+    <item key="MSG0062">Please change your password on first login.</item>
+    <item key="MSG0063">Please change your password due to it hasn't been changed in last 30 days.</item>
+    <item key="MSG0064">The input minute is not in a correct format, please check again.</item>
+    <item key="MSG0065">The data has been changed, discard the changes?</item>
+    <item key="MSG0075">Are you sure to move it?</item>
+    <item key="MSG0076">Are you sure to move {0}?</item>
+    <item key="MSG0077">Remove {0} records successful.</item>
+    <item key="MSG0078">Login rejected, your account is in audit.</item>
+    <item key="MSG0079">Your account is locked, please contact the system administrator.</item>
+    <item key="MSG0080">Your account has not been activated, please promptly active it.</item>
+    <item key="MSG0081">Your account has been locked，the login date should be not earlier than: </item>
+    <item key="MSG0082">Your account has been locked, the login date should be not later than:</item>
+    <item key="MSG0083">Your account has been locked from:</item>
+    <item key="MSG0084">Your account has been locked until: </item>
+    <item key="MSG0085">IP Address is incorrect!</item>
+    <item key="MSG0086">MAC Address is incorrect!</item>
+    <item key="MSG0087">Your account is alreadly logged in!</item>
+    <item key="MSG0088">Login rejected: Incorrect password!</item>
+    <item key="MSG0089">The maximum limit for user connections has been reached:</item>
+    <item key="MSG0090">Login rejected!</item>
+    <item key="MSG0091">Add new operating authority item.</item>
+    <item key="MSG0092">Login start date</item>
+    <item key="MSG0093">Login end date</item>
+    <item key="MSG0094">Suspended the begin date</item>
+    <item key="MSG0095">Suspended the end date</item>
+    <item key="MSG0100">{0} Online, delete not allowed.</item>
+    <item key="MSG0101">At present the user {0} is not allowed to delete their own.</item>
+    <item key="MSG0102">Confirm closing?</item>
+    <item key="MSG0600">You confirm clear authority?</item>
+    <item key="MSG0700">Data linked successful.</item>
+    <item key="MSG0800">The call is rejected, unauthorized access.</item>
+    <item key="MSG0900">Service call is rejected, the user is not logged.</item>
+    <item key="MSG1000">System setup message in error, please contact the software developer.</item>
+    <item key="MSG1001">Reset the menus. Are you sure?</item>
+    <item key="MSG1002">The specified DLL file does not exist.</item>
+    <item key="MSG2000">{0} Incorrect, please re-enter.</item>
+    <item key="MSG3000">Are you sure to initialize the system?</item>
+    <item key="MSG3010">Operate successful.</item>
+    <item key="MSG3020">Operate failed.</item>
+    <item key="MSG9800">Value</item>
+    <item key="MSG9900">Company</item>
+    <item key="MSG9901">Department</item>
+    <item key="MSG9910">The user didn't set email.</item>
+    <item key="MSG9911">The user was locked.</item>
+    <item key="MSG9912">The user hasn't been activated.</item>
+    <item key="MSG9913">The user hasn been activated.</item>
+    <item key="MSG9914">User Association</item>
+    <item key="MSG9915">Please set Constraint.</item>
+    <item key="MSG9916">Show   ▽</item>
+    <item key="MSG9917">Hidden   △</item>
+    <item key="MSG9918">Test constraints Success.</item>
+    <item key="MSG9919">Please set constraints.</item>
+    <item key="MSG9920">Please set contects.</item>
+    <item key="MSG9921">Lost( Symbol.</item>
+    <item key="MSG9922">Lost )Symbol.</item>
+    <item key="MSG9923">Validation of expression of failure.</item>
+    <item key="MSGS857">Signature private key.</item>
+    <item key="MSGS864">Signature password.</item>
+    <item key="MSGS957">Communication Username.</item>
+    <item key="MSGS964">Communication Password.</item>
+    <item key="MSGS965">Verification code</item>
+    <item key="MSG8000">Password strength does not meet the requirements of at least 6-digit password, and is a combination of letters plus numbers.</item>
+    <item key="MSG8900">Employee No</item>
+    <item key="MSG9000">ID or Password Error.</item>
+    <item key="MSG9955">Data.</item>
+    <item key="MSG9956">Can't find the qualified records.</item>
+    <item key="MSG9957">UserName</item>
+    <item key="MSG9958">Validation error.</item>
+    <item key="MSG9959">New Password</item>
+    <item key="MSG9960">Confirm Password</item>
+    <item key="MSG9961">Old Password</item>
+    <item key="MSG9962">{0} was modified successful.</item>
+    <item key="MSG9963">{0} was setted successful.</item>
+    <item key="MSG9964">Password</item>
+    <item key="MSG9965">Login successful.</item>
+    <item key="MSG9966">Can't find the user,note that the userName is case sensitive.</item>
+    <item key="MSG9967">The password is wrong，attention to the case.</item>
+    <item key="MSG9968">Login is refused,please contact the system anministrator.</item>
+    <item key="MSG9969">Basecode</item>
+    <item key="MSG9970">Staff</item>
+    <item key="MSG9971">Organize</item>
+    <item key="MSG9972">Role</item>
+    <item key="MSG9973">Module</item>
+    <item key="MSG9974">Folder</item>
+    <item key="MSG9975">Permission</item>
+    <item key="MSG9976">Primary Key</item>
+    <item key="MSG9977">No.</item>
+    <item key="MSG9978">Name</item>
+    <item key="MSG9979">Parent ID</item>
+    <item key="MSG9980">Parent Name</item>
+    <item key="MSG9981">Functional classification ID</item>
+    <item key="MSG9982">Unique identification ID</item>
+    <item key="MSG9983">Subject</item>
+    <item key="MSG9984">Contents</item>
+    <item key="MSG9985">StateCode</item>
+    <item key="MSG9986">Times</item>
+    <item key="MSG9987">Effective</item>
+    <item key="MSG9988">Description</item>
+    <item key="MSG9989">SortCode</item>
+    <item key="MSG9990">CreateUserID</item>
+    <item key="MSG9991">CreateOn</item>
+    <item key="MSG9992">LastModifiedUserID</item>
+    <item key="MSG9993">LastModifiedOn</item>
+    <item key="MSG9994">Sort</item>
+    <item key="MSG9995">Primary key</item>
+    <item key="MSG9996">Index</item>
+    <item key="MSG9997">Field</item>
+    <item key="MSG9998">Table</item>
+    <item key="MSG9999">DataBase</item>
+    <!-- Global Language Resources End -->
+
+    <!--  -->
+    <item key="MSG0200">You confirm clear user roles?</item>
+    <item key="MSG0201">The file is not exists,please make a new choice.</item>
+    <item key="MSG0202">Prompt message</item>
+    <item key="MSG0203">Are you sure  to move \" {0} \" to \" {1} \" ?</item>
+    <item key="MSG0204">Are you sure to exit?</item>
+    <item key="MSG0205">The file {0} already exists，overwrite files?</item>
+    <item key="MSG0206">Have exceeded the limits，check the size please!</item>
+    <item key="MSG0207">Are you sure to delete the picture?</item>
+    <item key="MSG0208">The end time should not be greater of start time!</item>
+    <item key="MSG0209">Clear up!</item>
+    <item key="MSG0210">Reset successful!</item>
+    <item key="MSG0211">Enter the wrong password must not exceed {0} times，not allowed to continue logging，please restart the application.</item>
+    <item key="MSG0212">Search Contents</item>
+    <item key="MSG0213">The length of the number can not exceed 40.</item>
+    <item key="MSG0214">Build No. Successful!</item>
+    <item key="MSG0215">Increased sequence</item>
+    <item key="MSG0216">Reduction sequence</item>
+    <item key="MSG0217">Step</item>
+    <item key="MSG0218">Reset the sequence successful!</item>
+    <item key="MSG0219">Are you sure to reset the sequence?</item>
+    <item key="MSG0223">The username can not be blank.</item>
+    <item key="MSG0225">There has no data of this node.</item>
+    <item key="MSG0226">Can't delete itself!</item>
+    <item key="MSG0228">Set the relations of user successful!</item>
+    <item key="MSG0229">The company can not be blank.</item>
+    <item key="MSG0230">"Account Sign Up" is successful,please wait for audit result.</item>
+    <item key="MSG0231">The "password" is not equal to the "confirm password".</item>
+    <item key="MSG0232">UserName</item>
+    <item key="MSG0233">Full name</item>
+    <item key="MSG0234">E-Mail is not in the correct format,please enter again.</item>
+    <item key="MSG0235">"Account Sign Up" is successful,please wait for audit result.</item>
+    <item key="MSG0236">Object file \"{0}\" already exists,overwrite files?</item>
+    <item key="MSG0237">Delivery successful!</item>
+    <item key="MSG0238">Clear the exception successful!</item>
+    <item key="MSG0239">Are you want to clear  exception messages?</item>
+    <item key="MSG0240">The contents can not be blank.</item>
+    <item key="MSG0241">Delivery failed!</item>
+    <item key="MSG0242">Move successful!</item>
+    <item key="MSG0243">Program error report</item>
+    <item key="MSG0244">File is not exist.Choose the file again, please.</item>
+    <item key="MSG0245">Role and User are blank.You must select at least one of them.</item>
+    <item key="MSG0246">No data need to copy!</item>
+    <item key="MSG0247">{0} components of permission are already passed.</item>
+    <item key="MSG0248">pass failed.</item>
+    <item key="MSG0249">Please select data to be processed.</item>
+    <item key="MSG0250">Are you sure you want to approve this document?</item>
+    <item key="MSG0251">Rejected successful!</item>
+    <item key="MSG0252">Please select data to be processed.</item>
+    <item key="MSG0253">Are you sure you don't need to enter rejected reasons?</item>
+    <item key="MSG0255">Are you sure  to reject the document?</item>
+    <item key="MSG0256">WorkFlow send successful!</item>
+    <item key="MSG0257">WorkFlow send failed!</item>
+    <item key="MSG0258">The document passed.</item>
+    <item key="MSG0259">Please select data to be processed.</item>
+    <item key="MSG0260">Please select the user who you want to submit.</item>
+    <item key="MSG0261">{0} items are passed finally.</item>
+    <item key="MSG0262">Finally permission failed!</item>
+    <item key="MSG0263">Please select data to be processed.</item>
+    <item key="MSG0264">Rejected successful!</item>
+    <item key="MSG0265">Please select data to be processed.</item>
+    <item key="MSG0266">Are you sure don't need to enter rejected reasons?</item>
+    <item key="MSG0267">Are you sure to reject the document?</item>
+    <item key="MSG0268">Approval Process send successful.</item>
+    <item key="MSG0269">Please select data to be processed.</item>
+    <item key="MSG0270">Please select the user you want to submit.</item>
+    <item key="MSG0271">Are you sure to sumbit to {0}?</item>
+    <item key="MSG0272">{0} items of the revocation of approval process .</item>
+    <item key="MSG0273">The revocation of approval process failed.</item>
+    <item key="MSG0274">Please select data to be processed.</item>
+    <item key="MSG0275">Are you sure don't need to enter rejected reasons?</item>
+    <item key="MSG0276">Are you sure to revocate the document of approval process?</item>
+    <item key="MSG0277">Please select the user who you want to submit?</item>
+    <item key="MSG0278">Are you sure sumbit to the user {0}</item>
+    <item key="MSG0279">Workflow send successful!</item>
+    <item key="MSG0280">Workflow send failed!</item>
+    <item key="MSG0281">Confirm replace the file {0}?</item>
+    <item key="MSG0282">The higher organization</item>
+    <item key="MSG0283">Build Code Successful!</item>
+    <item key="MSG0284">You have changed config info, do you need to save the info ?</item>
+    <item key="MSG0285">No data need to save!</item>
+    <item key="MSG0286">Company Name</item>
+    <item key="MSG0287">Please choose to submit to what the department for audit.</item>
+    <item key="MSG0288">Submitted to the department {0} audit. Are you sure?</item>
+    <item key="MSG0289">Please choose to submit to what the role of audit.</item>
+    <item key="MSG0290">Submitted to the role {0} audit. Are you sure?</item>
+    <item key="MSG0291">Please choose to submit to what role, department or staff review.</item>
+    <item key="MSG0292">Successfully returned to {0} items.</item>
+    <item key="MSG0293">Returned failure.</item>
+    <item key="MSG0294">Are you sure that you want forwarded to {0} audit?</item>
+    <item key="MSG0295">Successfully forwarded to {0} items.</item>
+    <item key="MSG0296">Forwarding failure.</item>
+    <item key="MSG0300">You already logon from other PC. Logout the system.</item>
+    <item key="MSG0301">Are you sure to save it?</item>
+    <item key="MSG0302">Category.</item>
+    <item key="MSG0303">Please select {0}.</item>
+    <item key="MSG0304">User, Organization, Role must select one.</item>
+    <item key="MSG0400">Your account to log exceptions, has been locked by the system {0} minutes, if in doubt contact your system administrator.</item>
+    <item key="MSGReLogOn">LogOn Again</item>
+
+    <!-- UserManager Message Begin -->
+    <item key="UserManager">LoginService</item>
+    <item key="UserManager_LogOn">The login operation</item>
+    <item key="UserManager_LogOnSuccess">Login is successful</item>
+    <!-- UserManager Message End -->
+
+    <!-- ExceptionService Message Begin -->
+    <item key="ExceptionService">ExceptionService</item>
+    <item key="ExceptionService_Add">Add Exception</item>
+    <item key="ExceptionService_GetDT">Get Exception List</item>
+    <item key="ExceptionService_GetDTByPage">Get Page Exceoptin List</item>
+    <item key="ExceptionService_Delete">Delete Exception</item>
+    <item key="ExceptionService_BatchDelete">BatchDelete Exception</item>
+    <item key="ExceptionService_Truncate">ClearAll Exception</item>
+    <!-- ExceptionService Message End -->
+
+    <!-- LogService Message Begin -->
+    <item key="LogService">LogService</item>
+    <item key="LogService_WriteLog">Add Log</item>
+    <item key="LogService_GetLogGeneral">GetLogGeneral</item>
+    <item key="LogService_ResetVisitInfo">ResetVisitInfo</item>
+    <item key="LogService_GetDTByDate">GetDTByDate</item>
+    <item key="LogService_GetDTByModule">GetDTByModule</item>
+    <item key="LogService_GetDTByUser">GetDTByUser</item>
+    <item key="LogService_GetDTByPage">GetDTByPage</item>
+    <item key="LogService_Delete">Delete</item>
+    <item key="LogService_BatchDelete">BatchDelete</item>
+    <item key="LogService_Truncate">Truncate</item>
+    <item key="LogService_GetDTApplicationByDate">GetDTApplicationByDate</item>
+    <item key="LogService_BatchDeleteApplication">BatchDeleteApplication</item>
+    <item key="LogService_TruncateApplication">TruncateApplication</item>
+    <item key=""></item>
+    <!-- LogService Message End -->
+
+    <!-- FileService Message Begin -->
+    <item key="FileService">FileService</item>
+    <item key="FileService_Exists">Exists</item>
+    <item key="FileService_Download">DownloadFile</item>
+    <item key="FileService_Upload">UploadFile</item>
+    <item key="FileService_GetEntity">GetFileEntity</item>
+    <item key="FileService_GetDTByFolder">GetDTByFolder</item>
+    <item key="FileService_DeleteByFolder">DeleteByFolder</item>
+    <item key="FileService_Add">AddFile</item>
+    <item key="FileService_Update">UpdateFile</item>
+    <item key="FileService_UpdateFile">UpdateFile</item>
+    <item key="FileService_Rename">FileRename</item>
+    <item key="FileService_Search">FileSearch</item>
+    <item key="FileService_MoveTo">MoveToFile</item>
+    <item key="FileService_BatchMoveTo">FileBatchMoveTo</item>
+    <item key="FileService_Delete">Delete</item>
+    <item key="FileService_BatchDelete">BatchDelete</item>
+    <item key="FileService_BatchSave">BatchSave</item>
+    <!-- FileService Message End -->
+
+    <!-- FolderService Message Begin -->
+    <item key="FolderService">FolderService</item>
+    <item key="FolderService_GetEntity">GetFolderEntity</item>
+    <item key="FolderService_GetDT">GetFolderDT</item>
+    <item key="FolderService_GetDTByParent">GetFolderDTByParent</item>
+    <item key="FolderService_Add">AddFolder</item>
+    <item key="FolderService_AddByFolderName">AddByFolderName</item>
+    <item key="FolderService_Update">UpdateFolder</item>
+    <item key="FolderService_Rename">RenameFolder</item>
+    <item key="FolderService_Search">SearchFolder</item>
+    <item key="FolderService_Delete">DeleteFolder</item>
+    <item key="FolderService_BatchDelete">BatchDeleteFolder</item>
+    <item key="FolderService_MoveTo">FolderMoveTo</item>
+    <item key="FolderService_BatchMoveTo">BatchMoveTo</item>
+    <item key="FolderService_BatchSave">BatchSave</item>
+    <!-- FolderService Message End -->
+
+    <!-- ItemsService Message Begin -->
+    <item key="ItemsService">ItemsService</item>
+    <item key="ItemsService_Add">AddItems</item>
+    <item key="ItemsService_GetDT">GetItemsDT</item>
+    <item key="ItemsService_GetDTByParent">GetItemsDTByParent</item>
+    <item key="ItemsService_GetEntity">GetItemEntity</item>
+    <item key="ItemsService_Update">UpdateItem</item>
+    <item key="ItemsService_Delete">DeleteItem</item>
+    <item key="ItemsService_SetDeleted">SetItemDeleted</item>
+    <item key="ItemsService_CreateTable">CreateTable</item>
+    <!-- ItemsService Message End -->
+
+    <!-- ItemDetailsService Message Begin -->
+    <item key="ItemDetailsService">ItemDetailsService</item>
+    <item key="ItemDetailsService_Add">AddItemDetails</item>
+    <item key="ItemDetailsService_GetDT">GetItemDetailsDT</item>
+    <item key="ItemDetailsService_GetEntity">GetItemDetailsEntity</item>
+    <item key="ItemDetailsService_Update">UpdateItemDetails</item>
+    <item key="ItemDetailsService_GetDTByIds">GetItemDetailsDTByIds</item>
+    <item key="ItemDetailsService_GetDTByValues">GetItemDetailsDTByValues</item>
+    <item key="ItemDetailsService_BatchSave">ItemDetailsBatchSave</item>
+    <item key="ItemDetailsService_Delete">DeleteItemDetails</item>
+    <item key="ItemDetailsService_BatchDelete">BatchDeleteItemDetails</item>
+    <item key="ItemDetailsService_SetDeleted">SetDeleted</item>
+    <item key="ItemDetailsService_GetDTByCode">GetItemDetailsDTByCode</item>
+    <!-- ItemDetailsService Message End -->
+
+    <!-- LogOnService Message Begin -->
+    <item key="LogOnService">LogOnService</item>
+    <item key="LogOnService_GetEntity">GetEntity</item>
+    <item key="LogOnService_Update">Update</item>
+    <item key="LogOnService_LogOnByOpenId">LogOnByOpenId</item>
+    <item key="LogOnService_LogOnByUserName">LogOnByUserName</item>
+    <item key="LogOnService_UserLogOn">UserLogOn</item>
+    <item key="LogOnService_GetUserDT">GetUserDT</item>
+    <item key="LogOnService_GetStaffUserDT">GetStaffUserDT</item>
+    <item key="LogOnService_AccountActivation">AccountActivation</item>
+    <item key="LogOnService_OnLine">OnLine</item>
+    <item key="LogOnService_OnExit">OnExit</item>
+    <item key="LogOnService_ServerCheckOnLine">ServerCheckOnLin</item>
+    <item key="LogOnService_SetPassword">SetPassword</item>
+    <item key="LogOnService_ChangePassword">ChangePassword</item>
+    <!-- LogOnService Message End -->
+
+    <!-- MessageService Message Begin -->
+    <item key="MessageService">MessageService</item>
+    <item key="MessageService_GetInnerOrganize">GetInnerOrganize</item>
+    <item key="MessageService_GetUserDTByOrganize">GetUserDTByOrganize</item>
+    <item key="MessageService_GetUserDTByRole">GetUserDTByRole</item>
+    <item key="MessageService_BatchSend">BatchSendMessage</item>
+    <item key="MessageService_Send">SendMessage</item>
+    <item key="MessageService_MessageChek">MessageCheck</item>
+    <item key="MessageService_SendGroupMessage">SendGroupMessage</item>
+    <item key="MessageService_Remind">Remind</item>
+    <item key="MessageService_ReadFromReceiver">ReadFromReceiver</item>
+    <item key="MessageService_Read">Read</item>
+    <item key="MessageService_Broadcast">Broadcast</item>
+    <item key="MessageService_GetDTNew">GetDTNew</item>
+    <item key="MessageService_CheckOnLine">CheckOnLine</item>
+    <item key="MessageService_GetOnLineState">GetOnLineState</item>
+    <!-- MessageService Message End -->
+
+    <!-- ModuleService Message Begin -->
+    <item key="ModuleService">ModuleService</item>
+    <item key="ModuleService_GetDT">GetModuleDT</item>
+    <item key="ModuleService_GetDTByIds">GetModuleDTByIds</item>
+    <item key="ModuleService_GetEntity">GetModuleEntity</item>
+    <item key="ModuleService_GetFullNameByCode">GetFullNameByCode</item>
+    <item key="ModuleService_Add">AddModule</item>
+    <item key="ModuleService_Update">UpdateModule</item>
+    <item key="ModuleService_GetDTByParent">GetModuleDTByParent</item>
+    <item key="ModuleService_Delete">DeleteModule</item>
+    <item key="ModuleService_BatchDelete">BatchDeleteModule</item>
+    <item key="ModuleService_SetDeleted">SetModuleDeleted</item>
+    <item key="ModuleService_MoveTo">ModuleMoveTo</item>
+    <item key="ModuleService_BatchMoveTo">ModuleBatchMoveTo</item>
+    <item key="ModuleService_BatchSave">ModuleBatchSave</item>
+    <item key="ModuleService_SetSortCode">ModuleSetSortCode</item>
+    <item key="ModuleService_GetPermissionDT">GetPermissionDT</item>
+    <item key="ModuleService_GetIdsByPermission">GetIdsByPermission</item>
+    <item key="ModuleService_BatchAddPermissions">BatchAddPermissions</item>
+    <item key="ModuleService_BatchAddModules">BatchAddModules</item>
+    <item key="ModuleService_BatchDletePermissions">BatchDletePermissions</item>
+    <item key="ModuleService_BatchDleteModules">BatchDleteModules</item>
+    <!-- ModuleService Message End -->
+
+    <!-- OrganizeService Message Begin -->
+    <item key="OrganizeService">OrganizeService</item>
+    <item key="OrganizeService_Add">Add</item>
+    <item key="OrganizeService_Update">Update</item>
+    <item key="OrganizeService_GetDT">GetDT</item>
+    <item key="OrganizeService_GetDTByParent">GetDTByParent</item>
+    <item key="OrganizeService_GetEntity">GetEntity</item>
+    <item key="OrganizeService_GetDTByIds">GetDTByIds</item>
+    <item key="OrganizeService_GetDTByValues">GetDTByValues</item>
+    <item key="OrganizeService_BatchSave">BatchSave</item>
+    <item key="OrganizeService_Delete">Delete</item>
+    <item key="OrganizeService_BatchDelete">BatchDelete</item>
+    <item key="OrganizeService_SetDeleted">SetDeleted</item>
+    <item key="OrganizeService_MoveTo">MoveTo</item>
+    <item key="OrganizeService_BatchMoveTo">BatchMoveTo</item>
+    <item key="OrganizeService_GetChildrensById">GetChildrensById</item>
+    <!-- OrganizeService Message End -->
+
+    <!-- ParameterService Message Begin -->
+    <item key="ParameterService">ParameterService</item>
+    <item key="ParameterService_GetServiceConfig">GetServiceConfig</item>
+    <item key="ParameterService_GetParameter">GetParameter</item>
+    <item key="ParameterService_SetParameter">SetParameter</item>
+    <item key="ParameterService_GetDTByParameter">GetParameterDTByParameter</item>
+    <item key="ParameterService_GetDTByParameterCode">GetParameterDTByParameterCode</item>
+    <item key="ParameterService_DeleteByParameter">DeleteByParameter</item>
+    <item key="ParameterService_DeleteByParameterCode">DeleteByParameterCode</item>
+    <item key="ParameterService_Delete">DeleteParameter</item>
+    <item key="ParameterService_BatchDelete">BatchDeleteParameter</item>
+    <!-- ParameterService Message End -->
+
+    <!-- PermissionItemService Message Begin -->
+    <item key="PermissionItemService">PermissionItemService</item>
+    <item key="PermissionItemService_GetDT">GetDT</item>
+    <item key="PermissionItemService_GetDTByParent">GetDTByParent</item>
+    <item key="PermissionItemService_Add">AddPermissionItem</item>
+    <item key="PermissionItemService_AddByDetail">AddPermissionItemByDetail</item>
+    <item key="PermissionItemService_GetEntity">Get PermissionItem Entity</item>
+    <item key="PermissionItemService_GetEntityByCode">GetEntityByCode</item>
+    <item key="PermissionItemService_GetDTByIds">GetDTByIds</item>
+    <item key="PermissionItemService_Update">UpdatePermissionitem</item>
+    <item key="PermissionItemService_MoveTo">MoveToPermissionitem</item>
+    <item key="PermissionItemService_BatchMoveTo">BacthMoveToPermissionitem</item>
+    <item key="PermissionItemService_Delete">DeletePermissionitem</item>
+    <item key="PermissionItemService_BatchDelete">BatchDeletePermissionitem</item>
+    <item key="PermissionItemService_SetDeleted">SetDeleted</item>
+    <item key="PermissionItemService_BatchSave">BatchSave</item>
+    <item key="PermissionItemService_BatchSetSortCode">BatchSetSortCode</item>
+    <item key="PermissionItemService_GetIdsByModule">GetIdsByModule</item>
+    <!-- PermissionItemService Message End -->
+
+    <!-- PermissionService Message Begin -->
+    <item key="PermissionService">PermissionService</item>
+    <item key="PermissionService_Add">AddEntity</item>
+    <item key="PermissionService_GetDT">GetPermisionDataTable</item>
+    <item key="PermissionService_GetEntity">GetEntity</item>
+    <item key="PermissionService_Update">UpdateEntity</item>
+    <item key="PermissionService_GetDTByIds">GetDTByIds</item>
+    <item key="PermissionService_GetDTByValues">GetDTByValues</item>
+    <item key="PermissionService_BatchSave">BatchSave</item>
+    <item key="PermissionService_Delete">Delete</item>
+    <item key="PermissionService_BatchDelete">BatchDelete</item>
+    <item key="PermissionService_SetDeleted">SetDeleted</item>
+    <item key="PermissionService_IsInRole">IsInRole</item>
+    <item key="PermissionService_IsAuthorized">IsAuthorized</item>
+    <item key="PermissionService_IsAuthorizedByUserId">IsAuthorizedByUserId</item>
+    <item key="PermissionService_IsAuthorizedByRoleId">IsAuthorizedByRoleId</item>
+    <item key="PermissionService_IsAdministrator">IsAdministrator</item>
+    <item key="PermissionService_IsAdministratorByUserId">IsAdministratorByUserId</item>
+    <item key="PermissionService_GetPermissionDT">GetPermissionDT</item>
+    <item key="PermissionService_GetPermissionDTByUserId">GetPermissionDTByUserId</item>
+    <item key="PermissionService_IsModuleAuthorized">IsModuleAuthorized</item>
+    <item key="PermissionService_IsModuleAuthorizedByUserId">IsModuleAuthorizedByUserId</item>
+    <item key="PermissionService_GetPermissionScopeByUserId">GetPermissionScopeByUserId</item>
+    <item key="PermissionService_GetScopeModuleIdsByOrganizeId">GetScopeModuleIdsByOrganizeId</item>
+    <item key="PermissionService_GrantOrganizeModuleScope">GrantOrganizeModuleScope</item>
+    <item key="PermissionService_RevokeOrganizeModuleScope">RevokeOrganizeModuleScope"</item>
+    <item key="PermissionService_GetOrganizePermissionItemIds">GetOrganizePermissionItemIds</item>
+    <item key="PermissionService_GetOrganizeIdsByPermissionItemId">GetOrganizeIdsByPermissionItemId</item>
+    <item key="PermissionService_GrantOrganizePermissionById">GrantOrganizePermissionById</item>
+    <item key="PermissionService_GrantOrganizePermissions">GrantOrganizePermissions</item>
+    <item key="PermissionService_RevokeOrganizePermissions">RevokeOrganizePermissions</item>
+    <item key="PermissionService_RevokeOrganizePermissionById">RevokeOrganizePermissionById</item>
+    <item key="PermissionService_ClearOrganizePermission">ClearOrganizePermission</item>
+    <item key="PermissionService_GetResourcePermissionItemIds">GetResourcePermissionItemIds</item>
+    <item key="PermissionService_GrantResourcePermission">GrantResourcePermission</item>
+    <item key="PermissionService_RevokeResourcePermission">RevokeResourcePermission</item>
+    <item key="PermissionService_GetPermissionScopeTargetIds">GetPermissionScopeTargetIds</item>
+    <item key="PermissionService_GetPermissionScopeResourceIds">GetPermissionScopeResourceIds</item>
+    <item key="PermissionService_GrantPermissionScopeTargets">GrantPermissionScopeTargets</item>
+    <item key="PermissionService_GrantPermissionScopeTarget">GrantPermissionScopeTarget</item>
+    <item key="PermissionService_RevokePermissionScopeTargets">RevokePermissionScopeTargets</item>
+    <item key="PermissionService_RevokePermissionScopeTarget">RevokePermissionScopeTarget</item>
+    <item key="PermissionService_ClearPermissionScopeTarget">ClearPermissionScopeTarget</item>
+    <item key="PermissionService_GetResourceScopeIds">GetResourceScopeIds</item>
+    <item key="PermissionService_GetTreeResourceScopeIds">GetTreeResourceScopeIds</item>
+    <item key="PermissionService_GetRolePermissionItemIds">GetRolePermissionItemIds</item>
+    <item key="PermissionService_GetRoleIdsByPermissionItemId">GetRoleIdsByPermissionItemId</item>
+    <item key="PermissionService_GrantRolePermissions">GrantRolePermissions</item>
+    <item key="PermissionService_GrantRolePermission">GrantRolePermission</item>
+    <item key="PermissionService_GrantRolePermissionById">GrantRolePermissionById</item>
+    <item key="PermissionService_RevokeRolePermissions">RevokeRolePermissions</item>
+    <item key="PermissionService_RevokeRolePermission">RevokeRolePermission</item>
+    <item key="PermissionService_RevokeRolePermissionById">RevokeRolePermissionById</item>
+    <item key="PermissionService_GetScopeUserIdsByRoleId">GetScopeUserIdsByRoleId</item>
+    <item key="PermissionService_GetScopeRoleIdsByRoleId">GetScopeRoleIdsByRoleId</item>
+    <item key="PermissionService_GetScopeOrganizeIdsByRoleId">GetScopeOrganizeIdsByRoleId</item>
+    <item key="PermissionService_GrantRoleUserScope">GrantRoleUserScope</item>
+    <item key="PermissionService_RevokeRoleUserScope">RevokeRoleUserScope</item>
+    <item key="PermissionService_GrantRoleRoleScope">GrantRoleRoleScope</item>
+    <item key="PermissionService_RevokeRoleRoleScope">RevokeRoleRoleScope</item>
+    <item key="PermissionService_GrantRoleOrganizeScope">GrantRoleOrganizeScope</item>
+    <item key="PermissionService_RevokeRoleOrganizeScope">RevokeRoleOrganizeScope</item>
+    <item key="PermissionService_GetScopePermissionItemIdsByRoleId">GetScopePermissionItemIdsByRoleId</item>
+    <item key="PermissionService_GrantRolePermissionItemScope">GrantRolePermissionItemScope</item>
+    <item key="PermissionService_RevokeRolePermissionItemScope">RevokeRolePermissionItemScope</item>
+    <item key="PermissionService_ClearRolePermissionByRoleId">ClearRolePermissionByRoleId</item>
+    <item key="PermissionService_ClearRolePermissionScope">ClearRolePermissionScope</item>
+    <item key="PermissionService_GetScopeModuleIdsByRoleId">GetScopeModuleIdsByRoleId</item>
+    <item key="PermissionService_GrantRoleModuleScope">GrantRoleModuleScope</item>
+    <item key="PermissionService_RevokeRoleModuleScope">RevokeRoleModuleScope</item>
+    <item key="PermissionService_GetUserDTByPermissionScope">GetUserDTByPermissionScope</item>
+    <item key="PermissionService_GetUserIdsByPermissionScope">GetUserIdsByPermissionScope</item>
+    <item key="PermissionService_GetRoleDTByPermissionScope">GetRoleDTByPermissionScope</item>
+    <item key="PermissionService_GetRoleIdsByPermissionScope">GetRoleIdsByPermissionScope</item>
+    <item key="PermissionService_GetModuleDTByPermissionScope">GetModuleDTByPermissionScope</item>
+    <item key="PermissionService_GetPermissionItemDTByPermissionScope">GetPermissionItemDTByPermissionScope</item>
+    <item key="PermissionService_GetOrganizeDTByPermissionScope">GetOrganizeDTByPermissionScope</item>
+    <item key="PermissionService_GetOrganizeIdsByPermissionScope">GetOrganizeIdsByPermissionScope</item>
+    <item key="PermissionService_GetUserPermissionItemIds">GetUserPermissionItemIds</item>
+    <item key="PermissionService_GetUserIdsByPermissionItemId">GetUserIdsByPermissionItemId</item>
+    <item key="PermissionService_GrantUserPermissions">GrantUserPermissions</item>
+    <item key="PermissionService_GrantUserPermissionById">GrantUserPermissionById</item>
+    <item key="PermissionService_RevokeUserPermissions">RevokeUserPermissions</item>
+    <item key="PermissionService_RevokeUserPermissionById">RevokeUserPermissionById</item>
+    <item key="PermissionService_GetScopeOrganizeIdsByUserId">GetScopeOrganizeIdsByUserId</item>
+    <item key="PermissionService_GrantUserOrganizeScope">GrantUserOrganizeScope</item>
+    <item key="PermissionService_RevokeUserOrganizeScope">RevokeUserOrganizeScope</item>
+    <item key="PermissionService_GetScopeUserIdsByUserId">GetScopeUserIdsByUserId</item>
+    <item key="PermissionService_GrantUserUserScope">GrantUserUserScope</item>
+    <item key="PermissionService_RevokeUserUserScope">RevokeUserUserScope</item>
+    <item key="PermissionService_GetScopeRoleIdsByUserId">GetScopeRoleIdsByUserId</item>
+    <item key="PermissionService_GrantUserRoleScope">GrantUserRoleScope</item>
+    <item key="PermissionService_RevokeUserRoleScope">RevokeUserRoleScope</item>
+    <item key="PermissionService_GetScopePermissionItemIdsByUserId">GetScopePermissionItemIdsByUserId</item>
+    <item key="PermissionService_GrantUserPermissionItemScope">GrantUserPermissionItemScope</item>
+    <item key="PermissionService_RevokeUserPermissionItemScope">RevokeUserPermissionItemScope</item>
+    <item key="PermissionService_ClearUserPermissionByUserId">ClearUserPermissionByUserId</item>
+    <item key="PermissionService_ClearUserPermissionScope">ClearUserPermissionScope</item>
+    <item key="PermissionService_GetModuleDT">GetModuleDT</item>
+    <item key="PermissionService_GetModuleIdsByUserId">GetModuleIdsByUserId</item>
+    <item key="PermissionService_GetModuleDTByUserId">GetModuleDTByUserId</item>
+    <item key="PermissionService_GetScopeModuleIdsByUserId">GetScopeModuleIdsByUserId</item>
+    <item key="PermissionService_GrantUserModuleScope">GrantUserModuleScope</item>
+    <item key="PermissionService_RevokeUserModuleScope">RevokeUserModuleScope"</item>
+    <!-- PermissionService Message End -->
+
+    <!-- RoleService Message Begin -->
+    <item key="RoleService">RoleService</item>
+    <item key="RoleService_Add">AddRole</item>
+    <item key="RoleService_GetDT">GetRoleDT</item>
+    <item key="RoleService_GetDTByPage">GetRoleDTByPage</item>
+    <item key="RoleService_GetDTByOrganize">GetRoleDTByOrganize</item>
+    <item key="RoleService_GetApplicationRole">GetApplicationRole</item>
+    <item key="RoleService_GetEntity">GetRoleEntity</item>
+    <item key="RoleService_Update">UpdateRole</item>
+    <item key="RoleService_GetDTByIds">GeRoletDTByIds</item>
+    <item key="RoleService_GetDTByValues">GetRoleDTByValues</item>
+    <item key="RoleService_BatchSave">BatchSaveRole</item>
+    <item key="RoleService_Delete">DeleteRole</item>
+    <item key="RoleService_BatchDelete">BatchDeleteRole</item>
+    <item key="RoleService_SetDeleted">SetRoleDeleted</item>
+    <item key="RoleService_EliminateRoleUser">EliminateRoleUser</item>
+    <item key="RoleService_GetRoleUserIds">GetRoleUserIds</item>
+    <item key="RoleService_AddUserToRole">AddUserToRole</item>
+    <item key="RoleService_RemoveUserFromRole">RemoveUserFromRole</item>
+    <item key="RoleService_ClearRoleUser">ClearRoleUser"</item>
+    <item key="RoleService_SetUsersToRole">SetUsersToRole</item>
+    <item key="RoleService_ResetSortCode">ResetSortCode</item>
+    <item key="RoleService_MoveTo">MoveToRole</item>
+    <!-- RoleService Message End -->
+
+    <!-- SequenceService Message Begin -->
+    <item key="SequenceService">SequenceService</item>
+    <item key="SequenceService_GetEntity">GetSequenceEntity</item>
+    <item key="SequenceService_Add">AddSequence</item>
+    <item key="SequenceService_Update">UpdateSequence</item>
+    <item key="SequenceService_GetDT">GetSequenceDT</item>
+    <item key="SequenceService_GetSequence">GetSequence</item>
+    <item key="SequenceService_GetOldSequence">GetOldSequence</item>
+    <item key="SequenceService_GetNewSequence">GetNewSequence</item>
+    <item key="SequenceService_GetBatchSequence">GetBatchSequence</item>
+    <item key="SequenceService_GetReduction">GetReduction</item>
+    <item key="SequenceService_Reset">ResetSequence</item>
+    <item key="SequenceService_Delete">DeleteSequence</item>
+    <item key="SequenceService_BatchDelete">BatchDeleteSequence</item>
+    <!-- SequenceService Message End -->
+
+    <!-- StaffService Message Begin -->
+    <item key="StaffService">StaffService</item>
+    <item key="StaffService_AddStaff">AddStaff</item>
+    <item key="StaffService_UpdateStaff">UpdateStaff</item>
+    <item key="StaffService_GetDT">GetStaffDT</item>
+    <item key="StaffService_GetDTByPage">GetStaffDTByPage</item>
+    <item key="StaffService_GetEntity">GetStaffEntity</item>
+    <item key="StaffService_GetDTByIds">GetStaffDTByIds"</item>
+    <item key="StaffService_GetDTByOrganize">GetStaffDTByOrganize</item>
+    <item key="StaffService_GetDTNotOrganize">GetStaffDTNotOrganize</item>
+    <item key="StaffService_SetStaffUser">SetStaffUser</item>
+    <item key="StaffService_DeleteUser">DeleteUser</item>
+    <item key="StaffService_Delete">DeleteStaff</item>
+    <item key="StaffService_BatchDelete">BatchDeleteStaff</item>
+    <item key="StaffService_SetDeleted">SetStaffDeleted</item>
+    <item key="StaffService_MoveTo">MoveToStaff</item>
+    <item key="StaffService_BatchMoveTo">BatchMoveToStaff</item>
+    <item key="StaffService_GetId">GetId</item>
+    <!-- StaffService Message End -->
+
+    <!-- TableColumnsService Message Begin -->
+    <item key="TableColumnsService">TableColumnsService</item>
+    <item key="TableColumnsService_Add">AddTableColumns</item>
+    <item key="TableColumnsService_GetDTByTable">GetTableColumnsDTByTable</item>
+    <item key="TableColumnsService_GetTablePermissionScope">GetTablePermissionScope</item>
+    <item key="TableColumnsService_GetTableNameAndCode">GetTableNameAndCode</item>
+    <item key="TableColumnsService_GetAllTableScope">GetAllTableScope</item>
+    <item key="TableColumnsService_GetConstraintDT">GetConstraintDT</item>
+    <item key="TableColumnsService_GetUserConstraint">GetUserConstraint</item>
+    <item key="TableColumnsService_SetConstraint">SetConstraint</item>
+    <item key="TableColumnsService_GetConstraint">GetConstraint</item>
+    <item key="TableColumnsService_GetConstraintEntity">GetConstraintEntity</item>
+    <item key="TableColumnsService_BatchDeleteConstraint">BatchDeleteConstraint</item>
+    <item key="TableColumnsService_GetDT">GetTableColumnsDT</item>
+    <item key="TableColumnsService_GetEntity">GetTableColumnsEntity</item>
+    <item key="TableColumnsService_Delete">DeleteTableColumns</item>
+    <item key="TableColumnsService_SetDeleted">SetTableColumnsDeleted</item>
+    <item key="TableColumnsService_Update">UpdateTableColumns</item>
+    <item key="TableColumnsService_BatchDelete">BatchDeleteTableColumns</item>
+    <item key="TableColumnsService_GetDTByIds">GetTableColumnsDTByIds</item>
+    <item key="TableColumnsService_GetDTByValues">GetTableColumnsDTByValues</item>
+    <item key="TableColumnsService_GetColumns">GetColumns</item>
+    <item key="TableColumnsService_BatchSave">TableColumnsBatchSave</item>
+    <item key="TableColumnsService_GetTablePermissionScopeEntity">GetTablePermissionScopeEntity</item>
+    <item key="TableColumnsService_GetSearchFields">GetSearchFields</item>
+    <item key="TableColumnsService_AddTablePermissionScope">AddTablePermissionScope</item>
+    <item key="TableColumnsService_DeleteTablePermissionScope">DeleteTablePermissionScope</item>
+    <item key="TableColumnsService_SetTablePermissionScopeDeleted">SetTablePermissionScopeDeleted</item>
+    <!-- TableColumnsService Message End -->
+
+    <!-- UserService Message Begin -->
+    <item key="UserService">UserService</item>
+    <item key="UserService_Exists">Exists</item>
+    <item key="UserService_AddUser">AddUser</item>
+    <item key="UserService_GetEntity">GetUserEntity</item>
+    <item key="UserService_GetDT">GetUserDT</item>
+    <item key="UserService_GetDTByPage">GetUserDTByPage</item>
+    <item key="UserService_GetDTByIds">GetUserDTByIds</item>
+    <item key="UserService_Search">SearchUser</item>
+    <item key="UserService_SetUserAuditStates">SetUserAuditStates</item>
+    <item key="UserService_Delete">DeleteUser</item>
+    <item key="UserService_BatchDelete">BatchDeleteUser</item>
+    <item key="UserService_SetDeleted">SetUserDeleted</item>
+    <item key="UserService_UpdateUser">UpdateUser</item>
+    <item key="UserService_BatchSave">UserBatchSave</item>
+    <item key="UserService_GetDTByRole">GetUserDTByRole</item>
+    <item key="UserService_SetDefaultRole">SetUserDefaultRole</item>
+    <item key="UserService_BatchSetDefaultRole">BatchSetDefaultRole</item>
+    <item key="UserService_GetRoleDT">GetRoleDT</item>
+    <item key="UserService_UserInRole">UserInRole</item>
+    <item key="UserService_GetUserRoleIds">GetUserRoleIds</item>
+    <item key="UserService_AddUserToRole">AddUserToRole</item>
+    <item key="UserService_RemoveUserFromRole">RemoveUserFromRole</item>
+    <item key="UserService_ClearUserRole">ClearUserRole</item>
+    <item key="UserService_GetDTByDepartment">GetUserDTByDepartment</item>
+    <item key="UserService_GetUserPageDTByDepartment">GetUserPageDTByDepartment</item>
+    <item key="UserService_GetUserOrganizeDT">GetUserOrganizeDT</item>
+    <item key="UserService_AddUserToOrganize">AddUserToOrganize</item>
+    <item key="UserService_Check">Check</item>
+    <item key="UserService_Application">ApplyUser</item>
+    <item key="UserService_UserIsInOrganize">UserIsInOrganize</item>
+    <item key="UserService_BatchDeleteUserOrganize">BatchDeleteUserOrganize</item>
+    <!-- UserService Message End -->
+
+    <!-- WorkFlowHelperService Message Begin -->
+    <item key="WorkFlowHelperService">WorkFlowHelperService</item>
+    <!-- WorkFlowHelperService Message End -->
+
+    <!-- WorkFlowInstanceService Message Begin -->
+    <item key="WorkFlowInstanceService">WorkFlowInstanceService</item>
+    <!-- WorkFlowInstanceService Message End -->
+
+    <!-- WorkFlowTemplateService Message Begin -->
+    <item key="WorkFlowTemplateService">WorkFlowTemplateService</item>
+    <!-- WorkFlowTemplateService Message End -->
+
+    <!-- WorkFlowUserControlService Message Begin -->
+    <item key="WorkFlowUserControlService">WorkFlowUserControlService</item>
+    <!-- WorkFlowUserControlService Message End -->
+
+    <!--UCStartPage  Begin-->
+    <item key="UCStartPage_lblUnClaimedTask">   UnClaimedTask</item>
+    <item key="UCStartPage_lblRefresh1">Refresh</item>
+    <item key="UCStartPage_lblMore1">More>></item>
+    <item key="UCStartPage_lblToDoList">   ToDoList</item>
+    <item key="UCStartPage_lblRefresh2">Refresh</item>
+    <item key="UCStartPage_lblMore2">More>></item>
+    <item key="UCStartPage_lblBeDownList">   BeDownList</item>
+    <item key="UCStartPage_lblRefresh3">Refresh</item>
+    <item key="UCStartPage_lblMore3">More>></item>
+    <item key="UCStartPage_lblWorkFlowMonitor">   WorkFlowMonitor</item>
+    <item key="UCStartPage_lblRefresh4">Refresh</item>
+    <item key="UCStartPage_lblMore4">More>></item>
+    <!--UCStartPage  End-->
+    
+    <!-- FrmRDIFrameworkNav Begin -->
+    <item key="FrmRDIFrameworkNav">RDIFramework.NET V3.0</item>
+    <item key="FrmRDIFrameworkNav_biFile">File(&amp;F)</item>
+    <item key="FrmRDIFrameworkNav_biExitApplication">Exit System(ALT+F4)</item>
+    <item key="FrmRDIFrameworkNav_biSet">System Set(&amp;S)</item>
+    <item key="FrmRDIFrameworkNav_btnChangePassword">Change Password...</item>
+    <item key="FrmRDIFrameworkNav_btnViewMyPermission">My Permission...</item>
+    <item key="FrmRDIFrameworkNav_btnEnSet">Environment Settings</item>
+    <item key="FrmRDIFrameworkNav_biOption">Option(&amp;O)...</item>
+    <item key="FrmRDIFrameworkNav_biFullScreen">FullScreen F11</item>
+    <item key="FrmRDIFrameworkNav_biTool">Tool(&amp;T)</item>
+    <item key="FrmRDIFrameworkNav_btnMsg">IM</item>
+    <item key="FrmRDIFrameworkNav_btnRuler">Screen Ruler</item>
+    <item key="FrmRDIFrameworkNav_btnRegex">Regex</item>
+    <item key="FrmRDIFrameworkNav_biHelp">Help(&amp;H)</item>
+    <item key="FrmRDIFrameworkNav_biShowHelp">Show Help(&amp;H)...</item>
+    <item key="FrmRDIFrameworkNav_biFeedback">Feedback(&amp;F)...</item>
+    <item key="FrmRDIFrameworkNav_biAbout">About(&amp;A)...</item>
+    <item key="FrmRDIFrameworkNav_biComments">Comments(&amp;D)</item>
+    <item key="FrmRDIFrameworkNav_lblCurrentSystem">Current System</item>
+    <item key="FrmRDIFrameworkNav_lblReLogOn">ReLogin</item>
+    <item key="FrmRDIFrameworkNav_lblExipApplication">Exit</item>
+    <item key="FrmRDIFrameworkNav_tabStartPage">StartPage</item>
+    <item key="FrmRDIFrameworkNav_tsMenuItemCloseThis">Close This(&amp;C)</item>
+    <item key="FrmRDIFrameworkNav_tsMenuItemCloseOther">Close Other(&amp;O)</item>
+    <item key="FrmRDIFrameworkNav_tsMenuItemCloseAll">Close All(&amp;A)</item>
+    <!-- FrmRDIFrameworkNav End -->
+
+    <!-- FrmRDIFrameworkTree Begin -->
+    <item key="FrmRDIFrameworkTree">RDIFramework.NET V3.0</item>
+    <item key="FrmRDIFrameworkTree_biFile">File(&amp;F)</item>
+    <item key="FrmRDIFrameworkTree_biExitApplication">Exit System(ALT+F4)</item>
+    <item key="FrmRDIFrameworkTree_biSet">System Set(&amp;S)</item>
+    <item key="FrmRDIFrameworkTree_btnChangePassword">Change Password...</item>
+    <item key="FrmRDIFrameworkTree_btnViewMyPermission">My Permission...</item>
+    <item key="FrmRDIFrameworkTree_btnEnSet">Environment Settings</item>
+    <item key="FrmRDIFrameworkTree_biOption">Option(&amp;O)...</item>
+    <item key="FrmRDIFrameworkTree_biFullScreen">FullScreen F11</item>
+    <item key="FrmRDIFrameworkTree_biTool">Tool(&amp;T)</item>
+    <item key="FrmRDIFrameworkTree_btnMsg">IM</item>
+    <item key="FrmRDIFrameworkTree_btnRuler">Screen Ruler</item>
+    <item key="FrmRDIFrameworkTree_btnRegex">Regex</item>
+    <item key="FrmRDIFrameworkTree_biHelp">Help(&amp;H)</item>
+    <item key="FrmRDIFrameworkTree_biShowHelp">Show Help(&amp;H)...</item>
+    <item key="FrmRDIFrameworkTree_biFeedback">Feedback(&amp;F)...</item>
+    <item key="FrmRDIFrameworkTree_biAbout">About(&amp;A)...</item>
+    <item key="FrmRDIFrameworkTree_biComments">Comments(&amp;D)</item>
+    <item key="FrmRDIFrameworkTree_lblCurrentSystem">Current System</item>
+    <item key="FrmRDIFrameworkTree_lblReLogOn">ReLogin</item>
+    <item key="FrmRDIFrameworkTree_lblExipApplication">Exit</item>
+    <item key="FrmRDIFrameworkTree_tabStartPage">StartPage</item>
+    <item key="FrmRDIFrameworkTree_tsMenuItemCloseThis">Close This(&amp;C)</item>
+    <item key="FrmRDIFrameworkTree_tsMenuItemCloseOther">Close Other(&amp;O)</item>
+    <item key="FrmRDIFrameworkTree_tsMenuItemCloseAll">Close All(&amp;A)</item>
+    <!-- FrmRDIFrameworkTree End -->
+
+    <!-- FrmRDIFrameworkRibbon Begin -->
+    <item key="FrmRDIFrameworkRibbon">RDIFramework.NET V3.0</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemAbout">About(&amp;A)...</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemChangePassword">Change Password...</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemExitSystem">Exit System</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemFeedBack">Feedback(&amp;F)...</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemFile">File(&amp;F)</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemFunction">Function</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemHelp">Help(&amp;H)</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemMsg">IM</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemOption">Option(&amp;O)...</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemReLogOn">ReLogin</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemSystemSet">System Set(&amp;S)</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemViewMyPermission">My Permission...</item>
+    <item key="FrmRDIFrameworkRibbon_lblItemCurrentSystem">Current System:</item>
+    <item key="FrmRDIFrameworkRibbon_tabStartPage">StartPage</item>
+    <!-- FrmRDIFrameworkRibbon End -->
+
+    <!-- FrmLogOn Begin -->
+    <item key="FrmLogOn">RDIFramework.NET LogOn</item>
+    <item key="FrmLogOn_gbMain">LogOn</item>
+    <item key="FrmLogOn_lblLoginUser">UserName:</item>
+    <item key="FrmLogOn_lblPassword">Password:</item>
+    <item key="FrmLogOn_linkLblForgetPwd">Forgot?</item>
+    <item key="FrmLogOn_chkRememberPassword">Remember Password</item>
+    <item key="FrmLogOn_btnConfirm">Confirm(&amp;L)</item>
+    <item key="FrmLogOn_btnCancel">Cancel</item>
+    <!-- FrmLogOn End -->
+
+    <!-- FrmMsg Begin -->
+    <item key="FrmMsg">IM</item>
+    <item key="FrmMsg_lblCurentUser">Current User</item>
+    <item key="FrmMsg_tpOrganize">Organize</item>
+    <item key="FrmMsg_tpRole">Role</item>
+    <item key="FrmGroupMsgRead">IM</item>
+    <item key="FrmGroupMsgRead_btnClose">Close&amp;C)</item>
+    <item key="FrmGroupMsgRead_btnSend">Send(&amp;S)</item>
+    <item key="FrmMsgRemind">Message Remind</item>
+    <item key="FrmMsgRemind_grbMessage">Remind</item>
+    <item key="FrmUserMsgRead">Message</item>
+    <item key="FrmUserMsgRead_btnClose">Close(&amp;C)</item>
+    <item key="FrmUserMsgRead_btnSend">Send(&amp;S)</item>
+    <!-- FrmMsg End -->
+
+    <!-- FrmOption Begin -->
+    <item key="FrmOption">Option</item>
+    <item key="FrmOption_tabItemClientConfig">ClientConfig</item>
+    <item key="FrmOption_tabItemServerConfig">ServerConfig</item>
+    <item key="FrmOption_tabItemSystemParConfig">SysParameterConfig</item>
+    <item key="FrmOption_tabItemReportConfig">ErrorReportConfig</item>
+    <item key="FrmOption_lblTipClientConfig">Client configuration is mainly related to the centralized configuration of client information.</item>
+    <item key="FrmOption_lblTipServerConfig">Here is mainly to configure the server, generally only open to super administrator.</item>
+    <item key="FrmOption_lblTipSystemParConfig">Here is mainly to configure the system parameters, including the platform dependent assemblies, client information configuration.</item>
+    <item key="FrmOption_lblTipReportConfig">Department is mainly to the system error message, sending feedback information to configure.</item>
+    <item key="FrmOption_EncryptClientPassword">EncryptClientPassword.</item>
+    <item key="FrmOption_AutoLogOn">AutoLogOn</item>
+    <item key="FrmOption_RememberPassword">Remember Password</item>
+    <item key="FrmOption_LoadAllUser">LoadAllUser</item>
+    <item key="FrmOption_EncryptDbConnection">EncryptDbConnection.</item>
+    <item key="FrmOption_lblServiceUserName">ServiceUserName:</item>
+    <item key="FrmOption_lblServicePassword">ServicePassword:</item>
+    <item key="FrmOption_lblRDIFrameworkDbType">RDIFramework.NET DBType:</item>
+    <item key="FrmOption_lblCurrentLanguage">CurrentLanguage:</item>
+    <item key="FrmOption_lblRDIFrameworkDbConection">RDIFramework.NET DbConection:</item>
+    <item key="FrmOption_AllowUserToRegister">AllowUserToRegister.</item>
+    <item key="FrmOption_EnableRecordLog">EnableRecordLog.</item>
+    <item key="FrmOption_EnableCheckIPAddress">EnableCheckIPAddress.</item>
+    <item key="FrmOption_EnableUserAuthorizationScope">EnableUserAuthorizationScope.</item>
+    <item key="FrmOption_EnableUserAuthorization">EnableUserAuthorization.</item>
+    <item key="FrmOption_EnableModulePermission">EnableModulePermission.</item>
+    <item key="FrmOption_EnablePermissionItem">EnablePermissionItem.</item>
+    <item key="FrmOption_EnableTableFieldPermission">EnableTableFieldPermission.</item>
+    <item key="FrmOption_EnableTableConstraintPermission">EnableTableConstraintPermission.</item>
+    <item key="FrmOption_EnableEncryptServerPassword">EnableEncryptServerPassword.</item>
+    <item key="FrmOption_EnableCheckPasswordStrength">EnableCheckPasswordStrength.</item>
+    <item key="FrmOption_NumericCharacters">Password NumericCharacters.</item>
+    <item key="FrmOption_CheckOnLine">CheckOnLine.</item>
+    <item key="FrmOption_EnableOrganizePermission">EnableOrganizePermission.</item>
+    <item key="FrmOption_lblOnLineLimit">OnLineLimit:</item>
+    <item key="FrmOption_lblOnLineTime0ut">OnLineTime0ut(In seconds):</item>
+    <item key="FrmOption_lblAccountMinimumLength">AccountMinimumLength:</item>
+    <item key="FrmOption_lblPasswordChangeCycle">PasswordChangeCycle(Month):</item>
+    <item key="FrmOption_lblPasswordErrorLockLimit">PasswordErrorLockLimit:</item>
+    <item key="FrmOption_lblPasswordErrorLockCycle">PasswordErrorLockCycle(Minute):</item>
+    <item key="FrmOption_lblDefaultPassword">DefaultPassword:</item>
+    <item key="FrmOption_lblPasswordMiniLength">PasswordMiniLength:</item>
+    <item key="FrmOption_lblMainForm">MainFormSytle:</item>
+    <item key="FrmOption_lblLogOnForm">LogOnForm:</item>
+    <item key="FrmOption_lblLogOnAssembly">LogOnAssembly:</item>
+    <item key="FrmOption_lblCustomerCompanyName">CustomerCompanyName:</item>
+    <item key="FrmOption_lblConfigurationFrom">ConfigurationFrom:</item>
+    <item key="FrmOption_lblSoftName">SoftName:</item>
+    <item key="FrmOption_lblVersion">Version:</item>
+    <item key="FrmOption_lblSoftFullName">SoftFullName:</item>
+    <item key="FrmOption_lblService">Service:</item>
+    <item key="FrmOption_lblRegisterKey">RegisterKey:</item>
+    <item key="FrmOption_lblErrorReportFrom">ErrorReportFrom:</item>
+    <item key="FrmOption_lblErrorReportMailUserName">ErrorReportMailUserName:</item>
+    <item key="FrmOption_lblErrorReportMailPassword">ErrorReportMailPassword:</item>
+    <item key="FrmOption_lblErrorReportMailServer">ErrorReportMailServer:</item>
+    <item key="FrmOption_btnSave">Save(&amp;S)</item>
+    <item key="FrmOption_btnCancel">Cancel</item>
+    <!-- FrmOption End -->
+    
+    <!-- FrmDataGridViewSetting Begin -->
+    <item key="FrmDataGridViewSetting">DataGridViewSetting</item>
+    <item key="FrmDataGridViewSetting_ColumnName">ColumnName</item>
+    <item key="FrmDataGridViewSetting_HeaderText">HeaderText</item>
+    <item key="FrmDataGridViewSetting_DisplayIndex">DisplayIndex</item>
+    <item key="FrmDataGridViewSetting_Width">Width</item>
+    <item key="FrmDataGridViewSetting_Visible">Visible</item>
+    <item key="FrmDataGridViewSetting_Frozen">Frozen</item>
+    <item key="FrmDataGridViewSetting_btnConfirm">Confirm</item>
+    <item key="FrmDataGridViewSetting_btnCancel">Cancel</item>
+    <!-- FrmDataGridViewSetting End -->
+    <!-- FrmDataGridViewSetting Begin -->
+    <item key="FrmException">System Exception Information</item>
+    <item key="FrmException_lblCustomer">Company:</item>
+    <item key="FrmException_lblSoftFullName">SoftName:</item>
+    <item key="FrmException_lblOperator">User:</item>
+    <item key="FrmException_lblOccurTime">Time:</item>
+    <item key="FrmException_lblExceptionInfo">ExceptionInfo:</item>
+    <item key="FrmException_btnPrint">Print(&amp;P)</item>
+    <item key="FrmException_btnReport">Feedback(&amp;R)</item>
+    <item key="FrmException_btnClose">Close</item>
+    <!-- FrmException End -->
+    <!-- FrmFeedback Begin -->
+    <item key="FrmFeedback">Feedback</item>
+    <item key="FrmFeedback_lblContractInfo">ContractInfo:</item>
+    <item key="FrmFeedback_lblContractHint">Please leave your contact way (mailbox, phone etc).</item>
+    <item key="FrmFeedback_lblFeedbackContent">Feedback</item>
+    <item key="FrmFeedback_lblFile">File</item>
+    <item key="FrmFeedback_btnAddAttach">AddFile:</item>
+    <item key="FrmFeedback_lblBlog">Blog</item>
+    <item key="FrmFeedback_btnSendEmail">SendEmail</item>
+    <item key="FrmFeedback_btnClose">Close</item>
+    <!-- FrmFeedback End -->
+    
+    <!-- RDIFramework.WinModule -->
+    <!-- RDIFramework.WinModule.FrmModuleAdmin Begin -->
+    <!-- FrmModuleAdmin Begin -->
+    <item key="FrmModuleAdmin">Module Admin</item>
+    <item key="FrmModuleAdmin_tabItemOrganize">Module</item>
+    <item key="FrmModuleAdmin_tabItemSearch">Search</item>
+    <item key="FrmModuleAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmModuleAdmin_lblSearchValue">SearchValue:</item>
+    <item key="FrmModuleAdmin_rbCustomerExactSearch">ExactSearch</item>
+    <item key="FrmModuleAdmin_rbCustomerLikeSearch">LikeSearch</item>
+    <item key="FrmModuleAdmin_btnSearch">Search</item>
+    <item key="FrmModuleAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmModuleAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmModuleAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmModuleAdmin_btnBatchSave">Save(&amp;S)</item>
+    <item key="FrmModuleAdmin_btnMoveTo">MoveTo(&amp;M)</item>
+    <item key="FrmModuleAdmin_btnExport">Export</item>
+    <item key="FrmModuleAdmin_btnModuleConfig">Module Config</item>
+    <item key="FrmModuleAdmin_btnModulePermissionItem">ModulePermissionItemSet</item>
+    <item key="FrmModuleAdmin_ddbModulePermissionSet">ModulePermissionSet</item>
+    <item key="FrmModuleAdmin_btnUserModulePermission">UserModulePermission</item>
+    <item key="FrmModuleAdmin_btnRoleModulePermission">RoleModulePermission</item>
+    <item key="FrmModuleAdmin_btnOrganizeModulePermission">OrganizeModulePermission</item>
+    <item key="FrmModuleAdmin_btnClose">Close</item>
+    <item key="FrmModuleAdmin_colSelected">Selected</item>
+    <item key="FrmModuleAdmin_colCode">Code</item>
+    <item key="FrmModuleAdmin_colFullName">FullName</item>
+    <item key="FrmModuleAdmin_colASSEMBLYNAME">AssemblyName</item>
+    <item key="FrmModuleAdmin_colFORMNAME">FormName</item>
+    <item key="FrmModuleAdmin_colNAVIGATEURL">NavigateURL</item>
+    <item key="FrmModuleAdmin_colIsPublic">Public</item>
+    <item key="FrmModuleAdmin_colEnabled">Enabled</item>
+    <item key="FrmModuleAdmin_colAllowEdit">AllowEdit</item>
+    <item key="FrmModuleAdmin_colAllowDelete">AllowDelete</item>
+    <item key="FrmModuleAdmin_colIsMenu">IsMenu</item>
+    <item key="FrmModuleAdmin_colDescription">Description</item>
+    <item key="FrmModuleAdmin_lblWinFormType">WinForm Type</item>
+    <item key="FrmModuleAdmin_lblWebFormType">WebForm Type</item>
+    <item key="FrmModuleAdmin_lblWinWebType">WinForm/WebForm Type</item>
+    <!-- FrmModuleAdmin End -->
+    <!-- FrmModuleConfig Begin -->
+    <item key="FrmModuleConfig">Module Config</item>
+    <item key="FrmModuleConfig_btnSave">Save(&amp;S)</item>
+    <item key="FrmModuleConfig_btnClose">Close</item>
+    <item key="FrmModuleConfig_lblTip">Reminder:</item>
+    <item key="FrmModuleConfig_lblTipDetail">Module configuration is used for visibility setting module.</item>
+    <!-- FrmModuleConfig End -->
+
+    <!-- FrmModuleEdit Begin -->
+    <item key="FrmModuleEdit">Module Edit</item>
+    <item key="FrmModuleEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmModuleEdit_btnSaveContinue">Continue</item>
+    <item key="FrmModuleEdit_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmModuleEdit_btnAccessPermission">AccessPermission</item>
+    <item key="FrmModuleEdit_btnClose">Close(&amp;Q)</item>
+    <item key="FrmModuleEdit_lblParentId">ParentModule:</item>
+    <item key="FrmModuleEdit_lblFullName">FullName:</item>
+    <item key="FrmModuleEdit_lblCode">Code:</item>
+    <item key="FrmModuleEdit_lblFormName">FormName:</item>
+    <item key="FrmModuleEdit_lblAssemblyName">AssemblyName:</item>
+    <item key="FrmModuleEdit_lblNavigateUrl">NavigateUrl:</item>
+    <item key="FrmModuleEdit_lblMvcNavigateUrl">MVCNavigateUrl:</item>
+    <item key="FrmModuleEdit_lblTarget">Target:</item>
+    <item key="FrmModuleEdit_lblIconUrl">IconUrl:</item>
+    <item key="FrmModuleEdit_lblIconCss">IconCss:</item>
+    <item key="FrmModuleEdit_lblModuleType">ModuleType:</item>
+    <item key="FrmModuleEdit_lblOptionSet">OptionSet:</item>
+    <item key="FrmModuleEdit_chkEnabled">Enabled</item>
+    <item key="FrmModuleEdit_chkIsPublic">IsPublic</item>
+    <item key="FrmModuleEdit_chkExpand">Expand</item>
+    <item key="FrmModuleEdit_chkAllowEdit">AllowEdit</item>
+    <item key="FrmModuleEdit_chkAllowDelete">AllowDelete</item>
+    <item key="FrmModuleEdit_chkIsMenu">IsMenu</item>
+    <item key="FrmModuleEdit_lblDescription">Description:</item>
+    <item key="FrmModuleEdit_lblModuleIcon">ModuleIcon:</item>
+    <item key="FrmModuleEdit_btnSelectModulePic">Select</item>
+    <item key="FrmModuleEdit_btnEmptyModulePic">Empty</item>
+    <item key="FrmModuleEdit_btnSelect">Select</item>
+    <item key="FrmModuleEdit_btnSetEmpty">Empty</item>
+    <!-- FrmModuleEdit End -->
+
+
+    <!-- FrmModuleSelect Begin -->
+    <item key="FrmModuleSelect">Module Select</item>
+    <item key="FrmModuleSelect_btnSetNull">Empty(&amp;R)</item>
+    <item key="FrmModuleSelect_btnSelect">Select(&amp;S)</item>
+    <item key="FrmModuleSelect_btnClose">Close</item>
+    <!-- FrmModuleSelect End -->
+
+    <!-- FrmPicture Begin -->
+    <item key="FrmPicture">Module Icon Select</item>
+    <item key="FrmPicture_lblCurrentIcon">Current</item>
+    <item key="FrmPicture_lblSize">Size 32x32</item>
+    <item key="FrmPicture_btnSelect">Select(&amp;S)</item>
+    <item key="FrmPicture_btnAdd">Add</item>
+    <item key="FrmPicture_btnDelete">Delete</item>
+    <item key="FrmPicture_btnCancel">Cancel</item>
+    <!-- FrmPicture End -->
+    <!-- FrmModulePermissionItemSet Begin -->
+    <item key="FrmModulePermissionItemSet">ModulePermissionItemSet</item>
+    <item key="FrmModulePermissionItemSet_tabItemModuleList">ModuleList</item>
+    <item key="FrmModulePermissionItemSet_tabItemPermissionItemList">PermissionItemList</item>
+    <item key="FrmModulePermissionItemSet_btnClose">Close</item>
+    <!-- FrmModulePermissionItemSet End -->
+    <!-- RDIFramework.WinModule.FrmModuleAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmOrganizeAdmin Begin -->
+    <item key="FrmOrganizeAdmin">Organize Admin</item>
+    <item key="FrmOrganizeAdmin_tabItemOrganize">Organize</item>
+    <item key="FrmOrganizeAdmin_tabItemSearch">Search</item>
+    <item key="FrmOrganizeAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmOrganizeAdmin_chkInnerOrganize">InnerOrganize</item>
+    <item key="FrmOrganizeAdmin_lblSearchValue">SearchValue:</item>
+    <item key="FrmOrganizeAdmin_rbCustomerExactSearch">ExactSearch</item>
+    <item key="FrmOrganizeAdmin_rbCustomerLikeSearch">LikeSearch</item>
+    <item key="FrmOrganizeAdmin_btnSearch">Search</item>
+    <item key="FrmOrganizeAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmOrganizeAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmOrganizeAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmOrganizeAdmin_btnBatchSave">Save(&amp;S)</item>
+    <item key="FrmOrganizeAdmin_btnMoveTo">MoveTo(&amp;M)</item>
+    <item key="FrmOrganizeAdmin_btnExport">Export</item>
+    <item key="FrmOrganizeAdmin_ddbOrganizePermissionSet">OrganizePermissionSet</item>
+    <item key="FrmOrganizeAdmin_btnUserOrganizePermission">(User-Organize)PermissionSet</item>
+    <item key="FrmOrganizeAdmin_btnRoleOrganizePermission">(Role-Organize)PermissionSet</item>
+    <item key="FrmOrganizeAdmin_btnPermission">OrganizePermission</item>
+    <item key="FrmOrganizeAdmin_btnClose">Close</item>
+    <item key="FrmOrganizeAdmin_lblCurrentPosition">   Current:</item>
+    <item key="FrmOrganizeAdmin_colSelected">Selected</item>
+    <item key="FrmOrganizeAdmin_colCode">Code</item>
+    <item key="FrmOrganizeAdmin_colFullName">FullName</item>
+    <item key="FrmOrganizeAdmin_colManager">Manager</item>
+    <item key="FrmOrganizeAdmin_OuterPhone">TelPhone</item>
+    <item key="FrmOrganizeAdmin_Fax">Fax</item>
+    <item key="FrmOrganizeAdmin_colEnabled">Enabled</item>
+    <item key="FrmOrganizeAdmin_colDescription">Description</item>
+
+    <!-- FrmEditOrganize Begin -->
+    <item key="FrmEditOrganize">Organize Update</item>
+    <item key="FrmEditOrganize_btnSave">Save(&amp;S)</item>
+    <item key="FrmEditOrganize_btnSaveContinue">Continue</item>
+    <item key="FrmEditOrganize_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmEditOrganize_btnAccessPermission">AccessPermission</item>
+    <item key="FrmEditOrganize_btnClose">Close(&amp;Q)</item>
+    <item key="FrmEditOrganize_lblParentId">ParentModule:</item>
+    <item key="FrmEditOrganize_lblFullName">FullName:</item>
+    <item key="FrmEditOrganize_lblShortName">ShortName:</item>
+    <item key="FrmEditOrganize_lblCode">Code:</item>
+    <item key="FrmEditOrganize_lblCategory">Category:</item>
+    <item key="FrmEditOrganize_lblManager">Manager:</item>
+    <item key="FrmEditOrganize_lblAssistantManager">AssistantManager:</item>
+    <item key="FrmEditOrganize_lblOuterPhone">OuterPhone:</item>
+    <item key="FrmEditOrganize_lblInnerPhone">InnerPhone:</item>
+    <item key="FrmEditOrganize_lblFax">Fax:</item>
+    <item key="FrmEditOrganize_lblPostalcode">PostalCode:</item>
+    <item key="FrmEditOrganize_lblWebSite">WebSite:</item>
+    <item key="FrmEditOrganize_lblAddress">Address:</item>
+    <item key="FrmEditOrganize_chkEnabled">Enabled</item>
+    <item key="FrmEditOrganize_chkIsInnerOrganize">InnerOrganize</item>
+    <item key="FrmEditOrganize_lblDescription">Description:</item>
+    <item key="FrmEditOrganize_btnExecutiveDirector">Select</item>
+    <item key="FrmEditOrganize_btnDeputySupervisor">Select</item>
+    <!-- FrmEditOrganize End -->
+    <!-- FrmOrganizeSelect Begin -->
+    <item key="FrmOrganizeSelect">SelectOrganize</item>
+    <item key="FrmOrganizeSelect_btnSetNull">SetNull(&amp;R)</item>
+    <item key="FrmOrganizeSelect_btnSelect">Select(&amp;S)</item>
+    <item key="FrmOrganizeSelect_btnClose">Close</item>
+    <item key="FrmOrganizeSelect_chkInnerOrganize">InnerOrganize</item>
+    <item key="FrmOrganizeSelect_lblCurrentOrganize">CurrentOrganize:</item>
+    <item key="FrmOrganizeSelect_tabItemOrganize">Organize</item>
+    <!-- FrmOrganizeSelect End -->
+    <!-- RDIFramework.WinModule.FrmOrganizeAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmStaffAdmin Begin -->
+    <item key="FrmStaffAdmin">Staff Admin</item>
+    <item key="FrmStaffAdmin_tabItemOrganize">Organize</item>
+    <item key="FrmStaffAdmin_tabItemSearch">Search</item>
+    <item key="FrmStaffAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmStaffAdmin_chkEnabled">Enabled</item>
+    <item key="FrmStaffAdmin_chkIsDimission">IsDimission</item>
+    <item key="FrmStaffAdmin_chkNotDepartment">NotDepartment</item>
+    <item key="FrmStaffAdmin_lblSearchValue">SearchValue:</item>
+    <item key="FrmStaffAdmin_rbCustomerExactSearch">ExactSearch</item>
+    <item key="FrmStaffAdmin_rbCustomerLikeSearch">LikeSearch</item>
+    <item key="FrmStaffAdmin_btnSearch">Search</item>
+    <item key="FrmStaffAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmStaffAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmStaffAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmStaffAdmin_btnMoveTo">MoveTo(&amp;M)</item>
+    <item key="FrmStaffAdmin_btnExport">Export</item>
+    <item key="FrmStaffAdmin_btnPrint">Print</item>
+    <item key="FrmStaffAdmin_btnClose">Close</item>
+    <item key="FrmStaffAdmin_lblCurrentPosition">     Current:</item>
+    <item key="FrmStaffAdmin_colSelected">Selected</item>
+    <item key="FrmStaffAdmin_colCode">Code</item>
+    <item key="FrmStaffAdmin_colRealName">RealName</item>
+    <item key="FrmStaffAdmin_colGender">Gender</item>
+    <item key="FrmStaffAdmin_colMobile">Mobile</item>
+    <item key="FrmStaffAdmin_colOfficePhone">OfficePhone</item>
+    <item key="FrmStaffAdmin_colEmail">Email</item>
+    <item key="FrmStaffAdmin_colEnabled">Enabled</item>
+    <item key="FrmStaffAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmStaffAdmin End -->
+    <!-- FrmStaffAdd Begin -->
+    <item key="FrmStaffAdd">Add Staff</item>
+    <item key="FrmStaffAdd_btnAdd">Add(&amp;A)</item>
+    <item key="FrmStaffAdd_btnSave">Save(&amp;S)</item>
+    <item key="FrmStaffAdd_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmStaffAdd_lblCurrentOrganize">     Current:</item>
+    <item key="FrmStaffAdd_lblUserName">UserName:</item>
+    <item key="FrmStaffAdd_lblCode">Code:</item>
+    <item key="FrmStaffAdd_lblGender">Gender:</item>
+    <item key="FrmStaffAdd_lblWorkingProperty">WorkingProperty:</item>
+    <item key="FrmStaffAdd_lblWorkingDate">WorkingDate:</item>
+    <item key="FrmStaffAdd_lblJoinInDate">JoinInDate:</item>
+    <item key="FrmStaffAdd_lblEmail">Email:</item>
+    <item key="FrmStaffAdd_lblIdentificationCode">IDCode:</item>
+    <item key="FrmStaffAdd_lblBankCode">BankCode:</item>
+    <item key="FrmStaffAdd_lblMobile">Mobile:</item>
+    <item key="FrmStaffAdd_lblShortNumber">ShortNumber:</item>
+    <item key="FrmStaffAdd_lblOfficePhone">OfficePhone:</item>
+    <item key="FrmStaffAdd_lblOfficeFax">OfficeFax:</item>
+    <item key="FrmStaffAdd_lblOfficeZipCode">OfficeZipCode:</item>
+    <item key="FrmStaffAdd_lblQICQ">QQ:</item>
+    <item key="FrmStaffAdd_lblOfficeAddress">OfficeAddress:</item>
+    <item key="FrmStaffAdd_lblDescription">Description:</item>
+    <item key="FrmStaffAdd_lblBirthday">Birthday:</item>
+    <item key="FrmStaffAdd_lblAge">Age:</item>
+    <item key="FrmStaffAdd_lblEducation">Education:</item>
+    <item key="FrmStaffAdd_lblDegree">Degree:</item>
+    <item key="FrmStaffAdd_lblMajor">Major:</item>
+    <item key="FrmStaffAdd_lblSchool">School:</item>
+    <item key="FrmStaffAdd_lblTitle">Title:</item>
+    <item key="FrmStaffAdd_lblTitleLevel">TitleLevel:</item>
+    <item key="FrmStaffAdd_lblTitleDate">TitleDate:</item>
+    <item key="FrmStaffAdd_lblNativePlace">NativePlace:</item>
+    <item key="FrmStaffAdd_lblHomeZipCode">HomeZipCode:</item>
+    <item key="FrmStaffAdd_lblHomeFax">HomeFax:</item>
+    <item key="FrmStaffAdd_lblParty">Party:</item>
+    <item key="FrmStaffAdd_lblNation">Nation:</item>
+    <item key="FrmStaffAdd_lblNationality">Nationality:</item>
+    <item key="FrmStaffAdd_lblHomeAddress">HomeAddress:</item>
+    <item key="FrmStaffAdd_lblHomePhone">HomePhone:</item>
+    <item key="FrmStaffAdd_lblTelphone">Telphone:</item>
+    <item key="FrmStaffAdd_chkEnabled">Enabled</item>
+    <item key="FrmStaffAdd_lblDimissionDate">DimissionDate:</item>
+    <item key="FrmStaffAdd_lblDimissionWhither">DimissionWhither:</item>
+    <item key="FrmStaffAdd_chkIsDimission">IsDimission</item>
+    <item key="FrmStaffAdd_lblDimissionCause">DimissionCause:</item>
+    <!-- FrmStaffAdd End -->
+    <!-- FrmStaffEdit Begin -->
+    <item key="FrmStaffEdit">Edit Staff</item>
+    <item key="FrmStaffEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmStaffEdit_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmStaffEdit_lblCurrentOrganize">Current:</item>
+    <item key="FrmStaffEdit_lblRealName">RealName:</item>
+    <item key="FrmStaffEdit_lblCode">Code:</item>
+    <item key="FrmStaffEdit_lblGender">Gender:</item>
+    <item key="FrmStaffEdit_lblWorkingProperty">WorkingProperty:</item>
+    <item key="FrmStaffEdit_lblWorkingDate">WorkingDate:</item>
+    <item key="FrmStaffEdit_lblJoinInDate">JoinInDate:</item>
+    <item key="FrmStaffEdit_lblEmail">Email:</item>
+    <item key="FrmStaffEdit_lblIdentificationCode">IdentificationCode:</item>
+    <item key="FrmStaffEdit_lblBankCode">lblBankCode:</item>
+    <item key="FrmStaffEdit_lblMobile">Mobile:</item>
+    <item key="FrmStaffEdit_lblShortNumber">ShortNumber:</item>
+    <item key="FrmStaffEdit_lblOfficePhone">OfficePhone:</item>
+    <item key="FrmStaffEdit_lblOfficeFax">OfficeFax:</item>
+    <item key="FrmStaffEdit_lblOfficeZipCode">OfficeZipCode:</item>
+    <item key="FrmStaffEdit_lblQICQ">QQ:</item>
+    <item key="FrmStaffEdit_lblOfficeAddress">OfficeAddress:</item>
+    <item key="FrmStaffEdit_lblDescription">Description:</item>
+    <item key="FrmStaffEdit_lblBirthday">Birthday:</item>
+    <item key="FrmStaffEdit_lblAge">Age:</item>
+    <item key="FrmStaffEdit_lblEducation">Education:</item>
+    <item key="FrmStaffEdit_lblDegree">Degree:</item>
+    <item key="FrmStaffEdit_lblMajor">Major:</item>
+    <item key="FrmStaffEdit_lblSchool">School:</item>
+    <item key="FrmStaffEdit_lblTitle">Title:</item>
+    <item key="FrmStaffEdit_lblTitleLevel">TitleLevel:</item>
+    <item key="FrmStaffEdit_lblTitleDate">TitleDate:</item>
+    <item key="FrmStaffEdit_lblNativePlace">NativePlace:</item>
+    <item key="FrmStaffEdit_lblHomeZipCode">HomeZipCode:</item>
+    <item key="FrmStaffEdit_lblHomeFax">HomeFax:</item>
+    <item key="FrmStaffEdit_lblParty">Party:</item>
+    <item key="FrmStaffEdit_lblNation">Nation:</item>
+    <item key="FrmStaffEdit_lblNationality">Nationality:</item>
+    <item key="FrmStaffEdit_lblHomeAddress">HomeAddress:</item>
+    <item key="FrmStaffEdit_lblHomePhone">HomePhone:</item>
+    <item key="FrmStaffEdit_lblTelphone">Telphone:</item>
+    <item key="FrmStaffEdit_chkEnabled">Enabled</item>
+    <item key="FrmStaffEdit_lblDimissionDate">DimissionDate:</item>
+    <item key="FrmStaffEdit_lblDimissionWhither">DimissionWhither:</item>
+    <item key="FrmStaffEdit_chkIsDimission">IsDimission</item>
+    <item key="FrmStaffEdit_lblDimissionCause">DimissionCause:</item>
+    <!-- FrmStaffEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmUserAdmin Begin -->
+    <item key="FrmUserAdmin">User Admin</item>
+    <item key="FrmUserAdmin_tabItemOrganize">Organize</item>
+    <item key="FrmUserAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmUserAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmUserAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmUserAdmin_btnBatchSave">BatchSave(&amp;S)</item>
+    <item key="FrmUserAdmin_btnSetPassword">SetPassword</item>
+    <item key="FrmUserAdmin_btnUserOrganize">UserOrganize</item>
+    <item key="FrmUserAdmin_btnDimission">Dimission</item>
+    <item key="FrmUserAdmin_btnExport">Export</item>
+    <item key="FrmUserAdmin_lblSearch">Search Value:</item>
+    <item key="FrmUserAdmin_btnFind">Find</item>
+    <item key="FrmUserAdmin_cboEnabledSearch">Enabled Search</item>
+    <item key="FrmUserAdmin_btnViewEnabledUser">View EnabledUser</item>
+    <item key="FrmUserAdmin_btnViewAllUser">View AllUser</item>
+    <item key="FrmUserAdmin_btnClose">Close</item>
+    <item key="FrmUserAdmin_lblCurrentPosition">   Current:</item>
+    <item key="FrmUserAdmin_colSelected">Selected</item>
+    <item key="FrmUserAdmin_colCode">Code</item>
+    <item key="FrmUserAdmin_colUserName">UserName</item>
+    <item key="FrmUserAdmin_colRealName">RealName</item>
+    <item key="FrmUserAdmin_colDepartmentName">DepartmentName</item>
+    <item key="FrmUserAdmin_colRoleName">RoleName</item>
+    <item key="FrmUserAdmin_colEnabled">Enabled</item>
+    <item key="FrmUserAdmin_colIsDimission">IsDimission</item>
+    <item key="FrmUserAdmin_colEmail">Email</item>
+    <item key="FrmUserAdmin_colMobile">Mobile</item>
+    <item key="FrmUserAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmUserAdmin End -->
+    <!-- FrmUserAdd Begin -->
+    <item key="FrmUserAdd">Add User</item>
+    <item key="FrmUserAdd_btnSave">Save(&amp;S)</item>
+    <item key="FrmUserAdd_btnSaveContinue">SaveContinue</item>
+    <item key="FrmUserAdd_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmUserAdd_btnClose">Close(&amp;Q)</item>
+    <item key="FrmUserAdd_gbDetail">User Detail</item>
+    <item key="FrmUserAdd_lblUserName">UserName:</item>
+    <item key="FrmUserAdd_lblRealName">RealName:</item>
+    <item key="FrmUserAdd_lblCode">Code:</item>
+    <item key="FrmUserAdd_lblGender">Gender:</item>
+    <item key="FrmUserAdd_lblUserPassword">Password:</item>
+    <item key="FrmUserAdd_lblBirthday">Birthday:</item>
+    <item key="FrmUserAdd_lblDuty">Duty:</item>
+    <item key="FrmUserAdd_lblTitle">Title:</item>
+    <item key="FrmUserAdd_lblMobile">Mobile:</item>
+    <item key="FrmUserAdd_lblTelphone">Telphone:</item>
+    <item key="FrmUserAdd_lblQQ">QQ:</item>
+    <item key="FrmUserAdd_lblEmail">Email:</item>
+    <item key="FrmUserAdd_lblHomeAddress">HomeAddress:</item>
+    <item key="FrmUserAdd_lblRoleName">RoleName:</item>
+    <item key="FrmUserAdd_lblCompanyName">Company:</item>
+    <item key="FrmUserAdd_lblSubCompanyName">SubCompany:</item>
+    <item key="FrmUserAdd_lblDepartmentName">Department:</item>
+    <item key="FrmUserAdd_lblSubDepartmentName">SubDepartment:</item>
+    <item key="FrmUserAdd_lblWorkgroupName">Workgroup:</item>
+    <item key="FrmUserAdd_chkEnabled">Enabled</item>
+    <item key="FrmUserAdd_lblDescription">Description:</item>
+    <!-- FrmUserAdd End -->
+    <!-- FrmUserEdit Begin -->
+    <item key="FrmUserEdit">Update User</item>
+    <item key="FrmUserEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmUserEdit_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmUserEdit_btnClose">Close(&amp;C)</item>
+    <item key="FrmUserEdit_gbDetail">User Detail</item>
+    <item key="FrmUserEdit_lblUserName">UserName:</item>
+    <item key="FrmUserEdit_lblRealName">RealName:</item>
+    <item key="FrmUserEdit_lblCode">Code:</item>
+    <item key="FrmUserEdit_lblGender">Gender:</item>
+    <item key="FrmUserEdit_lblMobile">Mobile:</item>
+    <item key="FrmUserEdit_lblBirthday">Birthday:</item>
+    <item key="FrmUserEdit_lblTelphone">Telphone:</item>
+    <item key="FrmUserEdit_lblDuty">Duty:</item>
+    <item key="FrmUserEdit_lblTitle">Title:</item>
+    <item key="FrmUserEdit_lblQQ">QQ:</item>
+    <item key="FrmUserEdit_lblEmail">Email:</item>
+    <item key="FrmUserEdit_lblHomeAddress">HomeAddress:</item>
+    <item key="FrmUserEdit_lblRoleName">RoleName:</item>
+    <item key="FrmUserEdit_lblCompanyName">Company:</item>
+    <item key="FrmUserEdit_lblSubCompanyName">SubCompany:</item>
+    <item key="FrmUserEdit_lblDepartmentName">Department:</item>
+    <item key="FrmUserEdit_lblSubDepartmentName">SubDepartment:</item>
+    <item key="FrmUserEdit_lblWorkgroupName">WorkgroupName:</item>
+    <item key="FrmUserEdit_chkEnabled">Enabled</item>
+    <item key="FrmUserEdit_lblDescription">Description:</item>
+    <!-- FrmUserEdit End -->
+    <!-- FrmChangePassword Begin -->
+    <item key="FrmChangePassword">Change Password</item>
+    <item key="FrmChangePassword_btnConfirm">Confirm</item>
+    <item key="FrmChangePassword_btnCancel">Cancel</item>
+    <item key="FrmChangePassword_lblOriginalPassword">OldPassword:</item>
+    <item key="FrmChangePassword_lblNewPassword">NewPassword:</item>
+    <item key="FrmChangePassword_lblConfirmPassword">ConfirmPassword:</item>
+    <!-- FrmChangePassword End -->
+    
+    <!-- FrmUserDimission Begin -->
+    <item key="FrmUserDimission_lblUserName">UserName:</item>
+    <item key="FrmUserDimission_lblRealName">RealName:</item>
+    <item key="FrmUserDimission_lblDuty">Duty:</item>
+    <item key="FrmUserDimission_lblTitle">Title:</item>
+    <item key="FrmUserDimission_lblRoleName">RoleName:</item>
+    <item key="FrmUserDimission_lblCompanyName">CompanyName:</item>
+    <item key="FrmUserDimission_lblDepartmentName">DepartmentName:</item>
+    <item key="FrmUserDimission_lblDimissionDate">DimissionDate:</item>
+    <item key="FrmUserDimission_chkIsDimission">IsDimission</item>
+    <item key="FrmUserDimission_lblDimissionCause">DimissionCause:</item>
+    <item key="FrmUserDimission_lblDimissionWhither">DimissionWhither:</item>
+    <!-- FrmUserDimission End -->
+    
+    <!-- FrmUserPassword Begin -->
+    <item key="FrmUserPassword">SetUserPassword</item>
+    <item key="FrmUserPassword_gbDetail">SetPassword</item>
+    <item key="FrmUserPassword_btnDeletePassword">DelPassword</item>
+    <item key="FrmUserPassword_btnSetDefaultPwd">SetDefaultPwd</item>
+    <item key="FrmUserPassword_btnConfirm">Confirm</item>
+    <item key="FrmUserPassword_btnCancel">Cancel</item>
+    <item key="FrmUserPassword_lblNewPassword">NewPassword:</item>
+    <item key="FrmUserPassword_lblConfirmPassword">ConfirmPassword:</item>
+    <!-- FrmUserPassword End -->
+    <!-- FrmAddUserToOrganize Begin -->
+    <item key="FrmAddUserToOrganize">AddUserToOrganize</item>
+    <item key="FrmAddUserToOrganize_btnSubmit">Confirm</item>
+    <item key="FrmAddUserToOrganize_btnCancel">Cancel</item>
+    <item key="FrmAddUserToOrganize_gbUserInfo">UserInfo</item>
+    <item key="FrmAddUserToOrganize_gbOrganizeInfo">OrganizeInfo</item>
+    <item key="FrmAddUserToOrganize_gbOtherInfo">OtherInfo</item>
+    <item key="FrmAddUserToOrganize_lblUserName">UserName:</item>
+    <item key="FrmAddUserToOrganize_lblRealName">RealName:</item>
+    <item key="FrmAddUserToOrganize_lblCompany">Company:</item>
+    <item key="FrmAddUserToOrganize_lblSubCompany">SubCompany:</item>
+    <item key="FrmAddUserToOrganize_lblDepartment">Department:</item>
+    <item key="FrmAddUserToOrganize_lblSubDepartment">SubDepartment:</item>
+    <item key="FrmAddUserToOrganize_lblWorkGroup">Workgroup:</item>
+    <item key="FrmAddUserToOrganize_chkEnabled">Enabled</item>
+    <item key="FrmAddUserToOrganize_lblEnabled">Attribute:</item>
+    <item key="FrmAddUserToOrganize_lblDescription">Description:</item>
+    <!-- FrmAddUserToOrganize End -->
+    <!-- RDIFramework.WinModule.FrmUserOrganize Begin -->
+    <item key="FrmUserOrganize">UserOrganize</item>
+    <item key="FrmUserOrganize_tabItemUserOrganize">UserOrganize</item>
+    <item key="FrmUserOrganize_btnSelectAll">SelectAll</item>
+    <item key="FrmUserOrganize_btnInvertSelect">InvertSelect</item>
+    <item key="FrmUserOrganize_btnAddToOrganize">AddToOrganize(&amp;D)...</item>
+    <item key="FrmUserOrganize_btnRemove">Remove(&amp;R)</item>
+    <item key="FrmUserOrganize_btnClose">Close(&amp;C)</item>
+    <item key="FrmUserOrganize_lblResource">Resource:</item>
+    <item key="FrmUserOrganize_colSelected">Selected</item>
+    <item key="FrmUserOrganize_colCompanyName">Company</item>
+    <item key="FrmUserOrganize_colSubCompanyName">SubCompany</item>
+    <item key="FrmUserOrganize_colDepartmentName">Department</item>
+    <item key="FrmUserOrganize_colSubDepartment">SubDepartment</item>
+    <item key="FrmUserOrganize_colWorkGroupName">WorkGroup</item>
+    <!-- RDIFramework.WinModule.FrmUserOrganize End -->
+    <!-- RDIFramework.WinModule.FrmUserSelect Begin -->
+    <item key="FrmUserSelect">UserSelect</item>
+    <item key="FrmUserSelect_lblSearch">Search:</item>
+    <item key="FrmUserSelect_btnSearch">Search(&amp;F)</item>
+    <item key="FrmUserSelect_lblRole">Role:</item>
+    <item key="FrmUserSelect_btnSetNull">SetNull(&amp;N)</item>
+    <item key="FrmUserSelect_btnSelect">Select</item>
+    <item key="FrmUserSelect_btnCancel">Cancel</item>
+    <item key="FrmUserSelect_btnSelectAll">SelectAll</item>
+    <item key="FrmUserSelect_btnInvertSelect">InvertSelect</item>
+    <item key="FrmUserSelect_colSelected">Selected</item>
+    <item key="FrmUserSelect_colCode">Code</item>
+    <item key="FrmUserSelect_colUserName">UserName</item>
+    <item key="FrmUserSelect_colRealName">RealName</item>
+    <item key="FrmUserSelect_colDepartmentName">DepartmentName</item>
+    <item key="FrmUserSelect_colGender">Gender</item>
+    <item key="FrmUserSelect_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmUserSelect End -->
+    
+    
+    <!-- RDIFramework.WinModule.FrmRoleAdmin Begin -->
+    <item key="FrmRoleAdmin">Role Admin</item>
+    <item key="FrmRoleAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmRoleAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmRoleAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmRoleAdmin_btnBatchSave">Save(&amp;S)</item>
+    <item key="FrmRoleAdmin_btnUsers">Users</item>
+    <item key="FrmRoleAdmin_lblSearch">Search Value:</item>
+    <item key="FrmRoleAdmin_lblRoleCategory">Role Category:</item>
+    <item key="FrmRoleAdmin_btnClose">Close</item>
+    <item key="FrmRoleAdmin_colSelected">Selected</item>
+    <item key="FrmRoleAdmin_colCode">Code</item>
+    <item key="FrmRoleAdmin_colRealName">RealName</item>
+    <item key="FrmRoleAdmin_colEnabled">Enabled</item>
+    <item key="FrmRoleAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmRoleAdmin End -->
+    <!-- FrmEditRole Begin -->
+    <item key="FrmEditRole">Edit Role</item>
+    <item key="FrmEditRole_btnSave">Save(&amp;S)</item>
+    <item key="FrmEditRole_btnAdd">Add(&amp;A)</item>
+    <item key="FrmEditRole_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmEditRole_lblRealName">RoleName:</item>
+    <item key="FrmEditRole_lblCode">RoleCode:</item>
+    <item key="FrmEditRole_lblRoleCategory">RoleCategory:</item>
+    <item key="FrmEditRole_chkEnabled">Enabled</item>
+    <item key="FrmEditRole_lblDescription">Description:</item>
+    <!-- FrmEditRole End -->
+    <!-- FrmRoleSelect Begin -->
+    <item key="FrmRoleSelect">Role Select</item>
+    <item key="FrmRoleSelect_lblRoleCategory">Role Category:</item>
+    <item key="FrmRoleSelect_btnSetNull">SetNull(&amp;R)</item>
+    <item key="FrmRoleSelect_btnSelect">Select(&amp;S)</item>
+    <item key="FrmRoleSelect_btnClose">Close</item>
+    <item key="FrmRoleSelect_colSelected">Selected</item>
+    <item key="FrmRoleSelect_colRealName">RealName</item>
+    <item key="FrmRoleSelect_colDescription">Description</item>
+    <!-- FrmRoleSelect End -->
+    <!-- FrmRoleUserAdmin Begin -->
+    <item key="FrmRoleUserAdmin">RoleUser Admin</item>
+    <item key="FrmRoleUserAdmin_lblCurrentRole">Current Role:</item>
+    <item key="FrmRoleUserAdmin_btnAddUser">AddUser(&amp;A)</item>
+    <item key="FrmRoleUserAdmin_btnRemoveUser">RemoveUser(&amp;S)</item>
+    <item key="FrmRoleUserAdmin_btnClose">Close(&amp;C)</item>
+    <item key="FrmRoleUserAdmin_colSelected">Selected</item>
+    <item key="FrmRoleUserAdmin_colUserName">UserName</item>
+    <item key="FrmRoleUserAdmin_colRealName">RealName</item>
+    <item key="FrmRoleUserAdmin_colDepartmentName">Department</item>
+    <item key="FrmRoleUserAdmin_colDescription">Description</item>
+    <item key="FrmRoleUserAdmin_cmnuSelectAll">SelectAll</item>
+    <item key="FrmRoleUserAdmin_cmnuInvertSelect">InvertSelect</item>
+    <!-- FrmRoleUserAdmin End -->
+    
+    
+    <!-- RDIFramework.WinModule.FrmPostAdmin Begin -->
+    <item key="FrmPostAdmin">Post Admin</item>
+    <item key="FrmPostAdmin_tabItemOrganize">Organize</item>
+    <item key="FrmPostAdmin_tabItemSearch">Search</item>
+    <item key="FrmPostAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmPostAdmin_lblSearchValue">SearchValue:</item>
+    <item key="FrmPostAdmin_rbCustomerExactSearch">ExactSearch</item>
+    <item key="FrmPostAdmin_rbCustomerLikeSearch">LikeSearch</item>
+    <item key="FrmPostAdmin_btnSearch">Search</item>
+    <item key="FrmPostAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmPostAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmPostAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmPostAdmin_mnuAdd">Add Post(&amp;A)</item>
+    <item key="FrmPostAdmin_mnuEdit">Update Organize(&amp;E)</item>
+    <item key="FrmPostAdmin_mnuDelete">Delete Organize(&amp;D)</item>
+    <item key="FrmPostAdmin_btnMoveTo">MoveTo</item>
+    <item key="FrmPostAdmin_btnRoleUsers">Users</item>
+    <item key="FrmPostAdmin_btnRolePermission">Permission</item>
+    <item key="FrmPostAdmin_btnClose">Close</item>
+    <item key="FrmPostAdmin_lblCurrentPosition">   Current:</item>
+    <item key="FrmPostAdmin_colSelected">Selected</item>
+    <item key="FrmPostAdmin_colCode">Code</item>
+    <item key="FrmPostAdmin_colRealName">RealName</item>
+    <item key="FrmPostAdmin_colUsers">Users</item>
+    <item key="FrmPostAdmin_colEnabled">Enabled</item>
+    <item key="FrmPostAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmPostAdmin End -->
+    <!-- FrmPostRoleAdd Begin -->
+    <item key="FrmPostRoleAdd">Add Post</item>
+    <item key="FrmPostRoleAdd_btnSave">Save(&amp;S)</item>
+    <item key="FrmPostRoleAdd_btnClose">Close(&amp;C)</item>
+    <item key="FrmPostRoleAdd_gbDetail">PostInfo</item>
+    <item key="FrmPostRoleAdd_lblOrganize">Organize:</item>
+    <item key="FrmPostRoleAdd_lblCode">Code:</item>
+    <item key="FrmPostRoleAdd_lblRealName">RealName:</item>
+    <item key="FrmPostRoleAdd_lblUsers">Users:</item>
+    <item key="FrmPostRoleAdd_chkEnabled">Enabled</item>
+    <item key="FrmPostRoleAdd_lblDescription">Description:</item>
+    <!-- FrmPostRoleAdd End -->
+    <!-- FrmPostRoleEdit Begin -->
+    <item key="FrmPostRoleEdit">Edit Post</item>
+    <item key="FrmPostRoleEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmPostRoleEdit_btnClose">Close(&amp;C)</item>
+    <item key="FrmPostRoleEdit_gbDetail">PostInfo</item>
+    <item key="FrmPostRoleEdit_lblOrganize">Organize:</item>
+    <item key="FrmPostRoleEdit_lblCode">Code:</item>
+    <item key="FrmPostRoleEdit_lblRealName">RealName:</item>
+    <item key="FrmPostRoleEdit_lblUsers">Users:</item>
+    <item key="FrmPostRoleEdit_chkEnabled">Enabled</item>
+    <item key="FrmPostRoleEdit_lblDescription">Description:</item>
+    <!-- FrmPostRoleEdit End -->
+
+    <!-- FrmPermissionItemAdmin Begin -->
+    <item key="FrmPermissionItemAdmin">PermissionItem Admin</item>
+    <item key="FrmPermissionItemAdmin_tabItemPermissionItem">PermissionItem</item>
+    <item key="FrmPermissionItemAdmin_tabItemSearch">Search</item>
+    <item key="FrmPermissionItemAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmPermissionItemAdmin_lblSearchValue">SearchValue:</item>
+    <item key="FrmPermissionItemAdmin_rbCustomerExactSearch">ExactSearch</item>
+    <item key="FrmPermissionItemAdmin_rbCustomerLikeSearch">LikeSearch</item>
+    <item key="FrmPermissionItemAdmin_btnSearch">Search</item>
+    <item key="FrmPermissionItemAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmPermissionItemAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmPermissionItemAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmPermissionItemAdmin_btnBatchSave">BatchSave(&amp;S)</item>
+    <item key="FrmPermissionItemAdmin_btnMove">MoveTo(&amp;M)</item>
+    <item key="FrmPermissionItemAdmin_btnExport">Export</item>
+    <item key="FrmPermissionItemAdmin_ddbPermissionItemPermissionSet">PermissionSet</item>
+    <item key="FrmPermissionItemAdmin_btnUserPermissionItem">UserPermission</item>
+    <item key="FrmPermissionItemAdmin_btnRolePermissionItem">RolePermission</item>
+    <item key="FrmPermissionItemAdmin_btnClose">Close</item>
+    <item key="FrmPermissionItemAdmin_lblCurrentPosition">   Current:</item>
+    <item key="FrmPermissionItemAdmin_colSelected">Selected</item>
+    <item key="FrmPermissionItemAdmin_colCode">Code</item>
+    <item key="FrmPermissionItemAdmin_colFullName">FullName</item>
+    <item key="FrmPermissionItemAdmin_colIsScope">IsScope</item>
+    <item key="FrmPermissionItemAdmin_colIsPublic">IsPublic</item>
+    <item key="FrmPermissionItemAdmin_colEnabled">Enabled</item>
+    <item key="FrmPermissionItemAdmin_colDescription">Description</item>
+    <!-- FrmPermissionItemAdmin End -->
+    <!-- FrmPermissionItemAdd Begin -->
+    <item key="FrmPermissionItemAdd">Add PermissionItem</item>
+    <item key="FrmPermissionItemAdd_btnSave">Save(&amp;S)</item>
+    <item key="FrmPermissionItemAdd_btnSaveContinue">SaveContinue</item>
+    <item key="FrmPermissionItemAdd_btnClose">Close</item>
+    <item key="FrmPermissionItemAdd_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmPermissionItemAdd_btnSelect">Select</item>
+    <item key="FrmPermissionItemAdd_btnSetEmpty">SetNull</item>
+    <item key="FrmPermissionItemAdd_lblParent">Parent:</item>
+    <item key="FrmPermissionItemAdd_lblFullName">FullName:</item>
+    <item key="FrmPermissionItemAdd_lblCode">Code:</item>
+    <item key="FrmPermissionItemAdd_chkEnabled">Enabled</item>
+    <item key="FrmPermissionItemAdd_chkIsPublic">IsPublic</item>
+    <item key="FrmPermissionItemAdd_chkIsScope">IsScope</item>
+    <item key="FrmPermissionItemAdd_lblDescription">Description:</item>
+    <!-- FrmPermissionItemAdd End -->
+    <!-- FrmPermissionItemEdit Begin -->
+    <item key="FrmPermissionItemEdit">Update PermissionItem</item>
+    <item key="FrmPermissionItemEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmPermissionItemEdit_btnClose">Close</item>
+    <item key="FrmPermissionItemEdit_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmPermissionItemEdit_btnSelect">Select</item>
+    <item key="FrmPermissionItemEdit_btnSetEmpty">SetNull</item>
+    <item key="FrmPermissionItemEdit_lblParent">Parent:</item>
+    <item key="FrmPermissionItemEdit_lblFullName">FullName:</item>
+    <item key="FrmPermissionItemEdit_lblCode">Code:</item>
+    <item key="FrmPermissionItemEdit_chkEnabled">Enabled</item>
+    <item key="FrmPermissionItemEdit_chkIsPublic">IsPublic</item>
+    <item key="FrmPermissionItemEdit_chkIsScope">IsScope</item>
+    <item key="FrmPermissionItemEdit_lblDescription">Description:</item>
+    <!-- FrmPermissionItemEdit End -->
+    <!-- FrmPermissionSelect Begin -->
+    <item key="FrmPermissionSelect">Select PermissionItem</item>
+    <item key="FrmPermissionSelect_btnSetNull">SetNull(&amp;R)</item>
+    <item key="FrmPermissionSelect_btnClose">Close</item>
+    <item key="FrmPermissionSelect_btnSelect">Select(&amp;S)</item>
+    <item key="FrmPermissionSelect_gbMain">SelectPermissionItem</item>
+    <!-- FrmPermissionSelect End -->
+
+    <!-- RDIFramework.WinModule.FrmUserPermissionAdmin Begin -->
+    <item key="FrmUserPermissionAdmin">UserPermissionAdmin</item>
+    <item key="FrmUserPermissionAdmin_lblSerach">Search:</item>
+    <item key="FrmUserPermissionAdmin_lblCurrentPosition">   Current:</item>
+    <item key="FrmUserPermissionAdmin_tabItemOrganize">Organize List</item>
+    <item key="FrmUserPermissionAdmin_btnPermission">UserPermission(&amp;P)</item>
+    <item key="FrmUserPermissionAdmin_btnUserRole">UserRole</item>
+    <item key="FrmUserPermissionAdmin_btnRoleUserBatchSet">RoleUserBatchSet</item>
+    <item key="FrmUserPermissionAdmin_btnBatchPermission">BatchPermissionSet</item>
+    <item key="FrmUserPermissionAdmin_btnDropDownPermission">PermissionSet</item>
+    <item key="FrmUserPermissionAdmin_btnUserPermissionScope">UserPermissionScope</item>
+    <item key="FrmUserPermissionAdmin_btnTableFieldPermission">TableFieldPermission</item>
+    <item key="FrmUserPermissionAdmin_btnUserTableConstraintSet">UserTableConstraintSet</item>
+    <item key="FrmUserPermissionAdmin_btnClose">Close</item>
+    <item key="FrmUserPermissionAdmin_colSelected">Selected</item>
+    <item key="FrmUserPermissionAdmin_colCode">Code</item>
+    <item key="FrmUserPermissionAdmin_colUserName">UserName</item>
+    <item key="FrmUserPermissionAdmin_colRealName">RealName</item>
+    <item key="FrmUserPermissionAdmin_colDepartmentName">Department</item>
+    <item key="FrmUserPermissionAdmin_colRoleName">DefaultRole</item>
+    <item key="FrmUserPermissionAdmin_colEnabled">Enabled</item>
+    <item key="FrmUserPermissionAdmin_colEmail">Email</item>
+    <item key="FrmUserPermissionAdmin_colMobile">Mobile</item>
+    <item key="FrmUserPermissionAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmUserPermissionAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmRolePermissionAdmin Begin -->
+    <item key="FrmRolePermissionAdmin">RolePermissionAdmin</item>
+    <item key="FrmRolePermissionAdmin_tabItemSearch">Search</item>
+    <item key="FrmRolePermissionAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmRolePermissionAdmin_lblRoleCategory">RoleCategory:</item>
+    <item key="FrmRolePermissionAdmin_lblSearchValue">SearchValue</item>
+    <item key="FrmRolePermissionAdmin_btnRolePermission">RolePermission(&amp;P)</item>
+    <item key="FrmRolePermissionAdmin_btnRoleUser">RoleUser</item>
+    <item key="FrmRolePermissionAdmin_btnRoleUserBatchSet">RoleUserBatchSet</item>
+    <item key="FrmRolePermissionAdmin_btnBatchPermission">BatchPermissionSet</item>
+    <item key="FrmRolePermissionAdmin_btnDropDownPermission">PermissionSet</item>
+    <item key="FrmRolePermissionAdmin_btnRolePermissionScope">RolePermissionScope</item>
+    <item key="FrmRolePermissionAdmin_btnTableFieldPermission">TableFieldPermission</item>
+    <item key="FrmRolePermissionAdmin_btnRoleTableConstraintSet">RoleTableConstraintSet</item>
+    <item key="FrmRolePermissionAdmin_btnClose">Close</item>
+    <item key="FrmRolePermissionAdmin_colSelected">Selected</item>
+    <item key="FrmRolePermissionAdmin_colCode">Code</item>
+    <item key="FrmRolePermissionAdmin_colRealName">RealName</item>
+    <item key="FrmRolePermissionAdmin_colEnabled">Enabled</item>
+    <item key="FrmRolePermissionAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmRolePermissionAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmOrganizePermission Begin -->
+    <item key="FrmOrganizePermission">OrganizePermission</item>
+    <item key="FrmOrganizePermission_lblOrganize">Organize</item>
+    <item key="FrmOrganizePermission_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmOrganizePermission_btnCopy">CopyPermission</item>
+    <item key="FrmOrganizePermission_btnPaste">PastePermission</item>
+    <item key="FrmOrganizePermission_btnClose">Close</item>
+    <item key="FrmOrganizePermission_tabItemModuleAccessPermission">ModuleAccessPermission</item>
+    <item key="FrmOrganizePermission_tabItemHavePermissionItem">HavePermissionItem</item>
+    <!-- RDIFramework.WinModule.FrmOrganizePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmRoleModulePermission Begin -->
+    <item key="FrmRoleModulePermission">RoleModulePermission</item>
+    <item key="FrmRoleModulePermission_lblRole">Role:</item>
+    <item key="FrmRoleModulePermission_btnSave">Save(&amp;S)</item>
+    <item key="FrmRoleModulePermission_btnClose">Close</item>
+    <item key="FrmRoleModulePermission_tabItemModule">Module(Selected have permissions)</item>
+    <item key="FrmRoleModulePermission_cmnuSelectAll">全选</item>
+    <item key="FrmRoleModulePermission_cmnuInvertSelect">反选</item>
+    <!-- RDIFramework.WinModule.FrmRoleModulePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmRoleModulePermissionBatchSet Begin -->
+    <item key="FrmRoleModulePermissionBatchSet">RoleModulePermissionBatchSet</item>
+    <item key="FrmRoleModulePermissionBatchSet_btnSave">Save(&amp;S)</item>
+    <item key="FrmRoleModulePermissionBatchSet_btnClose">Close</item>
+    <item key="FrmRoleModulePermissionBatchSet_tabItemRoleList">RoleList</item>
+    <item key="FrmRoleModulePermissionBatchSet_tabItemModuleList">ModuleList(Selected have permissions)</item>
+    <!-- RDIFramework.WinModule.FrmRoleModulePermissionBatchSet End -->
+
+    <!-- RDIFramework.WinModule.FrmRolePermission Begin -->
+    <item key="FrmRolePermission">RolePermissionSet</item>
+    <item key="FrmRolePermission_lblRole">Role:</item>
+    <item key="FrmRolePermission_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmRolePermission_btnCopy">CopyPermission</item>
+    <item key="FrmRolePermission_btnPaste">PastePermission</item>
+    <item key="FrmRolePermission_btnClose">Close</item>
+    <item key="FrmRolePermission_tabItemModuleAccessPermission">ModuleAccessPermission</item>
+    <item key="FrmRolePermission_tabItemHavePermissionItem">HavePermissionItem</item>
+    <!-- RDIFramework.WinModule.FrmRolePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmRolePermissionBatchSet Begin -->
+    <item key="FrmRolePermissionBatchSet">RolePermissionBatchSet</item>
+    <item key="FrmRolePermissionBatchSet_lblRole">Role:</item>
+    <item key="FrmRolePermissionBatchSet_btnFilteringRole">FilterRole(&amp;F)</item>
+    <item key="FrmRolePermissionBatchSet_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmRolePermissionBatchSet_btnCopy">CopyPermission</item>
+    <item key="FrmRolePermissionBatchSet_btnPaste">PastePermission</item>
+    <item key="FrmRolePermissionBatchSet_btnClose">Close</item>
+    <item key="FrmRolePermissionBatchSet_tabItemRole">RoleList</item>
+    <item key="FrmRolePermissionBatchSet_tabItemHaveUsers">aveUsers</item>
+    <item key="FrmRolePermissionBatchSet_tabItemModuleAccessPermission">ModuleAccessPermission</item>
+    <item key="FrmRolePermissionBatchSet_tabItemHavePermissionItem">HavePermissionItem</item>
+    <!-- RDIFramework.WinModule.FrmRolePermissionBatchSet End -->
+
+    <!-- RDIFramework.WinModule.FrmRolePermissionItem Begin -->
+    <item key="FrmRolePermissionItem">RolePermissionBatchSet</item>
+    <item key="FrmRolePermissionItem_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmRolePermissionItem_btnSave">Save</item>
+    <item key="FrmRolePermissionItem_btnClose">Close</item>
+    <item key="FrmRolePermissionItem_tabItemRole">RoleList</item>
+    <item key="FrmRolePermissionItem_tabItemHavePermissionItem">HavePermissionItem(Selected have permissions)</item>
+    <!-- RDIFramework.WinModule.FrmRolePermissionItem End -->
+
+    <!-- RDIFramework.WinModule.FrmRoleUserBatchSet Begin -->
+    <item key="FrmRoleUserBatchSet">RoleUserBatchSet</item>
+    <item key="FrmRoleUserBatchSet_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmRoleUserBatchSet_btnSave">Save(&amp;S)</item>
+    <item key="FrmRoleUserBatchSet_btnCopy">CopyUser</item>
+    <item key="FrmRoleUserBatchSet_btnPaste">PasteUser</item>
+    <item key="FrmRoleUserBatchSet_btnClose">Close</item>
+    <item key="FrmRoleUserBatchSet_tabItemRoleList">RoleList</item>
+    <item key="FrmRoleUserBatchSet_tabItemHaveUsers">HaveUsers</item>
+    <!-- RDIFramework.WinModule.FrmRoleUserBatchSet End -->
+    <!-- RDIFramework.WinModule.FrmSetTableConstraint Begin -->
+    <item key="FrmSetTableConstraint">SetTableConstraint</item>
+    <item key="FrmSetTableConstraint_lblUserOrRole">User/Role(&amp;U):</item>
+    <item key="FrmSetTableConstraint_btnSave">Save</item>
+    <item key="FrmSetTableConstraint_btnTestConstraint">TestConstraint</item>
+    <item key="FrmSetTableConstraint_btnClearConstraint">ClearConstraint</item>
+    <item key="FrmSetTableConstraint_btnClose">Close</item>
+    <item key="FrmSetTableConstraint_gbMain">SetConstraint</item>
+    <item key="FrmSetTableConstraint_chkEnabled">Enabled</item>
+    <item key="FrmSetTableConstraint_btnShowConstraintData">ShowConstraintData</item>
+    <!-- RDIFramework.WinModule.FrmSetTableConstraint End -->
+    <!-- RDIFramework.WinModule.FrmShowConstraintTable Begin -->
+    <item key="FrmShowConstraintTable">View ConstraintTable</item>
+    <item key="FrmShowConstraintTable_lblTargetTable">TargetTable:</item>
+    <item key="FrmShowConstraintTable_btnExport">ExportExcel(&amp;E)</item>
+    <item key="FrmShowConstraintTable_btnClose">Close</item>
+    <item key="FrmShowConstraintTable_tabItemDataList">DataList(The first 500 data)</item>
+    <!-- RDIFramework.WinModule.FrmShowConstraintTable End -->
+    <!-- RDIFramework.WinModule.FrmTableConstraint Begin -->
+    <item key="FrmTableConstraint">TableConstrain</item>
+    <item key="FrmTableConstraint_lblUserOrRole">User/Role(&amp;U):</item>
+    <item key="FrmTableConstraint_btnSetCondition">SetCondition</item>
+    <item key="FrmTableConstraint_btnDeleteCondition">DeleteCondition</item>
+    <item key="FrmTableConstraint_btnExport">Export(&amp;E)</item>
+    <item key="FrmTableConstraint_btnClose">Close</item>
+    <item key="FrmTableConstraint_tabItemTableConstraintDetail">TableConstraintDetail</item>
+    <item key="FrmTableConstraint_colSelected">Selected</item>
+    <item key="FrmTableConstraint_colTableCode">Table</item>
+    <item key="FrmTableConstraint_colTableName">TableName</item>
+    <item key="FrmTableConstraint_colPermissionConstraint">ConstraintExpress</item>
+    <!-- RDIFramework.WinModule.FrmTableConstraint End -->
+    <!-- RDIFramework.WinModule.FrmTableFieldPermission Begin -->
+    <item key="FrmTableFieldPermission">TableFieldPermission</item>
+    <item key="FrmTableFieldPermission_lblUserOrRole">User/Role(&amp;U):</item>
+    <item key="FrmTableFieldPermission_btnSave">Save</item>
+    <item key="FrmTableFieldPermission_btnExport">Export(&amp;E)</item>
+    <item key="FrmTableFieldPermission_btnClose">Close</item>
+    <item key="FrmTableFieldPermission_tabItemTableList">TableList(Selected have access)</item>
+    <item key="FrmTableFieldPermission_tabItemTableFieldList">TableFieldList</item>
+    <item key="FrmTableFieldPermission_colColumnName">ColumnName</item>
+    <item key="FrmTableFieldPermission_colIsPublic">IsPublic</item>
+    <item key="FrmTableFieldPermission_colColumnAccess">ColumnAccess</item>
+    <item key="FrmTableFieldPermission_colColumnEdit">ColumnEdit</item>
+    <item key="FrmTableFieldPermission_colColumnDeney">ColumnDeney</item>
+    <!-- RDIFramework.WinModule.FrmTableFieldPermission End -->
+    <!-- RDIFramework.WinModule.FrmUserModulePermission Begin -->
+    <item key="FrmUserModulePermission">UserModulePermissionSet</item>
+    <item key="FrmUserModulePermission_lblUser">User(&amp;U):</item>
+    <item key="FrmUserModulePermission_btnSave">Save(&amp;S)</item>
+    <item key="FrmUserModulePermission_btnClose">Close</item>
+    <item key="FrmUserModulePermission_tabItemModule">Module(Selected have permissions)</item>
+    <!-- RDIFramework.WinModule.FrmUserModulePermission End -->
+    <!-- RDIFramework.WinModule.FrmUserModulePermissionBatchSet Begin -->
+    <item key="FrmUserModulePermissionBatchSet">UserModulePermission BatchSet</item>
+    <item key="FrmUserModulePermissionBatchSet_btnSave">Save(&amp;S)</item>
+    <item key="FrmUserModulePermissionBatchSet_btnClose">Close</item>
+    <item key="FrmUserModulePermissionBatchSet_tabItemUserList">UserList</item>
+    <item key="FrmUserModulePermissionBatchSet_tabItemModuleAccessPermission">ModuleAccessPermission</item>
+    <!-- RDIFramework.WinModule.FrmUserModulePermissionBatchSet End -->
+    <!-- RDIFramework.WinModule.FrmUserPermission Begin -->
+    <item key="FrmUserPermission">UserPermissionSet</item>
+    <item key="FrmUserPermission_lblUser">User:</item>
+    <item key="FrmUserPermission_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmUserPermission_btnCopy">CopyPermission</item>
+    <item key="FrmUserPermission_btnPaste">PastePermission</item>
+    <item key="FrmUserPermission_btnClose">Close</item>
+    <item key="FrmUserPermission_tabItemRoleList">HaveRoleList</item>
+    <item key="FrmUserPermission_tabItemModuleAccessPermission">ModuleAccessPermission</item>
+    <item key="FrmUserPermission_tabItemHavePermissionItem">HavePermissionItem</item>
+    <!-- RDIFramework.WinModule.FrmUserPermission End -->
+    <!-- RDIFramework.WinModule.FrmUserPermissionBatchSet Begin -->
+    <item key="FrmUserPermissionBatchSet">UserPermissionBatchSet</item>
+    <item key="FrmUserPermissionBatchSet_lblUser">User(&amp;U):</item>
+    <item key="FrmUserPermissionBatchSet_btnFilteringUser">FilterUser(&amp;F)</item>
+    <item key="FrmUserPermissionBatchSet_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmUserPermissionBatchSet_btnCopy">CopyPermission</item>
+    <item key="FrmUserPermissionBatchSet_btnPaste">PastePermission</item>
+    <item key="FrmUserPermissionBatchSet_btnClose">Close</item>
+    <item key="FrmUserPermissionBatchSet_tabItemUser">User</item>
+    <item key="FrmUserPermissionBatchSet_tabItemRoleList">HaveRoleLis</item>
+    <item key="FrmUserPermissionBatchSet_tabItemModuleAccessPermission">ModuleAccessPermission</item>
+    <item key="FrmUserPermissionBatchSet_tabItemHavePermissionItem">HavePermissionItem</item>
+    <!-- RDIFramework.WinModule.FrmUserPermissionBatchSet End -->
+    <!-- RDIFramework.WinModule.FrmUserPermissionItem Begin -->
+    <item key="FrmUserPermissionItem">UserPermissionItem</item>
+    <item key="FrmUserPermissionItem_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmUserPermissionItem_btnSave">Save</item>
+    <item key="FrmUserPermissionItem_btnClose">Close</item>
+    <item key="FrmUserPermissionItem_tabItemUser">User</item>
+    <item key="FrmUserPermissionItem_tabItemHavePermissionItem">HavePermissionItem(Selected have permissions)</item>
+    <!-- RDIFramework.WinModule.FrmUserPermissionItem End -->
+    <!-- RDIFramework.WinModule.FrmUserRoleAdmin Begin -->
+    <item key="FrmUserRoleAdmin">UserRoleAdmin</item>
+    <item key="FrmUserRoleAdmin_tabItemSearch">Search</item>
+    <item key="FrmUserRoleAdmin_gbCustomSearch">CustomSearc</item>
+    <item key="FrmUserRoleAdmin_lblUser">User(&amp;U):</item>
+    <item key="FrmUserRoleAdmin_lblDefaultRole">DefaultRole(&amp;R):</item>
+    <item key="FrmUserRoleAdmin_btnAddToRole">AddToRole</item>
+    <item key="FrmUserRoleAdmin_btnRemove">RemoveRole</item>
+    <item key="FrmUserRoleAdmin_btnRolePermission">ViewRolePermission</item>
+    <item key="FrmUserRoleAdmin_butSave">Save</item>
+    <item key="FrmUserRoleAdmin_btnCopy">CopyRole</item>
+    <item key="FrmUserRoleAdmin_btnPaste">PasteRole</item>
+    <item key="FrmUserRoleAdmin_btnClose">Close</item>
+    <item key="FrmUserRoleAdmin_colSelected">Selected</item>
+    <item key="FrmUserRoleAdmin_colFullName">FullName</item>
+    <item key="FrmUserRoleAdmin_colDescription">Description</item>
+    <item key="FrmUserRoleAdmin_cmnuSelectAll">SelectAll</item>
+    <item key="FrmUserRoleAdmin_cmnuInvertSelect">InvertSelect</item>
+    <!-- RDIFramework.WinModule.FrmUserRoleAdmin End -->
+    <!-- RDIFramework.WinModule.FrmUserRoleBatchSet Begin -->
+    <item key="FrmUserRoleBatchSet">UserRole BatchSet</item>
+    <item key="FrmUserRoleBatchSet_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmUserRoleBatchSet_btnSave">Save(&amp;S)</item>
+    <item key="FrmUserRoleBatchSet_btnCopy">CopyRole</item>
+    <item key="FrmUserRoleBatchSet_btnPaste">PasteRole</item>
+    <item key="FrmUserRoleBatchSet_btnClose">Close</item>
+    <item key="FrmUserRoleBatchSet_tabItemUserList">UserList</item>
+    <item key="FrmUserRoleBatchSet_tabItemRoleList">HaveRoleList</item>
+    <!-- RDIFramework.WinModule.FrmUserRoleBatchSet End -->
+    <!-- RDIFramework.WinModule.FrmViewUserPermission Begin -->
+    <item key="FrmViewUserPermission">UserPermission</item>
+    <item key="FrmViewUserPermission_lblHint">Hint:</item>
+    <item key="FrmViewUserPermission_lblHintDetail">Displays all the available permissions owned by the current user.</item>
+    <item key="FrmViewUserPermission_tabItemCurrentUser">CurrentUser</item>
+    <item key="FrmViewUserPermission_lblUserName">UserName:</item>
+    <item key="FrmViewUserPermission_lblRealName">RealName:</item>
+    <item key="FrmViewUserPermission_lblDefaultRole">DefaultRole:</item>
+    <item key="FrmViewUserPermission_gbHaveRole">HaveRoleList</item>
+    <item key="FrmViewUserPermission_colFullName">RoleName</item>
+    <item key="FrmViewUserPermission_colDescription">Description</item>
+    <item key="FrmViewUserPermission_btnShowRolePermission">ShowRolePermission</item>
+    <item key="FrmViewUserPermission_btnClose">Close</item>
+    <item key="FrmViewUserPermission_tabItemModulePermission">ModulePermission</item>
+    <item key="FrmViewUserPermission_tabItemPermissionItemPermission">PermissionItemPermission</item>
+    <!-- RDIFramework.WinModule.FrmViewUserPermission End -->
+
+    <!-- RDIFramework.WinModule.FrmOrganizeResourcePermission Begin -->
+    <item key="FrmOrganizeResourcePermission">OrganizeResourcePermissionSet</item>
+    <item key="FrmOrganizeResourcePermission_btnSave">Save(&amp;S)</item>
+    <item key="FrmOrganizeResourcePermission_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmOrganizeResourcePermission_btnCopyPermission">CopyPermission</item>
+    <item key="FrmOrganizeResourcePermission_btnPastePermission">PastePermission</item>
+    <item key="FrmOrganizeResourcePermission_btnClose">Close</item>
+    <item key="FrmOrganizeResourcePermission_tabItemOrganize">Organize</item>
+    <item key="FrmOrganizeResourcePermission_tabItemTargetResource">TargetResource</item>
+    <item key="FrmOrganizeResourcePermission_lblPermissionItemName">ResourceManagePermission</item>
+    <item key="FrmOrganizeResourcePermission_colSelected">Selected</item>
+    <item key="FrmOrganizeResourcePermission_colRealName">RealName</item>
+    <item key="FrmOrganizeResourcePermission_colDescription">Description</item>
+    <item key="FrmOrganizeResourcePermission_cmnuSelectAll">SelectAll</item>
+    <item key="FrmOrganizeResourcePermission_cmnuInvertSelect">InvertSelect</item>
+    <!-- RDIFramework.WinModule.FrmOrganizeResourcePermission End -->
+    <!-- RDIFramework.WinModule.FrmResourcePermission Begin -->
+    <item key="FrmResourcePermission">ResourcePermission</item>
+    <item key="FrmResourcePermission_btnSave">Save(&amp;S)</item>
+    <item key="FrmResourcePermission_btnClose">Close</item>
+    <item key="FrmResourcePermission_lblResource">Resource:</item>
+    <item key="FrmResourcePermission_lblResourceName">RoleA</item>
+    <item key="FrmResourcePermission_lblPermissionItem">PermissionItem:</item>
+    <item key="FrmResourcePermission_lblPermissionItemName">ResourceManagePermission</item>
+    <item key="FrmResourcePermission_tabItemTargetResource">TargetResource[ListResource]</item>
+    <item key="FrmResourcePermission_colSelected">Selected</item>
+    <item key="FrmResourcePermission_colRealName">RealName</item>
+    <item key="FrmResourcePermission_colDescription">Description</item>
+    <item key="FrmResourcePermission_cmnuSelectAll">SelectAll</item>
+    <item key="FrmResourcePermission_cmnuInvertSelect">InvertSelect</item>
+    <!-- RDIFramework.WinModule.FrmResourcePermission End -->
+    <!-- RDIFramework.WinModule.FrmResourcePermissionScope Begin -->
+    <item key="FrmResourcePermissionScope">ResourcePermissionScop</item>
+    <item key="FrmResourcePermissionScope_btnSave">Save(&amp;S)</item>
+    <item key="FrmResourcePermissionScope_btnClose">Close</item>
+    <item key="FrmResourcePermissionScope_lblTargetResource">Resource:</item>
+    <item key="FrmResourcePermissionScope_lblPermissionItem">PermissionItem:</item>
+    <item key="FrmResourcePermissionScope_tcItemUser">User</item>
+    <item key="FrmResourcePermissionScope_tcItemRole">Role</item>
+    <item key="FrmResourcePermissionScope_colUserSelected">Selected</item>
+    <item key="FrmResourcePermissionScope_colUserUserName">UserName</item>
+    <item key="FrmResourcePermissionScope_colUserRealName">RealName</item>
+    <item key="FrmResourcePermissionScope_colUserDescription">Description</item>
+    <item key="FrmResourcePermissionScope_colRoleSelected">Selected</item>
+    <item key="FrmResourcePermissionScope_colRoleRealName">RealName</item>
+    <item key="FrmResourcePermissionScope_colRoleDescription">Description</item>
+    <item key="FrmResourcePermissionScope_cmnuSelectAll">SelectAll</item>
+    <item key="FrmResourcePermissionScope_cmnuInvertSelect">InvertSelect</item>
+    <!-- RDIFramework.WinModule.FrmResourcePermissionScope End -->
+    <!-- RDIFramework.WinModule.FrmRoleOrganizePermission Begin -->
+    <item key="FrmRoleOrganizePermission">RoleOrganizePermission(Role-Organize)</item>
+    <item key="FrmRoleOrganizePermission_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmRoleOrganizePermission_btnCopy">CopyPermission</item>
+    <item key="FrmRoleOrganizePermission_btnPaste">PastePermission</item>
+    <item key="FrmRoleOrganizePermission_btnClose">Close</item>
+    <item key="FrmRoleOrganizePermission_tabItemRole">Role</item>
+    <item key="FrmRoleOrganizePermission_chkExpandAll">ExpandAll</item>
+    <item key="FrmRoleOrganizePermission_tabItemResource">Resource(Organize)</item>
+    <!-- RDIFramework.WinModule.FrmRoleOrganizePermission End -->
+    <!-- RDIFramework.WinModule.FrmRolePermissionScope Begin -->
+    <item key="FrmRolePermissionScope">RolePermissionScope(ResourceManagePermission)</item>
+    <item key="FrmRolePermissionScope_lblCurrentRole">CurrentRole:</item>
+    <item key="FrmRolePermissionScope_lblPermissionScope">PermissionScope</item>
+    <item key="FrmRolePermissionScope_btnClearPermission">Clear(&amp;C)</item>
+    <item key="FrmRolePermissionScope_btnCopy">Copy</item>
+    <item key="FrmRolePermissionScope_btnPaste">Paste</item>
+    <item key="FrmRolePermissionScope_btnClose">Close</item>
+    <item key="FrmRolePermissionScope_tabItemUser">User</item>
+    <item key="FrmRolePermissionScope_tabItemRole">Role</item>
+    <item key="FrmRolePermissionScope_tabItemOrganize">Organize</item>
+    <item key="FrmRolePermissionScope_tabItemModule">Module</item>
+    <item key="FrmRolePermissionScope_tabItemPermissionItem">PermissionItemList</item>
+    <!-- RDIFramework.WinModule.FrmRolePermissionScope End -->
+    <!-- RDIFramework.WinModule.FrmRoleResourcePermission Begin -->
+    <item key="FrmRoleResourcePermission">RoleResourcePermission</item>
+    <item key="FrmRoleResourcePermission_btnSave">Save(&amp;S)</item>
+    <item key="FrmRoleResourcePermission_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmRoleResourcePermission_btnCopyPermission">CopyPermission</item>
+    <item key="FrmRoleResourcePermission_btnPastePermission">PastePermission</item>
+    <item key="FrmRoleResourcePermission_btnClose">Close</item>
+    <item key="FrmRoleResourcePermission_tabItemRole">Role</item>
+    <item key="FrmRoleResourcePermission_tabItemTargetResource">TargetResource</item>
+    <item key="FrmRoleResourcePermission_lblPermissionItemName">PermissionItem:ResourceManagePermission</item>
+    <item key="FrmRoleResourcePermission_colSelected">Selected</item>
+    <item key="FrmRoleResourcePermission_colRealName">RealName</item>
+    <item key="FrmRoleResourcePermission_colDescription">Description</item>
+    <item key="FrmRoleResourcePermission_cmnuSelectAll">SelectAll</item>
+    <item key="FrmRoleResourcePermission_cmnuInvertSelect">InvertSelect</item>
+    <!-- RDIFramework.WinModule.FrmRoleResourcePermission End -->
+    <!-- RDIFramework.WinModule.FrmUserOrganizePermission Begin -->
+    <item key="FrmUserOrganizePermission">UserOrganizePermissionSet</item>
+    <item key="FrmUserOrganizePermission_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmUserOrganizePermission_btnCopy">CopyPermission</item>
+    <item key="FrmUserOrganizePermission_btnPaste">PastePermission</item>
+    <item key="FrmUserOrganizePermission_btnClose">Close</item>
+    <item key="FrmUserOrganizePermission_tabItemUser">用户</item>
+    <item key="FrmUserOrganizePermission_tabItemResource">Resource(Organize)</item>
+    <item key="FrmUserOrganizePermission_chkExpandAll">ExpandAll</item>
+    <!-- RDIFramework.WinModule.FrmUserOrganizePermission End -->
+    <!-- RDIFramework.WinModule.FrmUserPermissionScope Begin -->
+    <item key="FrmUserPermissionScope">UserPermissionScope(ResourceManagePermission)</item>
+    <item key="FrmUserPermissionScope_lblCurrentUser">CurrentUser:</item>
+    <item key="FrmUserPermissionScope_lblPermissionScope">PermissionScope</item>
+    <item key="FrmUserPermissionScope_btnClearPermission">Clear(&amp;C)</item>
+    <item key="FrmUserPermissionScope_btnCopy">Copy</item>
+    <item key="FrmUserPermissionScope_btnPaste">Paste</item>
+    <item key="FrmUserPermissionScope_btnClose">Close</item>
+    <item key="FrmUserPermissionScope_tabItemUser">UserList</item>
+    <item key="FrmUserPermissionScope_tabItemRole">RoleList</item>
+    <item key="FrmUserPermissionScope_tabItemOrganize">OrganizeList</item>
+    <item key="FrmUserPermissionScope_tabItemModule">ModuleList</item>
+    <item key="FrmUserPermissionScope_tabItemPermissionItem">PermissionItemList</item>
+    <!-- RDIFramework.WinModule.FrmUserPermissionScope End -->
+    <!-- RDIFramework.WinModule.FrmUserResourcePermission Begin -->
+    <item key="FrmUserResourcePermission">UserResourcePermission</item>
+    <item key="FrmUserResourcePermission_btnSave">Save(&amp;S)</item>
+    <item key="FrmUserResourcePermission_btnClearPermission">ClearPermission(&amp;C)</item>
+    <item key="FrmUserResourcePermission_btnCopyPermission">CopyPermission</item>
+    <item key="FrmUserResourcePermission_btnPastePermission">PastePermission</item>
+    <item key="FrmUserResourcePermission_btnClose">Close</item>
+    <item key="FrmUserResourcePermission_tabItemUser">User</item>
+    <item key="FrmUserResourcePermission_tabItemTargetResource">TargetResource</item>
+    <item key="FrmUserResourcePermission_lblPermissionItemName">PermissionItem:ResourceManagePermission</item>
+    <item key="FrmUserResourcePermission_colSelected">Selected</item>
+    <item key="FrmUserResourcePermission_colRealName">RealName</item>
+    <item key="FrmUserResourcePermission_colDescription">Description</item>
+    <item key="FrmUserResourcePermission_cmnuSelectAll">SelectAll</item>
+    <item key="FrmUserResourcePermission_cmnuInvertSelect">InvertSelect</item>
+    <!-- RDIFramework.WinModule.FrmUserResourcePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmDataDictionaryAdmin Begin -->
+    <item key="FrmDataDictionaryAdmin">DataDictionaryAdmin</item>
+    <item key="FrmDataDictionaryAdmin_lblCategory">Category:</item>
+    <item key="FrmDataDictionaryAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmDataDictionaryAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmDataDictionaryAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmDataDictionaryAdmin_btnItemDetail">ItemDetail</item>
+    <item key="FrmDataDictionaryAdmin_btnExport">Export</item>
+    <item key="FrmDataDictionaryAdmin_btnUserResourcePermission">UserPermission</item>
+    <item key="FrmDataDictionaryAdmin_btnRoleResourcePermission">RolePermission</item>
+    <item key="FrmDataDictionaryAdmin_btnClose">Close</item>
+    <item key="FrmDataDictionaryAdmin_colSelected">Selected</item>
+    <item key="FrmDataDictionaryAdmin_colCode">Code</item>
+    <item key="FrmDataDictionaryAdmin_colFullName">FullName</item>
+    <item key="FrmDataDictionaryAdmin_colEnabled">Enabled</item>
+    <item key="FrmDataDictionaryAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmDataDictionaryAdmin End -->
+    <!-- RDIFramework.WinModule.FrmEditDataDictionary Begin -->
+    <item key="FrmEditDataDictionary">EditDataDictionary</item>
+    <item key="FrmEditDataDictionary_btnSave">Save(&amp;S)</item>
+    <item key="FrmEditDataDictionary_btnSaveContinue">SaveContinue</item>
+    <item key="FrmEditDataDictionary_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmEditDataDictionary_btnClose">Close</item>
+    <item key="FrmEditDataDictionary_lblCode">Code:</item>
+    <item key="FrmEditDataDictionary_lblFullName">FullName:</item>
+    <item key="FrmEditDataDictionary_lblCategory">Category:</item>
+    <item key="FrmEditDataDictionary_lblDescription">Description:</item>
+    <item key="FrmEditDataDictionary_chkEnabled">Enabled</item>
+    <!-- RDIFramework.WinModule.FrmEditDataDictionary End -->
+    <!-- RDIFramework.WinModule.FrmItemsDetailAdmin Begin -->
+    <item key="FrmItemsDetailAdmin">ItemsDetailAdmin</item>
+    <item key="FrmItemsDetailAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmItemsDetailAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmItemsDetailAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmItemsDetailAdmin_btnClose">Close(&amp;C)</item>
+    <item key="FrmItemsDetailAdmin_colSelected">Selected</item>
+    <item key="FrmItemsDetailAdmin_colItemCode">ItemCode</item>
+    <item key="FrmItemsDetailAdmin_colItemName">ItemName</item>
+    <item key="FrmItemsDetailAdmin_colItemValue">ItemValue</item>
+    <item key="FrmItemsDetailAdmin_colEnabled">Enabled</item>
+    <item key="FrmItemsDetailAdmin_colSortCode">SortCode</item>
+    <item key="FrmItemsDetailAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmItemsDetailAdmin End -->
+    <!-- RDIFramework.WinModule.FrmEditDictionaryDetail Begin -->
+    <item key="FrmEditDictionaryDetail">EditDictionaryDetail</item>
+    <item key="FrmEditDictionaryDetail_btnSave">Save(&amp;S)</item>
+    <item key="FrmEditDictionaryDetail_btnSaveContinue">SaveContinue</item>
+    <item key="FrmEditDictionaryDetail_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmEditDictionaryDetail_btnClose">Close</item>
+    <item key="FrmEditDictionaryDetail_lblItemCode">ItemCode:</item>
+    <item key="FrmEditDictionaryDetail_lblItemName">ItemName:</item>
+    <item key="FrmEditDictionaryDetail_lblItemValue">ItemValue:</item>
+    <item key="FrmEditDictionaryDetail_lblDescription">Description:</item>
+    <item key="FrmEditDictionaryDetail_chkEnabled">Enabled</item>
+    <!-- RDIFramework.WinModule.FrmEditDictionaryDetail End -->
+    <!-- RDIFramework.WinModule.FrmItemsAdmin Begin -->
+    <item key="FrmItemsAdmin">ItemsAdmin</item>
+    <item key="FrmItemsAdmin_tabItems">tabItems(Right Clicking)</item>
+    <item key="FrmItemsAdmin_mnuAdd">Add</item>
+    <item key="FrmItemsAdmin_mnuEdit">Edit</item>
+    <item key="FrmItemsAdmin_mnuDelete">Delete</item>
+    <item key="FrmItemsAdmin_mnuUserPermission">User Permission</item>
+    <item key="FrmItemsAdmin_mnuRolePermission">Role Permission</item>
+    <item key="FrmItemsAdmin_btnAddItemDetail">Add ItemDetail(&amp;A)</item>
+    <item key="FrmItemsAdmin_btnEditItemDetail">Edit ItemDetail(&amp;E)</item>
+    <item key="FrmItemsAdmin_btnDeleteItemDetail">Delete ItemDetail(&amp;D)</item>
+    <item key="FrmItemsAdmin_lblCurrentPosition">   Current:</item>
+    <item key="FrmItemsAdmin_colSelected">Selected</item>
+    <item key="FrmItemsAdmin_colItemCode">ItemCode</item>
+    <item key="FrmItemsAdmin_colItemName">ItemName</item>
+    <item key="FrmItemsAdmin_colItemValue">ItemValue</item>
+    <item key="FrmItemsAdmin_colEnabled">Enabled</item>
+    <item key="FrmItemsAdmin_colSortCode">SortCode</item>
+    <item key="FrmItemsAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmItemsAdmin End -->
+    <!-- RDIFramework.WinModule.FrmAddItems Begin -->
+    <item key="FrmAddItems">AddItems</item>
+    <item key="FrmAddItems_btnSave">Save(&amp;S)</item>
+    <item key="FrmAddItems_btnSaveContinue">SaveContinue</item>
+    <item key="FrmAddItems_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmAddItems_btnClose">Close</item>
+    <item key="FrmAddItems_lblCode">Code:</item>
+    <item key="FrmAddItems_lblFullName">FullName:</item>
+    <item key="FrmAddItems_lblParentId">ParentId:</item>
+    <item key="FrmAddItems_lblCategory">Category:</item>
+    <item key="FrmAddItems_lblDescription">Description:</item>
+    <item key="FrmAddItems_chkEnabled">Enabled</item>
+    <!-- RDIFramework.WinModule.FrmAddItems End -->
+    <!-- RDIFramework.WinModule.FrmEditItems Begin -->
+    <item key="FrmEditItems">EditItems</item>
+    <item key="FrmEditItems_btnSave">Save(&amp;S)</item>
+    <item key="FrmEditItems_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmEditItems_btnClose">Close</item>
+    <item key="FrmEditItems_lblCode">Code:</item>
+    <item key="FrmEditItems_lblFullName">FullName:</item>
+    <item key="FrmEditItems_lblParentId">ParentId:</item>
+    <item key="FrmEditItems_lblCategory">Category:</item>
+    <item key="FrmEditItems_lblDescription">Description:</item>
+    <item key="FrmEditItems_chkEnabled">Enabled</item>
+    <!-- RDIFramework.WinModule.FrmEditItems End -->
+    <!-- RDIFramework.WinModule.FrmAddItemDetail Begin -->
+    <item key="FrmAddItemDetail">AddItemDetail</item>
+    <item key="FrmAddItemDetail_btnSave">Save(&amp;S)</item>
+    <item key="FrmAddItemDetail_btnSaveContinue">SaveContinue</item>
+    <item key="FrmAddItemDetail_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmAddItemDetail_btnClose">Close</item>
+    <item key="FrmAddItemDetail_lblItemCode">ItemCode:</item>
+    <item key="FrmAddItemDetail_lblItemName">ItemName:</item>
+    <item key="FrmAddItemDetail_lblItemValue">ItemValue:</item>
+    <item key="FrmAddItemDetail_lblDescription">Description:</item>
+    <item key="FrmAddItemDetail_chkEnabled">Enabled</item>
+    <!-- RDIFramework.WinModule.FrmAddItemDetail End -->
+    <!-- RDIFramework.WinModule.FrmEditItemsDetail Begin -->
+    <item key="FrmEditItemsDetail">EditItemDetail</item>
+    <item key="FrmEditItemsDetail_btnSave">Save(&amp;S)</item>
+    <item key="FrmEditItemsDetail_btnSaveContinue">SaveContinue</item>
+    <item key="FrmEditItemsDetail_btnCancel">Cancel(&amp;C)</item>
+    <item key="FrmEditItemsDetail_btnClose">Close</item>
+    <item key="FrmEditItemsDetail_lblItemCode">ItemCode:</item>
+    <item key="FrmEditItemsDetail_lblItemName">ItemName:</item>
+    <item key="FrmEditItemsDetail_lblItemValue">ItemValue:</item>
+    <item key="FrmEditItemsDetail_lblDescription">Description:</item>
+    <item key="FrmEditItemsDetail_chkEnabled">Enabled</item>
+    <!-- RDIFramework.WinModule.FrmEditItemsDetail End -->
+    <!-- RDIFramework.WinModule.FrmDBLinkAdmin Begin -->
+    <item key="FrmDBLinkAdmin">DBLinkAdmin</item>
+    <item key="FrmDBLinkAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmDBLinkAdmin_btnEdit">Update(&amp;E)</item>
+    <item key="FrmDBLinkAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmDBLinkAdmin_btnClose">Close(&amp;C)</item>
+    <item key="FrmDBLinkAdmin_colSelected">Selected</item>
+    <item key="FrmDBLinkAdmin_colLinkName">LinkName</item>
+    <item key="FrmDBLinkAdmin_colLinkType">DBType</item>
+    <item key="FrmDBLinkAdmin_colEnabled">Enabled</item>
+    <item key="FrmDBLinkAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmDBLinkAdmin End -->
+    <!-- RDIFramework.WinModule.FrmDBLinkEdit Begin -->
+    <item key="FrmDBLinkEdit">EditDBLink</item>
+    <item key="FrmDBLinkEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmDBLinkEdit_btnSaveContinue">SaveContinue</item>
+    <item key="FrmDBLinkEdit_btnClose">Close(&amp;C)</item>
+    <item key="FrmDBLinkEdit_lblLinkName">LinkName:</item>
+    <item key="FrmDBLinkEdit_lblLinkType">DBType:</item>
+    <item key="FrmDBLinkEdit_chkEnabled">Enabled</item>
+    <item key="FrmDBLinkEdit_lblDbLinks">DbLinks:</item>
+    <item key="FrmDBLinkEdit_lblDescription">Description:</item>
+    <item key="FrmDBLinkEdit_lblTip">More types of reference:</item>
+    <!-- RDIFramework.WinModule.FrmDBLinkEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmExceptionAdmin Begin -->
+    <item key="FrmExceptionAdmin">SystemExceptionAdmin</item>
+    <item key="FrmExceptionAdmin_tabItemSearch">Search</item>
+    <item key="FrmExceptionAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmExceptionAdmin_lblStartDate">StartDate:</item>
+    <item key="FrmExceptionAdmin_lblEndDate">EndDate:</item>
+    <item key="FrmExceptionAdmin_lblUserName">The Creator:</item>
+    <item key="FrmExceptionAdmin_btnQuery">Search(&amp;Q)</item>
+    <item key="FrmExceptionAdmin_btnViewDetail">ViewDetail</item>
+    <item key="FrmExceptionAdmin_btnExport">Export</item>
+    <item key="FrmExceptionAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmExceptionAdmin_btnDeleteAll">DeleteAll</item>
+    <item key="FrmExceptionAdmin_btnClose">Close(&amp;C)</item>
+    <item key="FrmExceptionAdmin_colSelected">Selected</item>
+    <item key="FrmExceptionAdmin_CreateOn">CreateOn</item>
+    <item key="FrmExceptionAdmin_ThreadName">ExceptionSource</item>
+    <item key="FrmExceptionAdmin_Message">ExceptionMessage</item>
+    <item key="FrmExceptionAdmin_FormattedMessage">ExceptionDetail</item>
+    <item key="FrmExceptionAdmin_CreateBy">CreateBy</item>
+    <item key="FrmExceptionAdmin_cmnuSelectAll">SelectAll</item>
+    <item key="FrmExceptionAdmin_cmnuInvertSelect">InvertSelect</item>
+    <!-- RDIFramework.WinModule.FrmExceptionAdmin End -->
+    <!-- RDIFramework.WinModule.FrmLogAdmin Begin -->
+    <item key="FrmLogAdmin">SystemLogAdmin</item>
+    <item key="FrmLogAdmin_tabItemSearch">Search</item>
+    <item key="FrmLogAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmLogAdmin_lblStartDate">StartDate:</item>
+    <item key="FrmLogAdmin_lblEndDate">EndDate:</item>
+    <item key="FrmLogAdmin_lblUserName">Operator:</item>
+    <item key="FrmLogAdmin_lblIpAddress">IPAddress:</item>
+    <item key="FrmLogAdmin_btnQuery">Search(&amp;Q)</item>
+    <item key="FrmLogAdmin_btnExport">Export</item>
+    <item key="FrmLogAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmLogAdmin_btnDeleteAll">DeleteAll</item>
+    <item key="FrmLogAdmin_btnClose">Close(&amp;C)</item>
+    <item key="FrmLogAdmin_colSelected">Selected</item>
+    <item key="FrmLogAdmin_colProcessName">Module</item>
+    <item key="FrmLogAdmin_colUserRealName">Operator</item>
+    <item key="FrmLogAdmin_colCreateOn">CreateOn</item>
+    <item key="FrmLogAdmin_colIPAddress">IPIPAddress</item>
+    <item key="FrmLogAdmin_colMethodName">Operate</item>
+    <item key="FrmLogAdmin_colDescription">Description</item>
+    <item key="FrmLogAdmin_cmnuSelectAll">SelectAll</item>
+    <item key="FrmLogAdmin_cmnuInvertSelect">InvertSelect</item>
+    <!-- RDIFramework.WinModule.FrmLogAdmin End -->
+    <!-- RDIFramework.WinModule.FrmTableFieldAdmin Begin -->
+    <item key="FrmTableFieldAdmin">TableFieldAdmin</item>
+    <item key="FrmTableFieldAdmin_lblSearch">Search:</item>
+    <item key="FrmTableFieldAdmin_btnBatchSave">Save(&amp;S)</item>
+    <item key="FrmTableFieldAdmin_btnSetTablePermission">SetTablePermission</item>
+    <item key="FrmTableFieldAdmin_btnExport">Export(&amp;E)</item>
+    <item key="FrmTableFieldAdmin_btnClose">Close</item>
+    <item key="FrmTableFieldAdmin_tabItemTableList">TableList</item>
+    <item key="FrmTableFieldAdmin_tabTableFieldList">TableFieldList</item>
+    <item key="FrmTableFieldAdmin_colColumnCode">ColumnCode</item>
+    <item key="FrmTableFieldAdmin_colDataType">DataType</item>
+    <item key="FrmTableFieldAdmin_colColumnName">ColumnName</item>
+    <item key="FrmTableFieldAdmin_colIsPublic">IsPublic</item>
+    <item key="FrmTableFieldAdmin_colColumnAccess">ColumnAccess</item>
+    <item key="FrmTableFieldAdmin_colColumnEdit">ColumnEdit</item>
+    <item key="FrmTableFieldAdmin_colColumnDeney">ColumnDeney</item>
+    <item key="FrmTableFieldAdmin_colUseConstraint">UseConstraint</item>
+    <item key="FrmTableFieldAdmin_colIsSearchColumn">IsSearchColumn</item>
+    <item key="FrmTableFieldAdmin_colIsExhibitColumn">IsExhibitColumn</item>
+    <item key="FrmTableFieldAdmin_colAllowEdit">AllowEdit</item>
+    <item key="FrmTableFieldAdmin_colAllowDelete">AllowDelete</item>
+    <item key="FrmTableFieldAdmin_colEnabled">Enabled</item>
+    <item key="FrmTableFieldAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmTableFieldAdmin End -->
+    <!-- RDIFramework.WinModule.FrmSetTablePermission Begin -->
+    <item key="FrmSetTablePermission">SetTablePermission</item>
+    <item key="FrmSetTablePermission_btnAddAll">AddAll</item>
+    <item key="FrmSetTablePermission_btnClose">Close</item>
+    <item key="FrmSetTablePermission_tabItemToSetTable">ToSetTable</item>
+    <item key="FrmSetTablePermission_tabItemTheSelectedTable">TheSelectedTable</item>
+    <item key="FrmSetTablePermission_btnAdd">Add(&amp;A)</item>
+    <item key="FrmSetTablePermission_btnRemove">Remove(&amp;R)</item>
+    <!-- RDIFramework.WinModule.FrmSetTablePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmSequenceAdmin Begin -->
+    <item key="FrmSequenceAdmin">SequenceAdmin</item>
+    <item key="FrmSequenceAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmSequenceAdmin_btnEdit">Edit(&amp;E)</item>
+    <item key="FrmSequenceAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmSequenceAdmin_btnExport">Export</item>
+    <item key="FrmSequenceAdmin_btnClose">Close</item>
+    <item key="FrmSequenceAdmin_colSelected">Selected</item>
+    <item key="FrmSequenceAdmin_colFullName">FullName</item>
+    <item key="FrmSequenceAdmin_colPrefix">Prefix</item>
+    <item key="FrmSequenceAdmin_colSeparate">Separate</item>
+    <item key="FrmSequenceAdmin_colSequence">Sequence</item>
+    <item key="FrmSequenceAdmin_colReduction">Reduction</item>
+    <item key="FrmSequenceAdmin_colStep">Step</item>
+    <item key="FrmSequenceAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmSequenceAdmin End -->
+    
+    <!-- RDIFramework.WinModule.FrmSequenceAdd Begin -->
+    <item key="FrmSequenceAdd">Add Sequence</item>
+    <item key="FrmSequenceAdd_btnSave">Save(&amp;S)</item>
+    <item key="FrmSequenceAdd_btnClose">Close(&amp;C)</item>
+    <item key="FrmSequenceAdd_lblFullName">FullName:</item>
+    <item key="FrmSequenceAdd_lblPrefix">Prefix:</item>
+    <item key="FrmSequenceAdd_lblSeparate">Separate:</item>
+    <item key="FrmSequenceAdd_lblSequence">Sequence:</item>
+    <item key="FrmSequenceAdd_lblReduction">Reduction:</item>
+    <item key="FrmSequenceAdd_lblStep">Step:</item>
+    <item key="FrmSequenceAdd_lblDescription">Description:</item>
+    <!-- RDIFramework.WinModule.FrmSequenceAdd End -->
+    
+    <!-- RDIFramework.WinModule.FrmSequenceEdit Begin -->
+    <item key="FrmSequenceEdit">Edit Sequence</item>
+    <item key="FrmSequenceEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmSequenceEdit_btnClose">Close(&amp;C)</item>
+    <item key="FrmSequenceEdit_lblFullName">FullName:</item>
+    <item key="FrmSequenceEdit_lblPrefix">Prefix:</item>
+    <item key="FrmSequenceEdit_lblSeparate">Separate:</item>
+    <item key="FrmSequenceEdit_lblSequence">Sequence:</item>
+    <item key="FrmSequenceEdit_lblReduction">Reduction:</item>
+    <item key="FrmSequenceEdit_lblStep">Step:</item>
+    <item key="FrmSequenceEdit_lblDescription">Description:</item>
+    <!-- RDIFramework.WinModule.FrmSequenceEdit End -->
+    
+    <!-- RDIFramework.WinModule.FrmParameterAdmin Begin -->
+    <item key="FrmParameterAdmin">Parameter Admin</item>
+    <item key="FrmParameterAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmParameterAdmin_btnEdit">Edit(&amp;E)</item>
+    <item key="FrmParameterAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmParameterAdmin_btnExport">Export</item>
+    <item key="FrmParameterAdmin_btnClose">Close</item>
+    <item key="FrmParameterAdmin_colSelected">Selected</item>
+    <item key="FrmParameterAdmin_colCategoryKey">CategoryKey"</item>
+    <item key="FrmParameterAdmin_colParameterId">ParameterId</item>
+    <item key="FrmParameterAdmin_colParameterCode">ParameterCode</item>
+    <item key="FrmParameterAdmin_colParameterContent">ParameterContent</item>
+    <item key="FrmParameterAdmin_colEnabled">Enabled</item>
+    <item key="FrmParameterAdmin_colAllowEdit">AllowEdit</item>
+    <item key="FrmParameterAdmin_colAllowDelete">AllowDelete</item>
+    <item key="FrmParameterAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmParameterAdmin End -->
+    
+    <!-- RDIFramework.WinModule.FrmParameterAdd Begin -->
+    <item key="FrmParameterAdd">Add Parameter</item>
+    <item key="FrmParameterAdd_btnSave">Save(&amp;S)</item>
+    <item key="FrmParameterAdd_btnClose">Close(&amp;C)</item>
+    <item key="FrmParameterAdd_gbDetail">Detail</item>
+    <item key="FrmParameterAdd_lblCategoryKey">CategoryKey:</item>
+    <item key="FrmParameterAdd_lblParameterId">ParameterId:</item>
+    <item key="FrmParameterAdd_lblParameterCode">ParameterCode:</item>
+    <item key="FrmParameterAdd_lblParameterContent">ParameterContent:</item>
+    <item key="FrmParameterAdd_lblOptionSet">OptionSet:</item>
+    <item key="FrmParameterAdd_chkEnabled">Enabled</item>
+    <item key="FrmParameterAdd_chkAllowEdit">AllowEdit</item>
+    <item key="FrmParameterAdd_chkAllowDelete">AllowDelete</item>
+    <item key="FrmParameterAdd_lblDescription">Description:</item>
+    <!-- RDIFramework.WinModule.FrmParameterAdd End -->
+    
+    <!-- RDIFramework.WinModule.FrmParameterEdit Begin -->
+    <item key="FrmParameterEdit">Edit Parameter</item>
+    <item key="FrmParameterEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmParameterEdit_btnClose">Close(&amp;C)</item>
+    <item key="FrmParameterEdit_gbDetail">Detail</item>
+    <item key="FrmParameterEdit_lblCategoryKey">CategoryKey:</item>
+    <item key="FrmParameterEdit_lblParameterId">ParameterId:</item>
+    <item key="FrmParameterEdit_lblParameterCode">ParameterCode:</item>
+    <item key="FrmParameterEdit_lblParameterContent">ParameterContent:</item>
+    <item key="FrmParameterEdit_lblOptionSet">OptionSet:</item>
+    <item key="FrmParameterEdit_chkEnabled">Enabled</item>
+    <item key="FrmParameterEdit_chkAllowEdit">AllowEdit</item>
+    <item key="FrmParameterEdit_chkAllowDelete">AllowDelete</item>
+    <item key="FrmParameterEdit_lblDescription">Description:</item>
+    <!-- RDIFramework.WinModule.FrmParameterEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineAdmin Begin -->
+    <item key="FrmQueryEngineAdmin">QueryEngineAdmin</item>
+    <item key="FrmQueryEngineAdmin_tabItemQueryEngineTree">QueryEngineTree</item>
+    <item key="FrmQueryEngineAdmin_tabItemSearch">Search</item>
+    <item key="FrmQueryEngineAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmQueryEngineAdmin_lblSearchValue">SearchValue:</item>
+    <item key="FrmQueryEngineAdmin_rbCustomerExactSearch">CustomerExactSearch</item>
+    <item key="FrmQueryEngineAdmin_rbCustomerLikeSearch">CustomerLikeSearch</item>
+    <item key="FrmQueryEngineAdmin_btnSearch">Search</item>
+    <item key="FrmQueryEngineAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmQueryEngineAdmin_btnEdit">Edit(&amp;E)</item>
+    <item key="FrmQueryEngineAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmQueryEngineAdmin_btnClose">Close</item>
+    <item key="FrmQueryEngineAdmin_lblCurrentPosition">     Current:</item>
+    <item key="FrmQueryEngineAdmin_colSelected">Selected</item>
+    <item key="FrmQueryEngineAdmin_colFullName">FullName</item>
+    <item key="FrmQueryEngineAdmin_colCode">Cod</item>
+    <item key="FrmQueryEngineAdmin_colEnabled">Enabled</item>
+    <item key="FrmQueryEngineAdmin_colAllowEdit">AllowEdit</item>
+    <item key="FrmQueryEngineAdmin_colAllowDelete">AllowDelete</item>
+    <item key="FrmQueryEngineAdmin_colDescription">Description</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineAdd Begin -->
+    <item key="FrmQueryEngineAdd">Add QueryEngine</item>
+    <item key="FrmQueryEngineAdd_btnSave">Save(&amp;S)</item>
+    <item key="FrmQueryEngineAdd_btnClose">Close(&amp;C)</item>
+    <item key="FrmQueryEngineAdd_lblParent">Parent:</item>
+    <item key="FrmQueryEngineAdd_lblCode">Cod</item>
+    <item key="FrmQueryEngineAdd_lblFullName">FullName:</item>
+    <item key="FrmQueryEngineAdd_chkEnabled">Enabled</item>
+    <item key="FrmQueryEngineAdd_chkAllowEdit">AllowEdit</item>
+    <item key="FrmQueryEngineAdd_chkAllowDelete">AllowDelete</item>
+    <item key="FrmQueryEngineAdd_lblDescription">Description:</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineAdd End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineEdit Begin -->
+    <item key="FrmQueryEngineEdit">Edit QueryEngine</item>
+    <item key="FrmQueryEngineEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmQueryEngineEdit_btnClose">Close(&amp;C)</item>
+    <item key="FrmQueryEngineEdit_lblParent">Parent:</item>
+    <item key="FrmQueryEngineEdit_lblCode">Cod</item>
+    <item key="FrmQueryEngineEdit_lblFullName">FullName:</item>
+    <item key="FrmQueryEngineEdit_chkEnabled">Enabled</item>
+    <item key="FrmQueryEngineEdit_chkAllowEdit">AllowEdit</item>
+    <item key="FrmQueryEngineEdit_chkAllowDelete">AllowDelete</item>
+    <item key="FrmQueryEngineEdit_lblDescription">Description:</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineAdmin Begin -->
+    <item key="FrmQueryEngineDefineAdmin">QueryEngineDefine</item>
+    <item key="FrmQueryEngineDefineAdmin_tabItemQueryEngineTree">QueryEngineTree</item>
+    <item key="FrmQueryEngineDefineAdmin_tabItemSearch">Search</item>
+    <item key="FrmQueryEngineDefineAdmin_gbCustomSearch">CustomSearch</item>
+    <item key="FrmQueryEngineDefineAdmin_lblSearchValue">SearchValue:</item>
+    <item key="FrmQueryEngineDefineAdmin_rbCustomerExactSearch">CustomerExactSearch</item>
+    <item key="FrmQueryEngineDefineAdmin_rbCustomerLikeSearch">CustomerLikeSearch</item>
+    <item key="FrmQueryEngineDefineAdmin_btnSearch">Search</item>
+    <item key="FrmQueryEngineDefineAdmin_btnAdd">Add(&amp;A)</item>
+    <item key="FrmQueryEngineDefineAdmin_btnEdit">Edit(&amp;E)</item>
+    <item key="FrmQueryEngineDefineAdmin_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmQueryEngineDefineAdmin_btnPreviewData">PreviewData(&amp;P)</item>
+    <item key="FrmQueryEngineDefineAdmin_mnuSplitShow">SplitShow</item>
+    <item key="FrmQueryEngineDefineAdmin_mnuShoEngineList">ShoEngineList</item>
+    <item key="FrmQueryEngineDefineAdmin_mnuShowDataSampleList">ShowDataSampleList</item>
+    <item key="FrmQueryEngineDefineAdmin_mnuShoAll">ShoAll</item>
+    <item key="FrmQueryEngineDefineAdmin_btnClose">Close</item>
+    <item key="FrmQueryEngineDefineAdmin_lblCurrentPosition">     Current:</item>
+    <item key="FrmQueryEngineDefineAdmin_colSelected">Selected</item>
+    <item key="FrmQueryEngineDefineAdmin_colCode">Cod</item>
+    <item key="FrmQueryEngineDefineAdmin_colFullName">FullName</item>
+    <item key="FrmQueryEngineDefineAdmin_colLINKNAME_CHS">DataBaseLinkName</item>
+    <item key="FrmQueryEngineDefineAdmin_colDATASOURCETYPE">DataSourceType</item>
+    <item key="FrmQueryEngineDefineAdmin_colDATASOURCENAME">DataSourceName</item>
+    <item key="FrmQueryEngineDefineAdmin_colEnabled">Enabled</item>
+    <item key="FrmQueryEngineDefineAdmin_colAllowEdit">AllowEdit</item>
+    <item key="FrmQueryEngineDefineAdmin_colAllowDelete">AllowDelete</item>
+    <item key="FrmQueryEngineDefineAdmin_colSORTCODE">SORTCODE</item>
+    <item key="FrmQueryEngineDefineAdmin_colDescription">Description</item>
+    <item key="FrmQueryEngineDefineAdmin_tabItemQueryEngineList">QueryEngineList</item>
+    <item key="FrmQueryEngineDefineAdmin_tabItemDataSample">DataSample</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineAdd Begin -->
+    <item key="FrmQueryEngineDefineAdd">Add QueryEngineDefine</item>
+    <item key="FrmQueryEngineDefineAdd_btnSave">Save(&amp;S)</item>
+    <item key="FrmQueryEngineDefineAdd_btnClose">Close(&amp;C)</item>
+    <item key="FrmQueryEngineDefineAdd_lblParent">Parent:</item>
+    <item key="FrmQueryEngineDefineAdd_lblCode">Cod:</item>
+    <item key="FrmQueryEngineDefineAdd_lblFullName">FullName:</item>
+    <item key="FrmQueryEngineDefineAdd_lblDataBaseLinkName">DataBaseLinkName:</item>
+    <item key="FrmQueryEngineDefineAdd_lblDataSourceType">DataSourceType:</item>
+    <item key="FrmQueryEngineDefineAdd_lblDataSourceName">DataSourceName:</item>
+    <item key="FrmQueryEngineDefineAdd_lblQueryStringKey">QueryKey:</item>
+    <item key="FrmQueryEngineDefineAdd_lblQueryString">QueryString:</item>
+    <item key="FrmQueryEngineDefineAdd_lblSelectedField">SelectedField:</item>
+    <item key="FrmQueryEngineDefineAdd_lblOrderByField">OrderByField:</item>
+    <item key="FrmQueryEngineDefineAdd_chkEnabled">Enabled</item>
+    <item key="FrmQueryEngineDefineAdd_chkAllowEdit">AllowEdit</item>
+    <item key="FrmQueryEngineDefineAdd_chkAllowDelete">AllowDelete</item>
+    <item key="FrmQueryEngineDefineAdd_lblDescription">Description:</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineAdd End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineEdit Begin -->
+    <item key="FrmQueryEngineDefineEdit">Edit QueryEngineDefine</item>
+    <item key="FrmQueryEngineDefineEdit_btnSave">Save(&amp;S)</item>
+    <item key="FrmQueryEngineDefineEdit_btnClose">Close(&amp;C)</item>
+    <item key="FrmQueryEngineDefineEdit_lblParent">Parent:</item>
+    <item key="FrmQueryEngineDefineEdit_lblCode">Cod:</item>
+    <item key="FrmQueryEngineDefineEdit_lblFullName">FullName:</item>
+    <item key="FrmQueryEngineDefineEdit_lblDataBaseLinkName">DataBaseLinkName:</item>
+    <item key="FrmQueryEngineDefineEdit_lblDataSourceType">DataSourceType:</item>
+    <item key="FrmQueryEngineDefineEdit_lblDataSourceName">DataSourceName:</item>
+    <item key="FrmQueryEngineDefineEdit_lblQueryStringKey">QueryKey:</item>
+    <item key="FrmQueryEngineDefineEdit_lblQueryString">QueryString:</item>
+    <item key="FrmQueryEngineDefineEdit_lblSelectedField">SelectedField:</item>
+    <item key="FrmQueryEngineDefineEdit_lblOrderByField">OrderByField:</item>
+    <item key="FrmQueryEngineDefineEdit_chkEnabled">Enabled</item>
+    <item key="FrmQueryEngineDefineEdit_chkAllowEdit">AllowEdit</item>
+    <item key="FrmQueryEngineDefineEdit_chkAllowDelete">AllowDelete</item>
+    <item key="FrmQueryEngineDefineEdit_lblDescription">Description:</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineEdit End -->
+    
+    <!-- RDIFramework.WinModule End -->
+
+    <!--RDIFramework.WorkFlow Begin -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowDesigner Begin -->
+    <item key="FrmWorkFlowDesigner">WorkFlowDesigner</item>
+    <item key="FrmWorkFlowDesigner_tabItemClassTree">ClassTree</item>
+    <item key="FrmWorkFlowDesigner_btnWorkFlowDesigner">Designer</item>
+    <item key="FrmWorkFlowDesigner_newclassToolStripMenuItem">NewClass</item>
+    <item key="FrmWorkFlowDesigner_updateclassToolStripMenuItem">UpdateClass</item>
+    <item key="FrmWorkFlowDesigner_delclassToolStripMenuItem">DeleteClass</item>
+    <item key="FrmWorkFlowDesigner_newWftoolStripMenuItem1">NewWorkFlow</item>
+    <item key="FrmWorkFlowDesigner_updateWftoolStripMenuItem2">UpdateWorkFlow</item>
+    <item key="FrmWorkFlowDesigner_wfExportToolStripMenuItem">ExportWorkFlow</item>
+    <item key="FrmWorkFlowDesigner_moveWfclsToolStripMenuItem">MovtClass</item>
+    <item key="FrmWorkFlowDesigner_delWftoolStripMenuItem3">DeleteWorkFlow</item>
+    <item key="FrmWorkFlowDesigner_UsedToolStripMenuItem">Enable</item>
+    <item key="FrmWorkFlowDesigner_unUsedToolStripMenuItem">Disable</item>
+    <item key="FrmWorkFlowDesigner_wfinputToolStripMenuItem">ImportWorkFlow</item>
+    <!-- RDIFramework.WorkFlow.FrmWorkFlowDesigner End -->
+    <!--RDIFramework.WorkFlow.FrmAddWorkFlow Begin -->
+    <item key="FrmAddWorkFlow">AddWorkFlow</item>
+    <item key="FrmAddWorkFlow_gbBaseInfo">BaseInfo</item>
+    <item key="FrmAddWorkFlow_lblWorkFlowClass">WorkFlowClass:</item>
+    <item key="FrmAddWorkFlow_lblWorkFlowCaption">WorkFlowName:</item>
+    <item key="FrmAddWorkFlow_chkStatus">Enable</item>
+    <item key="FrmAddWorkFlow_lblWorkFlowDescription">Description:</item>
+    <item key="FrmAddWorkFlow_btnSave">Save(&amp;S)</item>
+    <item key="FrmAddWorkFlow_btnClose">Close(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmAddWorkFlow End -->
+    <!--RDIFramework.WorkFlow.FrmSelectClass Begin -->
+    <item key="FrmSelectClass">SelectClass</item>
+    <item key="FrmSelectClass_lblWorkFlowClass">WorkFlowClass:</item>
+    <item key="FrmSelectClass_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSelectClass_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectClass End -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowClass Begin -->
+    <item key="FrmWorkFlowClass">WorkFlowClass</item>
+    <item key="FrmWorkFlowClass_gbBaseInfo">BaseInfo</item>
+    <item key="FrmWorkFlowClass_lblSuperClass">SuperClass:</item>
+    <item key="FrmWorkFlowClass_lblClassName">ClassName:</item>
+    <item key="FrmWorkFlowClass_lblClassLevel">ClassLevel:</item>
+    <item key="FrmWorkFlowClass_gbOtherInfo">OtherInfo</item>
+    <item key="FrmWorkFlowClass_lblClassDescription">ClassDescription:</item>
+    <item key="FrmWorkFlowClass_btnSave">Save(&amp;S)</item>
+    <item key="FrmWorkFlowClass_btnClose">Close(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmWorkFlowClass End -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowExport Begin -->
+    <item key="FrmWorkFlowExport">WorkFlowExport</item>
+    <item key="FrmWorkFlowExport_gbOne">The first step: export to file</item>
+    <item key="FrmWorkFlowExport_btnFilePath">Browse(&amp;B)</item>
+    <item key="FrmWorkFlowExport_rbtnAll">ExportAll(&amp;B Contrains Form)</item>
+    <item key="FrmWorkFlowExport_rbtnWorkFlow">OnlyExportPrototype(&amp;A Not Contrains Form)</item>
+    <item key="FrmWorkFlowExport_gbxReult">The second step: the implementation of export</item>
+    <item key="FrmWorkFlowExport_btnExport">Export(&amp;E)</item>
+    <item key="FrmWorkFlowExport_btnClose">Close(&amp;C)</item>
+    <item key="FrmWorkFlowExport_lbStep">Export Progress...</item>
+    <!--RDIFramework.WorkFlow.FrmWorkFlowExport End -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowImport Begin -->
+    <item key="FrmWorkFlowImport">WorkFlowImport</item>
+    <item key="FrmWorkFlowImport_gbxOne">The first step: from the file to import</item>
+    <item key="FrmWorkFlowImport_btnFilePath">Browse(&amp;B)</item>
+    <item key="FrmWorkFlowImport_rbtnAll">ImportAll(&amp;B Contrains Form)</item>
+    <item key="FrmWorkFlowImport_rbtnWorkFlow">OnlyImportPrototype(&amp;A Not Contrains Form)</item>
+    <item key="FrmWorkFlowImport_rdbtNewWorkFlow">OnlyImportPrototype(&amp;N New)</item>
+    <item key="FrmWorkFlowImport_gbxReult">The second step: perform the import</item>
+    <item key="FrmWorkFlowImport_btnInput">Import(&amp;E)</item>
+    <item key="FrmWorkFlowImport_btnClose">Close(&amp;C)</item>
+    <item key="FrmWorkFlowImport_lbStep">Import Progress...</item>
+    <!--RDIFramework.WorkFlow.FrmWorkFlowImport End -->
+    <!--RDIFramework.WorkFlow.FrmAddCommands Begin -->
+    <item key="FrmAddCommands">AddCommands</item>
+    <item key="FrmAddCommands_gbProcessCommand">ProcessCommand</item>
+    <item key="FrmAddCommands_lblCommandName">CommandName:</item>
+    <item key="FrmAddCommands_lblDescription">Description:</item>
+    <item key="FrmAddCommands_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmAddCommands_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmAddCommands End -->
+    <!--RDIFramework.WorkFlow.FrmAlterNode Begin -->
+    <item key="FrmAlterNode">AlterNodeConfig</item>
+    <item key="FrmAlterNode_tabItemGeneral">General</item>
+    <item key="FrmAlterNode_lblTaskName">TaskName:</item>
+    <item key="FrmAlterNode_lblFormName">FormName:</item>
+    <item key="FrmAlterNode_lblTaskDescription">Description:</item>
+    <item key="FrmAlterNode_lblProcess">Process:</item>
+    <item key="FrmAlterNode_btnAddcmd">Add...</item>
+    <item key="FrmAlterNode_btnModifycmd">Edit...</item>
+    <item key="FrmAlterNode_btnDeletecmd">Delete</item>
+    <item key="FrmAlterNode_btnSave">Confirm(&amp;S)</item>
+    <item key="FrmAlterNode_btnClose">Close(&amp;C)</item>
+    <item key="FrmAlterNode_tabItemOperator">Operator</item>
+    <item key="FrmAlterNode_gbOperatorStrategy">OperatorStrategy</item>
+    <item key="FrmAlterNode_rbtShareUser">ShareUser</item>
+    <item key="FrmAlterNode_rbtEveryUser">EveryUser(Jointly sign)</item>
+    <item key="FrmAlterNode_lblOperator">Operator:</item>
+    <item key="FrmAlterNode_btnAddOpr">Add...</item>
+    <item key="FrmAlterNode_btnModifyOpr">Edit...</item>
+    <item key="FrmAlterNode_btnDeleteOpr">Delete</item>
+    <item key="FrmAlterNode_cbxJumpSelf">JumpSelf</item>
+    <item key="FrmAlterNode_chkJumpNoOperator">JumpNoOperator</item>
+    <item key="FrmAlterNode_tabItemTaskVariable">TaskVariable</item>
+    <item key="FrmAlterNode_btnAddVar">Add...</item>
+    <item key="FrmAlterNode_btnModifyVar">Edit...</item>
+    <item key="FrmAlterNode_btnDeleteVar">Delete</item>
+    <item key="FrmAlterNode_tabItemControlPermission">ControlPermission</item>
+    <item key="FrmAlterNode_cbxReturn">AllowReturn</item>
+    <item key="FrmAlterNode_cbxAssign">AllowAssign</item>
+    <item key="FrmAlterNode_cbxDyAssignNext">AllowDyAssignNext</item>
+    <item key="FrmAlterNode_cbxReturnry">AllowAnyReturn</item>
+    <item key="FrmAlterNode_tabItemTimeOut">TimeOutSet</item>
+    <item key="FrmAlterNode_gbTimeOutSet">TimeOutSet</item>
+    <item key="FrmAlterNode_chkEnableTimeOut">TimeOut</item>
+    <item key="FrmAlterNode_lblNotice">Description: the time required to complete the task.</item>
+    <item key="FrmAlterNode_gbTimeOutProcess">TimeOutProcess</item>
+    <item key="FrmAlterNode_rbRemain">Remain</item>
+    <item key="FrmAlterNode_rbOver">Over</item>
+    <item key="FrmAlterNode_tabItemTaskNotice">TaskNotice</item>
+    <item key="FrmAlterNode_gbTimeoutNotice">TimeoutNotice</item>
+    <item key="FrmAlterNode_cbxOtMessage">MsgNotice</item>
+    <item key="FrmAlterNode_cbxOtSms">PhoneMsgNotice</item>
+    <item key="FrmAlterNode_cbxOtMail">EmailNotice</item>
+    <item key="FrmAlterNode_lblNoticeUsers">NoticeUsers:</item>
+    <item key="FrmAlterNode_btnOtAdd">Add</item>
+    <item key="FrmAlterNode_btnOtDelete">Delete</item>
+    <item key="FrmAlterNode_gbArriveNotice">ArriveNotice</item>
+    <item key="FrmAlterNode_cbxRmMessage">MsgNotice</item>
+    <item key="FrmAlterNode_cbxRmSms">PhoneMsgNotice</item>
+    <item key="FrmAlterNode_cbxRmMail">EmailNotice</item>
+    <item key="FrmAlterNode_lblArriveNoticeUsers">NoticeUsers:</item>
+    <item key="FrmAlterNode_btnRmAdd">Add</item>
+    <item key="FrmAlterNode_btnRmDelete">Delete</item>
+    <!--RDIFramework.WorkFlow.FrmAlterNode End -->
+    <!--RDIFramework.WorkFlow.FrmJudgeNode Begin -->
+    <item key="FrmJudgeNode">JudgeNodeConfig</item>
+    <item key="FrmJudgeNode_lblTaskName">TaskName:</item>
+    <item key="FrmJudgeNode_gbJudgeType">JudgeType</item>
+    <item key="FrmJudgeNode_rbtAnd">And</item>
+    <item key="FrmJudgeNode_rbtOr">Or</item>
+    <item key="FrmJudgeNode_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmJudgeNode_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmJudgeNode End -->
+    <!--RDIFramework.WorkFlow.FrmLinkConfig Begin -->
+    <item key="FrmLinkConfig">LinkConfig</item>
+    <item key="FrmLinkConfig_gbCommandPriority">CommandPriority</item>
+    <item key="FrmLinkConfig_lblCommandPriorityTip">(Priority from high to low 0,1...)</item>
+    <item key="FrmLinkConfig_gbExpressConfig">ExpressConfig</item>
+    <item key="FrmLinkConfig_btnVarChoose">VarChoose</item>
+    <item key="FrmLinkConfig_lblOperator">Operator:</item>
+    <item key="FrmLinkConfig_lblExpress">Express:</item>
+    <item key="FrmLinkConfig_lblDescription">Description</item>
+    <item key="FrmLinkConfig_btnSave">Save(&amp;S)</item>
+    <item key="FrmLinkConfig_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmLinkConfig End -->
+    <!--RDIFramework.WorkFlow.FrmOperator Begin -->
+    <item key="FrmOperator">AddOperator</item>
+    <item key="FrmOperator_gbOperator">Operator</item>
+    <item key="FrmOperator_rbtOpr1">The flow starter</item>
+    <item key="FrmOperator_rbtOpr2">To perform a task practice</item>
+    <item key="FrmOperator_rbtOpr3">Designated personnel</item>
+    <item key="FrmOperator_rbtOpr4">Department</item>
+    <item key="FrmOperator_rbtOpr5">Role</item>
+    <item key="FrmOperator_rbtOpr6">Post</item>
+    <item key="FrmOperator_rbtOpr7">Get from the var</item>
+    <item key="FrmOperator_rbtOpr9">All</item>
+    <item key="FrmOperator_rbtOpr8">A task selection operator</item>
+    <item key="FrmOperator_cbxRelation">Relationship with the handler</item>
+    <item key="FrmOperator_rbtRlt1">The department leader</item>
+    <item key="FrmOperator_rbtRlt2">Department</item>
+    <item key="FrmOperator_rbtRlt3">The superior department</item>
+    <item key="FrmOperator_rbtRlt4">The subordinate department</item>
+    <item key="FrmOperator_rbtRlt5">The superior leadership</item>
+    <item key="FrmOperator_rbtRlt6">The lower level of leadership</item>
+    <item key="FrmOperator_gbIncludeOrExclude">To include or exclude</item>
+    <item key="FrmOperator_rbtInclude">Include</item>
+    <item key="FrmOperator_rbtExclude">Exclude</item>
+    <item key="FrmOperator_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmOperator_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmOperator End -->
+    <!--RDIFramework.WorkFlow.FrmSelectArch Begin -->
+    <item key="FrmSelectArch">SelectDepartment</item>
+    <item key="FrmSelectArch_lblSelectDepartment">Please select department:</item>
+    <item key="FrmSelectArch_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSelectArch_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectArch End -->
+    <!--RDIFramework.WorkFlow.FrmSelectGroup Begin -->
+    <item key="FrmSelectGroup">SelectRole</item>
+    <item key="FrmSelectGroup_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSelectGroup_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectGroup End -->
+    <!--RDIFramework.WorkFlow.FrmSelectMainUserCtrl Begin -->
+    <item key="FrmSelectMainUserCtrl">SelectMainForm</item>
+    <item key="FrmSelectMainUserCtrl_lblFormName">FormName:</item>
+    <item key="FrmSelectMainUserCtrl_btnSearch">Search</item>
+    <item key="FrmSelectMainUserCtrl_btnNew">New</item>
+    <item key="FrmSelectMainUserCtrl_btnModify">Edit</item>
+    <item key="FrmSelectMainUserCtrl_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSelectMainUserCtrl_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectMainUserCtrl End -->
+    <!--RDIFramework.WorkFlow.FrmSelectTaskOperUser Begin -->
+    <item key="FrmSelectTaskOperUser">SelectTask</item>
+    <item key="FrmSelectTaskOperUser_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSelectTaskOperUser_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectTaskOperUser End -->
+    <!--RDIFramework.WorkFlow.FrmSelectUser Begin -->
+    <item key="FrmSelectUser">SelectUser"</item>
+    <item key="FrmSelectUser_lblAccount">Account:</item>
+    <item key="FrmSelectUser_lblUserName">UserName:</item>
+    <item key="FrmSelectUser_btnSearch">Search</item>
+    <item key="FrmSelectUser_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSelectUser_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectUser End -->
+    <!--RDIFramework.WorkFlow.FrmSelectVar Begin -->
+    <item key="FrmSelectVar">SelectVar</item>
+    <item key="FrmSelectVar_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSelectVar_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectVar End -->
+    <!--RDIFramework.WorkFlow.FrmSelectWorkFlow Begin -->
+    <item key="FrmSelectWorkFlow">SelectWorkFlow</item>
+    <item key="FrmSelectWorkFlow_lblFlowName">FlowName:</item>
+    <item key="FrmSelectWorkFlow_btnSearch">Search</item>
+    <item key="FrmSelectWorkFlow_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSelectWorkFlow_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectWorkFlow End -->
+    <!--RDIFramework.WorkFlow.FrmStartNode Begin -->
+    <item key="FrmStartNode">StartNodeConfig</item>
+    <item key="FrmStartNode_tabItemGeneral">General</item>
+    <item key="FrmStartNode_lblTaskName">TaskName:</item>
+    <item key="FrmStartNode_lblFormName">FormName:</item>
+    <item key="FrmStartNode_lblTaskDescription">Description:</item>
+    <item key="FrmStartNode_lblProcess">Process:</item>
+    <item key="FrmStartNode_btnAddcmd">Add...</item>
+    <item key="FrmStartNode_btnModifycmd">Edit...</item>
+    <item key="FrmStartNode_btnDeletecmd">Delete</item>
+    <item key="FrmStartNode_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmStartNode_btnClose">Close(&amp;C)</item>
+    <item key="FrmStartNode_tabItemOperator">Operator</item>
+    <item key="FrmStartNode_gbOperatorStrategy">OperatorStrategy</item>
+    <item key="FrmStartNode_rbtShareUser">ShareUser</item>
+    <item key="FrmStartNode_rbtEveryUser">EveryUser(Jointly sign)</item>
+    <item key="FrmStartNode_lblOperator">Operator:</item>
+    <item key="FrmStartNode_btnAddOpr">Add...</item>
+    <item key="FrmStartNode_btnModifyOpr">Edit...</item>
+    <item key="FrmStartNode_btnDeleteOpr">Delete</item>
+    <item key="FrmStartNode_tabItemTaskVariable">TaskVariable</item>
+    <!--RDIFramework.WorkFlow.FrmStartNode End -->
+    <!--RDIFramework.WorkFlow.FrmSubWorkFlowNode Begin -->
+    <item key="FrmSubWorkFlowNode">SubWorkFlowNodeConfig</item>
+    <item key="FrmSubWorkFlowNode_tabItemGeneral">General</item>
+    <item key="FrmSubWorkFlowNode_lblSubFlowName">SubFlowName:</item>
+    <item key="FrmSubWorkFlowNode_lblStartNode">StartNode:</item>
+    <item key="FrmSubWorkFlowNode_lblTaskDescription">Description:</item>
+    <item key="FrmSubWorkFlowNode_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmSubWorkFlowNode_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSubWorkFlowNode End -->
+    <!--RDIFramework.WorkFlow.FrmTaskVar Begin -->
+    <item key="FrmTaskVar">TaskVariable</item>
+    <item key="FrmTaskVar_lblVarName">VarName:</item>
+    <item key="FrmTaskVar_lblVarType">VarType:</item>
+    <item key="FrmTaskVar_lblInitValue">InitValue:</item>
+    <item key="FrmTaskVar_lblVarModel">VarModel:</item>
+    <item key="FrmTaskVar_lblAccessType">AccessType:</item>
+    <item key="FrmTaskVar_lblDataBase">DataBase:</item>
+    <item key="FrmTaskVar_lblTableName">TableName:</item>
+    <item key="FrmTaskVar_lblTableField">TableField:</item>
+    <item key="FrmTaskVar_lblSortField">SortField:</item>
+    <item key="FrmTaskVar_lblDesc">--Desc</item>
+    <item key="FrmTaskVar_btnTest">TestConn</item>
+    <item key="FrmTaskVar_btnSave">Confirm(&amp;O)</item>
+    <item key="FrmTaskVar_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmTaskVar End -->
+    <!--RDIFramework.WorkFlow.FrmViewTaskNode Begin -->
+    <item key="FrmViewTaskNode">ViewNodeConfig</item>
+    <item key="FrmViewTaskNode_tabItemGeneral">General</item>
+    <item key="FrmViewTaskNode_lblTaskName">TaskName:</item>
+    <item key="FrmViewTaskNode_lblFormName">FormName:</item>
+    <item key="FrmViewTaskNode_lblTaskDescription">Description:</item>
+    <item key="FrmViewTaskNode_lblProcess">Process:</item>
+    <item key="FrmViewTaskNode_btnAddcmd">Add...</item>
+    <item key="FrmViewTaskNode_btnModifycmd">Edit...</item>
+    <item key="FrmViewTaskNode_btnDeletecmd">Delete</item>
+    <item key="FrmViewTaskNode_btnSave">Confirm(&amp;S)</item>
+    <item key="FrmViewTaskNode_btnClose">Close(&amp;C)</item>
+    <item key="FrmViewTaskNode_tabItemOperator">Operator</item>
+    <item key="FrmViewTaskNode_gbOperatorStrategy">OperatorStrategy</item>
+    <item key="FrmViewTaskNode_rbtShareUser">ShareUser</item>
+    <item key="FrmViewTaskNode_rbtEveryUser">EveryUser(Jointly sign)</item>
+    <item key="FrmViewTaskNode_lblOperator">Operator:</item>
+    <item key="FrmViewTaskNode_btnAddOpr">Add...</item>
+    <item key="FrmViewTaskNode_btnModifyOpr">Edit...</item>
+    <item key="FrmViewTaskNode_btnDeleteOpr">Delete</item>
+    <item key="FrmViewTaskNode_tabItemTaskNotice">TaskNotice</item>
+    <item key="FrmViewTaskNode_gbArriveNotice">ArriveNotice</item>
+    <item key="FrmViewTaskNode_cbxRmMessage">MsgNotice</item>
+    <item key="FrmViewTaskNode_cbxRmSms">PhoneMsgNotice</item>
+    <item key="FrmViewTaskNode_cbxRmMail">EmailNotice</item>
+    <item key="FrmViewTaskNode_lblNoticeUsers">NoticeUsers:</item>
+    <item key="FrmViewTaskNode_btnRmAdd">Add</item>
+    <item key="FrmViewTaskNode_btnRmDelete">Delete</item>
+    <!--RDIFramework.WorkFlow.FrmViewTaskNode End -->
+    <!--RDIFramework.WorkFlow.FrmUserControlAdmin Begin -->
+    <item key="FrmUserControlAdmin">UserControlAdmin</item>
+    <item key="FrmUserControlAdmin_tbtnOper">Operate(&amp;A)</item>
+    <item key="FrmUserControlAdmin_tbtnLook">View(&amp;V)</item>
+    <item key="FrmUserControlAdmin_tbtnAdd">Add</item>
+    <item key="FrmUserControlAdmin_tbtnDelete">Delete</item>
+    <item key="FrmUserControlAdmin_tbtnVisable">Display on/off</item>
+    <item key="FrmUserControlAdmin_tbtnRefrush">Refresh</item>
+    <item key="FrmUserControlAdmin_tbtnLargeIcon">LargeIcon</item>
+    <item key="FrmUserControlAdmin_tbtnSmallIcon">SmallIcon</item>
+    <item key="FrmUserControlAdmin_tbtnListIcon">List</item>
+    <item key="FrmUserControlAdmin_tbtnDetails">Details</item>
+    <item key="FrmUserControlAdmin_tbtnAttribute">Attribute</item>
+    <item key="FrmUserControlAdmin_tbtnExit">Close</item>
+    <item key="FrmUserControlAdmin_tabItemUserControlList">UserControlList</item>
+    <item key="FrmUserControlAdmin_lvNewMuctoolStripMenuItem1">New MainUserControl</item>
+    <item key="FrmUserControlAdmin_lvModifyMuctoolStripMenuItem2">Edit MainUserControl</item>
+    <item key="FrmUserControlAdmin_lvDelMuctoolStripMenuItem3">Delete MainUserControl</item>
+    <item key="FrmUserControlAdmin_NewUctoolStripMenuItem2">New SubUserControl</item>
+    <item key="FrmUserControlAdmin_ModifyUcToolStripMenuItem">Edit SubUserControl</item>
+    <item key="FrmUserControlAdmin_delucToolStripMenuItem">Delete SubUserControl</item>
+    <item key="FrmUserControlAdmin_lvnewUctoolStripMenuItem1">New SubUserControl</item>
+    <item key="FrmUserControlAdmin_lvModifyUctoolStripMenuItem2">Edit SubUserControl</item>
+    <item key="FrmUserControlAdmin_lvDelUctoolStripMenuItem3">Delete SubUserControl</item>
+    <item key="FrmUserControlAdmin_newmucToolStripMenuItem">New MainUserControl</item>
+    <item key="FrmUserControlAdmin_modifymucToolStripMenuItem">Edit MainUserControl</item>
+    <item key="FrmUserControlAdmin_delmucToolStripMenuItem">Delete MainUserControl</item>
+    <item key="FrmUserControlAdmin_largeToolStripMenuItem">LargeIcon(&amp;G)</item>
+    <item key="FrmUserControlAdmin_smallToolStripMenuItem">SmallIcon(&amp;M)</item>
+    <item key="FrmUserControlAdmin_listToolStripMenuItem">List(&amp;L)</item>
+    <item key="FrmUserControlAdmin_detailsToolStripMenuItem">Details(&amp;D)</item>
+    <item key="FrmUserControlAdmin_exitToolStripMenuItem">Close(&amp;X)</item>
+    <!--RDIFramework.WorkFlow.FrmUserControlAdmin End -->
+    <!--RDIFramework.WorkFlow.FrmAddUserControl Begin -->
+    <item key="FrmAddUserControl">AddUserControl</item>
+    <item key="FrmAddUserControl_gbBaseInfo">BaseInfo</item>
+    <item key="FrmAddUserControl_lblFullName">FullName:</item>
+    <item key="FrmAddUserControl_lblFormType">FormType:</item>
+    <item key="FrmAddUserControl_lblPath">Path:</item>
+    <item key="FrmAddUserControl_lblControlId">ControlId:</item>
+    <item key="FrmAddUserControl_lblFormName">FormName:</item>
+    <item key="FrmAddUserControl_lblAssemblyName">Assembly:</item>
+    <item key="FrmAddUserControl_lblDescription">Description:</item>
+    <item key="FrmAddUserControl_btnSave">Save(&amp;S)</item>
+    <item key="FrmAddUserControl_btnClose">Close(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmAddUserControl End -->
+    <!--RDIFramework.WorkFlow.FrmMainUserControl Begin -->
+    <item key="FrmMainUserControl">MainUserControl</item>
+    <item key="FrmMainUserControl_lblFullName">FullName:</item>
+    <item key="FrmMainUserControl_lblDescription">Description:</item>
+    <item key="FrmMainUserControl_lblSubControl">SubControl:</item>
+    <item key="FrmMainUserControl_btnReadOnly">View</item>
+    <item key="FrmMainUserControl_btnModify">Edit</item>
+    <item key="FrmMainUserControl_btnNew">New</item>
+    <item key="FrmMainUserControl_btnAdd">Add(&amp;A)</item>
+    <item key="FrmMainUserControl_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmMainUserControl_btnUp">Up</item>
+    <item key="FrmMainUserControl_btnDown">Down</item>
+    <item key="FrmMainUserControl_btnSave">Save(&amp;S)></item>
+    <item key="FrmMainUserControl_btnClose">Close(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmMainUserControl End -->
+    <!--RDIFramework.WorkFlow.FrmSelectUserControl Begin -->
+    <item key="FrmSelectUserControl">SelectUserControl</item>
+    <item key="FrmSelectUserControl_btnAdd">Add(&amp;A)</item>
+    <item key="FrmSelectUserControl_btnDelete">Delete(&amp;D)</item>
+    <item key="FrmSelectUserControl_btnUp">Up</item>
+    <item key="FrmSelectUserControl_btnDown">Down</item>
+    <item key="FrmSelectUserControl_btnSave">Confirm(&amp;S)"></item>
+    <item key="FrmSelectUserControl_btnClose">Close(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectUserControl End -->
+    <!--RDIFramework.WorkFlow.FrmUserControls Begin -->
+    <item key="FrmUserControls">UserControls</item>
+    <item key="FrmUserControls_tabItemGeneral">General</item>
+    <item key="FrmUserControls_tabItemBelong">Belong</item>
+    <item key="FrmUserControls_lblFullName">FullName:</item>
+    <item key="FrmUserControls_lblFormType">FormType:</item>
+    <item key="FrmUserControls_lblPath">Path:</item>
+    <item key="FrmUserControls_lblControlId">ControlId:</item>
+    <item key="FrmUserControls_lblFormName">FormName:</item>
+    <item key="FrmUserControls_lblAssemblyName">Assembly:</item>
+    <item key="FrmUserControls_lblDescription">Description:</item>
+    <item key="FrmUserControls_lblBelongMainForm">BelongMainForm(&amp;M):</item>
+    <item key="FrmUserControls_btnSave">Save(&amp;S)</item>
+    <item key="FrmUserControls_btnClose">Close(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmUserControls End -->
+    
+    <!--RDIFramework.WorkFlow.FrmBeDoneTask Begin -->
+    <item key="FrmBeDoneTask">BeDoneTask</item>
+    <item key="FrmBeDoneTask_tabItemSearch">Search</item>
+    <item key="FrmBeDoneTask_gbCustomSearch">CustomSearch</item>
+    <item key="FrmBeDoneTask_lblBizName">BizName:</item>
+    <item key="FrmBeDoneTask_lblTaskTime">TaskTime:</item>
+    <item key="FrmBeDoneTask_lblTo">To:</item>
+    <item key="FrmBeDoneTask_rbExactSearch">Exact</item>
+    <item key="FrmBeDoneTask_rbLikeSearch">Like</item>
+    <item key="FrmBeDoneTask_btnSearch">Search</item>
+    <item key="FrmBeDoneTask_btnViewTask">ViewTask</item>
+    <item key="FrmBeDoneTask_btnViewWFChart">ViewWorkFlowChart</item>
+    <item key="FrmBeDoneTask_btnClose">Close</item>
+    <item key="FrmBeDoneTask_colSelected">Selected</item>
+    <item key="FrmBeDoneTask_colWorkFlowNo">WorkFlowNo</item>
+    <item key="FrmBeDoneTask_colFlowInsCaption">TaskInsName</item>
+    <item key="FrmBeDoneTask_colTaskInsCaption">TaskCaption</item>
+    <item key="FrmBeDoneTask_colpOperatedDes">SubmitUser</item>
+    <item key="FrmBeDoneTask_coltaskStartTime">StartTime</item>
+    <item key="FrmBeDoneTask_colTaskEndTime">EndTime</item>
+    <!--RDIFramework.WorkFlow.FrmBeDoneTask End -->
+    <!--RDIFramework.WorkFlow.FrmDailyBiz Begin -->
+    <item key="FrmDailyBiz">DailyBusiness</item>
+    <item key="FrmDailyBiz_tabItemMyBusiness">MyBusiness</item>
+    <item key="FrmDailyBiz_btnStartTask">StartTask</item>
+    <item key="FrmDailyBiz_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmDailyBiz End -->
+    <!--RDIFramework.WorkFlow.FrmMyParticipantTask Begin -->
+    <item key="FrmMyParticipantTask">MyParticipantTask</item>
+    <item key="FrmMyParticipantTask_tabItemSearch">Search</item>
+    <item key="FrmMyParticipantTask_gbCustomSearch">CustomSearch</item>
+    <item key="FrmMyParticipantTask_lblBizName">BizName:</item>
+    <item key="FrmMyParticipantTask_lblTaskTime">TaskTime:</item>
+    <item key="FrmMyParticipantTask_lblTo">To:</item>
+    <item key="FrmMyParticipantTask_rbExactSearch">Exact</item>
+    <item key="FrmMyParticipantTask_rbLikeSearch">Like</item>
+    <item key="FrmMyParticipantTask_btnSearch">Search</item>
+    <item key="FrmMyParticipantTask_btnViewTask">ViewTask</item>
+    <item key="FrmMyParticipantTask_btnViewWFChart">ViewWorkFlowChart</item>
+    <item key="FrmMyParticipantTask_btnClose">Close</item>
+    <item key="FrmMyParticipantTask_colSelected">Selected</item>
+    <item key="FrmMyParticipantTask_colWorkFlowNo">WorkFlowNo</item>
+    <item key="FrmMyParticipantTask_colFlowInsCaption">BizName</item>
+    <item key="FrmMyParticipantTask_colTaskInsCaption">TaskCaption</item>
+    <item key="FrmMyParticipantTask_colpOperatedDes">TaskSubmitUser</item>
+    <item key="FrmMyParticipantTask_colPriority">Priority</item>
+    <item key="FrmMyParticipantTask_colStatus">Status</item>
+    <item key="FrmMyParticipantTask_coltaskStartTime">TaskStartTime</item>
+    <item key="FrmMyParticipantTask_colTaskEndTime">TaskEndTime</item>
+    <item key="FrmMyParticipantTask_colOPERDATETIME">OperateDateTime</item>
+    <item key="FrmMyParticipantTask_colFLOWSTARTTIME">FlowStartTime</item>
+    <item key="FrmMyParticipantTask_colFLOWENDTIME">FlowEndTime</item>
+    <item key="FrmMyParticipantTask_colDESCRIPTION">Description</item>
+    <!--RDIFramework.WorkFlow.FrmMyParticipantTask End -->
+    <!--RDIFramework.WorkFlow.FrmToDoTask Begin -->
+    <item key="FrmToDoTask">ToDoTask</item>
+    <item key="FrmToDoTask_tabItemSearch">Search</item>
+    <item key="FrmToDoTask_gbCustomSearch">CustomSearch</item>
+    <item key="FrmToDoTask_lblBizName">BizName:</item>
+    <item key="FrmToDoTask_lblTaskTime">TaskTime:</item>
+    <item key="FrmToDoTask_lblTo">To:</item>
+    <item key="FrmToDoTask_rbExactSearch">Exact</item>
+    <item key="FrmToDoTask_rbLikeSearch">Like</item>
+    <item key="FrmToDoTask_btnSearch">Search</item>
+    <item key="FrmToDoTask_btnHandleTask">HandleTask</item>
+    <item key="FrmToDoTask_btnUnClaim">GiveupClaim</item>
+    <item key="FrmToDoTask_btnViewWFChart">ViewWorkFlowChart</item>
+    <item key="FrmToDoTask_btnProcessStep">ProcessStep</item>
+    <item key="FrmToDoTask_btnClose">Close</item>
+    <item key="FrmToDoTask_colSelected">Selected</item>
+    <item key="FrmToDoTask_colWorkFlowNo">WorkFlowNo</item>
+    <item key="FrmToDoTask_colFlowInsCaption">FlowInsCaption</item>
+    <item key="FrmToDoTask_coltaskStartTime">TaskStartTime</item>
+    <item key="FrmToDoTask_colTaskInsCaption">TaskCaption</item>
+    <item key="FrmToDoTask_colpOperatedDes">TaskSubmitUser</item>
+    <item key="FrmToDoTask_colStatus">Status</item>
+    <!--RDIFramework.WorkFlow.FrmToDoTask End -->
+    <!--RDIFramework.WorkFlow.FrmUnClaimedTask Begin -->
+    <item key="FrmUnClaimedTask">UnClaimedTask</item>
+    <item key="FrmUnClaimedTask_tabItemSearch">Search</item>
+    <item key="FrmUnClaimedTask_gbCustomSearch">CustomSearch</item>
+    <item key="FrmUnClaimedTask_lblBizName">BizName:</item>
+    <item key="FrmUnClaimedTask_lblTaskTime">TaskTime:</item>
+    <item key="FrmUnClaimedTask_lblTo">To:</item>
+    <item key="FrmUnClaimedTask_rbExactSearch">Exact</item>
+    <item key="FrmUnClaimedTask_rbLikeSearch">Like</item>
+    <item key="FrmUnClaimedTask_btnSearch">Search</item>
+    <item key="FrmUnClaimedTask_btnClaimTask">ClaimTask</item>
+    <item key="FrmUnClaimedTask_btnClose">Close</item>
+    <item key="FrmUnClaimedTask_colSelected">Selected</item>
+    <item key="FrmUnClaimedTask_colWorkFlowNo">WorkFlowNo</item>
+    <item key="FrmUnClaimedTask_colFlowInsCaption">BizName</item>
+    <item key="FrmUnClaimedTask_colTaskInsCaption">TaskCaption</item>
+    <item key="FrmUnClaimedTask_colpOperatedDes">TaskSubmitUser</item>
+    <item key="FrmUnClaimedTask_coltaskStartTime">TaskStartTime</item>
+    <item key="FrmUnClaimedTask_colflowStartTime">FlowStartTime</item>
+    <!--RDIFramework.WorkFlow.FrmToDoTask End -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowMonitor Begin -->
+    <item key="FrmWorkFlowMonitor">WorkFlowMonitor</item>
+    <item key="FrmWorkFlowMonitor_tabItemSearch">Search</item>
+    <item key="FrmWorkFlowMonitor_gbCustomSearch">CustomSearch</item>
+    <item key="FrmWorkFlowMonitor_lblBizName">BizName:</item>
+    <item key="FrmWorkFlowMonitor_lblStartTime">StartTime:</item>
+    <item key="FrmWorkFlowMonitor_lblTo">To:</item>
+    <item key="FrmWorkFlowMonitor_gbWorkFlowStatus">FlowStatus</item>
+    <item key="FrmWorkFlowMonitor_rbWFRunning">Running</item>
+    <item key="FrmWorkFlowMonitor_rbWFCompleted">Completed</item>
+    <item key="FrmWorkFlowMonitor_rbWFAll">All</item>
+    <item key="FrmWorkFlowMonitor_rbExactSearch">Exact</item>
+    <item key="FrmWorkFlowMonitor_rbLikeSearch">Like</item>
+    <item key="FrmWorkFlowMonitor_btnSearch">Search</item>
+    <item key="FrmWorkFlowMonitor_btnViewWFStatus">ViewFlowStatus</item>
+    <item key="FrmWorkFlowMonitor_btnProcessStep">ProcessStep</item>
+    <item key="FrmWorkFlowMonitor_btnClose">Close</item>
+    <item key="FrmWorkFlowMonitor_lblStatus1">NotImplemented</item>
+    <item key="FrmWorkFlowMonitor_lblStatus2">Executing</item>
+    <item key="FrmWorkFlowMonitor_lblStatus3">TheEnd</item>
+    <item key="FrmWorkFlowMonitor_colSelected">Selected</item>
+    <item key="FrmWorkFlowMonitor_colWorkFlowNo">WorkFlowNo</item>
+    <item key="FrmWorkFlowMonitor_colFlowInsCaption">FlowInsCaption</item>
+    <item key="FrmWorkFlowMonitor_colStartTime">StartTime</item>
+    <item key="FrmWorkFlowMonitor_colEndTime">EndTime</item>
+    <item key="FrmWorkFlowMonitor_colStatus">CurrentStatus</item>
+    <item key="FrmWorkFlowMonitor_colDescription">Description</item>
+    <!--RDIFramework.WorkFlow.FrmToDoTask End -->
+    <!--RDIFramework.WorkFlow.FrmViewWorkFlowChart Begin -->
+    <item key="FrmViewWorkFlowChart">FlowChart</item>
+    <item key="FrmViewWorkFlowChart_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmViewWorkFlowChart End -->
+    <!--RDIFramework.WorkFlow.FrmTaskReturn Begin -->
+    <item key="FrmTaskReturn">TaskReturn</item>
+    <item key="FrmTaskReturn_gbReturnInfo">ReturnInfo</item>
+    <item key="FrmTaskReturn_lblBackCause">BackCause:</item>
+    <item key="FrmTaskReturn_lblBackStep">BackStep:</item>
+    <item key="FrmTaskReturn_btnConfirm">Confirm</item>
+    <item key="FrmTaskReturn_btnCancel">Cancel</item>
+    <!--RDIFramework.WorkFlow.FrmTaskReturn End -->
+    <!--RDIFramework.WorkFlow.FrmTaskAssign Begin -->
+    <item key="FrmTaskAssign">TaskAssign</item>
+    <item key="FrmTaskAssign_gbAssignInfo">AssignInfo</item>
+    <item key="FrmTaskAssign_lblAssignUser">SelectedUser:</item>
+    <item key="FrmTaskAssign_btnAssign">Assign</item>
+    <item key="FrmTaskAssign_btnCancel">Cancel</item>
+    <!--RDIFramework.WorkFlowFrm.TaskAssign End -->
+    <!--RDIFramework.WorkFlow.FrmDyAssignNextOper Begin -->
+    <item key="FrmDyAssignNextOper">DyAssignNextOper</item>
+    <item key="FrmDyAssignNextOper_gbAssignInfo">AssignInfo</item>
+    <item key="FrmDyAssignNextOper_lblAssignNextUser">SelectedNextUser:</item>
+    <item key="FrmDyAssignNextOper_btnAssign">Assign</item>
+    <item key="FrmDyAssignNextOper_btnCancel">Cancel</item>
+    <!--RDIFramework.WorkFlowFrm.TaskAssign End -->
+    <!--RDIFramework.WorkFlow.FrmProcessStep Begin -->
+    <item key="FrmProcessStep">FlowProcessStep（FlowTrajectory）</item>
+    <item key="FrmProcessStep_colflowcaption">FlowCaption</item>
+    <item key="FrmProcessStep_coltaskcaption">TaskCaption</item>
+    <item key="FrmProcessStep_coloperateddes">TaskOperator</item>
+    <item key="FrmProcessStep_coltaskendtime">OperateTime</item>
+    <item key="FrmProcessStep_coloperatorinsid">OperatorId</item>
+    <item key="FrmProcessStep_btnClose">Close(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmProcessStep End -->
+    <!--RDIFramework.WorkFlow End -->
+
+  </items>
+</resources>

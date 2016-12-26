@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="../Content/Scripts/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../Content/Scripts/easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/Content/css/common.css" />
+    <script type="text/javascript" src="../Content/Scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../Content/Scripts/easyui/jquery.easyui.min.js"></script>
+    <title></title>
+    <script>
+        $(function () {
+            $('#btnConfirm').linkbutton();
+
+        });
+    </script>
+</head>
+<body>
+<div id='FormContent' class='easyui-layout'data-options='fit:true'>
+    <div data-options="region:'north',iconCls:'icon-ok'" style="height:44px;">
+        <div class="hint-info">
+            <div class="hint-tip icon-tip"></div>
+            <div>温馨提示：选中复选框即可授予相应资源管理权限，取消选中则回收相应资源管理权限。</div>
+        </div>
+    </div>
+    <div data-options="region:'center',iconCls:'icon-user'" title='当前用户：'>
+         <div id="staffTab" class="easyui-tabs" fit="true" style="height: 395px; overflow: hidden;" >
+             <div title="用户" style="padding: 2px; overflow: hidden;">
+                 <table id="tableUser"></table>
+             </div>
+             <div title="角色"  style="padding: 2px">
+                <table id="tableRole"></table>
+             </div>
+             <div title="组织机构"  style="padding: 2px">
+               <table id="tableOrganize"></table>
+             </div>
+             <div title="模块（菜单）"  style="padding: 2px">
+                <table id="tableModule"></table>
+             </div>
+             <div title="可分配的操作（功能）权限"  style="padding: 2px">
+               <table id="tablePermissionItem"></table>
+             </div>
+         </div>    
+    </div>
+  <input type="hidden" name="txtResourceId" id="txt_ResourceId"/>
+</div>
+</body>
+</html>

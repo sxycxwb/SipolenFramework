@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<dgvInfo>
+  <dgvInfo>
+    <ColumnName>colflowcaption</ColumnName>
+    <HeaderText>流程名称</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>0</DisplayIndex>
+    <Width>200</Width>
+  </dgvInfo>
+  <dgvInfo>
+    <ColumnName>coltaskcaption</ColumnName>
+    <HeaderText>任务名称</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>1</DisplayIndex>
+    <Width>260</Width>
+  </dgvInfo>
+  <dgvInfo>
+    <ColumnName>coloperateddes</ColumnName>
+    <HeaderText>任务处理者</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>2</DisplayIndex>
+    <Width>200</Width>
+  </dgvInfo>
+  <dgvInfo>
+    <ColumnName>coltaskendtime</ColumnName>
+    <HeaderText>处理时间</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>3</DisplayIndex>
+    <Width>200</Width>
+  </dgvInfo>
+  <dgvInfo>
+    <ColumnName>coloperatorinsid</ColumnName>
+    <HeaderText>处理者ID</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>4</DisplayIndex>
+    <Width>150</Width>
+  </dgvInfo>
+</dgvInfo>

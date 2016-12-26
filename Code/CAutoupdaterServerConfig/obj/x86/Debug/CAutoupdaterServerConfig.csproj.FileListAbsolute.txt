@@ -1,0 +1,9 @@
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.UpdateConfig.exe.config
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.UpdateConfig.exe.config
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.UpdateConfig.exe
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.UpdateConfig.pdb
+E:\E420\My\Framework\SipolenFramework\Code\CAutoupdaterServerConfig\obj\x86\Debug\CAutoupdaterServerConfig.FrmMain.resources
+E:\E420\My\Framework\SipolenFramework\Code\CAutoupdaterServerConfig\obj\x86\Debug\CAutoupdaterServerConfig.Properties.Resources.resources
+E:\E420\My\Framework\SipolenFramework\Code\CAutoupdaterServerConfig\obj\x86\Debug\CAutoupdaterServerConfig.csproj.GenerateResource.Cache
+E:\E420\My\Framework\SipolenFramework\Code\CAutoupdaterServerConfig\obj\x86\Debug\RDIFramework.UpdateConfig.exe
+E:\E420\My\Framework\SipolenFramework\Code\CAutoupdaterServerConfig\obj\x86\Debug\RDIFramework.UpdateConfig.pdb

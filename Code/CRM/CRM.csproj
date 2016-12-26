@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64F6FB37-75A6-4276-ACB4-77F9D612FE35}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRM</RootNamespace>
+    <AssemblyName>CRM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/CRM/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UMPlatForm.ExternalReference\DevComponents.DotNetBar2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\BizEntity\Entity\CUSTOMERCHANCEEntity.cs" />
+    <Compile Include="Business\BizEntity\Entity\CustomerClassEntity.cs" />
+    <Compile Include="Business\Interface\ICUSTOMERCHANCEService.cs" />
+    <Compile Include="Business\Manager\Generate\CUSTOMERCHANCEManager.Generate.cs" />
+    <Compile Include="Business\Manager\Generate\CustomerClassManager.Generate.cs" />
+    <Compile Include="Business\Manager\CustomerClassManager.cs" />
+    <Compile Include="Business\Service\CUSTOMERCHANCEService.cs" />
+    <Compile Include="Business\BizEntity\Table\CUSTOMERCHANCETable.cs" />
+    <Compile Include="Business\BizEntity\Table\CustomerClassTable.cs" />
+    <Compile Include="Business\BizEntity\Entity\CustomerEntity.cs" />
+    <Compile Include="Business\Manager\Generate\CustomerManager.Generate.cs" />
+    <Compile Include="Business\Manager\CustomerManager.cs" />
+    <Compile Include="Business\BizEntity\Table\CustomerTable.cs" />
+    <Compile Include="Business\BizEntity\Entity\LinkManEntity.cs" />
+    <Compile Include="Business\Manager\Generate\LinkManManager.Generate.cs" />
+    <Compile Include="Business\Manager\LinkManManager.cs" />
+    <Compile Include="Business\BizEntity\Table\LinkManTable.cs" />
+    <Compile Include="Business\Service\CustomerService.cs" />
+    <Compile Include="Business\Service\CustomerClassService.cs" />
+    <Compile Include="FormModule\Customer\FrmCustomerAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModule\Customer\FrmCustomerAdmin.Designer.cs">
+      <DependentUpon>FrmCustomerAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Interface\ICustomerService.cs" />
+    <Compile Include="Business\Interface\ILinkManService.cs" />
+    <Compile Include="Business\Service\LinkManService.cs" />
+    <Compile Include="Business\Interface\ICustomerClassService.cs" />
+    <Compile Include="FormModule\Customer\FrmCustomerEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModule\Customer\FrmCustomerEdit.Designer.cs">
+      <DependentUpon>FrmCustomerEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModule\Customer\FrmCustomerSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModule\Customer\FrmCustomerSelect.Designer.cs">
+      <DependentUpon>FrmCustomerSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModule\LinkMan\FrmLinkManEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModule\LinkMan\FrmLinkManEdit.Designer.cs">
+      <DependentUpon>FrmLinkManEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModule\LinkMan\FrmLinkManList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModule\LinkMan\FrmLinkManList.Designer.cs">
+      <DependentUpon>FrmLinkManList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business\BizEntity\Table\IncomingCallTable.cs" />
+    <Compile Include="Business\BizEntity\Entity\IncomingCallEntity.cs" />
+    <Compile Include="Business\Manager\IncomingCallManager.cs" />
+    <Compile Include="Business\Interface\IIncomingCallService.cs" />
+    <Compile Include="Business\Service\IncomingCallService.cs" />
+    <Compile Include="FormModule\IncomingCall\FrmIncomingCallAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModule\IncomingCall\FrmIncomingCallAdmin.Designer.cs">
+      <DependentUpon>FrmIncomingCallAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModule\IncomingCall\FrmIncomingCallEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModule\IncomingCall\FrmIncomingCallEdit.Designer.cs">
+      <DependentUpon>FrmIncomingCallEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormModule\Customer\FrmCustomerAdmin.resx">
+      <DependentUpon>FrmCustomerAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModule\Customer\FrmCustomerEdit.resx">
+      <DependentUpon>FrmCustomerEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModule\Customer\FrmCustomerSelect.resx">
+      <DependentUpon>FrmCustomerSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModule\LinkMan\FrmLinkManEdit.resx">
+      <DependentUpon>FrmLinkManEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModule\LinkMan\FrmLinkManList.resx">
+      <DependentUpon>FrmLinkManList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModule\IncomingCall\FrmIncomingCallAdmin.resx">
+      <DependentUpon>FrmIncomingCallAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModule\IncomingCall\FrmIncomingCallEdit.resx">
+      <DependentUpon>FrmIncomingCallEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\letter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\add.gif" />
+    <EmbeddedResource Include="Resources\addCustomer.gif" />
+    <EmbeddedResource Include="Resources\cancel.gif" />
+    <EmbeddedResource Include="Resources\chart.gif" />
+    <EmbeddedResource Include="Resources\close.png" />
+    <EmbeddedResource Include="Resources\copy.gif" />
+    <EmbeddedResource Include="Resources\del.gif" />
+    <EmbeddedResource Include="Resources\deleteCustomer.gif" />
+    <EmbeddedResource Include="Resources\edit.gif" />
+    <EmbeddedResource Include="Resources\editCustomer.gif" />
+    <EmbeddedResource Include="Resources\find.gif" />
+    <EmbeddedResource Include="Resources\folder.gif" />
+    <EmbeddedResource Include="Resources\folderOpen.gif" />
+    <EmbeddedResource Include="Resources\help.gif" />
+    <EmbeddedResource Include="Resources\highlever.gif" />
+    <EmbeddedResource Include="Resources\home.gif" />
+    <EmbeddedResource Include="Resources\image.gif" />
+    <EmbeddedResource Include="Resources\lock.gif" />
+    <EmbeddedResource Include="Resources\Print.gif" />
+    <EmbeddedResource Include="Resources\save.gif" />
+    <EmbeddedResource Include="Resources\view.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rename.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memo1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compay.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meme2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveAs.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RDIFramework.BizLogic\RDIFramework.BizLogic.csproj">
+      <Project>{3DFEEFB2-547E-4744-B667-3103B0ACAC65}</Project>
+      <Name>RDIFramework.BizLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Control\RDIFramework.Controls.csproj">
+      <Project>{E91E412C-381B-46D8-979B-9AFA4A947562}</Project>
+      <Name>RDIFramework.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Utilities\RDIFramework.Utilities.csproj">
+      <Project>{1916FE94-6129-4F93-BC55-0CF5F2CF9B05}</Project>
+      <Name>RDIFramework.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.WinForm.Utilities\RDIFramework.WinForm.Utilities.csproj">
+      <Project>{E5C1169C-4F78-4B4B-9476-41D51F90E84A}</Project>
+      <Name>RDIFramework.WinForm.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

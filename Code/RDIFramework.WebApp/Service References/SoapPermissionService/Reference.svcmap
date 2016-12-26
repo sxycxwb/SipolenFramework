@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fadbfbe4-7091-405e-b6c0-8695569f72e7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8096/PermissionService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PermissionService.xsd" MetadataType="Schema" ID="94be717a-0b0a-46d9-a5a6-f54f1f0b8b22" SourceId="1" SourceUrl="http://localhost:8096/PermissionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PermissionService1.xsd" MetadataType="Schema" ID="fee0b6ab-d583-44a7-a77d-2c644960b1d4" SourceId="1" SourceUrl="http://localhost:8096/PermissionService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PermissionService.wsdl" MetadataType="Wsdl" ID="816815e4-ee9c-405f-8ec0-70fef5be0b62" SourceId="1" SourceUrl="http://localhost:8096/PermissionService.svc?wsdl" />
+    <MetadataFile FileName="PermissionService2.xsd" MetadataType="Schema" ID="d7627a7b-af68-4055-9366-fd18451d30aa" SourceId="1" SourceUrl="http://localhost:8096/PermissionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PermissionService3.xsd" MetadataType="Schema" ID="3a0e3a0e-a1c3-4e48-8e8c-b4d504f1ad14" SourceId="1" SourceUrl="http://localhost:8096/PermissionService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PermissionService4.xsd" MetadataType="Schema" ID="fc33c832-a5dd-4b53-bf4b-2f99638ff496" SourceId="1" SourceUrl="http://localhost:8096/PermissionService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

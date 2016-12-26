@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55E2E05C-5614-4A03-8429-6F6C5AB5E2BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDIFramework.WorkFlow</RootNamespace>
+    <AssemblyName>RDIFramework.WorkFlow</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>http://localhost/RDIFramework.WorkFlow/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RDIFramework.ExternalReference\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Component\BaseComponent.cs" />
+    <Compile Include="Component\Bounds.cs" />
+    <Compile Include="Component\Dragger.cs" />
+    <Compile Include="Component\GrabHandles.cs" />
+    <Compile Include="Component\Link.cs" />
+    <Compile Include="Component\Rubberband.cs" />
+    <Compile Include="Component\SelectedItems.cs" />
+    <Compile Include="Component\SelectedLine.cs" />
+    <Compile Include="Component\WorkFlowData.cs" />
+    <Compile Include="Component\WorkPlace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designer\FrmAddWorkFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\FrmAddWorkFlow.Designer.cs">
+      <DependentUpon>FrmAddWorkFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designer\BaseTreeNode.cs" />
+    <Compile Include="Designer\DesignerHelper.cs" />
+    <Compile Include="Designer\FrmSelectClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\FrmSelectClass.Designer.cs">
+      <DependentUpon>FrmSelectClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designer\FrmWorkFlowClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\FrmWorkFlowClass.Designer.cs">
+      <DependentUpon>FrmWorkFlowClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designer\WorkFlowClassTreeNode.cs" />
+    <Compile Include="Designer\WorkFlowTreeNode.cs" />
+    <Compile Include="BizForm\Common\FrmAttachment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BizForm\Common\FrmAttachment.Designer.cs">
+      <DependentUpon>FrmAttachment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BizForm\Common\FrmAuditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BizForm\Common\FrmAuditForm.Designer.cs">
+      <DependentUpon>FrmAuditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BizForm\Common\FrmAuditList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BizForm\Common\FrmAuditList.Designer.cs">
+      <DependentUpon>FrmAuditList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designer\FrmWorkFlowDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\FrmWorkFlowDesigner.Designer.cs">
+      <DependentUpon>FrmWorkFlowDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designer\FrmWorkFlowExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\FrmWorkFlowExport.Designer.cs">
+      <DependentUpon>FrmWorkFlowExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designer\FrmWorkFlowImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\FrmWorkFlowImport.Designer.cs">
+      <DependentUpon>FrmWorkFlowImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BizForm\FrmEvection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BizForm\FrmEvection.Designer.cs">
+      <DependentUpon>FrmEvection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmViewTaskNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmViewTaskNode.Designer.cs">
+      <DependentUpon>FrmViewTaskNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmTaskVar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmTaskVar.Designer.cs">
+      <DependentUpon>FrmTaskVar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmJudgeNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmJudgeNode.Designer.cs">
+      <DependentUpon>FrmJudgeNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSubWorkFlowNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSubWorkFlowNode.Designer.cs">
+      <DependentUpon>FrmSubWorkFlowNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmAlterNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmAlterNode.Designer.cs">
+      <DependentUpon>FrmAlterNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDyAssignNextOper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDyAssignNextOper.Designer.cs">
+      <DependentUpon>FrmDyAssignNextOper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessingTaskCommon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessingTaskCommon.Designer.cs">
+      <DependentUpon>FrmProcessingTaskCommon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessStep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessStep.Designer.cs">
+      <DependentUpon>FrmProcessStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmStartNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmStartNode.Designer.cs">
+      <DependentUpon>FrmStartNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTaskAssign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTaskAssign.Designer.cs">
+      <DependentUpon>FrmTaskAssign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTaskReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTaskReturn.Designer.cs">
+      <DependentUpon>FrmTaskReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViewWorkFlowChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViewWorkFlowChart.Designer.cs">
+      <DependentUpon>FrmViewWorkFlowChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkFlowMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkFlowMonitor.Designer.cs">
+      <DependentUpon>FrmWorkFlowMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\FrmBaseBizeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\FrmBaseBizeForm.Designer.cs">
+      <DependentUpon>FrmBaseBizeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBeDoneTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBeDoneTask.Designer.cs">
+      <DependentUpon>FrmBeDoneTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCommTestAuditWF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCommTestAuditWF.Designer.cs">
+      <DependentUpon>FrmCommTestAuditWF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCommTestWF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCommTestWF.Designer.cs">
+      <DependentUpon>FrmCommTestWF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailyBiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailyBiz.Designer.cs">
+      <DependentUpon>FrmDailyBiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BizForm\FrmQingJia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BizForm\FrmQingJia.Designer.cs">
+      <DependentUpon>FrmQingJia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStartWorkFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStartWorkFlow.Designer.cs">
+      <DependentUpon>FrmStartWorkFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmLinkConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmLinkConfig.Designer.cs">
+      <DependentUpon>FrmLinkConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmToDoTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmToDoTask.Designer.cs">
+      <DependentUpon>FrmToDoTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FrmUserControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\FrmUserControls.Designer.cs">
+      <DependentUpon>FrmUserControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FrmUserControlAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\FrmUserControlAdmin.Designer.cs">
+      <DependentUpon>FrmUserControlAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DynamicLibrary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\FrmAddUserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\FrmAddUserControl.Designer.cs">
+      <DependentUpon>FrmAddUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BaseUserControlTreeNode.cs" />
+    <Compile Include="UserControls\FrmMainUserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\FrmMainUserControl.Designer.cs">
+      <DependentUpon>FrmMainUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MainUserControlNode.cs" />
+    <Compile Include="UserControls\FrmSelectUserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\FrmSelectUserControl.Designer.cs">
+      <DependentUpon>FrmSelectUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlNode.cs" />
+    <Compile Include="Utils\BaseForm_Blank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\BaseForm_Single.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmAddCommands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmAddCommands.Designer.cs">
+      <DependentUpon>FrmAddCommands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\BaseTemplateTreeNode.cs" />
+    <Compile Include="WorkTaskLine\CommonForm\FrmOrganizeSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\CommonForm\FrmOrganizeSelect.Designer.cs">
+      <DependentUpon>FrmOrganizeSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\CommonForm\FrmRoleSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\CommonForm\FrmRoleSelect.Designer.cs">
+      <DependentUpon>FrmRoleSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\CommonForm\FrmUserSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\CommonForm\FrmUserSelect.Designer.cs">
+      <DependentUpon>FrmUserSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmOperator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmOperator.Designer.cs">
+      <DependentUpon>FrmOperator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectArch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectArch.Designer.cs">
+      <DependentUpon>FrmSelectArch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectGroup.Designer.cs">
+      <DependentUpon>FrmSelectGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectMainUserCtrl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectMainUserCtrl.Designer.cs">
+      <DependentUpon>FrmSelectMainUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectTaskOperUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectTaskOperUser.Designer.cs">
+      <DependentUpon>FrmSelectTaskOperUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectUser.Designer.cs">
+      <DependentUpon>FrmSelectUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectVar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectVar.Designer.cs">
+      <DependentUpon>FrmSelectVar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectWorkFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkTaskLine\FrmSelectWorkFlow.Designer.cs">
+      <DependentUpon>FrmSelectWorkFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUnClaimedTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUnClaimedTask.Designer.cs">
+      <DependentUpon>FrmUnClaimedTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessingTask .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessingTask .Designer.cs">
+      <DependentUpon>FrmProcessingTask .cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMyParticipantTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMyParticipantTask.Designer.cs">
+      <DependentUpon>FrmMyParticipantTask.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BizForm\Common\FrmAttachment.resx">
+      <DependentUpon>FrmAttachment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BizForm\Common\FrmAttachment.zh-CN.resx">
+      <DependentUpon>FrmAttachment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BizForm\FrmEvection.resx">
+      <DependentUpon>FrmEvection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BizForm\FrmQingJia.resx">
+      <DependentUpon>FrmQingJia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\WorkPlace.resx">
+      <DependentUpon>WorkPlace.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\FrmAddWorkFlow.resx">
+      <DependentUpon>FrmAddWorkFlow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\FrmSelectClass.resx">
+      <DependentUpon>FrmSelectClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\FrmWorkFlowClass.resx">
+      <DependentUpon>FrmWorkFlowClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\FrmWorkFlowDesigner.resx">
+      <DependentUpon>FrmWorkFlowDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\FrmWorkFlowExport.resx">
+      <DependentUpon>FrmWorkFlowExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\FrmWorkFlowImport.resx">
+      <DependentUpon>FrmWorkFlowImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BizForm\Common\FrmAuditForm.resx">
+      <DependentUpon>FrmAuditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BizForm\Common\FrmAuditList.resx">
+      <DependentUpon>FrmAuditList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmJudgeNode.resx">
+      <DependentUpon>FrmJudgeNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmSubWorkFlowNode.resx">
+      <DependentUpon>FrmSubWorkFlowNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmAlterNode.resx">
+      <DependentUpon>FrmAlterNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBeDoneTask.resx">
+      <DependentUpon>FrmBeDoneTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCommTestAuditWF.resx">
+      <DependentUpon>FrmCommTestAuditWF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCommTestWF.resx">
+      <DependentUpon>FrmCommTestWF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailyBiz.resx">
+      <DependentUpon>FrmDailyBiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDyAssignNextOper.resx">
+      <DependentUpon>FrmDyAssignNextOper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessingTaskCommon.resx">
+      <DependentUpon>FrmProcessingTaskCommon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessStep.resx">
+      <DependentUpon>FrmProcessStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStartWorkFlow.resx">
+      <DependentUpon>FrmStartWorkFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTaskAssign.resx">
+      <DependentUpon>FrmTaskAssign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTaskReturn.resx">
+      <DependentUpon>FrmTaskReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmToDoTask.resx">
+      <DependentUpon>FrmToDoTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViewWorkFlowChart.resx">
+      <DependentUpon>FrmViewWorkFlowChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkFlowMonitor.resx">
+      <DependentUpon>FrmWorkFlowMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\FrmUserControls.resx">
+      <DependentUpon>FrmUserControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\FrmUserControlAdmin.resx">
+      <DependentUpon>FrmUserControlAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\FrmAddUserControl.resx">
+      <DependentUpon>FrmAddUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\FrmMainUserControl.resx">
+      <DependentUpon>FrmMainUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\FrmSelectUserControl.resx">
+      <DependentUpon>FrmSelectUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\BaseForm_Blank.resx">
+      <DependentUpon>BaseForm_Blank.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\BaseForm_Single.resx">
+      <DependentUpon>BaseForm_Single.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmAddCommands.resx">
+      <DependentUpon>FrmAddCommands.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\CommonForm\FrmOrganizeSelect.resx">
+      <DependentUpon>FrmOrganizeSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\CommonForm\FrmRoleSelect.resx">
+      <DependentUpon>FrmRoleSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\CommonForm\FrmUserSelect.resx">
+      <DependentUpon>FrmUserSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmLinkConfig.resx">
+      <DependentUpon>FrmLinkConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmOperator.resx">
+      <DependentUpon>FrmOperator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmSelectArch.resx">
+      <DependentUpon>FrmSelectArch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmSelectGroup.resx">
+      <DependentUpon>FrmSelectGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmSelectMainUserCtrl.resx">
+      <DependentUpon>FrmSelectMainUserCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmSelectTaskOperUser.resx">
+      <DependentUpon>FrmSelectTaskOperUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmSelectUser.resx">
+      <DependentUpon>FrmSelectUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmSelectVar.resx">
+      <DependentUpon>FrmSelectVar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmSelectWorkFlow.resx">
+      <DependentUpon>FrmSelectWorkFlow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmStartNode.resx">
+      <DependentUpon>FrmStartNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmTaskVar.resx">
+      <DependentUpon>FrmTaskVar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUnClaimedTask.resx">
+      <DependentUpon>FrmUnClaimedTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessingTask .resx">
+      <DependentUpon>FrmProcessingTask .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkTaskLine\FrmViewTaskNode.resx">
+      <DependentUpon>FrmViewTaskNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMyParticipantTask.resx">
+      <DependentUpon>FrmMyParticipantTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RDIFramework.BizLogic\RDIFramework.BizLogic.csproj">
+      <Project>{3DFEEFB2-547E-4744-B667-3103B0ACAC65}</Project>
+      <Name>RDIFramework.BizLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Control\RDIFramework.Controls.csproj">
+      <Project>{E91E412C-381B-46D8-979B-9AFA4A947562}</Project>
+      <Name>RDIFramework.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Utilities\RDIFramework.Utilities.csproj">
+      <Project>{1916FE94-6129-4F93-BC55-0CF5F2CF9B05}</Project>
+      <Name>RDIFramework.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.WinForm.Utilities\RDIFramework.WinForm.Utilities.csproj">
+      <Project>{E5C1169C-4F78-4B4B-9476-41D51F90E84A}</Project>
+      <Name>RDIFramework.WinForm.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\attribute.png" />
+    <Content Include="Resource\WFImage\交互节点.ico" />
+    <Content Include="Resource\WFImage\交互节点_灰.jpg" />
+    <Content Include="Resource\WFImage\判断节点1.ico" />
+    <Content Include="Resource\WFImage\启动节点.ico" />
+    <Content Include="Resource\WFImage\启动节点_灰.jpg" />
+    <Content Include="Resource\WFImage\子流程节点.ico" />
+    <Content Include="Resource\WFImage\子流程节点_灰.jpg" />
+    <Content Include="Resource\WFImage\控制节点.ico" />
+    <Content Include="Resource\WFImage\控制节点_灰.jpg" />
+    <Content Include="Resource\WFImage\查看节点.ico" />
+    <Content Include="Resource\WFImage\查看节点_灰.jpg" />
+    <Content Include="Resource\WFImage\终止节点.ico" />
+    <Content Include="Resource\WFImage\终止节点_灰.jpg" />
+    <Content Include="Resource\WFImage\自动节点.ico" />
+    <Content Include="Resource\WFImage\自连线.ico" />
+    <Content Include="Resource\WFImage\连线.ico" />
+    <Content Include="Resource\WFImage\锁.ico" />
+    <Content Include="Resource\交互节点.ico" />
+    <Content Include="Resource\关闭.ico" />
+    <Content Include="Resource\列表.ico" />
+    <Content Include="Resource\判断节点1.ico" />
+    <Content Include="Resource\启动.ico" />
+    <Content Include="Resource\启动节点.ico" />
+    <Content Include="Resource\处理任务.ico" />
+    <Content Include="Resource\子流程节点.ico" />
+    <Content Include="Resource\已完成.ico" />
+    <Content Include="Resource\控制节点.ico" />
+    <Content Include="Resource\放弃.ico" />
+    <Content Include="Resource\查看节点.ico" />
+    <Content Include="Resource\监控.ico" />
+    <Content Include="Resource\终止节点.ico" />
+    <Content Include="Resource\自动节点.ico" />
+    <Content Include="Resource\自连线.ico" />
+    <Content Include="Resource\节点图.ico" />
+    <Content Include="Resource\认领.ico" />
+    <Content Include="Resource\连线.ico" />
+    <Content Include="Resource\锁.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

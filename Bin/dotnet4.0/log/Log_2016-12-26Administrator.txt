@@ -1,0 +1,158 @@
+2016-12-26 15:19:26 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+InnerException:System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+FullException:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 RDIFramework.Utilities.BaseDbProvider.Open(String connectionString) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 282
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessDbProvider(ParameterUtil sup, ProcessFunDelegate fun, DbType dbType, Boolean inTransaction)
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessDb(ParameterUtil parameter, ProcessFunDelegate fun, DbType dbType, Boolean inTransaction)
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessRDIReadDb(UserInfo userInfo, ParameterUtil parameter, ProcessFunDelegate fun)
+   在 RDIFramework.BizLogic.MessageService.GetDTNew(UserInfo userInfo, String& openId)
+   在 RDIFramework.NET.FrmMsg.GetNewMessage()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2016-12-26 15:19:46 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+InnerException:System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+FullException:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 RDIFramework.Utilities.BaseDbProvider.Open(String connectionString) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 282
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessDbProvider(ParameterUtil sup, ProcessFunDelegate fun, DbType dbType, Boolean inTransaction)
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessDb(ParameterUtil parameter, ProcessFunDelegate fun, DbType dbType, Boolean inTransaction)
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessRDIReadDb(UserInfo userInfo, ParameterUtil parameter, ProcessFunDelegate fun)
+   在 RDIFramework.BizLogic.MessageService.GetDTNew(UserInfo userInfo, String& openId)
+   在 RDIFramework.NET.FrmMsg.GetNewMessage()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2016-12-26 15:20:30 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+InnerException:System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+FullException:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 RDIFramework.Utilities.BaseDbProvider.Open(String connectionString) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 282
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessDbProvider(ParameterUtil sup, ProcessFunDelegate fun, DbType dbType, Boolean inTransaction)
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessDb(ParameterUtil parameter, ProcessFunDelegate fun, DbType dbType, Boolean inTransaction)
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessRDIReadDb(UserInfo userInfo, ParameterUtil parameter, ProcessFunDelegate fun)
+   在 RDIFramework.BizLogic.MessageService.GetDTNew(UserInfo userInfo, String& openId)
+   在 RDIFramework.NET.FrmMsg.GetNewMessage()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2016-12-26 15:20:43 Message:无法打开登录所请求的数据库 "RDIFrameworkV3.0"。登录失败。
+用户 'sinldo' 登录失败。
+InnerException:
+FullException:System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "RDIFrameworkV3.0"。登录失败。
+用户 'sinldo' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 RDIFramework.Utilities.BaseDbProvider.Open(String connectionString) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 282
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessDbProvider(ParameterUtil sup, ProcessFunDelegate fun, DbType dbType, Boolean inTransaction)
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessDb(ParameterUtil parameter, ProcessFunDelegate fun, DbType dbType, Boolean inTransaction)
+   在 RDIFramework.BizLogic.ServiceUtil.ProcessRDIReadDb(UserInfo userInfo, ParameterUtil parameter, ProcessFunDelegate fun)
+   在 RDIFramework.BizLogic.MessageService.GetDTNew(UserInfo userInfo, String& openId)
+   在 RDIFramework.NET.FrmMsg.GetNewMessage()
+ClientConnectionId:3af6cb28-2356-46f2-87ef-e6b6fa7f8338
+Error Number:4060,State:1,Class:11
+2016-12-26 15:37:17 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+InnerException:
+FullException:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 RDIFramework.Utilities.BaseDbProvider.Open(String connectionString) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 282
+   在 RDIFramework.Utilities.BaseDbProvider.Open() 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 251
+   在 RDIFramework.Utilities.BaseDbProvider.get_DbConnection() 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 62
+   在 RDIFramework.Utilities.BaseDbProvider.ExecuteScalar(IDbTransaction transaction, String commandText, IDbDataParameter[] dbParameters, CommandType commandType) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.Method.cs:行号 295
+   在 RDIFramework.Utilities.BaseDbProvider.ExecuteScalar(String commandText, IDbDataParameter[] dbParameters, CommandType commandType) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.Method.cs:行号 280
+   在 RDIFramework.Utilities.BaseDbProvider.ExecuteScalar(String commandText) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.Method.cs:行号 253
+   在 RDIFramework.BizLogic.DbCommonLibary.GetCount(IDbProvider dbProvider, String tableName, String whereConditional)
+   在 RDIFramework.BizLogic.DbCommonManager.GetDTByPage(Int32& recordCount, Int32 pageIndex, Int32 pageSize, String whereConditional, String order)
+   在 RDIFramework.Test.FrmProductAdmin.GetData(Int32& recordCount, Int32 pageIndex, Int32 pageSize, String search) 位置 g:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Test\Product\FrmProductAdmin.cs:行号 164
+   在 RDIFramework.Test.FrmProductAdmin.Search() 位置 g:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Test\Product\FrmProductAdmin.cs:行号 155
+   在 RDIFramework.Test.FrmProductAdmin.FormOnLoad() 位置 g:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Test\Product\FrmProductAdmin.cs:行号 138
+   在 RDIFramework.WinForm.Utilities.BaseForm.Form_Load(Object sender, EventArgs e) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\BaseUI\BaseForm.cs:行号 254
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2016-12-26 15:47:57 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+InnerException:
+FullException:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 RDIFramework.Utilities.BaseDbProvider.Open(String connectionString) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 282
+   在 RDIFramework.Utilities.BaseDbProvider.Open() 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 251
+   在 RDIFramework.Utilities.BaseDbProvider.get_DbConnection() 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.cs:行号 62
+   在 RDIFramework.Utilities.BaseDbProvider.ExecuteScalar(IDbTransaction transaction, String commandText, IDbDataParameter[] dbParameters, CommandType commandType) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.Method.cs:行号 295
+   在 RDIFramework.Utilities.BaseDbProvider.ExecuteScalar(String commandText, IDbDataParameter[] dbParameters, CommandType commandType) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.Method.cs:行号 280
+   在 RDIFramework.Utilities.BaseDbProvider.ExecuteScalar(String commandText) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\DataAccessLibary\BaseDbProvider.Method.cs:行号 253
+   在 RDIFramework.BizLogic.DbCommonLibary.GetCount(IDbProvider dbProvider, String tableName, String whereConditional) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\Common\DbCommonLibary\DbCommonLibary.GetCount.cs:行号 29
+   在 RDIFramework.BizLogic.DbCommonManager.GetDTByPage(Int32& recordCount, Int32 pageIndex, Int32 pageSize, String whereConditional, String order) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.BizLogic\Common\DbCommonManager\DbCommonManager.GetDTByPage.cs:行号 40
+   在 RDIFramework.Test.FrmProductAdmin.GetData(Int32& recordCount, Int32 pageIndex, Int32 pageSize, String search) 位置 g:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Test\Product\FrmProductAdmin.cs:行号 164
+   在 RDIFramework.Test.FrmProductAdmin.Search() 位置 g:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Test\Product\FrmProductAdmin.cs:行号 155
+   在 RDIFramework.Test.FrmProductAdmin.FormOnLoad() 位置 g:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Test\Product\FrmProductAdmin.cs:行号 138
+   在 RDIFramework.WinForm.Utilities.BaseForm.Form_Load(Object sender, EventArgs e) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\BaseUI\BaseForm.cs:行号 254
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20

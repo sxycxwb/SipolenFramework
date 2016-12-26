@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DotNet.Controls.UcPageControl">
+    <Position X="1.5" Y="0.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJAAhKwAwDFAhAMEIUKMIBMSAEQAhhEIKADAEAABIAA=</HashCode>
+      <FileName>UcPageControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNet.Controls.EventPagingArg">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>UcPageControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNet.Controls.PageData">
+    <Position X="4.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EEAAAAEAAAAQBAAEAEAAFAAABJCAAgAAABQCEQKAgAQ=</HashCode>
+      <FileName>UcPageControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="DotNet.Controls.EventPagingHandler">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UcPageControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

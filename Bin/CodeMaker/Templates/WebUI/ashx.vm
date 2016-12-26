@@ -1,0 +1,157 @@
+﻿using System;
+using System.Web.SessionState;
+using System.Web;
+
+namespace RDIFramework.WebApp.demo.handler
+{
+    using RDIFramework.BizLogic;
+    using RDIFramework.WebCommon;
+    using RDIFramework.Utilities;
+
+	/// <summary>
+    /// ${options.modelname}.ashx
+    /// 产品管理一般处理程序
+    /// 
+    /// 修改纪录
+    ///     
+    ///     yyyy-MM-dd 版本：1.0 创建。
+    /// 
+    /// 版本：1.0
+    /// 
+    /// <author>
+    ///		<name></name>
+    ///		<date></date>
+    /// </author>
+    /// </summary>
+    public class ${options.modelname} : IHttpHandler, IRequiresSessionState
+    {
+        public void ProcessRequest(HttpContext context)
+        {
+            context.Response.ContentType = "text/plain";            
+            switch (PublicMethod.GetString(WebCommon.StringHelper.GetRequestObject("action")))
+            {
+                case "SubmitForm":
+                    SubmitForm(context);
+                    break;
+                case "GetEntity":
+                    this.GetEntity(context);
+                    break;                
+                case "Delete":
+                    this.Delete(context);
+                    break;       
+                default:
+                    GetPageData(context);      
+                    break;
+            }
+        }
+
+        IDbProvider dbProvider
+        {
+            get
+            {
+                var DbDefine = RDIFrameworkService.Instance.DbLinkDefineService.GetEntityByLinkName(Utils.UserInfo, "RDIFrameworkDBLink");
+                return DbDefine != null ? DbFactoryProvider.GetProvider((CurrentDbType)Enum.Parse(typeof(CurrentDbType), DbDefine.LinkType, true), SecretHelper.AESDecrypt(DbDefine.LinkData)) 
+                                        : DbFactoryProvider.GetProvider(SystemInfo.BusinessDbType, SystemInfo.BusinessDbConnectionString);
+            }
+        }
+
+		private void GetPageData(HttpContext context)
+        {
+            var pageParam = new PageParam(context);
+            var manager = new ${options.modelname}Manager(this.dbProvider);
+            int recordCount = 0;
+            var dtTemp = manager.GetDTByPage(out recordCount, pageParam.PageIndex, pageParam.PageSize, pageParam.Filter, (pageParam.SortField + " " + pageParam.Order));       
+            context.Response.Write(JSONhelper.FormatJSONForEasyuiDataGrid(recordCount, dtTemp));
+        }
+
+		private void GetEntity(HttpContext context)
+        {
+            var manager = new ${options.modelname}Manager(this.dbProvider, Utils.UserInfo);
+            string keyId = PublicMethod.GetString(WebCommon.StringHelper.GetRequestObject("key"));
+            var entity = manager.GetEntity(keyId);
+            context.Response.Write(JSONhelper.ToJson(entity));
+        }
+
+		private void SubmitForm(HttpContext context)
+        {
+            try
+            {
+                string returnValue = string.Empty;
+                string msg = RDIFrameworkMessage.MSG3020;
+                var isSuccess = false;
+                var key = PublicMethod.GetString(WebCommon.StringHelper.GetRequestObject("key"));
+                var json = PublicMethod.GetString(WebCommon.StringHelper.GetRequestObject("json"));
+                UserInfo curUser = Utils.UserInfo;
+                var entity = JsonHelper.JSONToObject<${options.modelname}Entity>(json);
+                if (string.IsNullOrEmpty(key))  //增加   
+                {
+                    var manager = new ${options.modelname}Manager(this.dbProvider, curUser);
+                    returnValue = manager.Add(entity);
+                    if (!string.IsNullOrEmpty(returnValue))
+                    {
+                        msg = RDIFrameworkMessage.MSG0009;
+                        isSuccess = true;
+                    }
+
+                    context.Response.Write(new JsonMessage { Success = isSuccess, Data = returnValue, Message = msg }.ToString());
+                }
+                else
+                {
+                    var manager = new ${options.modelname}Manager(this.dbProvider, curUser);
+                    var updateEntity = manager.GetEntity(key);
+                    if (updateEntity != null)
+                    {
+						#set($columns = $options.getcolumninfo())
+						#foreach($item in $columns)
+						#if($item.ispk)							
+						#else
+							updateEntity.$item.columnname = entity.$item.columnname;
+						#end
+						#end
+                    }
+
+                    int value = manager.Update(updateEntity);
+                    if (value > 0)
+                    {
+                        msg = RDIFrameworkMessage.MSG0010;
+                        isSuccess = true;
+                        returnValue = value.ToString();
+                    }
+                    context.Response.Write(new JsonMessage { Success = isSuccess ,Data = returnValue, Message = msg}.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                context.Response.Write(new JsonMessage { Success = false, Data = "0", Message = "操作失败：" + ex.Message }.ToString());
+            }
+        }
+
+		private void Delete(HttpContext context)
+        {
+            string returnValue = string.Empty;
+            string msg = RDIFrameworkMessage.MSG3020;
+            var isSuccess = false;
+            var vId = PublicMethod.GetString(WebCommon.StringHelper.GetRequestObject("key"));
+            if (!string.IsNullOrEmpty(vId))
+            {
+                var manager = new ${options.modelname}Manager(this.dbProvider, Utils.UserInfo);
+                int returnData = manager.Delete(vId);
+                if (returnData > 0)
+                {
+                    msg = RDIFrameworkMessage.MSG0013;
+                    isSuccess = true;
+                    returnValue = returnData.ToString();
+                }
+            }
+            context.Response.Write(new JsonMessage { Success = isSuccess, Data = returnValue, Message = msg }.ToString());
+        }
+
+        public bool IsReusable
+        {
+            get
+            {
+                return false;
+            }
+        }
+    }
+}

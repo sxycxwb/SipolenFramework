@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{764EC29C-DB35-4627-89B6-7F550CF4B239}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDIFramework.NET</RootNamespace>
+    <AssemblyName>RDIFramework.NET</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/UMPlatForm.UI/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>RDIFramework.NET.AppStart</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RDIFramework.ExternalReference\DevComponents.DotNetBar2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmLogOn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogOn.Designer.cs">
+      <DependentUpon>FrmLogOn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Msg\FrmUserMsgRead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Msg\FrmUserMsgRead.Designer.cs">
+      <DependentUpon>FrmUserMsgRead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Msg\FrmMsgRemind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Msg\FrmMsgRemind.Designer.cs">
+      <DependentUpon>FrmMsgRemind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOption.Designer.cs">
+      <DependentUpon>FrmOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRDIFrameworkRibbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRDIFrameworkRibbon.Designer.cs">
+      <DependentUpon>FrmRDIFrameworkRibbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Msg\FrmMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Msg\FrmMsg.Designer.cs">
+      <DependentUpon>FrmMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Msg\FrmGroupMsgRead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Msg\FrmGroupMsgRead.Designer.cs">
+      <DependentUpon>FrmGroupMsgRead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\FrmRegexTester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\FrmRegexTester.Designer.cs">
+      <DependentUpon>FrmRegexTester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\HTMLReportEngineTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRDIFrameworkNav.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRDIFrameworkNav.Designer.cs">
+      <DependentUpon>FrmRDIFrameworkNav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppStart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmRDIFrameworkTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRDIFrameworkTree.Designer.cs">
+      <DependentUpon>FrmRDIFrameworkTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\FrmRuler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\FrmRuler.Designer.cs">
+      <DependentUpon>FrmRuler.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmLogOn.resx">
+      <DependentUpon>FrmLogOn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Msg\FrmUserMsgRead.resx">
+      <DependentUpon>FrmUserMsgRead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOption.resx">
+      <DependentUpon>FrmOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRDIFrameworkRibbon.resx">
+      <DependentUpon>FrmRDIFrameworkRibbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Msg\FrmMsgRemind.resx">
+      <DependentUpon>FrmMsgRemind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Msg\FrmMsg.resx">
+      <DependentUpon>FrmMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Msg\FrmGroupMsgRead.resx">
+      <DependentUpon>FrmGroupMsgRead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\FrmRegexTester.resx">
+      <DependentUpon>FrmRegexTester.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\HTMLReportEngineTest.resx">
+      <DependentUpon>HTMLReportEngineTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRDIFrameworkNav.resx">
+      <DependentUpon>FrmRDIFrameworkNav.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRDIFrameworkTree.resx">
+      <DependentUpon>FrmRDIFrameworkTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\FrmRuler.resx">
+      <DependentUpon>FrmRuler.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App_WinServiceOrForm.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="Resource\Localization\en-US.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resource\Localization\zh-CN.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resource\Localization\zh-TW.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resource\Media\msg.wav" />
+    <Content Include="Resource\Media\system.wav" />
+    <EmbeddedResource Include="Config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Resource\Department.gif" />
+    <None Include="Resource\Company.gif" />
+    <None Include="Resource\ArrowDown.png" />
+    <None Include="Resource\help.gif" />
+    <None Include="Resource\feedback.png" />
+    <None Include="Resource\about.gif" />
+    <None Include="Resource\advance setting.png" />
+    <None Include="Resource\exit.png" />
+    <None Include="Resource\password.png" />
+    <None Include="Resource\FullScreen.png" />
+    <None Include="Resource\key.png" />
+    <None Include="Resource\header.jpg" />
+    <None Include="Resource\Home.png" />
+    <None Include="Resource\PermissionItem.png" />
+    <None Include="Resource\ruler.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAutoUpdater\CAutoUpdater.csproj">
+      <Project>{4ba4719c-c6ab-49ba-9754-848ca24c1fd6}</Project>
+      <Name>CAutoUpdater</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.BizLogic\RDIFramework.BizLogic.csproj">
+      <Project>{3DFEEFB2-547E-4744-B667-3103B0ACAC65}</Project>
+      <Name>RDIFramework.BizLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Control\RDIFramework.Controls.csproj">
+      <Project>{E91E412C-381B-46D8-979B-9AFA4A947562}</Project>
+      <Name>RDIFramework.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.ServiceClient\RDIFramework.ServiceClient.csproj">
+      <Project>{104720AB-59F1-4131-B829-27ED5B65388B}</Project>
+      <Name>RDIFramework.ServiceClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Test\RDIFramework.Test.csproj">
+      <Project>{2C6DDB96-BCB6-4E71-9692-34E09B685478}</Project>
+      <Name>RDIFramework.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Utilities\RDIFramework.Utilities.csproj">
+      <Project>{1916FE94-6129-4F93-BC55-0CF5F2CF9B05}</Project>
+      <Name>RDIFramework.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.WinForm.Utilities\RDIFramework.WinForm.Utilities.csproj">
+      <Project>{e5c1169c-4f78-4b4b-9476-41d51f90e84a}</Project>
+      <Name>RDIFramework.WinForm.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<dataGridView1>
+  <dataGridView1>
+    <ColumnName>Column1</ColumnName>
+    <HeaderText>审批人Id</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>0</DisplayIndex>
+    <Width>100</Width>
+  </dataGridView1>
+  <dataGridView1>
+    <ColumnName>Column2</ColumnName>
+    <HeaderText>审批人</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>1</DisplayIndex>
+    <Width>100</Width>
+  </dataGridView1>
+  <dataGridView1>
+    <ColumnName>Column5</ColumnName>
+    <HeaderText>是否同意</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>2</DisplayIndex>
+    <Width>100</Width>
+  </dataGridView1>
+  <dataGridView1>
+    <ColumnName>Column3</ColumnName>
+    <HeaderText>审批信息</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>3</DisplayIndex>
+    <Width>100</Width>
+  </dataGridView1>
+  <dataGridView1>
+    <ColumnName>Column4</ColumnName>
+    <HeaderText>审批时间</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>4</DisplayIndex>
+    <Width>100</Width>
+  </dataGridView1>
+</dataGridView1>

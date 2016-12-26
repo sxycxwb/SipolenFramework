@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>RDIFramework.NET ━ .NET快速信息化系统开发框架->用户登录</title>
+		<link rel="shortcut icon" type="image/x-icon" href="Content/images/favicon.ico" />
+		<link rel="stylesheet" href="Content/css/framework-login.css" />
+		<link rel="stylesheet" href="Content/css/framework-login-extend.css" />
+		<script type="text/javascript" src="Content/Scripts/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="Content/Scripts/rdiframework-core.js"></script>
+		<script type="text/javascript" src="Content/Scripts/jQuery.cookie.js"></script>
+		<script type="text/javascript">
+			/*
+			        检查浏览器是否支持
+			        */
+			var isIE = !!window.ActiveXObject;
+			var isIE6 = isIE && !window.XMLHttpRequest;
+			if (isIE6) {
+				window.location.href = "../Error/Browser.html";
+			}
+			//回车键
+			document.onkeydown = function(e) {
+				if (!e) e = window.event; //火狐中是 window.event
+				if ((e.keyCode || e.which) == 13) {
+					var btlogin = document.getElementById("btlogin");
+					btlogin.focus();
+					btlogin.click();
+				}
+			};
+
+			function login() {
+				var txtaccount = $("#txtaccount").val();
+				var txtpassword = $("#txtpassword").val();
+				if (txtaccount == "") {
+					$("#txtaccount").focus();
+					formMessage('登录账户不能为空', 'warning');
+					return false;
+				} else if (txtpassword == "") {
+					$("#txtpassword").focus();
+					formMessage('登录密码不能为空', 'warning');
+					return false;
+				} else {
+					formMessage('正在登录...', 'succeed');
+					$.ajax({
+						type: "post",
+						url: "/ajax/login.ashx",
+						data: "uName=" + txtaccount + "&uPwd=" + txtpassword + "&cookieDay=3&systemType=RDIFramework.NET",
+						success: function(msg) {
+							if (msg == "1") {
+								$.cookie('RDIFramework_SystemType', 'RDIFramework.NET');
+								formMessage('登录验证成功,正在跳转首页', 'succeed');
+								setTimeout(Load, 1000);
+							} else if (msg == "0") {
+								$("#txtaccount").focus();
+								$("#txtpassword").val("");
+								formMessage('用户名或密码不正确', 'error');
+								return false;
+							} else if (msg == "2") {
+								$("#txtaccount").focus();
+								formMessage('登录账户被系统锁定', 'error');
+							} else {
+								alert(msg);
+							}
+							return true;
+						}
+					});
+				}
+			}
+			$(function() {
+				$("#txtaccount").val('Administrator');
+				$("#txtpassword").val('Administrator');
+				$('#btlogin').click(function() {
+					login();
+					return false;
+				});
+				$('#txtaccount').focus();
+			});
+			//登录加载
+			function Load() {
+				var Index = $.cookie('UItheme');
+				if (Index) {
+					window.location.href = 'Default.aspx';
+				} else {
+					window.location.href = 'Default.aspx';
+				}
+				return false;
+			}
+			//提示信息
+			function formMessage(msg, type) {
+				$('.form-message').html('');
+				$('.form-message').append('<div class="form-' + type + '-text">' + msg + '</div>');
+			}
+		</script>
+	</head>
+
+	<body class="Loginbody">
+		<div class="logo">
+			<img src="Content/images/loginlogo.png" />
+		</div>
+		<div class="content">
+			<div class="Loginform">
+				<div class="form-message">
+				</div>
+				<div class="form-account">
+					账户
+					<input id="txtaccount" type="text" />
+				</div>
+				<div class="form-password">
+					密码
+					<input id="txtpassword" type="password" />
+				</div>
+				<div class="form-bottom">
+					测试用户名与密码：Administrator
+					<div id="btlogin" class="btlogin"></div>
+				</div>
+			</div>
+		</div>
+		<div style="text-align: center; margin: 20px; font-family: Microsoft Yahei; color: #fff; margin: auto; width: 983px; padding-top: 30px;">
+			<p>适用浏览器：IE8以上、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. </p>
+		</div>
+		<div class="copyright">
+			<br /> RDIFramework.NET V3.0：http://www.rdiframework.net/
+		</div>
+		<div class="main-im">
+			<div id="open_im" class="open-im">&nbsp;</div>
+			<div class="im_main" id="im_main">
+				<div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>
+				<a href="http://wpa.qq.com/msgrd?v=3&uin=406590790&site=qq&menu=yes" class="im-qq qq-a" title="在线QQ客服">
+					<div class="qq-container"></div>
+					<div class="qq-hover-c">
+						<img class="img-qq" src="Content/images/qq.png">
+					</div>
+					<span>QQ在线咨询</span> </a>
+				<div class="im-tel">
+					<div>咨询热线</div>
+					<div class="tel-num">13005007127</div>
+					<div>咨询QQ</div>
+					<div class="tel-num">406590790</div>
+				</div>
+				<div class="im-footer" style="position: relative">
+					<div class="weixing-container">
+						<div class="weixing-show">
+							<div class="weixing-txt">
+								微信扫一扫
+								<br /> 关注开发框架
+								<br /> 获取更多消息
+							</div>
+							<img class="weixing-ma" src="Content/images/weixing-ma.png">
+							<div class="weixing-sanjiao"></div>
+							<div class="weixing-sanjiao-big"></div>
+						</div>
+					</div>
+					<div class="go-top">
+						<a href="javascript:;" title="返回顶部"></a>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			//在线客户
+			$(function() {
+				$('#close_im').bind('click', function() {
+					$('#main-im').css("height", "0");
+					$('#im_main').hide();
+					$('#open_im').show();
+				});
+				$('#open_im').bind('click', function(e) {
+					$('#main-im').css("height", "272");
+					$('#im_main').show();
+					$(this).hide();
+				});
+				$('.go-top').bind('click', function() {
+					$(window).scrollTop(0);
+				});
+				$(".weixing-container").bind('mouseenter', function() {
+					$('.weixing-show').show();
+				});
+				$(".weixing-container").bind('mouseleave', function() {
+					$('.weixing-show').hide();
+				});
+				$("#open_im").trigger("click");
+				$('.weixing-show').hide();
+			})
+		</script>
+	</body>
+
+</html>

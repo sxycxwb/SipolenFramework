@@ -1,0 +1,18 @@
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Utilities.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Utilities.pdb
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Utilities.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Utilities.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.csprojResolveAssemblyReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Utilities.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Utilities.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.Utilities.dll
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.Utilities.pdb
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.dll
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Utilities\obj\Debug\RDIFramework.Utilities.pdb

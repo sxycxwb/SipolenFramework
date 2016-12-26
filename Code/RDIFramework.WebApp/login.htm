@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>RDIFramework.NET ━ .NET快速信息化系统开发框架 V3.0->用户登录</title>
+		<meta name="keywords" content="RDIFramework.NET,.NET快速信息化系统开发框架,快速开发框架,工作流程组件,代码生成器,业务协同,C#.NET开发,ASP.NET开发,ASP.NET软件开发,C#.NET开发平台,.NET开发框架,C#.NET通用权限系统,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,技术社区" />
+		<meta name="description" content="RDIFramework.NET，基于.NET的快速信息化系统开发、整合框架，给用户和开发者最佳的.NET框架部署方案。强大灵活的权限控制，统一的模块配置、分配方案，多数据库支持多界面风格选择。支持B/S、C/S系统，统一的系统升级组件，各大型商业常用控件。分布式流程引擎，可视化的流程设计器，真正面向SOA架构，提供标准的WCF接口调用，可以实现远程调用，分布式部署，服务端可部署为WindowsService、WebService、Remote、WinForm等。丰富的开发接口，用户可通过在程序中调用接口实现流程启动、流转等，流程引擎支持复杂业务流转。即时消息的支持以及各类型统计图表。编码简单易懂，适合常用设计模式，注释详细。提供全部的设计文档、源码实现、配套说明文档，可以在不同软件项目中反复使用，提高工作效率。大大地缩短了开发周期，提高了软件质量，同时也降低企业对软件研发人员编码水平要求。使得软件企业减少研发的时间和成本以及提升用户体验，从而能在竞争激烈的软件行业里脱颖而出，打造出优秀的软件产品，赢得客户的信赖。"/>
+		<link rel="SHORTCUT ICON" href="/favicon.ico" />
+		<link rel="stylesheet" href="Content/css/framework-login-30.css" />
+		<script type="text/javascript" src="Content/Scripts/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="Content/Scripts/cloud.js"></script>
+		<script type="text/javascript" src="Content/Scripts/jQuery.cookie.js"></script>
+		<script language="javascript">
+			$(function() {
+				$('.loginbox').css({
+					'position': 'absolute',
+					'left': ($(window).width() - 692) / 2
+				});
+				$(window).resize(function() {
+					$('.loginbox').css({
+						'position': 'absolute',
+						'left': ($(window).width() - 692) / 2
+					});
+				})
+			});
+		</script>
+
+		<script language="javascript">
+			//检查浏览器是否支持        
+			var isIE = !!window.ActiveXObject;
+			var isIE6 = isIE && !window.XMLHttpRequest;
+			if (isIE6) {
+				window.location.href = "../Error/Browser.html";
+			}
+			//提示信息
+			function formMessage(msg, type) {
+				$('.form-message').html('');
+				$('.form-message').append('<div class="form-' + type + '-text">' + msg + '</div>');
+			}
+			//回车键
+			document.onkeydown = function(e) {
+				if (!e) e = window.event; //火狐中是 window.event
+				if ((e.keyCode || e.which) == 13) {
+					var btnLogin = document.getElementById("btnLogin");
+					btnLogin.focus();
+					btnLogin.click();
+				}
+			};
+			$(function() {
+				$("#txtAccount").val('Administrator');
+				$("#txtPassword").val('Administrator');
+				$('#btnLogin').click(function() {
+					login();
+					return false;
+				});
+				$('#txtAccount').focus();
+			});
+
+			function login() {
+				var account = $("#txtAccount").val();
+				var password = $("#txtPassword").val();
+				if (account == "") {
+					$("#txtAccount").focus();
+					formMessage('登录账户不能为空', 'warning');
+					return false;
+				} else if (password == "") {
+					$("#txtPassword").focus();
+					formMessage('登录密码不能为空', 'warning');
+					return false;
+				} else {
+					formMessage('正在登录...', 'succeed');
+					$.ajax({
+						type: "post",
+						url: "/ajax/login.ashx",
+						data: "uName=" + account + "&uPwd=" + password + "&cookieDay=3&systemType=RDIFramework.NET",
+						success: function(msg) {
+							if (msg == "1") {
+								$.cookie('RDIFramework_SystemType', 'RDIFramework.NET');
+								formMessage('登录验证成功,正在跳转首页', 'succeed');
+								setTimeout(Load, 1000);
+							} else if (msg == "0") {
+								$("#txtAccount").focus();
+								$("#txtPassword").val("");
+								formMessage('用户名或密码不正确', 'error');
+								return false;
+							} else if (msg == "2") {
+								$("#txtAccount").focus();
+								formMessage('登录账户被系统锁定', 'error');
+							} else {
+								alert(msg);
+							}
+							return true;
+						}
+					});
+				}
+			}
+			//登录加载
+			function Load() {
+				var Index = $.cookie('UItheme');
+				if (Index) {
+					window.location.href = 'Default.aspx';
+				} else {
+					window.location.href = 'Default.aspx';
+				}
+				return false;
+			}
+		</script>
+	</head>
+
+	<body style="background-color:#1c77ac; background-image:url(Content/images/light.png); background-repeat:no-repeat; background-position:center top; overflow:hidden;">
+		<div id="mainBody">
+			<div id="cloud1" class="cloud"></div>
+			<div id="cloud2" class="cloud"></div>
+		</div>
+		<div class="logintop"> <span>RDIFramework.NET V3.0</span>
+			<ul>
+				<li><a href="http://www.rdiframework.net/">回首页</a></li>
+				<li><a href="http://blog.rdiframework.net/">帮助</a></li>
+				<li><a href="http://blog.rdiframework.net/">关于</a></li>
+			</ul>
+		</div>
+		<div class="loginbody"> <span class="systemlogo"></span>
+			<div class="loginbox">
+				<ul>
+					<li>
+						<input id="txtAccount" type="text" class="loginuser" value="Administrator" />
+					</li>
+					<li>
+						<input id="txtPassword" type="password" class="loginpwd" value="Administrator" />
+					</li>
+					<li>
+						<input id="btnLogin" type="button" class="loginbtn" value="登录" />
+						<label>
+							<input name="" type="checkbox" value="" checked="checked" /> 记住密码
+						</label>
+						<label><a href="#">忘记密码？</a></label>
+					</li>
+					<li>
+						<div class="form-message">
+							<li>
+				</ul>
+				</div>
+			</div>
+			<div class="loginbm">版权所有 2010-2016 <a href="http://www.RDIFramework.NET">RDIFramework.NET V3.0</a> 专利产品，盗版必究！</div>
+	</body>
+
+</html>

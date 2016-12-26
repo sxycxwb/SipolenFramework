@@ -1,0 +1,88 @@
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinForm.Utilities.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinForm.Utilities.pdb
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csprojResolveAssemblyReference.cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csproj.ResolveComReference.cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseRibbonForm.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseEditForm.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseForm.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseMainForm.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmAbout.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmDataGridViewSetting.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmFeedback.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmException.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmNotifyWindow.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.Properties.Resources.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.SplashForm.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.SplashFormEx.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UcDataNavigator.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UcSortControl.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UCStartPage.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csproj.GenerateResource.Cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinForm.Utilities.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinForm.Utilities.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csprojResolveAssemblyReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csproj.ResolveComReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseRibbonForm.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseEditForm.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseForm.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseMainForm.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmAbout.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmDataGridViewSetting.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmFeedback.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmException.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmNotifyWindow.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.Properties.Resources.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.SplashForm.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.SplashFormEx.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UcDataNavigator.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UcSortControl.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UCStartPage.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csproj.GenerateResource.Cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinForm.Utilities.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WinForm.Utilities.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csproj.ResolveComReference.cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseRibbonForm.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseEditForm.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseForm.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseMainForm.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmAbout.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmDataGridViewSetting.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmFeedback.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmException.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmNotifyWindow.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.Properties.Resources.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.SplashForm.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.SplashFormEx.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UcDataNavigator.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UcSortControl.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UCStartPage.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csproj.GenerateResource.Cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.pdb
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.WinForm.Utilities.dll
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.WinForm.Utilities.pdb
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csproj.ResolveComReference.cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseRibbonForm.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseEditForm.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseForm.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.BaseMainForm.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmAbout.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmDataGridViewSetting.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmFeedback.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmException.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.FrmNotifyWindow.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.Properties.Resources.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.SplashForm.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.SplashFormEx.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UcDataNavigator.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UcSortControl.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.UCStartPage.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.csproj.GenerateResource.Cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.dll
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinForm.Utilities\obj\x86\Debug\RDIFramework.WinForm.Utilities.pdb

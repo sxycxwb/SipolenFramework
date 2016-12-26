@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="d:\program files\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Targets>
+  <Target Name="E:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser\bin\Release\MiniBrowser.dll">
+   <Modules>
+    <Module Name="minibrowser.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">用强名称密钥对 'MiniBrowser.dll' 进行签名。</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Warning">由于程序集 'MiniBrowser.dll' 包含基于 ResX 的资源文件，因此请使用 NeutralResourcesLanguage 特性来标记它，并指定该程序集内的资源所采用的语言。这会改进首次检索资源时的查找性能。</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="MiniBrowser">
+       <Types>
+        <Type Name="BrowserControl" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#UpdateAddressBox()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Equals(System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="e:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser\Components" File="BrowserControl.cs" Line="58">'BrowserControl.UpdateAddressBox()' 将“StringComparison.InvariantCultureIgnoreCase”作为“StringComparison”参数传递给 'string.Equals(string, StringComparison)'。若要执行非语义比较，请改为指定“StringComparison.Ordinal”或“StringComparison.OrdinalIgnoreCase”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ExtendedWebBrowser" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#AttachInterfaces(System.Object)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemandsFxCopRule" Category="Microsoft.Security" CheckId="CA2135" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning" Path="e:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser\Components" File="ExtendedWebBrowser.cs" Line="25">使用 'PermissionSetAttribute' 的 LinkDemand 保护 'ExtendedWebBrowser.AttachInterfaces(object)'。在级别 2 安全规则集中，应改为使其成为安全关键的来提供保护。移除此 LinkDemand 并将 'ExtendedWebBrowser.AttachInterfaces(object)' 标记为安全关键的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateSink()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemandsFxCopRule" Category="Microsoft.Security" CheckId="CA2135" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning" Path="e:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser\Components" File="ExtendedWebBrowser.cs" Line="59">使用 'PermissionSetAttribute' 的 LinkDemand 保护 'ExtendedWebBrowser.CreateSink()'。在级别 2 安全规则集中，应改为使其成为安全关键的来提供保护。移除此 LinkDemand 并将 'ExtendedWebBrowser.CreateSink()' 标记为安全关键的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DetachInterfaces()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemandsFxCopRule" Category="Microsoft.Security" CheckId="CA2135" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning" Path="e:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser\Components" File="ExtendedWebBrowser.cs" Line="36">使用 'PermissionSetAttribute' 的 LinkDemand 保护 'ExtendedWebBrowser.DetachInterfaces()'。在级别 2 安全规则集中，应改为使其成为安全关键的来提供保护。移除此 LinkDemand 并将 'ExtendedWebBrowser.DetachInterfaces()' 标记为安全关键的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DetachSink()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemandsFxCopRule" Category="Microsoft.Security" CheckId="CA2135" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning" Path="e:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser\Components" File="ExtendedWebBrowser.cs" Line="70">使用 'PermissionSetAttribute' 的 LinkDemand 保护 'ExtendedWebBrowser.DetachSink()'。在级别 2 安全规则集中，应改为使其成为安全关键的来提供保护。移除此 LinkDemand 并将 'ExtendedWebBrowser.DetachSink()' 标记为安全关键的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WndProc(System.Windows.Forms.Message&amp;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemandsFxCopRule" Category="Microsoft.Security" CheckId="CA2135" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning" Path="e:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser\Components" File="ExtendedWebBrowser.cs" Line="339">使用 'PermissionSetAttribute' 的 LinkDemand 保护 'ExtendedWebBrowser.WndProc(ref Message)'。在级别 2 安全规则集中，应改为使其成为安全关键的来提供保护。移除此 LinkDemand 并将 'ExtendedWebBrowser.WndProc(ref Message)' 标记为安全关键的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Program" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Main()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="e:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser" File="Program.cs" Line="14">'Program.Main()' 似乎没有上游 public 或 protected 调用方。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ScriptErrorManager" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="NonBreaking">
+           <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">在 'ScriptErrorManager' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'ScriptErrorWindow'。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="WindowManager" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#WebBrowser_DocumentTitleChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2013-12-19 09:40:16Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="e:\RDIFramework.NET\RDIFramework.NET V2.7\Code\RDIFramework.MiniBrowser\Core" File="WindowManager.cs" Line="205">方法 'WindowManager.WebBrowser_DocumentTitleChanged(object, EventArgs)' 将一个文本字符串作为对 'Control.Text.set(string)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "..."。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>程序集应具有有效的强名称</Name>
+   <Description>程序集没有强名称，强名称无效，或者强名称只有经过计算机配置后才有效。不应部署处于这种状态的程序集。出现这种情况最常见原因有: 1) 对程序集进行签名后，修改了该程序集的内容；2) 签名过程失败；3) 延迟了程序集签名；4) 存在一个允许检查通过(原本不应通过)的注册表项。</Description>
+   <Resolution Name="NoStrongName">用强名称密钥对 {0} 进行签名。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>避免使用未调用的私有代码</Name>
+   <Description>存在对外部不可见的未调用代码，该代码不是已知的运行时入口点。如果错误地引发此冲突，请向 Visual Studio 代码分析团队发送问题报告。</Description>
+   <Resolution Name="Default">{0} 似乎没有上游 public 或 protected 调用方。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
+   <Name>用 NeutralResourcesLanguageAttribute 标记程序集</Name>
+   <Description>NeutralResourcesLanguage 特性将用来呈现非特定区域性的程序集资源的语言通知给 ResourceManager。在查找与非特定区域性语言具有相同区域性的资源时，ResourceManager 会自动使用位于主程序集内的资源，而不是搜索具有当前线程的当前用户界面区域性的附属程序集。这会改进所加载的第一个资源的查找性能，并缩小工作集。</Description>
+   <Resolution Name="Default">由于程序集 {0} 包含基于 ResX 的资源文件，因此请使用 NeutralResourcesLanguage 特性来标记它，并指定该程序集内的资源所采用的语言。这会改进首次检索资源时的查找性能。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385967(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemandsFxCopRule" Category="Microsoft.Security" CheckId="CA2135">
+   <Name>级别 2 程序集不应包含 LinkDemand</Name>
+   <Description>级别 2 安全规则集中已弃用 LinkDemand。应改为使用 SecurityCritical 方法、类型和字段，来替代使用 LinkDemand 强制实施 JIT 时间安全性。</Description>
+   <Resolution Name="Default">使用 {1} 的 LinkDemand 保护 {0}。在级别 2 安全规则集中，应改为使其成为安全关键的来提供保护。移除此 LinkDemand 并将 {0} 标记为安全关键的。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/dd997569(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalWarning</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>具有可释放字段的类型应该是可释放的</Name>
+   <Description>声明可释放成员的类型也应实现 IDisposable。如果该类型没有任何非托管资源，请不要在其上实现终结器。</Description>
+   <Resolution Name="NonBreaking">在 {0} 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: {1}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309">
+   <Name>使用按顺序的 StringComparison</Name>
+   <Description>对于非语义比较，应使用 StringComparison.Ordinal 或 StringComparison.OrdinalIgnoreCase，而不使用区分语义的 StringComparison.InvariantCulture。</Description>
+   <Resolution Name="StringComparison">{0} 将“{1}”作为“StringComparison”参数传递给 {2}。若要执行非语义比较，请改为指定“StringComparison.Ordinal”或“StringComparison.OrdinalIgnoreCase”。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385972(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>请不要将文本作为本地化参数传递</Name>
+   <Description>嵌入源代码的文本字符串难以进行本地化。对于通常应使用本地化的文本字符串的情况，要避免将文本字符串作为参数来传递。</Description>
+   <Resolution Name="KnownValue">方法 {0} 将一个文本字符串作为对 {2} 的调用的参数“{1}”传递。改为从资源表检索以下字符串: {3}。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

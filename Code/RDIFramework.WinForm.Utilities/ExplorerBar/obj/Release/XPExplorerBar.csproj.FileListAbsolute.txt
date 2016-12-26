@@ -1,0 +1,10 @@
+D:\DotNet.Controls\DotNet.XPExplorerBar\bin\Release\XPExplorerBar.dll
+D:\DotNet.Controls\DotNet.XPExplorerBar\bin\Release\XPExplorerBar.pdb
+D:\DotNet.Controls\DotNet.XPExplorerBar\obj\Release\ResolveAssemblyReference.cache
+D:\DotNet.Controls\DotNet.XPExplorerBar\obj\Release\XPExplorerBar.Expando.resources
+D:\DotNet.Controls\DotNet.XPExplorerBar\obj\Release\XPExplorerBar.ExpandoArrows.resources
+D:\DotNet.Controls\DotNet.XPExplorerBar\obj\Release\XPExplorerBar.TaskItem.resources
+D:\DotNet.Controls\DotNet.XPExplorerBar\obj\Release\XPExplorerBar.TaskPane.resources
+D:\DotNet.Controls\DotNet.XPExplorerBar\obj\Release\XPExplorerBar.csproj.GenerateResource.Cache
+D:\DotNet.Controls\DotNet.XPExplorerBar\obj\Release\XPExplorerBar.dll
+D:\DotNet.Controls\DotNet.XPExplorerBar\obj\Release\XPExplorerBar.pdb

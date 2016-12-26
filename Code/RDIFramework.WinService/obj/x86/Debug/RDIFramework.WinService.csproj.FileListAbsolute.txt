@@ -1,0 +1,40 @@
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\FrameworkService\Config.xml
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.exe.config
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.exe
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.pdb
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.csprojResolveAssemblyReference.cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.ProjectInstaller.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.RDIFrameworkWinService.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.csproj.GenerateResource.Cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.exe
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\FrameworkService\Config.xml
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.exe.config
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.exe
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.csprojResolveAssemblyReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.ProjectInstaller.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.RDIFrameworkWinService.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.csproj.GenerateResource.Cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.exe
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\FrameworkService\Config.xml
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.exe.config
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.exe
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\FrameworkService\RDIFramework.WinService.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.ProjectInstaller.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.RDIFrameworkWinService.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.csproj.GenerateResource.Cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.exe
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.pdb
+E:\E420\My\Framework\SipolenFramework\Bin\FrameworkService\Config.xml
+E:\E420\My\Framework\SipolenFramework\Bin\FrameworkService\RDIFramework.WinService.exe.config
+E:\E420\My\Framework\SipolenFramework\Bin\FrameworkService\RDIFramework.WinService.exe
+E:\E420\My\Framework\SipolenFramework\Bin\FrameworkService\RDIFramework.WinService.pdb
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.ProjectInstaller.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.RDIFrameworkWinService.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.csproj.GenerateResource.Cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.exe
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WinService\obj\x86\Debug\RDIFramework.WinService.pdb

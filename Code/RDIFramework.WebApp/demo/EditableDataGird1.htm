@@ -1,0 +1,358 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Editable DataGrid - 可编辑表格</title>
+	<link rel="stylesheet" type="text/css" href="../Content/Scripts/easyui/themes/gray/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../Content/Scripts/easyui/themes/icon.css">
+	<script type="text/javascript" src="../Content/Scripts/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../Content/Scripts/easyui/jquery.easyui.min.js"></script>
+	<script src="../Content/Scripts/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+    <style type="text/css">
+        *{
+	        font-size:12px;
+        }
+        body {
+            font-family:verdana,helvetica,arial,sans-serif;
+            padding:20px;
+            font-size:12px;
+            margin:0;
+        }
+        h2 {
+            font-size:18px;
+            font-weight:bold;
+            margin:0;
+            margin-bottom:15px;
+        }
+        .demo-info{
+	        padding:0 0 12px 0;
+        }
+        .demo-tip{
+	        display:none;
+        }
+        a[href*="www.cnzz.com"]{
+	        display:none;
+        }
+    </style>
+    <script type="text/javascript">        
+    	var editingIndex = -1;
+        $.extend($.fn.datagrid.defaults.editors, {
+            my97: {
+                init: function(container, options){
+                    var input = $('<input class="Wdate" type="text" onclick="WdatePicker({dateFmt:\'yyyy-MM-dd HH:mm:ss\'});"  />').appendTo(container);
+                    return input;
+                },
+                getValue: function(target){
+                    return $(target).val();
+                },
+                setValue: function(target, value){
+                    $(target).val(value);
+                },
+                resize: function(target, width){
+                    var input = $(target);
+                    if ($.boxModel == true) {
+                        input.width(width - (input.outerWidth() - input.width()));
+                    }
+                    else {
+                        input.width(width);
+                    }
+                }
+            }
+        });
+		$.extend($.fn.validatebox.defaults.rules, {
+			mobile: {
+				validator: function (value, param) {
+					return /^((\(\d{2,3}\))|(\d{3}\-))?13\d{9}$/.test(value);
+				},
+				message: '手机号码不正确'
+			}
+		});
+		var products = [
+		    {productid:'FI-SW-01',name:'郑和墓'},
+		    {productid:'K9-DL-01',name:'十三钗'},
+		    {productid:'RP-SN-01',name:'夜秦淮'},
+		    {productid:'RP-LI-02',name:'美猴王'},
+		    {productid:'FL-DSH-01',name:'牛首山'},
+		    {productid:'FL-DLH-02',name:'石塘竹'},
+		    {productid:'AV-CB-01',name:'南唐陵'}
+		];
+		var regions = [
+            {id:'NJ',name:'南京市',parentid:'',grade:"1"},
+            {id:'LYG',name:'连云港市',parentid:'',grade:"1"},
+		    {id:'JNQ',name:'江宁区',parentid:'NJ',grade:"2"},
+		    {id:'XLQ',name:'仙林区',parentid:'NJ',grade:"2"},
+			{id:'PKQ',name:'浦口区',parentid:'NJ',grade:"2"},
+			{id:'GLQ',name:'鼓楼区',parentid:'NJ',grade:"2"},
+			{id:'XWQ',name:'玄武区',parentid:'NJ',grade:"2"},
+			{id:'JYQ',name:'建邺区',parentid:'NJ',grade:"2"},
+			{id:'QHQ',name:'秦淮区',parentid:'NJ',grade:"2"},
+			{id:'BXQ',name:'白下区',parentid:'NJ',grade:"2"},
+			{id:'LHQ',name:'六合区',parentid:'NJ',grade:"2"},
+			{id:'YHTQ',name:'雨花台区',parentid:'NJ',grade:"2"},
+			{id:'QXQ',name:'栖霞区',parentid:'NJ',grade:"2"},
+			{id:'GCQ',name:'高淳县',parentid:'NJ',grade:"2"},
+			{id:'LSX',name:'溧水县',parentid:'NJ',grade:"2"},
+			{id:'GYX',name:'灌云县',parentid:'LYG',grade:"2"},
+			{id:'GNX',name:'灌南县',parentid:'LYG',grade:"2"},
+			{id:'DHX',name:'东海县',parentid:'LYG',grade:"2"},
+			{id:'XPQ',name:'新浦区',parentid:'LYG',grade:"2"},
+			{id:'HZQ',name:'海州区',parentid:'LYG',grade:"2"}
+		];
+		function getRegions(parentid){
+			var rtnArray = [];
+			for(var i=0; i<regions.length; i++){
+				if(regions[i].parentid==parentid){
+					rtnArray[rtnArray.length] = regions[i];
+				}
+			}
+			return rtnArray;
+		}
+		function productFormatter(value){
+			for(var i=0; i<products.length; i++){
+				if (products[i].productid == value) return products[i].name;
+			}
+			return value;
+		}
+		function regionFormatter(value){
+			for(var i=0; i<regions.length; i++){
+				if (regions[i].id == value) return regions[i].name;
+			}
+			return value;
+		}
+		function statusFormatter(value){
+			if(value==1){
+				return "<div style='font-weight:700;color:yellow;background-color:green;margin:0px;padding:0px;'>有效</div>";
+			}else{
+				return "<div style='font-weight:700;color:red;background-color:#CCCCCC;text-decoration:line-through'>无效</div>";
+			}
+		}
+		function citySelect(record){
+			$('#tt').datagrid('getEditor',{'index':editingIndex,'field':'county'}).target.combobox({data:counties});
+		}
+        function refreshCellsStyle(tr){
+            tr.each(function(){
+				var tds = $(this).children('td');
+				tds.each(function(){
+					if($(this).attr("field")=="email"){
+						var text = $(this).text();
+						var cssObj = {"text-align": "left"};
+						if(text=="caoguanghuicgh@163.com"){
+							cssObj["color"] = "green";
+							cssObj["font-weight"] = "700";
+							cssObj["font-size"] = "16px";
+						}
+						if(text=="juqian19881022@163.com"){
+							cssObj["color"] = "red";
+							cssObj["font-weight"] = "700";
+							cssObj["font-size"] = "16px";
+						}
+						$(this).children("div").css(cssObj);
+					}
+					if($(this).attr("field")=="listprice"){
+						var text = $(this).text();
+						if(text>=100){
+							$(this).children("div").css({"background-color":"#CD0000","text-align":"right","font-weight":"700","font-size":"16px"});
+						}else if(text<100 && text> 50){
+							$(this).children("div").css({"background-color":"#CD950C","text-align":"center"});
+						}else{
+							$(this).children("div").css({"background-color":"#008B00","text-align":"left"});
+						}
+					}
+				});
+			});
+        }
+		$(function(){
+			var lastIndex;
+			var i = 1;
+			$('#tt').datagrid({
+				toolbar:[{
+					text:'增加',
+					iconCls:'icon16_add',
+					handler:function(){
+						$('#tt').datagrid('endEdit', lastIndex);
+						$('#tt').datagrid('appendRow',{
+							itemid:++i,
+							productid:'',
+							listprice:'',
+							unitprice:'',
+							attr1:'',
+							status:'P'
+						});
+						lastIndex = $('#tt').datagrid('getRows').length-1;
+						$('#tt').datagrid('selectRow', lastIndex);
+						$('#tt').datagrid('beginEdit', lastIndex);
+					}
+				},'-',{
+					text:'删除',
+					iconCls:'icon-remove',
+					handler:function(){
+						var row = $('#tt').datagrid('getSelected');
+						if (row){
+							var index = $('#tt').datagrid('getRowIndex', row);
+							$('#tt').datagrid('deleteRow', index);
+						}
+					}
+				},'-',{
+					text:'提交',
+					iconCls:'icon-save',
+					handler:function(){
+						$('#tt').datagrid('acceptChanges');
+					}
+				},'-',{
+					text:'回滚',
+					iconCls:'icon-undo',
+					handler:function(){
+						$('#tt').datagrid('rejectChanges');
+					}
+				},'-',{
+					text:'获取变更',
+					iconCls:'icon16_filter',
+					handler:function(){
+						var rows = $('#tt').datagrid('getChanges');
+						alert('changed rows: ' + rows.length + ' lines');
+					}
+				}],
+				onBeforeLoad:function(){
+					$(this).datagrid('rejectChanges');
+				},
+				onClickRow:function(rowIndex){
+					editingIndex = rowIndex;
+					if (lastIndex != rowIndex){
+						if($(this).datagrid('validateRow',lastIndex)){
+							$(this).datagrid('endEdit', lastIndex);		
+							$(this).datagrid('beginEdit', rowIndex);
+                            
+                            var startTimeEditor = $('#tt').datagrid('getEditor',{index:rowIndex,field:"startTime"});
+                            var endTimeEditor = $('#tt').datagrid('getEditor',{index:rowIndex,field:"endTime"});
+                            if(startTimeEditor){
+                                startTimeEditor.target.attr("onclick","");
+                                startTimeEditor.target.unbind("click.myNameSpace").bind("click.myNameSpace",function(e){
+                                    var initObj = {dateFmt:'yyyy-MM-dd',readOnly:false};
+                                    if(endTimeEditor.target.val() != "") initObj["maxDate"] = endTimeEditor.target.val();
+                                    WdatePicker(initObj);
+                                });
+                            }
+                            if(endTimeEditor){
+                                endTimeEditor.target.attr("onclick","");
+                                endTimeEditor.target.unbind("click.myNameSpace").bind("click.myNameSpace",function(e){
+                                    var initObj = {dateFmt:'yyyy-MM-dd',readOnly:false};
+                                    if(startTimeEditor.target.val() != "") initObj["minDate"] = startTimeEditor.target.val();
+                                    WdatePicker(initObj);
+                                });
+								
+                            }
+							
+							lastIndex = rowIndex;
+						}else{
+							$(this).datagrid('selectRow',lastIndex);
+                                                        editingIndex = lastIndex;
+						}
+					}
+				},
+				onAfterEdit:function(rowIndex,rowData,chanages){
+					if($.isEmptyObject(chanages)==false){
+						var bakMsg = $(this).datagrid('options').loadMsg;
+						$(this).datagrid('options').loadMsg = "正在保存中……";
+						$('#tt').datagrid('loading');
+						setTimeout(function(){
+							$('#tt').datagrid('loaded');
+							$('#tt').datagrid('options').loadMsg = bakMsg;
+						},1000);
+					}
+                    
+                    //刷新单元格样式
+                    var index = $(this).datagrid('getRowIndex',rowData);
+                    var panel = $(this).datagrid('getPanel');
+					var tr = panel.find('div.datagrid-body tr[datagrid-row-index="' + index + '"]');
+                    refreshCellsStyle(tr);
+				},
+				onLoadSuccess: function(data){
+					var panel = $(this).datagrid('getPanel');
+					var tr = panel.find('div.datagrid-body tr');
+					refreshCellsStyle(tr);
+					var trHead = panel.find('div.datagrid-header tr');
+					trHead.each(function(){
+						var tds = $(this).children('td');
+						tds.each(function(){
+							$(this).find('span,div').css({"font-size":"14px"});
+							//$(this).find('div').css({"font-size":"14px"});
+						});
+					});
+				}
+			});
+		});
+	</script>
+</head>
+<body>	
+	<table id="tt" style="width:1024px;height:auto"
+			data-options="singleSelect:true,pagination:true,idField:'itemid',fit:true,fitColumns:true,remoteSort:false,url:'handler/TestHandler.ashx?action=getTestData'"
+			title="可编辑表格">
+		<thead>
+			<tr>
+				<th rowspan="2" data-options="field:'itemid',width:80,align:'center'">编号</th>
+				<th rowspan="2" data-options="field:'productid',width:100,align:'center',formatter:productFormatter,
+						editor:{
+							type:'combobox',
+							options:{
+								valueField:'productid',
+								textField:'name',
+								data:products,
+								required:true
+							}
+						}">景区</th>
+				<th rowspan="2" data-options="field:'city',width:100,align:'center',formatter:regionFormatter,
+						editor:{
+							type:'combobox',
+							options:{
+								valueField:'id',
+								textField:'name',
+								data:getRegions(''),
+								required:true,
+								onSelect:function(record){
+									var target = $('#tt').datagrid('getEditor',{'index':editingIndex,'field':'county'}).target;
+									target.combobox('clear');
+									target.combobox('loadData',getRegions(record.id));
+									target.combobox('setValue',getRegions(record.id)[0].id);
+								}
+							}
+						}">城市</th>
+				<th rowspan="2" data-options="field:'county',width:100,align:'center',formatter:regionFormatter,
+						editor:{
+							type:'combobox',
+							options:{
+								valueField:'id',
+								textField:'name',
+								data:regions,
+								required:true,
+								onShowPanel:function(){
+									var targetCity = $('#tt').datagrid('getEditor',{'index':editingIndex,'field':'city'}).target;
+									var targetCounty = $('#tt').datagrid('getEditor',{'index':editingIndex,'field':'county'}).target;
+									var valueCity = targetCity.combobox('getValue');
+									var valueCounty = targetCounty.combobox('getValue');
+									targetCounty.combobox('clear');
+									targetCounty.combobox('loadData',getRegions(valueCity));
+									targetCounty.combobox('setValue',valueCounty);
+								}
+							}
+						}">区县</th>
+				<th rowspan="2" data-options="field:'listprice',width:80,align:'center',sortable:true,editor:{type:'numberbox',options:{precision:1}}">票价</th>
+				<th data-options="colspan:3">联系信息</th>
+				
+				<!--<th data-options="field:'startTime',width:200,editor:{type:'my97'}">startTime</th>-->
+				<th data-options="colspan:2">开放时间段</th>
+				<th rowspan="2" data-options="field:'status',width:60,align:'center',sortable:true,formatter:statusFormatter,editor:{type:'checkbox',options:{on:'1',off:'0'}}">Status</th>
+				
+			</tr>
+			<tr>
+				<th data-options="field:'mobile',width:150,align:'center',editor:{type:'validatebox',options:{validType:'mobile',required:false}}">手机号码</th>
+				<th data-options="field:'email',width:250,align:'center',editor:{type:'validatebox',options:{validType:'email',required:true}}">电子邮箱</th>
+				<th data-options="field:'linkname',width:100,align:'center',editor:{type:'validatebox',options:{required:true,validType:'length[0,9]'}}">联系人</th>
+				<th data-options="field:'startTime',width:120,align:'center',editor:{type:'my97'}">开始时间</th>
+				<th data-options="field:'endTime',width:120,align:'center',editor:{type:'my97'}">结束时间</th>
+			</tr>
+		</thead>
+	</table>
+	
+</body>
+</html>

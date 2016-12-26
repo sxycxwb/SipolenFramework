@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<dgvAuditHistory>
+  <dgvAuditHistory>
+    <ColumnName>colTaskCaption</ColumnName>
+    <HeaderText>任务名</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>0</DisplayIndex>
+    <Width>300</Width>
+  </dgvAuditHistory>
+  <dgvAuditHistory>
+    <ColumnName>colOperatedDes</ColumnName>
+    <HeaderText>处理人</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>1</DisplayIndex>
+    <Width>300</Width>
+  </dgvAuditHistory>
+  <dgvAuditHistory>
+    <ColumnName>colTASKENDTIME</ColumnName>
+    <HeaderText>处理时间</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>2</DisplayIndex>
+    <Width>200</Width>
+  </dgvAuditHistory>
+</dgvAuditHistory><?xml version="1.0" standalone="yes"?>
+<dgvAuditHistory>
+  <dgvAuditHistory>
+    <ColumnName>colTaskCaption</ColumnName>
+    <HeaderText>任务名</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>0</DisplayIndex>
+    <Width>300</Width>
+  </dgvAuditHistory>
+  <dgvAuditHistory>
+    <ColumnName>colOperatedDes</ColumnName>
+    <HeaderText>处理人</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>1</DisplayIndex>
+    <Width>300</Width>
+  </dgvAuditHistory>
+  <dgvAuditHistory>
+    <ColumnName>colTASKENDTIME</ColumnName>
+    <HeaderText>处理时间</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>2</DisplayIndex>
+    <Width>200</Width>
+  </dgvAuditHistory>
+</dgvAuditHistory>

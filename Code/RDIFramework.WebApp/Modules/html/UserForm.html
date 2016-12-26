@@ -1,0 +1,55 @@
+﻿<form id="uiform">
+    <table class="grid">
+        <tr>
+            <td align="right">登录用户名：</td><td><input name="UserName" id="txtUserName" validType="length[2,40]" required="true" type="text" class="txt03" ></td>
+            <td align="right">姓名：</td><td><input name="RealName" id="txtRealName" validType="length[2,40]" required="true" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">编号：</td><td><input name="Code" id="txtCode" validType="length[2,40]" type="text" class="txt03" ></td>
+            <td align="right">用户密码：</td><td><input validType="safepass"  required="true" name="UserPassword" id="txtUserPassword"  type="password" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">性别：</td><td><input name="Gender" id="txtGender"  required="true" type="text" class="txt03" ></td>
+            <td align="right">手机号码：</td><td><input name="Mobile" id="txtMobile" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">出生日期：</td><td><input name="Birthday" id="txtBirthday" type="text" class="txt03" ></td>
+            <td align="right">固定电话：</td><td><input name="Telephone" id="txtTelephone" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">岗位：</td><td><input name="Duty" id="txtDuty" type="text" class="txt03" ></td>
+            <td align="right">QQ号码：</td><td><input name="QICQ" id="txtQICQ" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">职称：</td><td><input name="Title" id="txtTitle" type="text" class="txt03" ></td>
+            <td align="right">邮箱地址：</td><td><input name="Email" id="txtEmail" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">默认角色：</td><td  colspan="3"><input name="RoleId" style="width:430px;" id="txtRoleId" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">家庭地址：</td><td  colspan="3"><input name="HomeAddress" style="width:430px;" id="txtHomeAddress" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">所在公司/单位：</td><td colspan="3"><input name="CompanyName" style="width:430px;" id="txtCompanyName" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">所在子公司：</td><td colspan="3"><input name="SubCompanyName" style="width:430px;" id="txtSubCompanyName" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">所在部门：</td><td colspan="3"><input name="DepartmentName" style="width:430px;" id="txtDepartmentName" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">所在子部门：</td><td colspan="3"><input name="SubDepartmentName" style="width:430px;" id="txtSubDepartmentName" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+             <td align="right">所在工作组：</td><td colspan="3"><input name="WorkgroupName" style="width:430px;" id="txtWorkgroupName" type="text" class="txt03" ></td>
+        </tr>
+        <tr>
+            <td align="right">有效性：</td><td colspan="3"><input id="chkEnabled" type="checkbox" name="Enabled" /><label>有效</label>&nbsp;&nbsp;<span style="color:#666;padding-left:20px;">注：用户无效（禁用该用户）后，该用户将不能登录。</span></td>
+        </tr>
+        <tr>
+            <td align="right">描述：</td><td colspan =3><textarea  id="txtDescription" name="Description" rows="3" style="width:430px;height:50px;" class="txt03"/></td>
+        </tr>
+    </table>
+</form>

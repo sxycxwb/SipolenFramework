@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<dgvInfo>
+  <dgvInfo>
+    <ColumnName>colFullName</ColumnName>
+    <HeaderText>角色名称</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>0</DisplayIndex>
+    <Width>150</Width>
+  </dgvInfo>
+  <dgvInfo>
+    <ColumnName>colDescription</ColumnName>
+    <HeaderText>角色描述</HeaderText>
+    <Frozen>false</Frozen>
+    <Visible>true</Visible>
+    <DisplayIndex>1</DisplayIndex>
+    <Width>450</Width>
+  </dgvInfo>
+</dgvInfo>

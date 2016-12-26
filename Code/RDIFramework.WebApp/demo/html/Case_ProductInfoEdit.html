@@ -1,0 +1,82 @@
+﻿<form id="uiform">
+	<table class="grid">
+		<tr>
+			<td>产品编码：</td>
+			<td colspan="3">
+				<input type="text" id="PRODUCTCODE" name="PRODUCTCODE" style="width: 88%;" class="txt03 required"  minlength="5"/>
+			</td>
+		</tr>
+		<tr>
+			<td>产品名称：</td>
+			<td colspan="3">
+				<input type="text" id="PRODUCTNAME" name="PRODUCTNAME" style="width: 88%;" class="txt03 required"  minlength="3"/>
+			</td>
+		</tr>
+		<tr>
+			<td>产品型号：</td>
+			<td>
+				<input type="text" id="PRODUCTMODEL" name="PRODUCTMODEL" class="txt03" />
+			</td>
+			<td>产品规格：</td>
+			<td>
+				<input type="text" id="PRODUCTSTANDARD" name="PRODUCTSTANDARD" class="txt03" />
+			</td>
+		</tr>
+		<tr>
+			<td>产品类别：</td>
+			<td>
+				<input type="text" id="PRODUCTCATEGORY" name="PRODUCTCATEGORY" class="txt03" />
+			</td>
+			<td>产品单位：</td>
+			<td>
+				<input type="text" id="PRODUCTUNIT" name="PRODUCTUNIT" class="txt03" />
+			</td>
+		</tr>
+		<tr>
+			<td>基准价：</td>
+			<td>
+				<input type="text" id="MIDDLERATE" value=0 name="MIDDLERATE" class="txt03 required number"/>
+			</td>
+			<td>基准系数：</td>
+			<td>
+				<input type="text" id="REFERENCECOEFFICIENT" value=0 name="REFERENCECOEFFICIENT" class="txt03 required number" />
+			</td>
+		</tr>
+		<tr>
+			<td>产品单价：</td>
+			<td>
+				<input type="text" id="PRODUCTPRICE" value=0 name="PRODUCTPRICE" class="txt03 required number"/>
+			</td>
+			<td>批发价：</td>
+			<td>
+				<input type="text" id="WHOLESALEPRICE" value=0 name="WHOLESALEPRICE" class="txt03 required number" />
+			</td>
+		</tr>
+		<tr>
+			<td>促销价：</td>
+			<td>
+				<input type="text" id="PROMOTIONPRICE" value=0 name="PROMOTIONPRICE" class="txt03 required number" />
+			</td>
+			<td>内部价：</td>
+			<td>
+				<input type="text" id="INTERNALPRICE" value=0 name="INTERNALPRICE" class="txt03 required number" />
+			</td>
+		</tr>
+		<tr>
+			<td>特别价：</td>
+			<td>
+				<input type="text" id="SPECIALPRICE" value=0 name="SPECIALPRICE" class="txt03 required number" />
+			</td>
+			<td>作废标志：</td>
+			<td>
+				<input type="checkbox" class="txt03" value="1" name="ENABLED" id="ENABLED" />
+			</td>
+		</tr>
+		<tr>
+			<td>描述：</td>
+			<td colspan="3">
+				<textarea style="width: 88%;height:50px;" id="PRODUCTDESCRIPTION" name="PRODUCTDESCRIPTION" class="txt03" />
+			</td>
+		</tr>
+	</table>
+</form>

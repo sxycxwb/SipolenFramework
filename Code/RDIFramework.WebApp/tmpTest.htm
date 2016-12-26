@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试HTML</title>
+    <script type ="text/javascript" src="Content/Scripts\jquery-1.8.3.min.js"></script>
+    <script type ="text/javascript">
+        $(function () {
+
+            $("div").each(function (idx) {
+                $(this).prepend(idx + ":");
+                if (this.id == "last") return false;
+            });
+       })
+    </script>
+</head>
+<body>
+    <div>first</div>
+    <div>secord</div>
+    <div>three</div>
+</body>
+</html>

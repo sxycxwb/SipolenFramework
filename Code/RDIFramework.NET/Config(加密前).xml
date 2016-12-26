@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <!-- ================== 一、客户端配置项 ================== -->
+
+    <!-- 当前登录用户名 -->
+    <add key="CurrentUserName" value="Administrator" />
+    <!-- 当前登录用户密码 -->
+    <add key="CurrentPassword" value="JKjD0kTGFXGpa1FhbXwjxQ==" />
+    <!-- 客户端加密存储登录密码-->
+    <add key="ClientEncryptPassword" value="True" />
+    <!-- 是否记住登录密码 -->
+    <add key="RememberPassword" value="True" />
+    <!-- 是否可以自动登录-->
+    <add key="AutoLogOn" value="False" />
+    <!-- 远程调用服务的用户名 -->
+    <add key="ServiceUserName" value="UMPLatForm.NET" />
+    <!-- 远程调用服务的密码 -->
+    <add key="ServicePassword" value="UMPLatForm.NET_2012" />
+    <!-- 是否一次加载所有用户 -->
+    <add key="LoadAllUser" value="True" />
+    <!-- 平台当前语言类型 -->
+    <add key="CurrentLanguage" value="zh-CN" Options="zh-CN,zh-TW,en-US" />
+    <!-- 平台当前主题样式 -->
+    <add key="CurrentStyle" value="Windows7Blue"/>
+    <!-- 平台当前主题颜色 -->
+    <add key="CurrentThemeColor" value="#8066A0"/>
+    
+    <!-- ==================二、服务器端配置项 ================== -->
+    <!-- 是否允许用户注册 -->
+    <add key="AllowUserRegister" value="False" />
+    <!-- 是否启用即时通讯 -->
+    <add key="UseMessage" value="True" />
+    <!-- 是否启用分级授权分级管理 -->
+    <add key="UsePermissionScope" value="True" />
+    <!-- 是否启用按用户授权 -->
+    <add key="UseUserPermission" value="True" />
+    <!-- 是否用户是否需要配置模块菜单权限 -->
+    <add key="UseModulePermission" value="True" />
+    <!-- 是否启用操作权限 -->
+    <add key="UsePermissionItem" value="True" />
+    <!-- 是否启用表字段权限 -->
+    <add key="UseTableColumnPermission" value="False" />
+    <!-- 是否启用数据表的列权限 -->
+    <add key="UseTableScopePermission" value="False" />
+
+    <!-- 是否记录系统日志 -->
+    <add key="RecordLog" value="True" />
+    <!-- 最大在线用户数量限制 -->
+    <add key="OnLineLimit" value="200" />
+
+    <!-- 是否开启IP限制 -->
+    <add key="CheckIPAddress" value="False"/>
+    <!-- 是否开启手写签名 -->
+    <add key="HandwrittenSignature" value="True"/>
+    <!-- 系统默认密码 -->
+    <add key="DefaultPassword" value="abcd1234"/>
+
+    <!-- 是否加密存储服务器端密码 -->
+    <add key="ServerEncryptPassword" value="True" />    
+    <!--是否进行密码强度检查-->
+    <add key="CheckPasswordStrength" value="False"/>
+    <!-- 密码最小长度 -->
+    <add key="PasswordMiniLength" value="6" />
+    <!-- 密码是否必须为字母+数字组合 -->
+    <add key="NumericCharacters" value="True" />
+    <!-- 密码修改周期(月) -->
+    <add key="PasswordChangeCycle" value="3" />
+    <!-- 检测用户是否在线（为True:不允许重复登录） -->
+    <add key="CheckOnLine" value="False" />
+    <!--在线超时时间（以秒为单位）,5分钟内不在线的，就认为没在线-->
+    <add key="OnLineTime0ut" value="300"/>
+    <!-- 用户名最小长度 -->
+    <add key="AccountMinimumLength" value="4" />
+    <!-- 密码错误锁定次数 -->
+    <add key="PasswordErrorLockLimit" value="5" />
+    <!-- 密码错误锁定周期(分钟) -->
+    <add key="PasswordErrorLockCycle" value="30" />
+
+    <!-- ==================三、数据库连接相关配置 ================== -->
+
+    <!-- 统一项目管理平台数据库类型-->
+    <add key="UMPlatFormDbType" value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access"/>
+    <!-- 业务逻辑数据库类型-->
+    <add key="BusinessDbType"   value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access"/>
+    <!-- 是否加密存储数据库连接字符串-->
+    <add key="EncryptDbConnection"   value="false" />
+    <!-- 统一项目管理平台数据库连接字符串-->
+    <add key="UMPlatFormDbConection" value="Data Source=.\YONGHU;Initial Catalog=UMPlatForm;uid=sa;password=qaz"/>
+    <!-- 业务数据库连接字符串-->
+    <add key="BusinessDbConnection"  value="Data Source=.\YONGHU;Initial Catalog=UMPlatForm;uid=sa;password=qaz"/>
+
+    <!-- ================== 四、系统参数配置 ================== -->
+
+    <!-- 系统主窗体 -->
+    <add key="MainForm"   value="FrmUMPlatForm"  Options="FrmMainForm,FrmUMPlatForm" />
+    <!-- 系统登录窗体 -->
+    <add key="LogOnForm"  value="FrmLogOn" />
+    <!-- 系统根菜单编号 -->
+    <!-- add key="RootMenuCode" value="UMPlatForm" /-->
+    <!-- 登录部分所在程序集 -->
+    <add key="LogOnAssembly" value="UMPlatForm.UI" />
+
+    <!-- 客户端信息配置 -->
+    <!-- 公司名称 -->
+    <add key="CustomerCompanyName" value="华思科技" />
+    <!-- 配置信息存储方式 -->
+    <add key="ConfigurationFrom" value="UserConfig" />
+    <!-- 软件名称 -->
+    <add key="SoftName" value="UMPlatForm.NET V1.0" />
+    <!-- 软件全称 -->
+    <add key="SoftFullName" value="统一项目管理平台(UMPLatForm.NET)" />
+    <!-- 软件版本 -->
+    <add key="Version" value="1.0" />
+    <!-- 注册码，备用 -->
+    <add key="RegisterKey" value="nTr90/TsoB+j8YU+K5CxP/PQ0hN2aYST4rbPQrFZkJVnthTFrXTSPORoSWJkQmxUgSYFOsauuKm5TPo9p3v/V3ysD9Pai8uMsiEH4gjxEZlciDXMQq4J97766htzk2sS13NSCFbyMvV9MWXWNHEK3DSflf6x+vbyQhmSxeTkqLY=" />
+    <!-- 软件的服务提供程序 -->
+    <add key="Service" value="UMPlatForm.Business" Options="UMPlatForm.Business,UMPlatForm.WinWCFClient" />
+
+    <!-- ================== 五、错误报告反馈配置 ================== -->
+
+    <!-- 软件的错误报告发给谁 -->
+    <add key="ErrorReportFrom" value="406590790@qq.com" />
+    <!-- 发出错误邮箱的地址 -->
+    <add key="ErrorReportMailUserName" value="UMPlatForm@126.com" />
+    <!-- 发出错误邮箱的密码 -->
+    <add key="ErrorReportMailPassword" value="umplatform2012" />
+    <!-- 发出错误邮箱的服务器 -->
+    <add key="ErrorReportMailServer" value="smtp.126.com" />
+
+    <!-- ================== 六、备用配置参考 ================== -->
+
+    <!--   
+	
+    <add key="UMPlatFormDbType" value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access"/>
+  
+    <add key="BusinessDbType" value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access"/>
+   
+    <add key="EncryptDbConnection" value="false" />
+   
+    <add key="UMPlatFormDbConection" value="Data Source=.\YONGHU;Initial Catalog=UMPlatForm;uid=sa;password=qaz"/>
+  
+    <add key="BusinessDbConnection" value="Data Source=.\YONGHU;Initial Catalog=UMPlatForm;uid=sa;password=qaz"/>
+		-->
+
+  </appSettings>
+</configuration>

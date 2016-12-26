@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E5C1169C-4F78-4B4B-9476-41D51F90E84A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDIFramework.WinForm.Utilities</RootNamespace>
+    <AssemblyName>RDIFramework.WinForm.Utilities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>http://localhost/RDIFramework.WinForm.Utilities/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UMPlatForm.ExternalReference\DevComponents.DotNetBar2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.grdesLib, Version=5.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\RDIFramework.ExternalReference\Interop.grdesLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.grproLib, Version=5.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\RDIFramework.ExternalReference\Interop.grproLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseUI\BaseRibbonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseUI\BaseMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCStartPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCStartPage.Designer.cs">
+      <DependentUpon>UCStartPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\FormBinding.cs" />
+    <Compile Include="Utilities\GrdReportUtil.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UcDataNavigator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcDataNavigator.Designer.cs">
+      <DependentUpon>UcDataNavigator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcSortControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcSortControl.Designer.cs">
+      <DependentUpon>UcSortControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\AddinManagement.cs" />
+    <Compile Include="BaseUI\BaseEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseUI\BaseEditForm.Designer.cs">
+      <DependentUpon>BaseEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUI\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\BasePageLogic.cs" />
+    <Compile Include="Cache\CacheManager.cs" />
+    <Compile Include="Cache\ClientCache.cs" />
+    <Compile Include="FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFeedback.Designer.cs">
+      <DependentUpon>FrmFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\IBaseForm.cs" />
+    <Compile Include="Cache\ObjectCache.cs" />
+    <Compile Include="FrmDataGridViewSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataGridViewSetting.Designer.cs">
+      <DependentUpon>FrmDataGridViewSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\IBaseMainForm.cs" />
+    <Compile Include="DialogForm\MessageBoxHelper.cs" />
+    <Compile Include="FrmNotifyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm\Splasher.cs" />
+    <Compile Include="SplashForm\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm\SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashForm\SplashFormEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm\SplashFormEx.Designer.cs">
+      <DependentUpon>SplashFormEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\UserDefineException.cs" />
+    <Compile Include="FrmException.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmException.designer.cs">
+      <DependentUpon>FrmException.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\BasePageLogic.TreeOper.cs" />
+    <Compile Include="Utilities\BasePageLogic.GetSelected.cs" />
+    <Compile Include="Utilities\BasePageLogic.ComboOper.cs" />
+    <Compile Include="Utilities\BasePageLogic.DataGridViewOper.cs" />
+    <Compile Include="Utilities\BasePageLogic.Check.cs" />
+    <Compile Include="Utilities\BasePageLogic.UIControlOper.cs" />
+    <Compile Include="Utilities\BasePageLogic.Language.cs" />
+    <EmbeddedResource Include="BaseUI\BaseRibbonForm.resx">
+      <DependentUpon>BaseRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUI\BaseEditForm.resx">
+      <DependentUpon>BaseEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUI\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUI\BaseMainForm.resx">
+      <DependentUpon>BaseMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataGridViewSetting.resx">
+      <DependentUpon>FrmDataGridViewSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFeedback.resx">
+      <DependentUpon>FrmFeedback.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmException.resx">
+      <DependentUpon>FrmException.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotifyWindow.resx">
+      <DependentUpon>FrmNotifyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm\SplashFormEx.resx">
+      <DependentUpon>SplashFormEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcDataNavigator.resx">
+      <DependentUpon>UcDataNavigator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcSortControl.resx">
+      <DependentUpon>UcSortControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCStartPage.resx">
+      <DependentUpon>UCStartPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Input.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\关闭.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\query.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ok.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\removeFilter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\feedback.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RDIFramework.BizLogic\RDIFramework.BizLogic.csproj">
+      <Project>{3DFEEFB2-547E-4744-B667-3103B0ACAC65}</Project>
+      <Name>RDIFramework.BizLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Control\RDIFramework.Controls.csproj">
+      <Project>{E91E412C-381B-46D8-979B-9AFA4A947562}</Project>
+      <Name>RDIFramework.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDIFramework.Utilities\RDIFramework.Utilities.csproj">
+      <Project>{1916FE94-6129-4F93-BC55-0CF5F2CF9B05}</Project>
+      <Name>RDIFramework.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnEdit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnExport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnPrint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnSave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\StartLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\qqcallme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

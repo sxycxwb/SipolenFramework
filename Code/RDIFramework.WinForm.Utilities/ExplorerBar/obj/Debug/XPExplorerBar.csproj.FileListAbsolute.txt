@@ -1,0 +1,13 @@
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\bin\Debug\XPExplorerBar.XML
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\bin\Debug\XPExplorerBar.dll
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\bin\Debug\XPExplorerBar.pdb
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\XPExplorerBar.Expando.resources
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\XPExplorerBar.ExpandoArrows.resources
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\XPExplorerBar.TaskItem.resources
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\XPExplorerBar.TaskPane.resources
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\XPExplorerBar.dll
+C:\Documents and Settings\Administrator\桌面\XPTaskBar\XPExplorerBar_src_v3_3_VS2005\obj\Debug\XPExplorerBar.pdb

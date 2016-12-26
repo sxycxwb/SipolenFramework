@@ -1,0 +1,2968 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <language>zh-TW</language>
+  <displayName>繁體中文</displayName>
+  <version>3.0</version>
+  <author>EricHu</author>
+  <description>繁體中文語言包</description>
+  <items>
+    <!-- Global Language Resources Begin EricHu -->
+    <item key="MSG0000">提示信息</item>
+    <item key="MSG0001">發生未知錯誤。</item>
+    <item key="MSG0002">數據庫聯接不正常。</item>
+    <item key="MSG0003">WebService聯接不正常。</item>
+    <item key="MSG0004">任何數據未被修改。</item>
+    <item key="MSG0005">記錄未找到,可能已被其他人刪除。</item>
+    <item key="MSG0006">數據已被其他人修改,請按F5鍵重新刷新獲得數據。</item>
+    <item key="MSG0007">請輸入{0}，不允許為空。</item>
+    <item key="MSG0008">{0}已重復。</item>
+    <item key="MSG0009">新增成功。</item>
+    <item key="MSG0010">更新成功。</item>
+    <item key="MSG0011">保存成功。</item>
+    <item key="MSG0012">批量保存成功。</item>
+    <item key="MSG0013">刪除成功。</item>
+    <item key="MSG0014">批量刪除成功。</item>
+    <item key="MSG0015">您確認刪除嗎？</item>
+    <item key="MSG0016">您確認刪除 {0}嗎？</item>
+    <item key="MSG0017">當前記錄不允許被刪除</item>
+    <item key="MSG0018">當前記錄 {0} 不允許被刪除。</item>
+    <item key="MSG0019">當前記錄不允許被編輯,請按F5鍵,重新獲取數據最新數據。</item>
+    <item key="MSG0020">當前記錄 {0} 不允許被編輯,請按F5鍵,重新獲取數據最新數據。</item>
+    <item key="MSG0021">當前記錄已是第壹條記錄。</item>
+    <item key="MSG0022">當前記錄已是最後壹條記錄。</item>
+    <item key="MSGC023">請至少選擇壹項。</item>
+    <item key="MSGC024">只能選擇壹項。</item>
+    <item key="MSG0023">請至少選擇壹項。</item>
+    <item key="MSG0024">請至少選擇壹項 {0}。</item>
+    <item key="MSG0025">{0}不能大於{1}。</item>
+    <item key="MSG0026">{0}不能小於{1}。</item>
+    <item key="MSG0027">{0}不能等於{1}。</item>
+    <item key="MSG0028">{0}不是有效的日期。</item>
+    <item key="MSG0029">{0}不是有效的字符。</item>
+    <item key="MSG0030">{0}不是有效的數字。</item>
+    <item key="MSG0031">{0}不是有效的金額。</item>
+    <item key="MSG0032">{0} 名包含非法字符。</item>
+    <item key="MSG0033">數據已經被引用，有關聯數據在。 </item>
+    <item key="MSG0034">數據已經被引用，有關聯數據在，是否強制刪除數據？</item>
+    <item key="MSG0035">{0} 有子節點不允許被刪除，有子節點還未被刪除。</item>
+    <item key="MSG0036">{0} 不能移動到 {1}.</item>
+    <item key="MSG0037">{0} 下的子節點不能移動到 {1}.</item>
+    <item key="MSG0038">確認移動 {0} 到 {1} 嗎？</item>
+    <item key="MSG0039">{0} 不等於 {1}</item>
+    <item key="MSG0040">{0} 錯誤。</item>
+    <item key="MSG0041">確認審核通過嗎？</item>
+    <item key="MSG0042">確認審核退回嗎？</item>
+    <item key="MSG0043">不能鎖定數據。</item>
+    <item key="MSG0044">成功鎖定數據。</item>
+    <item key="MSG0045">數據已經改變，想保存數據嗎？</item>
+    <item key="MSG0046">最近 {0} 次內密碼不能重復。</item>
+    <item key="MSG0047">密碼已過期，用戶被鎖定，請聯系系統管理員。</item>
+    <item key="MSG0048">拒絕登錄，用戶已經在線上。</item>
+    <item key="MSG0049">拒絕登錄，網卡Mac地址不符限制條件。</item>
+    <item key="MSG0050">拒絕登錄，IP地址不符限制條件。</item>
+    <item key="MSG0051">已到在線用戶最大數量限制。</item>
+    <item key="MSG0052">IP位置格式不正確。</item>
+    <item key="MSG0053">MAC位置格式不正確。</item>
+    <item key="MSG0054">請填寫IP位置或MAC位置信息。</item>
+    <item key="MSG0055">存在相同的IP位置。</item>
+    <item key="MSG0056">IP位置新增成功。</item>
+    <item key="MSG0057">IP位置新增失敗。</item>
+    <item key="MSG0058">存在相同的MAC位置。</item>
+    <item key="MSG0059">  MAC位置新增成功。</item>
+    <item key="MSG0060">請先創建該員工的登錄系統的用戶信息。</item>
+    <item key="MSG0061">  MAC位置新增失敗。</item>
+    <item key="MSG0062">請設定新密碼，原始密碼未曾修改過。</item>
+    <item key="MSG0063">請設定新密碼，30天內未曾修改過密碼。</item>
+    <item key="MSG0064">您輸入的分鐘數值不正確，請檢查。</item>
+    <item key="MSG0065">數據已經改變，不保存數據？</item>
+    <item key="MSG0075">您確認移除嗎？</item>
+    <item key="MSG0076">您確認移除 {0} 嗎？</item>
+    <item key="MSG0077">成功刪除 {0} 條記錄。</item>
+    <item key="MSG0078">用戶登入被拒，用戶審核中。</item>
+    <item key="MSG0079">用戶被鎖定，登入被拒絕，請聯系系統管理員。</item>
+    <item key="MSG0080">用戶賬號未被激活，請及時激活用戶賬號。</item>
+    <item key="MSG0081">用戶被鎖定，登入被拒絕，不可早於：</item>
+    <item key="MSG0082">用戶被鎖定，登入被拒絕，不可晚於：</item>
+    <item key="MSG0083">用戶被鎖定，登入被拒絕，鎖定開始日期：</item>
+    <item key="MSG0084">用戶被鎖定，登入被拒絕，鎖定結束日期：</item>
+    <item key="MSG0085">IP Address 不正確。</item>
+    <item key="MSG0086">MAC Address 不正確。</item>
+    <item key="MSG0087">用戶已經上線，不允許重復登入。</item>
+    <item key="MSG0088">密碼錯誤，登入被拒絕。</item>
+    <item key="MSG0089">已超出用戶在線數量上限：</item>
+    <item key="MSG0090">登入被拒絕。</item>
+    <item key="MSG0091">新增操作權限項。</item>
+    <item key="MSG0092">登入開始時間</item>
+    <item key="MSG0093">登入結束時間</item>
+    <item key="MSG0094">暫停開始日期</item>
+    <item key="MSG0095">暫停結束日期</item>
+    <item key="MSG0100">{0} 在在線，不允許刪除。</item>
+    <item key="MSG0101">目前用戶 {0} 不允許刪除自己。</item>
+    <item key="MSG0102">確認關閉嗎？</item>
+    <item key="MSG0600">您確認清除權限嗎？</item>
+    <item key="MSG0700">已經成功連接到目標數據。</item>
+    <item key="MSG0800">調用被拒絕，未經授權的訪問。</item>
+    <item key="MSG0900">服務調用被拒絕，用戶未登入。</item>
+    <item key="MSG1000">系統設定訊息錯誤，請與軟體開發商聯系。</item>
+    <item key="MSG1001">您確認重置功能菜單嗎？</item>
+    <item key="MSG1002">指定的dll文件不存在。</item>
+    <item key="MSG2000">{0} 不正確，請重新輸入。</item>
+    <item key="MSG3000">您確認初始化系統嗎？</item>
+    <item key="MSG3010">操作成功。</item>
+    <item key="MSG3020">操作失敗。</item>
+    <item key="MSG9800">值</item>
+    <item key="MSG9900">公司</item>
+    <item key="MSG9901">部門</item>
+    <item key="MSG9910">用戶未設置電子郵件地址。</item>
+    <item key="MSG9911">用戶被鎖定。</item>
+    <item key="MSG9912">用戶還未激活。</item>
+    <item key="MSG9913">用戶已被激活。</item>
+    <item key="MSG9914">用戶關聯</item>
+    <item key="MSG9915">請設置約束條件。</item>
+    <item key="MSG9916">顯示   ▽</item>
+    <item key="MSG9917">隱藏   △</item>
+    <item key="MSG9918">驗證表達式成功。</item>
+    <item key="MSG9919">請輸入條件。</item>
+    <item key="MSG9920">請輸入內容。</item>
+    <item key="MSG9921">缺少（ 符號。</item>
+    <item key="MSG9922">缺少 ）符號。</item>
+    <item key="MSG9923">驗證表達式失敗。</item>
+    <item key="MSGS857">簽名私鑰。</item>
+    <item key="MSGS864">簽名密碼。</item>
+    <item key="MSGS957">通訊用戶名稱。</item>
+    <item key="MSGS964">通訊密碼。</item>
+    <item key="MSGS965">驗證碼</item>
+    <item key="MSG8000">密碼強度不符合要求，密碼至少為6位數，且為數字加字母的組合。</item>
+    <item key="MSG8900">工號</item>
+    <item key="MSG9000">用戶名或密碼錯誤。</item>
+    <item key="MSG9955">資料。</item>
+    <item key="MSG9956">未找到滿足條件的記錄。</item>
+    <item key="MSG9957">用戶名</item>
+    <item key="MSG9958">密碼強度不符合要求，密碼至少為6位數，且為數字加字母的組合。</item>
+    <item key="MSG9959">新密碼</item>
+    <item key="MSG9960">確認密碼</item>
+    <item key="MSG9961">原密碼</item>
+    <item key="MSG9962">修改 {0} 成功。</item>
+    <item key="MSG9963">設置 {0} 成功。</item>
+    <item key="MSG9964">密碼</item>
+    <item key="MSG9965">操作成功。</item>
+    <item key="MSG9966">用戶沒有找到，請註意大小寫。</item>
+    <item key="MSG9967">密碼錯誤，請註意大小寫。</item>
+    <item key="MSG9968">登錄被拒絕，請與管理員聯系。</item>
+    <item key="MSG9969">基礎編碼</item>
+    <item key="MSG9970">員工</item>
+    <item key="MSG9971">組織機構</item>
+    <item key="MSG9972">角色</item>
+    <item key="MSG9973">模塊</item>
+    <item key="MSG9974">文件夾</item>
+    <item key="MSG9975">權限</item>
+    <item key="MSG9976">主鍵</item>
+    <item key="MSG9977">編號</item>
+    <item key="MSG9978">名稱</item>
+    <item key="MSG9979">父節點主鍵</item>
+    <item key="MSG9980">父節點名稱</item>
+    <item key="MSG9981">功能分類主鍵</item>
+    <item key="MSG9982">唯壹識別主鍵</item>
+    <item key="MSG9983">主題</item>
+    <item key="MSG9984">內容</item>
+    <item key="MSG9985">狀態碼</item>
+    <item key="MSG9986">次數</item>
+    <item key="MSG9987">有效</item>
+    <item key="MSG9988">描述</item>
+    <item key="MSG9989">排序碼</item>
+    <item key="MSG9990">創建者主鍵</item>
+    <item key="MSG9991">創建時間</item>
+    <item key="MSG9992">最後修改者主鍵</item>
+    <item key="MSG9993">最後修改時間</item>
+    <item key="MSG9994">排序</item>
+    <item key="MSG9995">主鍵</item>
+    <item key="MSG9996">索引</item>
+    <item key="MSG9997">字段</item>
+    <item key="MSG9998">表</item>
+    <item key="MSG9999">數據庫</item>
+    <!-- Global Language Resources End -->
+
+    <!-- -->
+    <item key="MSG0200">您確認清除用戶角色關聯嗎？</item>
+    <item key="MSG0201">您選擇的文件不存在，請重新選擇。</item>
+    <item key="MSG0202">提示信息</item>
+    <item key="MSG0203">您確認移動 \" {0} \" 到 \" {1} \" 嗎？</item>
+    <item key="MSG0204">您確認退出應用程序嗎？</item>
+    <item key="MSG0205">文件 {0} 已存在，要覆蓋服務器上的文件嗎？</item>
+    <item key="MSG0206">已經超過了上傳限制，請檢查要上傳的文件大小。</item>
+    <item key="MSG0207">您確認要刪除圖片嗎?</item>
+    <item key="MSG0208">開始時間不能大於結束時間。</item>
+    <item key="MSG0209">清除成功。</item>
+    <item key="MSG0210">重置成功。</item>
+    <item key="MSG0211">已輸入{0}次錯誤密碼，不再允許繼續登錄，請重新啟動程序進行登錄。</item>
+    <item key="MSG0212">查詢內容</item>
+    <item key="MSG0213">編號總長度不要超過40位。</item>
+    <item key="MSG0214">編號生成成功。</item>
+    <item key="MSG0215">增序列</item>
+    <item key="MSG0216">減序列</item>
+    <item key="MSG0217">步調</item>
+    <item key="MSG0218">序列重置成功。</item>
+    <item key="MSG0219">您確認重置序列嗎？</item>
+    <item key="MSG0223">用戶名 不允許為空，請輸入。</item>
+    <item key="MSG0225">目前節點上有數據。</item>
+    <item key="MSG0226">無法刪除自己</item>
+    <item key="MSG0228">設置關聯用戶成功。</item>
+    <item key="MSG0229">所在單位 不允許為空，請選擇。</item>
+    <item key="MSG0230">申請更新成功，請等待審核。</item>
+    <item key="MSG0231">密碼 不等於 確認密碼，請確認後重新輸入。</item>
+    <item key="MSG0232">用戶名</item>
+    <item key="MSG0233">姓名</item>
+    <item key="MSG0234">E-Mail 格式不正確，請重新輸入。</item>
+    <item key="MSG0235">申請帳戶成功，請等待審核。</item>
+    <item key="MSG0236">導出的目標文件已存在要覆蓋 \"{0}\" 嗎？</item>
+    <item key="MSG0237">成功發送電子郵件。</item>
+    <item key="MSG0238">清除異常信息成功。</item>
+    <item key="MSG0239">您確認清除異常信息嗎？</item>
+    <item key="MSG0240">內容不能為空。</item>
+    <item key="MSG0241">發送郵件失敗。</item>
+    <item key="MSG0242">移動成功。</item>
+    <item key="MSG0243">程序異常報告</item>
+    <item key="MSG0244">您選擇的文檔不存在，請重新選擇。</item>
+    <item key="MSG0245">用戶、角色必須選擇壹個。</item>
+    <item key="MSG0246">沒有要復制的數據！</item>
+    <item key="MSG0247">審批通過 {0}項。</item>
+    <item key="MSG0248">審批通過失敗。</item>
+    <item key="MSG0249">請選需要處理的數據。</item>
+    <item key="MSG0250">您確認審批通過此單據嗎？</item>
+    <item key="MSG0251">成功退回單據。</item>
+    <item key="MSG0252">請選需要處理的數據。</item>
+    <item key="MSG0253">您確認不輸入退回理由嗎？</item>
+    <item key="MSG0255">您確認退回此單據嗎？</item>
+    <item key="MSG0256">工作流程發送成功。</item>
+    <item key="MSG0257">工作流程發送失敗。</item>
+    <item key="MSG0258">審批通過單據。</item>
+    <item key="MSG0259">請選需要處理的數據。</item>
+    <item key="MSG0260">請選擇提交給哪位用戶。</item>
+    <item key="MSG0261">最終審批通過 {0}項。</item>
+    <item key="MSG0262">最終審批失敗。</item>
+    <item key="MSG0263">請選需要處理的數據。</item>
+    <item key="MSG0264">成功退回單據。</item>
+    <item key="MSG0265">請選需要處理的數據。</item>
+    <item key="MSG0266">您確認不輸入退回理由嗎？</item>
+    <item key="MSG0267">您確認退回此單據嗎？</item>
+    <item key="MSG0268">審批流程發送成功。</item>
+    <item key="MSG0269">請選需要處理的數據。</item>
+    <item key="MSG0270">請選擇提交給哪位用戶。</item>
+    <item key="MSG0271">您確認提交給 {0}嗎？</item>
+    <item key="MSG0272">審批流程撤消成功{0}項。</item>
+    <item key="MSG0273">審批流程撤消失敗。</item>
+    <item key="MSG0274">請選需要處理的數據。</item>
+    <item key="MSG0275">您確認不輸入退回理由嗎？</item>
+    <item key="MSG0276">您確認撤銷撤消審批流程中的單據嗎？</item>
+    <item key="MSG0277">請選擇提交給哪個用戶審批。</item>
+    <item key="MSG0278">您確認提交給用戶 {0}審批嗎？</item>
+    <item key="MSG0279">工作流程發送成功。</item>
+    <item key="MSG0280">工作流程發送失敗。</item>
+    <item key="MSG0281">您確認替換文件 {0} 嗎？</item>
+    <item key="MSG0282">上級機構</item>
+    <item key="MSG0283">編號生成成功</item>
+    <item key="MSG0284">已修改配置信息，需要保存嗎？</item>
+    <item key="MSG0285">沒有要保存的數據！</item>
+    <item key="MSG0286">單位名稱</item>
+    <item key="MSG0287">請選擇提交給哪個部門審核。</item>
+    <item key="MSG0288">您確認提交給部門 {0} 審核嗎？</item>
+    <item key="MSG0289">請選擇提交給哪個角色審核。</item>
+    <item key="MSG0290">您確認提交給角色 {0} 審核嗎？</item>
+    <item key="MSG0291">請選擇提交給哪個角色或部門或人員審核。</item>
+    <item key="MSG0292">成功退回 {0} 項。</item>
+    <item key="MSG0293">退回失敗。</item>
+    <item key="MSG0294">您確認要轉發給 {0} 審核嗎？</item>
+    <item key="MSG0295">轉發成功 {0} 項。</item>
+    <item key="MSG0296">轉發失敗。</item>
+    <item key="MSG0300">下線通知，您的賬號在另壹地點登錄，您被迫下線。</item>
+    <item key="MSG0301">您確定保存嗎？</item>
+    <item key="MSG0302">分類。</item>
+    <item key="MSG0303">請選擇 {0}。</item>
+    <item key="MSG0304">用戶、組織機構、角色必須選擇壹個。</item>
+    <item key="MSG0400">您的帳戶登錄異常，被系統鎖定 {0} 分鐘，若有疑問請聯系系統管理員。</item>
+    <item key="MSGReLogOn">重新登錄</item>
+
+    <!-- UserManager Message Begin -->
+    <item key="UserManager">登錄服務</item>
+    <item key="UserManager_LogOn">登錄操作</item>
+    <item key="UserManager_LogOnSuccess">登錄成功</item>
+    <!-- UserManager Message End -->
+
+    <!-- ExceptionService Message Begin -->
+    <item key="ExceptionService">異常記錄服務</item>
+    <item key="ExceptionService_Add">添加異常</item>
+    <item key="ExceptionService_GetDT">取得異常列表</item>
+    <item key="ExceptionService_GetDTByPage">取得分頁異常列表</item>
+    <item key="ExceptionService_Delete">刪除異常</item>
+    <item key="ExceptionService_BatchDelete">批量刪除異常</item>
+    <item key="ExceptionService_Truncate">清除全部異常</item>
+    <!-- ExceptionService Message End -->
+
+    <!-- LogService Message Begin -->
+    <item key="LogService">日誌服務</item>
+    <item key="LogService_WriteLog">寫入日誌</item>
+    <item key="LogService_GetLogGeneral">取得用戶訪問情況日誌</item>
+    <item key="LogService_ResetVisitInfo">重置用戶訪問情況</item>
+    <item key="LogService_GetDTByDate">根據日期取得日誌</item>
+    <item key="LogService_GetDTByModule">根據模塊取得日誌</item>
+    <item key="LogService_GetDTByUser">根據用戶取得日誌</item>
+    <item key="LogService_GetDTByPage">獲取系統操作日誌分頁列表</item>
+    <item key="LogService_Delete">刪除日誌</item>
+    <item key="LogService_BatchDelete">批量刪除日誌</item>
+    <item key="LogService_Truncate">清除全部日誌</item>
+    <item key="LogService_GetDTApplicationByDate">根據日期取得應用日誌</item>
+    <item key="LogService_BatchDeleteApplication">批量刪除應用日誌</item>
+    <item key="LogService_TruncateApplication">清除全部應用日誌</item>
+    <item key=""></item>
+    <!-- LogService Message End -->
+
+    <!-- FileService Message Begin -->
+    <item key="FileService">文件服務</item>
+    <item key="FileService_Exists">判斷文件是否存在</item>
+    <item key="FileService_Download">下載文件</item>
+    <item key="FileService_Upload">上傳文件</item>
+    <item key="FileService_GetEntity">取得文件實體</item>
+    <item key="FileService_GetDTByFolder">依文件夾取得檔文件列表</item>
+    <item key="FileService_DeleteByFolder">依文件夾刪除文件</item>
+    <item key="FileService_Add">添加</item>
+    <item key="FileService_Update">更新</item>
+    <item key="FileService_UpdateFile">更新</item>
+    <item key="FileService_Rename">重命名</item>
+    <item key="FileService_Search">查詢</item>
+    <item key="FileService_MoveTo">移動數據</item>
+    <item key="FileService_BatchMoveTo">批量移動數據</item>
+    <item key="FileService_Delete">刪除</item>
+    <item key="FileService_BatchDelete">批量刪除</item>
+    <item key="FileService_BatchSave">批量保存</item>
+    <!-- FileService Message End -->
+
+    <!-- FolderService Message Begin -->
+    <item key="FolderService">文件夾服務層</item>
+    <item key="FolderService_GetEntity">獲取壹條</item>
+    <item key="FolderService_GetDT">獲取數據表</item>
+    <item key="FolderService_GetDTByParent">按目錄獲取列表</item>
+    <item key="FolderService_Add">添加</item>
+    <item key="FolderService_AddByFolderName">添加</item>
+    <item key="FolderService_Update">更新文件夾</item>
+    <item key="FolderService_Rename">重命名</item>
+    <item key="FolderService_Search">查詢</item>
+    <item key="FolderService_Delete">刪除</item>
+    <item key="FolderService_BatchDelete">批量刪除</item>
+    <item key="FolderService_MoveTo">移動</item>
+    <item key="FolderService_BatchMoveTo">批量移動</item>
+    <item key="FolderService_BatchSave">批量保存</item>
+    <!-- FolderService Message End -->
+
+    <!-- ItemsService Message Begin -->
+    <item key="ItemsService">數據字典服務</item>
+    <item key="ItemsService_Add">新增數據字典管</item>
+    <item key="ItemsService_GetDT">取得數據字典管列表</item>
+    <item key="ItemsService_GetDTByParent">依父節點取得數據字典管列表</item>
+    <item key="ItemsService_GetEntity">取得數據字典管實體</item>
+    <item key="ItemsService_Update">更新數據字典管</item>
+    <item key="ItemsService_Delete">刪除數據字典管</item>
+    <item key="ItemsService_SetDeleted">批量刪除標誌</item>
+    <item key="ItemsService_CreateTable">新增數據表</item>
+    <!-- ItemsService Message End -->
+
+    <!-- ItemDetailsService Message Begin -->
+    <item key="ItemDetailsService">數據字典管明細服務</item>
+    <item key="ItemDetailsService_Add">新增實體</item>
+    <item key="ItemDetailsService_GetDT">取得列表</item>
+    <item key="ItemDetailsService_GetEntity">取得實體</item>
+    <item key="ItemDetailsService_Update">更新實體</item>
+    <item key="ItemDetailsService_GetDTByIds">按主鍵數組獲取數據列表</item>
+    <item key="ItemDetailsService_GetDTByValues">按條件獲取數據列表</item>
+    <item key="ItemDetailsService_BatchSave">批量儲存</item>
+    <item key="ItemDetailsService_Delete">刪除實體</item>
+    <item key="ItemDetailsService_BatchDelete">批量刪除</item>
+    <item key="ItemDetailsService_SetDeleted">批量打刪除標誌</item>
+    <item key="ItemDetailsService_GetDTByCode">依編號取得列表</item>
+    <!-- ItemDetailsService Message End -->
+
+    <!-- LogOnService Message Begin -->
+    <item key="LogOnService">登入系統服務</item>
+    <item key="LogOnService_GetEntity">登入服務獲取實體</item>
+    <item key="LogOnService_Update">登入服務更新實體</item>
+    <item key="LogOnService_LogOnByOpenId">按唯壹識別碼登錄</item>
+    <item key="LogOnService_LogOnByUserName">按用戶名登錄</item>
+    <item key="LogOnService_UserLogOn">用戶登錄</item>
+    <item key="LogOnService_GetUserDT">取得用戶列表</item>
+    <item key="LogOnService_GetStaffUserDT">取得內部員工列表</item>
+    <item key="LogOnService_AccountActivation">激活用戶</item>
+    <item key="LogOnService_OnLine">用戶在線</item>
+    <item key="LogOnService_OnExit">用戶退出應用程序</item>
+    <item key="LogOnService_ServerCheckOnLine">檢查在線狀態(服務器專用)</item>
+    <item key="LogOnService_SetPassword">設定用戶密碼</item>
+    <item key="LogOnService_ChangePassword">用戶變更密碼</item>
+    <!-- LogOnService Message End -->
+
+    <!-- MessageService Message Begin -->
+    <item key="MessageService">消息服務</item>
+    <item key="MessageService_GetInnerOrganize">取得內部組織機構</item>
+    <item key="MessageService_GetUserDTByOrganize">按組織機構獲取用戶列表</item>
+    <item key="MessageService_GetUserDTByRole">按角色獲取用戶列表</item>
+    <item key="MessageService_BatchSend">批量發送站內消息</item>
+    <item key="MessageService_Send">發送消息</item>
+    <item key="MessageService_MessageChek">取得消息狀態</item>
+    <item key="MessageService_SendGroupMessage">發送組消息</item>
+    <item key="MessageService_Remind">發送系統提示消息</item>
+    <item key="MessageService_ReadFromReceiver">取得特定用戶的新消息</item>
+    <item key="MessageService_Read">閱讀消息</item>
+    <item key="MessageService_Broadcast">廣播消息</item>
+    <item key="MessageService_GetDTNew">獲取用戶的新信息</item>
+    <item key="MessageService_CheckOnLine">檢查在線狀態</item>
+    <item key="MessageService_GetOnLineState">獲取在線用戶列表</item>
+    <!-- MessageService Message End -->
+
+    <!-- ModuleService Message Begin -->
+    <item key="ModuleService">模塊(菜單)服務</item>
+    <item key="ModuleService_GetDT">取得模塊(菜單)列表</item>
+    <item key="ModuleService_GetDTByIds">獲取列表</item>
+    <item key="ModuleService_GetEntity">取得模塊(菜單)實體</item>
+    <item key="ModuleService_GetFullNameByCode">通過編號取得模塊(菜單)名稱</item>
+    <item key="ModuleService_Add">新增模塊(菜單)</item>
+    <item key="ModuleService_Update">更新模塊(菜單)</item>
+    <item key="ModuleService_GetDTByParent">依父節點取得模塊(菜單)列表</item>
+    <item key="ModuleService_Delete">刪除模塊(菜單)</item>
+    <item key="ModuleService_BatchDelete">批量刪除模塊(菜單)</item>
+    <item key="ModuleService_SetDeleted">批量標示模塊(菜單)刪除標誌</item>
+    <item key="ModuleService_MoveTo">移動模塊(菜單)</item>
+    <item key="ModuleService_BatchMoveTo">批量移動模塊(菜單)</item>
+    <item key="ModuleService_BatchSave">批量儲存模塊(菜單)</item>
+    <item key="ModuleService_SetSortCode">儲存模塊(菜單)排序順序</item>
+    <item key="ModuleService_GetPermissionDT">取得模塊(菜單)關聯的權限項列表</item>
+    <item key="ModuleService_GetIdsByPermission">依操作權限項取得關聯的模塊(菜單)主鍵</item>
+    <item key="ModuleService_BatchAddPermissions">模塊(菜單)批量新增關聯操作權限項</item>
+    <item key="ModuleService_BatchAddModules">新增操作權限項關聯模塊(菜單)</item>
+    <item key="ModuleService_BatchDletePermissions">刪除模塊(菜單)與操作權限項的關聯</item>
+    <item key="ModuleService_BatchDleteModules">刪除操作權限項與模塊(菜單)的關聯</item>
+    <!-- ModuleService Message End -->
+
+    <!-- OrganizeService Message Begin -->
+    <item key="OrganizeService">組織機構服務</item>
+    <item key="OrganizeService_Add">新增組織機構</item>
+    <item key="OrganizeService_Update">更新組織機構</item>
+    <item key="OrganizeService_GetDT">取得組織機構列表</item>
+    <item key="OrganizeService_GetDTByParent">依父節點取得組織機構列表</item>
+    <item key="OrganizeService_GetEntity">取得組織機構實體</item>
+    <item key="OrganizeService_GetDTByIds">取得指定主鍵組織機構列表</item>
+    <item key="OrganizeService_GetDTByValues">按條件獲取數據列表</item>
+    <item key="OrganizeService_BatchSave">批量儲存組織機構</item>
+    <item key="OrganizeService_Delete">刪除組織機構</item>
+    <item key="OrganizeService_BatchDelete">批量刪除組織機構</item>
+    <item key="OrganizeService_SetDeleted">組織機構批量標示刪除標誌</item>
+    <item key="OrganizeService_MoveTo">移動組織機構</item>
+    <item key="OrganizeService_BatchMoveTo">批量移動組織機構</item>
+    <item key="OrganizeService_GetChildrensById">根據組織機構主鍵獲取其指定分類下的子節點列表</item>
+    <!-- OrganizeService Message End -->
+
+    <!-- ParameterService Message Begin -->
+    <item key="ParameterService">參數服務</item>
+    <item key="ParameterService_GetServiceConfig">獲取服務器上的配置信息</item>
+    <item key="ParameterService_GetParameter">取得參數值</item>
+    <item key="ParameterService_SetParameter">設置參數值</item>
+    <item key="ParameterService_GetDTByParameter">取得參數服務列表</item>
+    <item key="ParameterService_GetDTByParameterCode">依編號取得參數服務列表</item>
+    <item key="ParameterService_DeleteByParameter">刪除參數</item>
+    <item key="ParameterService_DeleteByParameterCode">依參數編號刪除</item>
+    <item key="ParameterService_Delete">刪除參數</item>
+    <item key="ParameterService_BatchDelete">批量刪除參數</item>
+    <!-- ParameterService Message End -->
+
+    <!-- PermissionItemService Message Begin -->
+    <item key="PermissionItemService">操作權限項定義服務</item>
+    <item key="PermissionItemService_GetDT">取得操作權限項列表</item>
+    <item key="PermissionItemService_GetDTByParent">依父節點取得操作權限項列表</item>
+    <item key="PermissionItemService_Add">新增操作權限項</item>
+    <item key="PermissionItemService_AddByDetail">按明細添加壹個操作權限</item>
+    <item key="PermissionItemService_GetEntity">取得操作權限項實體</item>
+    <item key="PermissionItemService_GetEntityByCode">依編號取得操作權限項實體</item>
+    <item key="PermissionItemService_GetDTByIds">依主鍵數組取得操作權限項列表</item>
+    <item key="PermissionItemService_Update">更新操作權限項</item>
+    <item key="PermissionItemService_MoveTo">移動操作權限項</item>
+    <item key="PermissionItemService_BatchMoveTo">批量移動操作權限項</item>
+    <item key="PermissionItemService_Delete">刪除操作權限項</item>
+    <item key="PermissionItemService_BatchDelete">批量刪除操作權限項</item>
+    <item key="PermissionItemService_SetDeleted">批量標示操作權限項刪除標誌</item>
+    <item key="PermissionItemService_BatchSave">批量儲存操作權限項</item>
+    <item key="PermissionItemService_BatchSetSortCode">重新產生操作權限項排序碼</item>
+    <item key="PermissionItemService_GetIdsByModule">按模塊主鍵獲取操作權限項主鍵數組</item>
+    <!-- PermissionItemService Message End -->
+
+    <!-- PermissionService Message Begin -->
+    <item key="PermissionService">權限判斷服務</item>
+    <item key="PermissionService_Add">添加實體</item>
+    <item key="PermissionService_GetDT">獲取列表</item>
+    <item key="PermissionService_GetEntity">獲取實體</item>
+    <item key="PermissionService_Update">更新實體</item>
+    <item key="PermissionService_GetDTByIds">按主鍵數組獲取數據列表</item>
+    <item key="PermissionService_GetDTByValues">按條件獲取數據列表</item>
+    <item key="PermissionService_BatchSave">批量保存數據</item>
+    <item key="PermissionService_Delete">刪除數據</item>
+    <item key="PermissionService_BatchDelete">批量刪除數據</item>
+    <item key="PermissionService_SetDeleted">批量打刪除標誌</item>
+    <item key="PermissionService_IsInRole">指定用戶是否在指定的角色裏</item>
+    <item key="PermissionService_IsAuthorized">當前用戶是否有相應的操作權限</item>
+    <item key="PermissionService_IsAuthorizedByUserId">指定用戶是否有相應的權限</item>
+    <item key="PermissionService_IsAuthorizedByRoleId">指定角色是否有相應的權限</item>
+    <item key="PermissionService_IsAdministrator">當前用戶是否為超級管理員</item>
+    <item key="PermissionService_IsAdministratorByUserId">指定用戶是否超級管理員</item>
+    <item key="PermissionService_GetPermissionDT">獲得當前用戶的所有權限列表</item>
+    <item key="PermissionService_GetPermissionDTByUserId">獲得指定用戶的所有權限列表</item>
+    <item key="PermissionService_IsModuleAuthorized">當前用戶是否對某個模塊有相應的權限</item>
+    <item key="PermissionService_IsModuleAuthorizedByUserId">指定用戶是否對某個模塊有相應的權限</item>
+    <item key="PermissionService_GetPermissionScopeByUserId">獲得指定用戶的數據權限範圍</item>
+    <item key="PermissionService_GetScopeModuleIdsByOrganizeId">獲取指定組織機構在某個權限域下所有模塊主鍵數組</item>
+    <item key="PermissionService_GrantOrganizeModuleScope">授予組織機構某個權限域的模塊授權範圍</item>
+    <item key="PermissionService_RevokeOrganizeModuleScope">撤消指定組織機構某個權限域的模塊授權範圍</item>
+    <item key="PermissionService_GetOrganizePermissionItemIds">獲取指定組織機構操作權限主鍵數組</item>
+    <item key="PermissionService_GetOrganizeIdsByPermissionItemId">獲取組織機構主鍵數組通過指定操作權限</item>
+    <item key="PermissionService_GrantOrganizePermissionById">授予指定組織機構指定的操作權限</item>
+    <item key="PermissionService_GrantOrganizePermissions">授予組織機構權限</item>
+    <item key="PermissionService_RevokeOrganizePermissions">撤消組織機構權限</item>
+    <item key="PermissionService_RevokeOrganizePermissionById">撤消指定組織機構指定的操作權限</item>
+    <item key="PermissionService_ClearOrganizePermission">清除組織機構權限</item>
+    <item key="PermissionService_GetResourcePermissionItemIds">獲取資源權限主鍵數組</item>
+    <item key="PermissionService_GrantResourcePermission">授予資源的權限</item>
+    <item key="PermissionService_RevokeResourcePermission">撤消資源的權限</item>
+    <item key="PermissionService_GetPermissionScopeTargetIds">獲取資源權限範圍主鍵數組</item>
+    <item key="PermissionService_GetPermissionScopeResourceIds">獲取數據權限目標主鍵</item>
+    <item key="PermissionService_GrantPermissionScopeTargets">授予資源的權限範圍</item>
+    <item key="PermissionService_GrantPermissionScopeTarget">授予數據權限</item>
+    <item key="PermissionService_RevokePermissionScopeTargets">撤消資源的權限範圍</item>
+    <item key="PermissionService_RevokePermissionScopeTarget">撤銷數據權限</item>
+    <item key="PermissionService_ClearPermissionScopeTarget">清除數據權限</item>
+    <item key="PermissionService_GetResourceScopeIds">獲取用戶的某個資源的權限範圍</item>
+    <item key="PermissionService_GetTreeResourceScopeIds">獲取用戶的某個資源的權限範圍</item>
+    <item key="PermissionService_GetRolePermissionItemIds">獲取指定角色操作權限主鍵數組</item>
+    <item key="PermissionService_GetRoleIdsByPermissionItemId">獲取角色主鍵數組通過指定操作權限</item>
+    <item key="PermissionService_GrantRolePermissions">批量授予角色的操作權限</item>
+    <item key="PermissionService_GrantRolePermission">授予指定角色指定的操作權限</item>
+    <item key="PermissionService_GrantRolePermissionById">授予指定角色特定的操作權限</item>
+    <item key="PermissionService_RevokeRolePermissions">批量撤消指定角色的操作權限</item>
+    <item key="PermissionService_RevokeRolePermission">撤消指定角色的操作權限</item>
+    <item key="PermissionService_RevokeRolePermissionById">撤消指定角色的指定操作權限</item>
+    <item key="PermissionService_GetScopeUserIdsByRoleId">獲取指定角色在某個權限域下所擁有的用戶主鍵數組</item>
+    <item key="PermissionService_GetScopeRoleIdsByRoleId">獲取指定角色在某個權限域下所擁有的角色主鍵數組</item>
+    <item key="PermissionService_GetScopeOrganizeIdsByRoleId">獲取指定角色在某個權限域下所擁有的組織機構主鍵數組</item>
+    <item key="PermissionService_GrantRoleUserScope">授予角色某個權限域的用戶範圍</item>
+    <item key="PermissionService_RevokeRoleUserScope">撤消角色的某個權限域的用戶範圍</item>
+    <item key="PermissionService_GrantRoleRoleScope">授予角色的某個權限域的角色範圍</item>
+    <item key="PermissionService_RevokeRoleRoleScope">撤消角色的某個權限域的組織範圍</item>
+    <item key="PermissionService_GrantRoleOrganizeScope">授予角色的某個權限域的組織機構範圍</item>
+    <item key="PermissionService_RevokeRoleOrganizeScope">撤消角色的某個權限域的組織機構範圍</item>
+    <item key="PermissionService_GetScopePermissionItemIdsByRoleId">獲取指定角色在某個權限域下所有操作（功能）權限主鍵數組</item>
+    <item key="PermissionService_GrantRolePermissionItemScope">授予角色某個權限域的操作權限授權範圍</item>
+    <item key="PermissionService_RevokeRolePermissionItemScope">撤消指定角色某個權限域的操作權限授權範圍</item>
+    <item key="PermissionService_ClearRolePermissionByRoleId">清除指定角色的所有權限</item>
+    <item key="PermissionService_ClearRolePermissionScope">清除指定角色所有權限範圍</item>
+    <item key="PermissionService_GetScopeModuleIdsByRoleId">獲取指定角色在某個權限域下所有模塊主鍵數組</item>
+    <item key="PermissionService_GrantRoleModuleScope">授予角色某個權限域的模塊授權範圍</item>
+    <item key="PermissionService_RevokeRoleModuleScope">撤消指定角色某個權限域的模塊授權範圍</item>
+    <item key="PermissionService_GetUserDTByPermissionScope">按某個權限範圍獲取特定用戶可訪問的用戶列表</item>
+    <item key="PermissionService_GetUserIdsByPermissionScope">按某個權限範圍獲取特定用戶可訪問的用戶主鍵數組</item>
+    <item key="PermissionService_GetRoleDTByPermissionScope">按某個權限範圍獲取特定用戶可訪問的取角色列表</item>
+    <item key="PermissionService_GetRoleIdsByPermissionScope">按某個權限範圍獲取特定用戶可訪問的角色主鍵數組</item>
+    <item key="PermissionService_GetModuleDTByPermissionScope">按某個權限範圍獲取特定用戶可訪問的模塊列表</item>
+    <item key="PermissionService_GetPermissionItemDTByPermissionScope">按某個權限範圍獲取特定用戶可訪問的操作權限列表</item>
+    <item key="PermissionService_GetOrganizeDTByPermissionScope">按某個權限範圍獲取特定用戶可訪問的組織機構列表</item>
+    <item key="PermissionService_GetOrganizeIdsByPermissionScope">按某個權限範圍獲取特定用戶可訪問的組織機構主鍵數組</item>
+    <item key="PermissionService_GetUserPermissionItemIds">獲取指定用戶操作權限主鍵數組</item>
+    <item key="PermissionService_GetUserIdsByPermissionItemId">獲取用戶主鍵數組通過指定操作權限</item>
+    <item key="PermissionService_GrantUserPermissions">批量授予用戶操作權限</item>
+    <item key="PermissionService_GrantUserPermissionById">授予指定用戶指定的操作權限</item>
+    <item key="PermissionService_RevokeUserPermissions">批量撤消用戶的操作權限</item>
+    <item key="PermissionService_RevokeUserPermissionById">撤消指定用戶指定的操作權限</item>
+    <item key="PermissionService_GetScopeOrganizeIdsByUserId">獲取指定用戶在某個權限域下所擁有的組織機構主鍵數組</item>
+    <item key="PermissionService_GrantUserOrganizeScope">授予用戶某個權限域的組織機構授權範圍</item>
+    <item key="PermissionService_RevokeUserOrganizeScope">撤消用戶某個權限域的組織組織授權範圍</item>
+    <item key="PermissionService_GetScopeUserIdsByUserId">獲取指定用戶在某個權限域下所有用戶主鍵數組</item>
+    <item key="PermissionService_GrantUserUserScope">授予用戶某個權限域的用戶授權範圍</item>
+    <item key="PermissionService_RevokeUserUserScope">撤消用戶某個權限域的用戶授權範圍</item>
+    <item key="PermissionService_GetScopeRoleIdsByUserId">獲取指定用戶在某個權限域下所有角色主鍵數組</item>
+    <item key="PermissionService_GrantUserRoleScope">授予用戶某個權限域的角色授權範圍</item>
+    <item key="PermissionService_RevokeUserRoleScope">撤消用戶某個權限域的角色授權範圍</item>
+    <item key="PermissionService_GetScopePermissionItemIdsByUserId">獲取指定用戶在某個權限域下所有操作（功能）權限主鍵數組</item>
+    <item key="PermissionService_GrantUserPermissionItemScope">授予用戶某個權限域的操作權限授權範圍</item>
+    <item key="PermissionService_RevokeUserPermissionItemScope">撤消指定用戶某個權限域的操作權限授權範圍</item>
+    <item key="PermissionService_ClearUserPermissionByUserId">清除指定用戶的所有權限</item>
+    <item key="PermissionService_ClearUserPermissionScope">清除指定用戶所有權限範圍</item>
+    <item key="PermissionService_GetModuleDT">獲得當前用戶有訪問權限的模塊</item>
+    <item key="PermissionService_GetModuleIdsByUserId">獲取指定用戶有權限訪問的模塊</item>
+    <item key="PermissionService_GetModuleDTByUserId">獲得指定用戶有權限訪問的模塊</item>
+    <item key="PermissionService_GetScopeModuleIdsByUserId">獲取指定用戶在某個權限域下所有模塊主鍵數組</item>
+    <item key="PermissionService_GrantUserModuleScope">授予用戶某個權限域的模塊授權範圍</item>
+    <item key="PermissionService_RevokeUserModuleScope">撤消指定用戶某個權限域的模塊授權範圍</item>
+    <!-- PermissionService Message End -->
+
+    <!-- RoleService Message Begin -->
+    <item key="RoleService">角色管理服務</item>
+    <item key="RoleService_Add">新增角色</item>
+    <item key="RoleService_GetDT">取得角色列表</item>
+    <item key="RoleService_GetDTByPage">獲取角色分頁列表</item>
+    <item key="RoleService_GetDTByOrganize">依組織機構取得角色列表</item>
+    <item key="RoleService_GetApplicationRole">獲取業務角色列表</item>
+    <item key="RoleService_GetEntity">取得角色實體</item>
+    <item key="RoleService_Update">更新角色</item>
+    <item key="RoleService_GetDTByIds">依主鍵數組取得角色列表</item>
+    <item key="RoleService_GetDTByValues">依據條件來取得角色列表</item>
+    <item key="RoleService_BatchSave">批量儲存角色</item>
+    <item key="RoleService_Delete">刪除角色</item>
+    <item key="RoleService_BatchDelete">批量刪除角色</item>
+    <item key="RoleService_SetDeleted">批量標示角色刪除標誌</item>
+    <item key="RoleService_EliminateRoleUser">清除角色用戶關聯</item>
+    <item key="RoleService_GetRoleUserIds">取得角色中的用戶主鍵</item>
+    <item key="RoleService_AddUserToRole">用戶新增至角色</item>
+    <item key="RoleService_RemoveUserFromRole">將用戶從角色中移除</item>
+    <item key="RoleService_ClearRoleUser">清除角色用戶關聯</item>
+    <item key="RoleService_SetUsersToRole">設置角色中的用戶</item>
+    <item key="RoleService_ResetSortCode">排序角色順序</item>
+    <item key="RoleService_MoveTo">移動角色數據</item>
+    <!-- RoleService Message End -->
+
+    <!-- SequenceService Message Begin -->
+    <item key="SequenceService">序列管理服務</item>
+    <item key="SequenceService_GetEntity">取得序列實體</item>
+    <item key="SequenceService_Add">新增序列</item>
+    <item key="SequenceService_Update">更新序列</item>
+    <item key="SequenceService_GetDT">取得序列列表</item>
+    <item key="SequenceService_GetSequence">獲取序列號</item>
+    <item key="SequenceService_GetOldSequence">獲取原序列號</item>
+    <item key="SequenceService_GetNewSequence">獲取新序列號</item>
+    <item key="SequenceService_GetBatchSequence">獲取序列號</item>
+    <item key="SequenceService_GetReduction">獲取倒序序列號</item>
+    <item key="SequenceService_Reset">批量重置序列</item>
+    <item key="SequenceService_Delete">刪除序列</item>
+    <item key="SequenceService_BatchDelete">批量刪除序列</item>
+    <!-- SequenceService Message End -->
+
+    <!-- StaffService Message Begin -->
+    <item key="StaffService">職員管理服務</item>
+    <item key="StaffService_AddStaff">新增職員</item>
+    <item key="StaffService_UpdateStaff">更新職員</item>
+    <item key="StaffService_GetDT">取得職員列表</item>
+    <item key="StaffService_GetDTByPage">獲取員工分頁列表</item>
+    <item key="StaffService_GetEntity">取得職員實體</item>
+    <item key="StaffService_GetDTByIds">取得職員列表</item>
+    <item key="StaffService_GetDTByOrganize">依組織機構取得職員列表</item>
+    <item key="StaffService_GetDTNotOrganize">獲得未設置組織機構的員工列表</item>
+    <item key="StaffService_SetStaffUser">職員關聯用戶</item>
+    <item key="StaffService_DeleteUser">刪除員工關聯的用戶</item>
+    <item key="StaffService_Delete">刪除員工</item>
+    <item key="StaffService_BatchDelete">批量刪除員工</item>
+    <item key="StaffService_SetDeleted">批量打刪除標誌</item>
+    <item key="StaffService_MoveTo">移動員工數據到指定組織機構</item>
+    <item key="StaffService_BatchMoveTo">批量移動數據</item>
+    <item key="StaffService_GetId">獲取主鍵</item>
+    <!-- StaffService Message End -->
+
+    <!-- TableColumnsService Message Begin -->
+    <item key="TableColumnsService">表字段權限服務</item>
+    <item key="TableColumnsService_Add">新增表字段</item>
+    <item key="TableColumnsService_GetDTByTable">根據表名取得字段列表</item>
+    <item key="TableColumnsService_GetTablePermissionScope">得到所有可做表字段控制權限的數據</item>
+    <item key="TableColumnsService_GetTableNameAndCode">得到所有數據表（表的中文名稱與英文名稱）</item>
+    <item key="TableColumnsService_GetAllTableScope">得到所有數據表（用於表字段權限的控制，主要針對PiTablePermissionScope數據表的數據）</item>
+    <item key="TableColumnsService_GetConstraintDT">取得約束條件(所有的約束)</item>
+    <item key="TableColumnsService_GetUserConstraint">取得當前用戶的約束條件</item>
+    <item key="TableColumnsService_SetConstraint">設置約束條件</item>
+    <item key="TableColumnsService_GetConstraint">獲取約束條件</item>
+    <item key="TableColumnsService_GetConstraintEntity">獲取約束條件</item>
+    <item key="TableColumnsService_BatchDeleteConstraint">批量刪除表字段</item>
+    <item key="TableColumnsService_GetDT">獲取所有表字段列表</item>
+    <item key="TableColumnsService_GetEntity">獲取實體</item>
+    <item key="TableColumnsService_Delete">刪除表字段</item>
+    <item key="TableColumnsService_SetDeleted">批量標示表字段刪除標誌</item>
+    <item key="TableColumnsService_Update">更新實體</item>
+    <item key="TableColumnsService_BatchDelete">批量刪除表字段</item>
+    <item key="TableColumnsService_GetDTByIds">按主鍵數組獲取數據列表</item>
+    <item key="TableColumnsService_GetDTByValues">按條件獲取數據列表</item>
+    <item key="TableColumnsService_GetColumns">獲取用戶的列權限</item>
+    <item key="TableColumnsService_BatchSave">批量儲存表字段</item>
+    <item key="TableColumnsService_GetTablePermissionScopeEntity">取得表權限控制數據表實體</item>
+    <item key="TableColumnsService_GetSearchFields">根據表名稱得到查詢項</item>
+    <item key="TableColumnsService_AddTablePermissionScope">新增可做表權限控制的數據表</item>
+    <item key="TableColumnsService_DeleteTablePermissionScope">刪除表權限控制表中指定數據</item>
+    <item key="TableColumnsService_SetTablePermissionScopeDeleted">批量設置表權限控制數據表的刪除標誌</item>
+    <!-- TableColumnsService Message End -->
+
+    <!-- UserService Message Begin -->
+    <item key="UserService">用戶管理服務</item>
+    <item key="UserService_Exists">用戶名是否重復</item>
+    <item key="UserService_AddUser">新增用戶</item>
+    <item key="UserService_GetEntity">取得用戶實體</item>
+    <item key="UserService_GetDT">取得用戶列表</item>
+    <item key="UserService_GetDTByPage">取得分頁用戶列表</item>
+    <item key="UserService_GetDTByIds">依主鍵取得用戶列表</item>
+    <item key="UserService_Search">查詢用戶</item>
+    <item key="UserService_SetUserAuditStates">設置用戶審核狀態</item>
+    <item key="UserService_Delete">單個刪除</item>
+    <item key="UserService_BatchDelete">批量刪除</item>
+    <item key="UserService_SetDeleted">批量批刪除標誌</item>
+    <item key="UserService_UpdateUser">更新用戶</item>
+    <item key="UserService_BatchSave">批量保存</item>
+    <item key="UserService_GetDTByRole">依角色取得用戶列表</item>
+    <item key="UserService_SetDefaultRole">設置用戶的默認角色</item>
+    <item key="UserService_BatchSetDefaultRole">批量設置默認角色</item>
+    <item key="UserService_GetRoleDT">取得用戶的角色列表</item>
+    <item key="UserService_UserInRole">判斷用戶是否在某個角色中</item>
+    <item key="UserService_GetUserRoleIds">獲取員工角色列表</item>
+    <item key="UserService_AddUserToRole">用戶添加到角色</item>
+    <item key="UserService_RemoveUserFromRole">用戶從角色中移除</item>
+    <item key="UserService_ClearUserRole">清除用戶歸屬的角色</item>
+    <item key="UserService_GetDTByDepartment">依部門取得用戶列表</item>
+    <item key="UserService_GetUserPageDTByDepartment">根據部門查詢用戶分頁列表</item>
+    <item key="UserService_GetUserOrganizeDT">獲得用戶的組織機構兼職情況</item>
+    <item key="UserService_AddUserToOrganize">用戶帳戶添加到組織機構</item>
+    <item key="UserService_Check">請審核。</item>
+    <item key="UserService_Application"> 申請用戶：</item>
+    <item key="UserService_UserIsInOrganize">用戶是否在某個組織架構裏的判斷</item>
+    <item key="UserService_BatchDeleteUserOrganize">批量刪除用戶組織機構關聯</item>
+    <!-- UserService Message End -->
+
+    <!-- WorkFlowHelperService Message Begin -->
+    <item key="WorkFlowHelperService">工作流程輔助服務</item>
+    <!-- WorkFlowHelperService Message End -->
+
+    <!-- WorkFlowInstanceService Message Begin -->
+    <item key="WorkFlowInstanceService">工作流程實例核心服務</item>
+    <!-- WorkFlowInstanceService Message End -->
+
+    <!-- WorkFlowTemplateService Message Begin -->
+    <item key="WorkFlowTemplateService">工作流程模版基礎核心服務</item>
+    <!-- WorkFlowTemplateService Message End -->
+
+    <!-- WorkFlowUserControlService Message Begin -->
+    <item key="WorkFlowUserControlService">工作流程用戶表單基礎核心服務</item>
+    <!-- WorkFlowUserControlService Message End -->
+
+    <!--UCStartPage  Begin-->
+    <item key="UCStartPage_lblUnClaimedTask">   未認領任務</item>
+    <item key="UCStartPage_lblRefresh1">刷新</item>
+    <item key="UCStartPage_lblMore1">更多>></item>
+    <item key="UCStartPage_lblToDoList">   待辦任務</item>
+    <item key="UCStartPage_lblRefresh2">刷新</item>
+    <item key="UCStartPage_lblMore2">更多>></item>
+    <item key="UCStartPage_lblBeDownList">   已完成任務</item>
+    <item key="UCStartPage_lblRefresh3">刷新</item>
+    <item key="UCStartPage_lblMore3">更多>></item>
+    <item key="UCStartPage_lblWorkFlowMonitor">   流程監控</item>
+    <item key="UCStartPage_lblRefresh4">刷新</item>
+    <item key="UCStartPage_lblMore4">更多>></item>
+    <!--UCStartPage  End-->
+    
+    <!-- FrmRDIFrameworkNav Begin -->
+    <item key="FrmRDIFrameworkNav">RDIFramework.NET ━ .NET快速信息化系統開發框架 V3.0</item>
+    <item key="FrmRDIFrameworkNav_biFile">文件(&amp;F)</item>
+    <item key="FrmRDIFrameworkNav_biExitApplication">退出系統(ALT+F4)</item>
+    <item key="FrmRDIFrameworkNav_biSet">系統設置(&amp;S)</item>
+    <item key="FrmRDIFrameworkNav_btnChangePassword">修改密碼...</item>
+    <item key="FrmRDIFrameworkNav_btnViewMyPermission">我的權限...</item>
+    <item key="FrmRDIFrameworkNav_btnEnSet">環境設置</item>
+    <item key="FrmRDIFrameworkNav_biOption">選項(&amp;O)...</item>
+    <item key="FrmRDIFrameworkNav_biFullScreen">全屏顯示 F11</item>
+    <item key="FrmRDIFrameworkNav_biTool">輔助工具(&amp;T)</item>
+    <item key="FrmRDIFrameworkNav_btnMsg">企業通</item>
+    <item key="FrmRDIFrameworkNav_btnRuler">屏幕尺</item>
+    <item key="FrmRDIFrameworkNav_btnRegex">正則表達式</item>
+    <item key="FrmRDIFrameworkNav_biHelp">幫助(&amp;H)</item>
+    <item key="FrmRDIFrameworkNav_biShowHelp">查看幫助(&amp;H)...</item>
+    <item key="FrmRDIFrameworkNav_biFeedback">問題反饋(&amp;F)...</item>
+    <item key="FrmRDIFrameworkNav_biAbout">關於(&amp;A)...</item>
+    <item key="FrmRDIFrameworkNav_biComments">提意見(&amp;D)</item>
+    <item key="FrmRDIFrameworkNav_lblCurrentSystem">當前系統</item>
+    <item key="FrmRDIFrameworkNav_lblReLogOn">重新登錄</item>
+    <item key="FrmRDIFrameworkNav_lblExipApplication">退出系統</item>
+    <item key="FrmRDIFrameworkNav_tabStartPage">起始頁</item>
+    <item key="FrmRDIFrameworkNav_tsMenuItemCloseThis">關閉當前(&amp;C)</item>
+    <item key="FrmRDIFrameworkNav_tsMenuItemCloseOther">除此之外全部關閉(&amp;O)</item>
+    <item key="FrmRDIFrameworkNav_tsMenuItemCloseAll">關閉所有窗口(&amp;A)</item>
+    <!-- FrmRDIFrameworkNav End -->
+    
+    <!-- FrmRDIFrameworkTree Begin -->
+    <item key="FrmRDIFrameworkTree">RDIFramework.NET ━ .NET快速信息化系統開發框架 V3.0</item>
+    <item key="FrmRDIFrameworkTree_biFile">文件(&amp;F)</item>
+    <item key="FrmRDIFrameworkTree_biExitApplication">退出系統(ALT+F4)</item>
+    <item key="FrmRDIFrameworkTree_biSet">系統設置(&amp;S)</item>
+    <item key="FrmRDIFrameworkTree_btnChangePassword">修改密碼...</item>
+    <item key="FrmRDIFrameworkTree_btnViewMyPermission">我的權限...</item>
+    <item key="FrmRDIFrameworkTree_btnEnSet">環境設置</item>
+    <item key="FrmRDIFrameworkTree_biOption">選項(&amp;O)...</item>
+    <item key="FrmRDIFrameworkTree_biFullScreen">全屏顯示 F11</item>
+    <item key="FrmRDIFrameworkTree_biTool">輔助工具(&amp;T)</item>
+    <item key="FrmRDIFrameworkTree_btnMsg">企業通</item>
+    <item key="FrmRDIFrameworkTree_btnRuler">屏幕尺</item>
+    <item key="FrmRDIFrameworkTree_btnRegex">正則表達式</item>
+    <item key="FrmRDIFrameworkTree_biHelp">幫助(&amp;H)</item>
+    <item key="FrmRDIFrameworkTree_biShowHelp">查看幫助(&amp;H)...</item>
+    <item key="FrmRDIFrameworkTree_biFeedback">問題反饋(&amp;F)...</item>
+    <item key="FrmRDIFrameworkTree_biAbout">關於(&amp;A)...</item>
+    <item key="FrmRDIFrameworkTree_biComments">提意見(&amp;D)</item>
+    <item key="FrmRDIFrameworkTree_lblCurrentSystem">當前系統</item>
+    <item key="FrmRDIFrameworkTree_lblReLogOn">重新登錄</item>
+    <item key="FrmRDIFrameworkTree_lblExipApplication">退出系統</item>
+    <item key="FrmRDIFrameworkTree_tabStartPage">起始頁</item>
+    <item key="FrmRDIFrameworkTree_tsMenuItemCloseThis">關閉當前(&amp;C)</item>
+    <item key="FrmRDIFrameworkTree_tsMenuItemCloseOther">除此之外全部關閉(&amp;O)</item>
+    <item key="FrmRDIFrameworkTree_tsMenuItemCloseAll">關閉所有窗口(&amp;A)</item>
+    <!-- FrmRDIFrameworkTree End -->
+    
+    <!-- FrmRDIFrameworkRibbon Begin -->
+    <item key="FrmRDIFrameworkRibbon">RDIFramework.NET ━ .NET快速信息化系統開發框架 V3.0</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemAbout">關於(&amp;A)...</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemChangePassword">修改密碼...</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemExitSystem">退出系統</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemFeedBack">問題反饋(&amp;F)...</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemFile">文件(&amp;F)</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemFunction">功能菜單</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemHelp">幫助(&amp;H)</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemMsg">企業通</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemOption">選項(&amp;O)...</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemReLogOn">重新登錄</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemSystemSet">系統設置(&amp;S)</item>
+    <item key="FrmRDIFrameworkRibbon_btnItemViewMyPermission">我的權限...</item>
+    <item key="FrmRDIFrameworkRibbon_lblItemCurrentSystem">當前系統:</item>
+    <item key="FrmRDIFrameworkRibbon_tabStartPage">起始頁</item>
+    <!-- FrmRDIFrameworkRibbon End -->
+    
+    <!-- FrmLogOn Begin -->
+    <item key="FrmLogOn">RDIFramework.NET 系統登錄</item>
+    <item key="FrmLogOn_gbMain">登錄</item>
+    <item key="FrmLogOn_lblLoginUser">登錄帳號:</item>
+    <item key="FrmLogOn_lblPassword">密　　碼:</item>
+    <item key="FrmLogOn_linkLblForgetPwd">忘記密碼</item>
+    <item key="FrmLogOn_chkRememberPassword">記住密碼</item>
+    <item key="FrmLogOn_btnConfirm">登錄(&amp;L)</item>
+    <item key="FrmLogOn_btnCancel">取消</item>
+    <!-- FrmLogOn End -->
+
+    <!-- FrmMsg Begin -->
+    <item key="FrmMsg">企業通</item>
+    <item key="FrmMsg_lblCurentUser">當前用戶</item>
+    <item key="FrmMsg_tpOrganize">機構</item>
+    <item key="FrmMsg_tpRole">角色</item>
+    <item key="FrmGroupMsgRead">即時通訊</item>
+    <item key="FrmGroupMsgRead_btnClose">關閉(&amp;C)</item>
+    <item key="FrmGroupMsgRead_btnSend">發送(&amp;S)</item>
+    <item key="FrmMsgRemind">消息提醒</item>
+    <item key="FrmMsgRemind_grbMessage">消息</item>
+    <item key="FrmUserMsgRead">即時通訊</item>
+    <item key="FrmUserMsgRead_btnClose">關閉(&amp;C)</item>
+    <item key="FrmUserMsgRead_btnSend">發送(&amp;S)</item>
+    <!-- FrmMsg End -->
+
+    <!-- FrmOption Begin -->
+    <item key="FrmOption">選項</item>
+    <item key="FrmOption_tabItemClientConfig">客戶端配置</item>
+    <item key="FrmOption_tabItemServerConfig">服務器端配置</item>
+    <item key="FrmOption_tabItemSystemParConfig">系統參數配置</item>
+    <item key="FrmOption_tabItemReportConfig">錯誤報告反饋配置</item>
+    <item key="FrmOption_lblTipClientConfig">客戶端配置項主要是集中配置客戶端的相關信息。</item>
+    <item key="FrmOption_lblTipServerConfig">此處主要是對服務器進行配置，壹般僅開放給超級管理員。</item>
+    <item key="FrmOption_lblTipSystemParConfig">此處主要是對系統參數進行配置，包括平臺相關程序集，客戶端信息的配置。</item>
+    <item key="FrmOption_lblTipReportConfig">此處主要是對系統的錯誤信息，反饋信息的發送進行配置。</item>
+    <item key="FrmOption_EncryptClientPassword">客戶端加密存儲登錄密碼。</item>
+    <item key="FrmOption_AutoLogOn">是否可以自動登錄。</item>
+    <item key="FrmOption_RememberPassword">是否記住登錄密碼。</item>
+    <item key="FrmOption_LoadAllUser">是否壹次加載所有用戶。</item>
+    <item key="FrmOption_EncryptDbConnection">是否加密存儲數據庫連接字符串。</item>
+    <item key="FrmOption_lblServiceUserName">遠程調用服務的用戶名：</item>
+    <item key="FrmOption_lblServicePassword">遠程調用服務的密碼：</item>
+    <item key="FrmOption_lblRDIFrameworkDbType">RDIFramework.NET框架數據庫類型：</item>
+    <item key="FrmOption_lblCurrentLanguage">當前語言：</item>
+    <item key="FrmOption_lblRDIFrameworkDbConection">RDIFramework.NET框架數據庫連接字符串：</item>
+    <item key="FrmOption_AllowUserToRegister">是否允許用戶註冊。</item>
+    <item key="FrmOption_EnableRecordLog">是否記錄系統日誌。</item>
+    <item key="FrmOption_EnableCheckIPAddress">是否開啟IP限制。</item>
+    <item key="FrmOption_EnableUserAuthorizationScope">是否啟用分級授權分級管理。</item>
+    <item key="FrmOption_EnableUserAuthorization">是否啟用按用戶授權。</item>
+    <item key="FrmOption_EnableModulePermission">是否用戶是否需要配置模塊菜單權限。</item>
+    <item key="FrmOption_EnablePermissionItem">是否啟用操作權限。</item>
+    <item key="FrmOption_EnableTableFieldPermission">是否啟用表字段權限。</item>
+    <item key="FrmOption_EnableTableConstraintPermission">是否啟用數據表的列權限。</item>
+    <item key="FrmOption_EnableEncryptServerPassword">是否加密存儲服務器端密碼。</item>
+    <item key="FrmOption_EnableCheckPasswordStrength">是否進行密碼強度檢查。</item>
+    <item key="FrmOption_NumericCharacters">密碼是否必須為字母+數字組合。</item>
+    <item key="FrmOption_CheckOnLine">檢測用戶是否在線。</item>
+    <item key="FrmOption_EnableOrganizePermission">是否啟用組織機構權限。</item>
+    <item key="FrmOption_lblOnLineLimit">最大在線用戶數量限制：</item>
+    <item key="FrmOption_lblOnLineTime0ut">在線超時時間（以秒為單位）：</item>
+    <item key="FrmOption_lblAccountMinimumLength">用戶名最小長度：</item>
+    <item key="FrmOption_lblPasswordChangeCycle">密碼修改周期(月)：</item>
+    <item key="FrmOption_lblPasswordErrorLockLimit">密碼錯誤鎖定次數：</item>
+    <item key="FrmOption_lblPasswordErrorLockCycle">密碼錯誤鎖定周期(分鐘)：</item>
+    <item key="FrmOption_lblDefaultPassword">系統默認密碼：</item>
+    <item key="FrmOption_lblPasswordMiniLength">密碼最小長度：</item>
+    <item key="FrmOption_lblMainForm">主界面風格：</item>
+    <item key="FrmOption_lblLogOnForm">系統登錄窗體：</item>
+    <item key="FrmOption_lblLogOnAssembly">登錄部分所在程序集：</item>
+    <item key="FrmOption_lblCustomerCompanyName">公司名稱：</item>
+    <item key="FrmOption_lblConfigurationFrom">配置信息來源：</item>
+    <item key="FrmOption_lblSoftName">軟件名稱：</item>
+    <item key="FrmOption_lblVersion">軟件版本：</item>
+    <item key="FrmOption_lblSoftFullName">軟件全稱：</item>
+    <item key="FrmOption_lblService">服務提供程序：</item>
+    <item key="FrmOption_lblRegisterKey">註冊碼：</item>
+    <item key="FrmOption_lblErrorReportFrom">反饋錯誤報告的郵箱地址：</item>
+    <item key="FrmOption_lblErrorReportMailUserName">發出錯誤郵箱的地址：</item>
+    <item key="FrmOption_lblErrorReportMailPassword">發出錯誤郵箱的密碼：</item>
+    <item key="FrmOption_lblErrorReportMailServer">發出錯誤郵箱的服務器：</item>
+    <item key="FrmOption_btnSave">保存(&amp;S)</item>
+    <item key="FrmOption_btnCancel">取消</item>
+    <!-- FrmOption End -->
+    <!-- FrmDataGridViewSetting Begin -->
+    <item key="FrmDataGridViewSetting">數據列設置</item>
+    <item key="FrmDataGridViewSetting_ColumnName">列名</item>
+    <item key="FrmDataGridViewSetting_HeaderText">列名</item>
+    <item key="FrmDataGridViewSetting_DisplayIndex">顯示順序</item>
+    <item key="FrmDataGridViewSetting_Width">寬度</item>
+    <item key="FrmDataGridViewSetting_Visible">顯示</item>
+    <item key="FrmDataGridViewSetting_Frozen">凍結</item>
+    <item key="FrmDataGridViewSetting_btnConfirm">確定</item>
+    <item key="FrmDataGridViewSetting_btnCancel">取消</item>
+    <!-- FrmDataGridViewSetting End -->
+    <!-- FrmDataGridViewSetting Begin -->
+    <item key="FrmException">系統異常詳細記錄</item>
+    <item key="FrmException_lblCustomer">公司：</item>
+    <item key="FrmException_lblSoftFullName">軟件名稱：</item>
+    <item key="FrmException_lblOperator">用戶：</item>
+    <item key="FrmException_lblOccurTime">發生時間：</item>
+    <item key="FrmException_lblExceptionInfo">錯誤信息：</item>
+    <item key="FrmException_btnPrint">打印異常信息(&amp;P)</item>
+    <item key="FrmException_btnReport">反饋異常信息(&amp;R)</item>
+    <item key="FrmException_btnClose">關閉</item>
+    <!-- FrmException End -->
+    <!-- FrmFeedback Begin -->
+    <item key="FrmFeedback">意見反饋</item>
+    <item key="FrmFeedback_lblContractInfo">聯系方式：</item>
+    <item key="FrmFeedback_lblContractHint">請留下妳的聯系方式(郵箱、電話等)，以便我們及時回復妳。</item>
+    <item key="FrmFeedback_lblFeedbackContent">反饋內容</item>
+    <item key="FrmFeedback_lblFile">附件位置：</item>
+    <item key="FrmFeedback_btnAddAttach">添加附件</item>
+    <item key="FrmFeedback_lblBlog">官方博客</item>
+    <item key="FrmFeedback_btnSendEmail">確認提交</item>
+    <item key="FrmFeedback_btnClose">關閉</item>
+    <!-- FrmFeedback End -->
+    
+    
+    <!-- RDIFramework.WinModule -->
+    <!-- RDIFramework.WinModule.FrmModuleAdmin Begin -->
+    <!-- FrmModuleAdmin Begin -->
+    <item key="FrmModuleAdmin">模塊（菜單）管理</item>
+    <item key="FrmModuleAdmin_tabItemOrganize">模塊（菜單）</item>
+    <item key="FrmModuleAdmin_tabItemSearch">搜索</item>
+    <item key="FrmModuleAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmModuleAdmin_lblSearchValue">搜索內容：</item>
+    <item key="FrmModuleAdmin_rbCustomerExactSearch">精確</item>
+    <item key="FrmModuleAdmin_rbCustomerLikeSearch">模糊</item>
+    <item key="FrmModuleAdmin_btnSearch">搜索</item>
+    <item key="FrmModuleAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmModuleAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmModuleAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmModuleAdmin_btnBatchSave">保存(&amp;S)</item>
+    <item key="FrmModuleAdmin_btnMoveTo">移動(&amp;M)</item>
+    <item key="FrmModuleAdmin_btnExport">導出</item>
+    <item key="FrmModuleAdmin_btnModuleConfig">模塊配置</item>
+    <item key="FrmModuleAdmin_btnModulePermissionItem">模塊操作權限項</item>
+    <item key="FrmModuleAdmin_ddbModulePermissionSet">模塊權限設置</item>
+    <item key="FrmModuleAdmin_btnUserModulePermission">用戶模塊權限</item>
+    <item key="FrmModuleAdmin_btnRoleModulePermission">角色模塊權限</item>
+    <item key="FrmModuleAdmin_btnOrganizeModulePermission">組織機構模塊權限</item>
+    <item key="FrmModuleAdmin_btnClose">關閉</item>
+    <item key="FrmModuleAdmin_colSelected">選擇</item>
+    <item key="FrmModuleAdmin_colCode">編號</item>
+    <item key="FrmModuleAdmin_colFullName">名稱</item>
+    <item key="FrmModuleAdmin_colASSEMBLYNAME">程序集名稱</item>
+    <item key="FrmModuleAdmin_colFORMNAME">窗體名稱</item>
+    <item key="FrmModuleAdmin_colNAVIGATEURL">鏈接地址</item>
+    <item key="FrmModuleAdmin_colIsPublic">公開</item>
+    <item key="FrmModuleAdmin_colEnabled">有效</item>
+    <item key="FrmModuleAdmin_colAllowEdit">可編輯</item>
+    <item key="FrmModuleAdmin_colAllowDelete">可刪除</item>
+    <item key="FrmModuleAdmin_colIsMenu">菜單</item>
+    <item key="FrmModuleAdmin_colDescription">描述</item>
+    <item key="FrmModuleAdmin_lblWinFormType">WinForm類型</item>
+    <item key="FrmModuleAdmin_lblWebFormType">WebForm類型</item>
+    <item key="FrmModuleAdmin_lblWinWebType">WinForm/WebForm類型</item>
+    <!-- FrmModuleAdmin End -->
+    <!-- FrmModuleConfig Begin -->
+    <item key="FrmModuleConfig">模塊配置</item>
+    <item key="FrmModuleConfig_btnSave">保存(&amp;S)</item>
+    <item key="FrmModuleConfig_btnClose">關閉</item>
+    <item key="FrmModuleConfig_lblTip">溫馨提示：</item>
+    <item key="FrmModuleConfig_lblTipDetail">模塊配置主要用於設置模塊的可見性，不可見的模塊用戶不可見。</item>
+    <!-- FrmModuleConfig End -->
+
+    <!-- FrmModuleEdit Begin -->
+    <item key="FrmModuleEdit">模塊編輯</item>
+    <item key="FrmModuleEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmModuleEdit_btnSaveContinue">繼續</item>
+    <item key="FrmModuleEdit_btnCancel">取消(&amp;C)</item>
+    <item key="FrmModuleEdit_btnAccessPermission">訪問權限</item>
+    <item key="FrmModuleEdit_btnClose">關閉(&amp;Q)</item>
+    <item key="FrmModuleEdit_lblParentId">父模塊：</item>
+    <item key="FrmModuleEdit_lblFullName">名稱：</item>
+    <item key="FrmModuleEdit_lblCode">編號：</item>
+    <item key="FrmModuleEdit_lblFormName">窗體名：</item>
+    <item key="FrmModuleEdit_lblAssemblyName">程序集名稱：</item>
+    <item key="FrmModuleEdit_lblNavigateUrl">Web地址：</item>
+    <item key="FrmModuleEdit_lblMvcNavigateUrl">MVC地址：</item>
+    <item key="FrmModuleEdit_lblTarget">目標：</item>
+    <item key="FrmModuleEdit_lblIconUrl">圖標地址：</item>
+    <item key="FrmModuleEdit_lblIconCss">圖標樣式：</item>
+    <item key="FrmModuleEdit_lblModuleType">模塊類型：</item>
+    <item key="FrmModuleEdit_lblOptionSet">選項設置：</item>
+    <item key="FrmModuleEdit_chkEnabled">有效</item>
+    <item key="FrmModuleEdit_chkIsPublic">公開</item>
+    <item key="FrmModuleEdit_chkExpand">展開</item>
+    <item key="FrmModuleEdit_chkAllowEdit">允許編輯</item>
+    <item key="FrmModuleEdit_chkAllowDelete">允許刪除</item>
+    <item key="FrmModuleEdit_chkIsMenu">菜單</item>
+    <item key="FrmModuleEdit_lblDescription">描述：</item>
+    <item key="FrmModuleEdit_lblModuleIcon">模塊圖標：</item>
+    <item key="FrmModuleEdit_btnSelectModulePic">選擇</item>
+    <item key="FrmModuleEdit_btnEmptyModulePic">置空</item>
+    <item key="FrmModuleEdit_btnSelect">選擇</item>
+    <item key="FrmModuleEdit_btnSetEmpty">置空</item>
+    <!-- FrmModuleEdit End -->
+
+
+    <!-- FrmModuleSelect Begin -->
+    <item key="FrmModuleSelect">選擇模塊</item>
+    <item key="FrmModuleSelect_btnSetNull">置空(&amp;R)</item>
+    <item key="FrmModuleSelect_btnSelect">選擇(&amp;S)</item>
+    <item key="FrmModuleSelect_btnClose">關閉</item>
+    <!-- FrmModuleSelect End -->
+
+    <!-- FrmPicture Begin -->
+    <item key="FrmPicture">模塊圖標選擇</item>
+    <item key="FrmPicture_lblCurrentIcon">當前圖標</item>
+    <item key="FrmPicture_lblSize">尺寸32x32</item>
+    <item key="FrmPicture_btnSelect">選擇(&amp;S)</item>
+    <item key="FrmPicture_btnAdd">添加</item>
+    <item key="FrmPicture_btnDelete">刪除</item>
+    <item key="FrmPicture_btnCancel">取消</item>
+    <!-- FrmPicture End -->
+    <!-- FrmModulePermissionItemSet Begin -->
+    <item key="FrmModulePermissionItemSet">模塊(菜單)操作權限項設置</item>
+    <item key="FrmModulePermissionItemSet_tabItemModuleList">模塊（菜單）列表</item>
+    <item key="FrmModulePermissionItemSet_tabItemPermissionItemList">操作權限項列表</item>
+    <item key="FrmModulePermissionItemSet_btnClose">關閉</item>
+    <!-- FrmModulePermissionItemSet End -->
+    <!-- RDIFramework.WinModule.FrmModuleAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmOrganizeAdmin Begin -->
+    <item key="FrmOrganizeAdmin">組織機構管理</item>
+    <item key="FrmOrganizeAdmin_tabItemOrganize">組織機構</item>
+    <item key="FrmOrganizeAdmin_tabItemSearch">搜索</item>
+    <item key="FrmOrganizeAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmOrganizeAdmin_chkInnerOrganize">內部組織</item>
+    <item key="FrmOrganizeAdmin_lblSearchValue">搜索內容：</item>
+    <item key="FrmOrganizeAdmin_rbCustomerExactSearch">精確</item>
+    <item key="FrmOrganizeAdmin_rbCustomerLikeSearch">模糊</item>
+    <item key="FrmOrganizeAdmin_btnSearch">搜索</item>
+    <item key="FrmOrganizeAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmOrganizeAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmOrganizeAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmOrganizeAdmin_btnBatchSave">保存(&amp;S)</item>
+    <item key="FrmOrganizeAdmin_btnMoveTo">移動(&amp;M)</item>
+    <item key="FrmOrganizeAdmin_btnExport">導出</item>
+    <item key="FrmOrganizeAdmin_ddbOrganizePermissionSet">組織機構權限設置</item>
+    <item key="FrmOrganizeAdmin_btnUserOrganizePermission">（用戶-組織機構）權限設置</item>
+    <item key="FrmOrganizeAdmin_btnRoleOrganizePermission">（角色-組織機構）權限設置</item>
+    <item key="FrmOrganizeAdmin_btnPermission">組織機構權限</item>
+    <item key="FrmOrganizeAdmin_btnClose">關閉</item>
+    <item key="FrmOrganizeAdmin_lblCurrentPosition">   當前位置：</item>
+    <item key="FrmOrganizeAdmin_colSelected">選擇</item>
+    <item key="FrmOrganizeAdmin_colCode">編號</item>
+    <item key="FrmOrganizeAdmin_colFullName">名稱</item>
+    <item key="FrmOrganizeAdmin_colManager">主負責人</item>
+    <item key="FrmOrganizeAdmin_OuterPhone">電話</item>
+    <item key="FrmOrganizeAdmin_Fax">傳真</item>
+    <item key="FrmOrganizeAdmin_colEnabled">有效</item>
+    <item key="FrmOrganizeAdmin_colDescription">描述</item>
+
+    <!-- FrmEditOrganize Begin -->
+    <item key="FrmEditOrganize">組織機構編輯</item>
+    <item key="FrmEditOrganize_btnSave">保存(&amp;S)</item>
+    <item key="FrmEditOrganize_btnSaveContinue">繼續</item>
+    <item key="FrmEditOrganize_btnCancel">取消(&amp;C)</item>
+    <item key="FrmEditOrganize_btnAccessPermission">訪問權限</item>
+    <item key="FrmEditOrganize_btnClose">關閉(&amp;Q)</item>
+    <item key="FrmEditOrganize_lblParentId">父模塊：</item>
+    <item key="FrmEditOrganize_lblFullName">名稱：</item>
+    <item key="FrmEditOrganize_lblShortName">簡稱：</item>
+    <item key="FrmEditOrganize_lblCode">編號：</item>
+    <item key="FrmEditOrganize_lblCategory">分類：</item>
+    <item key="FrmEditOrganize_lblManager">主負責人：</item>
+    <item key="FrmEditOrganize_lblAssistantManager">副主管：</item>
+    <item key="FrmEditOrganize_lblOuterPhone">電話：</item>
+    <item key="FrmEditOrganize_lblInnerPhone">內線：</item>
+    <item key="FrmEditOrganize_lblFax">傳真：</item>
+    <item key="FrmEditOrganize_lblPostalcode">郵編：</item>
+    <item key="FrmEditOrganize_lblWebSite">網址：</item>
+    <item key="FrmEditOrganize_lblAddress">地址：</item>
+    <item key="FrmEditOrganize_chkEnabled">有效</item>
+    <item key="FrmEditOrganize_chkIsInnerOrganize">內部組織</item>
+    <item key="FrmEditOrganize_lblDescription">描述：</item>
+    <item key="FrmEditOrganize_btnExecutiveDirector">選擇</item>
+    <item key="FrmEditOrganize_btnDeputySupervisor">選擇</item>
+    <!-- FrmEditOrganize End -->
+    <!-- FrmOrganizeSelect Begin -->
+    <item key="FrmOrganizeSelect">選擇組織機構</item>
+    <item key="FrmOrganizeSelect_btnSetNull">置空(&amp;R)</item>
+    <item key="FrmOrganizeSelect_btnSelect">選擇(&amp;S)</item>
+    <item key="FrmOrganizeSelect_btnClose">關閉</item>
+    <item key="FrmOrganizeSelect_chkInnerOrganize">內部組織</item>
+    <item key="FrmOrganizeSelect_lblCurrentOrganize">當前組織機構：</item>
+    <item key="FrmOrganizeSelect_tabItemOrganize">組織機構</item>
+    <!-- FrmOrganizeSelect End -->
+    <!-- RDIFramework.WinModule.FrmOrganizeAdmin End -->
+    <!-- RDIFramework.WinModule.FrmStaffAdmin Begin -->
+    <item key="FrmStaffAdmin">員工（職員）管理</item>
+    <item key="FrmStaffAdmin_tabItemOrganize">組織機構</item>
+    <item key="FrmStaffAdmin_tabItemSearch">搜索</item>
+    <item key="FrmStaffAdmin_gbCustomSearch">員工常規搜索</item>
+    <item key="FrmStaffAdmin_chkEnabled">有效的</item>
+    <item key="FrmStaffAdmin_chkIsDimission">未離職的</item>
+    <item key="FrmStaffAdmin_chkNotDepartment">未設置組織機構的員工</item>
+    <item key="FrmStaffAdmin_lblSearchValue">搜索內容：</item>
+    <item key="FrmStaffAdmin_rbCustomerExactSearch">精確</item>
+    <item key="FrmStaffAdmin_rbCustomerLikeSearch">模糊</item>
+    <item key="FrmStaffAdmin_btnSearch">搜索</item>
+    <item key="FrmStaffAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmStaffAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmStaffAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmStaffAdmin_btnMoveTo">移動(&amp;M)</item>
+    <item key="FrmStaffAdmin_btnExport">導出</item>
+    <item key="FrmStaffAdmin_btnPrint">打印</item>
+    <item key="FrmStaffAdmin_btnClose">關閉</item>
+    <item key="FrmStaffAdmin_lblCurrentPosition">   當前位置：</item>
+    <item key="FrmStaffAdmin_colSelected">選擇</item>
+    <item key="FrmStaffAdmin_colCode">編號</item>
+    <item key="FrmStaffAdmin_colRealName">姓名</item>
+    <item key="FrmStaffAdmin_colGender">性別</item>
+    <item key="FrmStaffAdmin_colMobile">手機號碼</item>
+    <item key="FrmStaffAdmin_colOfficePhone">辦公電話</item>
+    <item key="FrmStaffAdmin_colEmail">郵箱</item>
+    <item key="FrmStaffAdmin_colEnabled">有效</item>
+    <item key="FrmStaffAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmStaffAdmin End -->
+    <!-- FrmStaffAdd Begin -->
+    <item key="FrmStaffAdd">添加員工</item>
+    <item key="FrmStaffAdd_btnAdd">添加(&amp;A)</item>
+    <item key="FrmStaffAdd_btnSave">保存(&amp;S)</item>
+    <item key="FrmStaffAdd_btnCancel">取消(&amp;C)</item>
+    <item key="FrmStaffAdd_lblCurrentOrganize">當前組織機構：</item>
+    <item key="FrmStaffAdd_lblUserName">員工姓名：</item>
+    <item key="FrmStaffAdd_lblCode">編號：</item>
+    <item key="FrmStaffAdd_lblGender">姓別：</item>
+    <item key="FrmStaffAdd_lblWorkingProperty">工作性質：</item>
+    <item key="FrmStaffAdd_lblWorkingDate">工作時間：</item>
+    <item key="FrmStaffAdd_lblJoinInDate">加入本單位：</item>
+    <item key="FrmStaffAdd_lblEmail">電子郵件：</item>
+    <item key="FrmStaffAdd_lblIdentificationCode">身份證號：</item>
+    <item key="FrmStaffAdd_lblBankCode">工資卡號：</item>
+    <item key="FrmStaffAdd_lblMobile">手機：</item>
+    <item key="FrmStaffAdd_lblShortNumber">短號：</item>
+    <item key="FrmStaffAdd_lblOfficePhone">辦公電話：</item>
+    <item key="FrmStaffAdd_lblOfficeFax">辦公傳真：</item>
+    <item key="FrmStaffAdd_lblOfficeZipCode">辦公郵編：</item>
+    <item key="FrmStaffAdd_lblQICQ">QQ號：</item>
+    <item key="FrmStaffAdd_lblOfficeAddress">辦公地址：</item>
+    <item key="FrmStaffAdd_lblDescription">描述：</item>
+    <item key="FrmStaffAdd_lblBirthday">出生日期：</item>
+    <item key="FrmStaffAdd_lblAge">年齡：</item>
+    <item key="FrmStaffAdd_lblEducation">最高學歷：</item>
+    <item key="FrmStaffAdd_lblDegree">最高學位：</item>
+    <item key="FrmStaffAdd_lblMajor">專業：</item>
+    <item key="FrmStaffAdd_lblSchool">畢業院校：</item>
+    <item key="FrmStaffAdd_lblTitle">職稱：</item>
+    <item key="FrmStaffAdd_lblTitleLevel">職稱等級：</item>
+    <item key="FrmStaffAdd_lblTitleDate">職稱評定日期：</item>
+    <item key="FrmStaffAdd_lblNativePlace">籍貫：</item>
+    <item key="FrmStaffAdd_lblHomeZipCode">家庭郵編：</item>
+    <item key="FrmStaffAdd_lblHomeFax">家庭傳真：</item>
+    <item key="FrmStaffAdd_lblParty">政治面貌：</item>
+    <item key="FrmStaffAdd_lblNation">國籍：</item>
+    <item key="FrmStaffAdd_lblNationality">民族：</item>
+    <item key="FrmStaffAdd_lblHomeAddress">家庭住址：</item>
+    <item key="FrmStaffAdd_lblHomePhone">住宅電話：</item>
+    <item key="FrmStaffAdd_lblTelphone">緊急聯系：</item>
+    <item key="FrmStaffAdd_chkEnabled">有效</item>
+    <item key="FrmStaffAdd_lblDimissionDate">離職日期：</item>
+    <item key="FrmStaffAdd_lblDimissionWhither">離職去向：</item>
+    <item key="FrmStaffAdd_chkIsDimission">離職(請謹慎選擇)</item>
+    <item key="FrmStaffAdd_lblDimissionCause">離職原因：</item>
+    <!-- FrmStaffAdd End -->
+    <!-- FrmStaffEdit Begin -->
+    <item key="FrmStaffEdit">編輯員工</item>
+    <item key="FrmStaffEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmStaffEdit_btnCancel">取消(&amp;C)</item>
+    <item key="FrmStaffEdit_lblCurrentOrganize">當前組織機構：</item>
+    <item key="FrmStaffEdit_lblRealName">員工姓名：</item>
+    <item key="FrmStaffEdit_lblCode">編號/工號：</item>
+    <item key="FrmStaffEdit_lblGender">姓別：</item>
+    <item key="FrmStaffEdit_lblWorkingProperty">工作性質：</item>
+    <item key="FrmStaffEdit_lblWorkingDate">工作時間：</item>
+    <item key="FrmStaffEdit_lblJoinInDate">加入本單位：</item>
+    <item key="FrmStaffEdit_lblEmail">電子郵件：</item>
+    <item key="FrmStaffEdit_lblIdentificationCode">身份證號：</item>
+    <item key="FrmStaffEdit_lblBankCode">工資卡號：</item>
+    <item key="FrmStaffEdit_lblMobile">手機：</item>
+    <item key="FrmStaffEdit_lblShortNumber">短號：</item>
+    <item key="FrmStaffEdit_lblOfficePhone">辦公電話：</item>
+    <item key="FrmStaffEdit_lblOfficeFax">辦公傳真：</item>
+    <item key="FrmStaffEdit_lblOfficeZipCode">辦公郵編：</item>
+    <item key="FrmStaffEdit_lblQICQ">QQ號：</item>
+    <item key="FrmStaffEdit_lblOfficeAddress">辦公地址：</item>
+    <item key="FrmStaffEdit_lblDescription">描述：</item>
+    <item key="FrmStaffEdit_lblBirthday">出生日期：</item>
+    <item key="FrmStaffEdit_lblAge">年齡：</item>
+    <item key="FrmStaffEdit_lblEducation">最高學歷：</item>
+    <item key="FrmStaffEdit_lblDegree">最高學位：</item>
+    <item key="FrmStaffEdit_lblMajor">專業：</item>
+    <item key="FrmStaffEdit_lblSchool">畢業院校：</item>
+    <item key="FrmStaffEdit_lblTitle">職稱：</item>
+    <item key="FrmStaffEdit_lblTitleLevel">職稱等級：</item>
+    <item key="FrmStaffEdit_lblTitleDate">職稱評定日期：</item>
+    <item key="FrmStaffEdit_lblNativePlace">籍貫：</item>
+    <item key="FrmStaffEdit_lblHomeZipCode">家庭郵編：</item>
+    <item key="FrmStaffEdit_lblHomeFax">家庭傳真：</item>
+    <item key="FrmStaffEdit_lblParty">政治面貌：</item>
+    <item key="FrmStaffEdit_lblNation">國籍：</item>
+    <item key="FrmStaffEdit_lblNationality">民族：</item>
+    <item key="FrmStaffEdit_lblHomeAddress">家庭住址：</item>
+    <item key="FrmStaffEdit_lblHomePhone">住宅電話：</item>
+    <item key="FrmStaffEdit_lblTelphone">緊急聯系：</item>
+    <item key="FrmStaffEdit_chkEnabled">有效</item>
+    <item key="FrmStaffEdit_lblDimissionDate">離職日期：</item>
+    <item key="FrmStaffEdit_lblDimissionWhither">離職去向：</item>
+    <item key="FrmStaffEdit_chkIsDimission">離職(請謹慎選擇)</item>
+    <item key="FrmStaffEdit_lblDimissionCause">離職原因：</item>
+    <!-- FrmStaffEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmUserAdmin Begin -->
+    <item key="FrmUserAdmin">用戶管理</item>
+    <item key="FrmUserAdmin_tabItemOrganize">組織機構</item>
+    <item key="FrmUserAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmUserAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmUserAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmUserAdmin_btnBatchSave">保存(&amp;S)</item>
+    <item key="FrmUserAdmin_btnSetPassword">設置密碼</item>
+    <item key="FrmUserAdmin_btnUserOrganize">兼職組織</item>
+    <item key="FrmUserAdmin_btnDimission">離職</item>
+    <item key="FrmUserAdmin_btnExport">導出</item>
+    <item key="FrmUserAdmin_lblSearch">搜索內容：</item>
+    <item key="FrmUserAdmin_btnFind">查詢</item>
+    <item key="FrmUserAdmin_cboEnabledSearch">有效性搜索</item>
+    <item key="FrmUserAdmin_btnViewEnabledUser">查看有效用戶</item>
+    <item key="FrmUserAdmin_btnViewAllUser">查看全部用戶</item>
+    <item key="FrmUserAdmin_btnClose">關閉</item>
+    <item key="FrmUserAdmin_lblCurrentPosition">   當前位置：</item>
+    <item key="FrmUserAdmin_colSelected">選擇</item>
+    <item key="FrmUserAdmin_colCode">編號</item>
+    <item key="FrmUserAdmin_colUserName">登錄名</item>
+    <item key="FrmUserAdmin_colRealName">用戶名</item>
+    <item key="FrmUserAdmin_colDepartmentName">部門</item>
+    <item key="FrmUserAdmin_colRoleName">默認角色</item>
+    <item key="FrmUserAdmin_colEnabled">有效</item>
+    <item key="FrmUserAdmin_colIsDimission">離職</item>
+    <item key="FrmUserAdmin_colEmail">郵箱</item>
+    <item key="FrmUserAdmin_colMobile">手機號碼</item>
+    <item key="FrmUserAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmUserAdmin End -->
+    <!-- FrmUserAdd Begin -->
+    <item key="FrmUserAdd">添加用戶</item>
+    <item key="FrmUserAdd_btnSave">保存(&amp;S)</item>
+    <item key="FrmUserAdd_btnSaveContinue">繼續</item>
+    <item key="FrmUserAdd_btnCancel">取消(&amp;C)</item>
+    <item key="FrmUserAdd_btnClose">關閉(&amp;Q)</item>
+    <item key="FrmUserAdd_gbDetail">用戶信息</item>
+    <item key="FrmUserAdd_lblUserName">登錄用戶名：</item>
+    <item key="FrmUserAdd_lblRealName">姓名：</item>
+    <item key="FrmUserAdd_lblCode">編號/工號：</item>
+    <item key="FrmUserAdd_lblGender">姓別：</item>
+    <item key="FrmUserAdd_lblUserPassword">密碼：</item>
+    <item key="FrmUserAdd_lblBirthday">出生日期：</item>
+    <item key="FrmUserAdd_lblDuty">崗位：</item>
+    <item key="FrmUserAdd_lblTitle">職稱：</item>
+    <item key="FrmUserAdd_lblMobile">手機：</item>
+    <item key="FrmUserAdd_lblTelphone">辦公電話：</item>
+    <item key="FrmUserAdd_lblQQ">QQ號：</item>
+    <item key="FrmUserAdd_lblEmail">電子郵件：</item>
+    <item key="FrmUserAdd_lblHomeAddress">家庭住址：</item>
+    <item key="FrmUserAdd_lblRoleName">默認角色：</item>
+    <item key="FrmUserAdd_lblCompanyName">所在公司/單位：</item>
+    <item key="FrmUserAdd_lblSubCompanyName">所在子公司：</item>
+    <item key="FrmUserAdd_lblDepartmentName">所在部門：</item>
+    <item key="FrmUserAdd_lblSubDepartmentName">所在子部門：</item>
+    <item key="FrmUserAdd_lblWorkgroupName">所在工作組：</item>
+    <item key="FrmUserAdd_chkEnabled">有效</item>
+    <item key="FrmUserAdd_lblDescription">描述：</item>
+    <!-- FrmUserAdd End -->
+    <!-- FrmUserEdit Begin -->
+    <item key="FrmUserEdit">修改用戶</item>
+    <item key="FrmUserEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmUserEdit_btnCancel">取消(&amp;C)</item>
+    <item key="FrmUserEdit_btnClose">關閉(&amp;C)</item>
+    <item key="FrmUserEdit_gbDetail">用戶信息</item>
+    <item key="FrmUserEdit_lblUserName">登錄用戶名：</item>
+    <item key="FrmUserEdit_lblRealName">姓名：</item>
+    <item key="FrmUserEdit_lblCode">編號/工號：</item>
+    <item key="FrmUserEdit_lblGender">姓別：</item>
+    <item key="FrmUserEdit_lblMobile">手機：</item>
+    <item key="FrmUserEdit_lblBirthday">出生日期：</item>
+    <item key="FrmUserEdit_lblTelphone">固定電話：</item>
+    <item key="FrmUserEdit_lblDuty">崗位：</item>
+    <item key="FrmUserEdit_lblTitle">職稱：</item>
+    <item key="FrmUserEdit_lblQQ">QQ號：</item>
+    <item key="FrmUserEdit_lblEmail">電子郵件：</item>
+    <item key="FrmUserEdit_lblHomeAddress">家庭住址：</item>
+    <item key="FrmUserEdit_lblRoleName">默認角色：</item>
+    <item key="FrmUserEdit_lblCompanyName">所在公司/單位：</item>
+    <item key="FrmUserEdit_lblSubCompanyName">所在子公司：</item>
+    <item key="FrmUserEdit_lblDepartmentName">所在部門：</item>
+    <item key="FrmUserEdit_lblSubDepartmentName">所在子部門：</item>
+    <item key="FrmUserEdit_lblWorkgroupName">所在工作組：</item>
+    <item key="FrmUserEdit_chkEnabled">有效</item>
+    <item key="FrmUserEdit_lblDescription">描述：</item>
+    <!-- FrmUserEdit End -->
+    <!-- FrmChangePassword Begin -->
+    <item key="FrmChangePassword">修改密碼</item>
+    <item key="FrmChangePassword_btnConfirm">確定</item>
+    <item key="FrmChangePassword_btnCancel">取消</item>
+    <item key="FrmChangePassword_lblOriginalPassword">原密碼：</item>
+    <item key="FrmChangePassword_lblNewPassword">新密碼：</item>
+    <item key="FrmChangePassword_lblConfirmPassword">確認密碼：</item>
+    <!-- FrmChangePassword End -->
+
+    <!-- FrmUserDimission Begin -->
+    <item key="FrmUserDimission_lblUserName">登錄用戶名：</item>
+    <item key="FrmUserDimission_lblRealName">姓名：</item>
+    <item key="FrmUserDimission_lblDuty">崗位：</item>
+    <item key="FrmUserDimission_lblTitle">職稱：</item>
+    <item key="FrmUserDimission_lblRoleName">默認角色：</item>
+    <item key="FrmUserDimission_lblCompanyName">所在公司/單位：</item>
+    <item key="FrmUserDimission_lblDepartmentName">所在部門：</item>
+    <item key="FrmUserDimission_lblDimissionDate">離職日期：</item>
+    <item key="FrmUserDimission_chkIsDimission">是否離職</item>
+    <item key="FrmUserDimission_lblDimissionCause">離職原因：</item>
+    <item key="FrmUserDimission_lblDimissionWhither">離職去向：</item>
+    <!-- FrmUserDimission End -->
+
+    <!-- FrmUserPassword Begin -->
+    <item key="FrmUserPassword">設置用戶密碼</item>
+    <item key="FrmUserPassword_gbDetail">設置密碼</item>
+    <item key="FrmUserPassword_btnDeletePassword">刪除密碼</item>
+    <item key="FrmUserPassword_btnSetDefaultPwd">設為默認密碼</item>
+    <item key="FrmUserPassword_btnConfirm">確定</item>
+    <item key="FrmUserPassword_btnCancel">取消</item>
+    <item key="FrmUserPassword_lblNewPassword">新密碼：</item>
+    <item key="FrmUserPassword_lblConfirmPassword">確認密碼：</item>
+    <!-- FrmUserPassword End -->
+    <!-- FrmAddUserToOrganize Begin -->
+    <item key="FrmAddUserToOrganize">添加用戶到組織機構</item>
+    <item key="FrmAddUserToOrganize_btnSubmit">確定</item>
+    <item key="FrmAddUserToOrganize_btnCancel">取消</item>
+    <item key="FrmAddUserToOrganize_gbUserInfo">用戶信息</item>
+    <item key="FrmAddUserToOrganize_gbOrganizeInfo">組織機構信息</item>
+    <item key="FrmAddUserToOrganize_gbOtherInfo">輔助信息</item>
+    <item key="FrmAddUserToOrganize_lblUserName">登錄用戶名：</item>
+    <item key="FrmAddUserToOrganize_lblRealName">姓  名：</item>
+    <item key="FrmAddUserToOrganize_lblCompany">所在公司/單位：</item>
+    <item key="FrmAddUserToOrganize_lblSubCompany">所在子公司：</item>
+    <item key="FrmAddUserToOrganize_lblDepartment">所在部門：</item>
+    <item key="FrmAddUserToOrganize_lblSubDepartment">所在子部門：</item>
+    <item key="FrmAddUserToOrganize_lblWorkGroup">所在工作組：</item>
+    <item key="FrmAddUserToOrganize_chkEnabled">有效</item>
+    <item key="FrmAddUserToOrganize_lblEnabled">屬  性：</item>
+    <item key="FrmAddUserToOrganize_lblDescription">描述：</item>
+    <!-- FrmAddUserToOrganize End -->
+    <!-- RDIFramework.WinModule.FrmUserOrganize Begin -->
+    <item key="FrmUserOrganize">用戶兼職組織機構</item>
+    <item key="FrmUserOrganize_tabItemUserOrganize">用戶兼職組織機構</item>
+    <item key="FrmUserOrganize_btnSelectAll">全選</item>
+    <item key="FrmUserOrganize_btnInvertSelect">反選</item>
+    <item key="FrmUserOrganize_btnAddToOrganize">添加兼職組織(&amp;D)...</item>
+    <item key="FrmUserOrganize_btnRemove">移除(&amp;R)</item>
+    <item key="FrmUserOrganize_btnClose">關閉(&amp;C)</item>
+    <item key="FrmUserOrganize_lblResource">當前用戶：</item>
+    <item key="FrmUserOrganize_colSelected">選擇</item>
+    <item key="FrmUserOrganize_colCompanyName">公司</item>
+    <item key="FrmUserOrganize_colSubCompanyName">分公司</item>
+    <item key="FrmUserOrganize_colDepartmentName">部門</item>
+    <item key="FrmUserOrganize_colSubDepartment">子部門</item>
+    <item key="FrmUserOrganize_colWorkGroupName">工作組</item>
+    <!-- RDIFramework.WinModule.FrmUserOrganize End -->
+    <!-- RDIFramework.WinModule.FrmUserSelect Begin -->
+    <item key="FrmUserSelect">用戶選擇</item>
+    <item key="FrmUserSelect_lblSearch">查詢：</item>
+    <item key="FrmUserSelect_btnSearch">查詢(&amp;F)</item>
+    <item key="FrmUserSelect_lblRole">角色：</item>
+    <item key="FrmUserSelect_btnSetNull">置空(&amp;N)</item>
+    <item key="FrmUserSelect_btnSelect">選擇</item>
+    <item key="FrmUserSelect_btnCancel">取消</item>
+    <item key="FrmUserSelect_btnSelectAll">全選</item>
+    <item key="FrmUserSelect_btnInvertSelect">反選</item>
+    <item key="FrmUserSelect_colSelected">選擇</item>
+    <item key="FrmUserSelect_colCode">編號</item>
+    <item key="FrmUserSelect_colUserName">登錄名</item>
+    <item key="FrmUserSelect_colRealName">用戶名</item>
+    <item key="FrmUserSelect_colDepartmentName">部門</item>
+    <item key="FrmUserSelect_colGender">性別</item>
+    <item key="FrmUserSelect_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmUserSelect End -->
+
+    <!-- RDIFramework.WinModule.FrmRoleAdmin Begin -->
+    <item key="FrmRoleAdmin">角色管理</item>
+    <item key="FrmRoleAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmRoleAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmRoleAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmRoleAdmin_btnBatchSave">保存(&amp;S)</item>
+    <item key="FrmRoleAdmin_btnUsers">用戶</item>
+    <item key="FrmRoleAdmin_lblSearch">搜索內容：</item>
+    <item key="FrmRoleAdmin_lblRoleCategory">角色分類：</item>
+    <item key="FrmRoleAdmin_btnClose">關閉</item>
+    <item key="FrmRoleAdmin_colSelected">選擇</item>
+    <item key="FrmRoleAdmin_colCode">編號</item>
+    <item key="FrmRoleAdmin_colRealName">角色名稱</item>
+    <item key="FrmRoleAdmin_colEnabled">有效</item>
+    <item key="FrmRoleAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmRoleAdmin End -->
+    <!-- FrmEditRole Begin -->
+    <item key="FrmEditRole">編輯角色</item>
+    <item key="FrmEditRole_btnSave">保存(&amp;S)</item>
+    <item key="FrmEditRole_btnAdd">添加(&amp;A)</item>
+    <item key="FrmEditRole_btnCancel">取消(&amp;C)</item>
+    <item key="FrmEditRole_lblRealName">角色名稱：</item>
+    <item key="FrmEditRole_lblCode">角色編號：</item>
+    <item key="FrmEditRole_lblRoleCategory">角色分類：</item>
+    <item key="FrmEditRole_chkEnabled">有效</item>
+    <item key="FrmEditRole_lblDescription">描述：</item>
+    <!-- FrmEditRole End -->
+    <!-- FrmRoleSelect Begin -->
+    <item key="FrmRoleSelect">選擇角色</item>
+    <item key="FrmRoleSelect_lblRoleCategory">角色分類：</item>
+    <item key="FrmRoleSelect_btnSetNull">置空(&amp;R)</item>
+    <item key="FrmRoleSelect_btnSelect">選擇(&amp;S)</item>
+    <item key="FrmRoleSelect_btnClose">關閉</item>
+    <item key="FrmRoleSelect_colSelected">選擇</item>
+    <item key="FrmRoleSelect_colRealName">名稱</item>
+    <item key="FrmRoleSelect_colDescription">描述</item>
+    <!-- FrmRoleSelect End -->
+    <!-- FrmRoleUserAdmin Begin -->
+    <item key="FrmRoleUserAdmin">角色用戶關聯</item>
+    <item key="FrmRoleUserAdmin_lblCurrentRole">當前角色：</item>
+    <item key="FrmRoleUserAdmin_btnAddUser">添加用戶(&amp;A)</item>
+    <item key="FrmRoleUserAdmin_btnRemoveUser">移除用戶(&amp;S)</item>
+    <item key="FrmRoleUserAdmin_btnClose">關閉(&amp;C)</item>
+    <item key="FrmRoleUserAdmin_colSelected">選擇</item>
+    <item key="FrmRoleUserAdmin_colUserName">用戶名</item>
+    <item key="FrmRoleUserAdmin_colRealName">姓名</item>
+    <item key="FrmRoleUserAdmin_colDepartmentName">部門</item>
+    <item key="FrmRoleUserAdmin_colDescription">描述</item>
+    <item key="FrmRoleUserAdmin_cmnuSelectAll">全選</item>
+    <item key="FrmRoleUserAdmin_cmnuInvertSelect">反選</item>
+    <!-- FrmRoleUserAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmPostAdmin Begin -->
+    <item key="FrmPostAdmin">崗位管理</item>
+    <item key="FrmPostAdmin_tabItemOrganize">組織機構</item>
+    <item key="FrmPostAdmin_tabItemSearch">搜索</item>
+    <item key="FrmPostAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmPostAdmin_lblSearchValue">搜索內容：</item>
+    <item key="FrmPostAdmin_rbCustomerExactSearch">精確</item>
+    <item key="FrmPostAdmin_rbCustomerLikeSearch">模糊</item>
+    <item key="FrmPostAdmin_btnSearch">搜索</item>
+    <item key="FrmPostAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmPostAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmPostAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmPostAdmin_mnuAdd">添加崗位(&amp;A)</item>
+    <item key="FrmPostAdmin_mnuEdit">編輯組織機構(&amp;E)</item>
+    <item key="FrmPostAdmin_mnuDelete">刪除組織機構(&amp;D)</item>
+    <item key="FrmPostAdmin_btnMoveTo">移動</item>
+    <item key="FrmPostAdmin_btnRoleUsers">用戶</item>
+    <item key="FrmPostAdmin_btnRolePermission">權限</item>
+    <item key="FrmPostAdmin_btnClose">關閉</item>
+    <item key="FrmPostAdmin_lblCurrentPosition">   當前位置：</item>
+    <item key="FrmPostAdmin_colSelected">選擇</item>
+    <item key="FrmPostAdmin_colCode">編號</item>
+    <item key="FrmPostAdmin_colRealName">名稱</item>
+    <item key="FrmPostAdmin_colUsers">成員</item>
+    <item key="FrmPostAdmin_colEnabled">有效</item>
+    <item key="FrmPostAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmPostAdmin End -->
+    <!-- FrmPostRoleAdd Begin -->
+    <item key="FrmPostRoleAdd">添加崗位</item>
+    <item key="FrmPostRoleAdd_btnSave">保存(&amp;S)</item>
+    <item key="FrmPostRoleAdd_btnClose">關閉(&amp;C)</item>
+    <item key="FrmPostRoleAdd_gbDetail">崗位信息</item>
+    <item key="FrmPostRoleAdd_lblOrganize">機  構：</item>
+    <item key="FrmPostRoleAdd_lblCode">編  號：</item>
+    <item key="FrmPostRoleAdd_lblRealName">名  稱：</item>
+    <item key="FrmPostRoleAdd_lblUsers">成  員：</item>
+    <item key="FrmPostRoleAdd_chkEnabled">有效</item>
+    <item key="FrmPostRoleAdd_lblDescription">描  述：</item>
+    <!-- FrmPostRoleAdd End -->
+    <!-- FrmPostRoleEdit Begin -->
+    <item key="FrmPostRoleEdit">編輯崗位</item>
+    <item key="FrmPostRoleEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmPostRoleEdit_btnClose">關閉(&amp;C)</item>
+    <item key="FrmPostRoleEdit_gbDetail">崗位信息</item>
+    <item key="FrmPostRoleEdit_lblOrganize">機  構：</item>
+    <item key="FrmPostRoleEdit_lblCode">編  號：</item>
+    <item key="FrmPostRoleEdit_lblRealName">名  稱：</item>
+    <item key="FrmPostRoleEdit_lblUsers">成  員：</item>
+    <item key="FrmPostRoleEdit_chkEnabled">有效</item>
+    <item key="FrmPostRoleEdit_lblDescription">描  述：</item>
+    <!-- FrmPostRoleEdit End -->
+
+    <!-- FrmPermissionItemAdmin Begin -->
+    <item key="FrmPermissionItemAdmin">操作權限管理</item>
+    <item key="FrmPermissionItemAdmin_tabItemPermissionItem">操作權限</item>
+    <item key="FrmPermissionItemAdmin_tabItemSearch">搜索</item>
+    <item key="FrmPermissionItemAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmPermissionItemAdmin_lblSearchValue">搜索內容：</item>
+    <item key="FrmPermissionItemAdmin_rbCustomerExactSearch">精確</item>
+    <item key="FrmPermissionItemAdmin_rbCustomerLikeSearch">模糊</item>
+    <item key="FrmPermissionItemAdmin_btnSearch">搜索</item>
+    <item key="FrmPermissionItemAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmPermissionItemAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmPermissionItemAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmPermissionItemAdmin_btnBatchSave">保存(&amp;S)</item>
+    <item key="FrmPermissionItemAdmin_btnMove">移動(&amp;M)</item>
+    <item key="FrmPermissionItemAdmin_btnExport">導出</item>
+    <item key="FrmPermissionItemAdmin_ddbPermissionItemPermissionSet">操作權限項權限設置</item>
+    <item key="FrmPermissionItemAdmin_btnUserPermissionItem">用戶操作權限</item>
+    <item key="FrmPermissionItemAdmin_btnRolePermissionItem">角色操作權限</item>
+    <item key="FrmPermissionItemAdmin_btnClose">關閉</item>
+    <item key="FrmPermissionItemAdmin_lblCurrentPosition">   當前位置:</item>
+    <item key="FrmPermissionItemAdmin_colSelected">選擇</item>
+    <item key="FrmPermissionItemAdmin_colCode">編號</item>
+    <item key="FrmPermissionItemAdmin_colFullName">名稱</item>
+    <item key="FrmPermissionItemAdmin_colIsScope">數據權限</item>
+    <item key="FrmPermissionItemAdmin_colIsPublic">公開</item>
+    <item key="FrmPermissionItemAdmin_colEnabled">有效</item>
+    <item key="FrmPermissionItemAdmin_colDescription">描述</item>
+    <!-- FrmPermissionItemAdmin End -->
+    <!-- FrmPermissionItemAdd Begin -->
+    <item key="FrmPermissionItemAdd">增加操作權限</item>
+    <item key="FrmPermissionItemAdd_btnSave">保存(&amp;S)</item>
+    <item key="FrmPermissionItemAdd_btnSaveContinue">繼續</item>
+    <item key="FrmPermissionItemAdd_btnClose">關閉</item>
+    <item key="FrmPermissionItemAdd_btnCancel">取消(&amp;C)</item>
+    <item key="FrmPermissionItemAdd_lblParent">父節點：</item>
+    <item key="FrmPermissionItemAdd_btnSelect">選擇</item>
+    <item key="FrmPermissionItemAdd_btnSetEmpty">置空</item>
+    <item key="FrmPermissionItemAdd_lblFullName">名稱：</item>
+    <item key="FrmPermissionItemAdd_lblCode">編號：</item>
+    <item key="FrmPermissionItemAdd_chkEnabled">有效</item>
+    <item key="FrmPermissionItemAdd_chkIsPublic">公開</item>
+    <item key="FrmPermissionItemAdd_chkIsScope">數據權限</item>
+    <item key="FrmPermissionItemAdd_lblDescription">描述：</item>
+    <!-- FrmPermissionItemAdd End -->
+    <!-- FrmPermissionItemEdit Begin -->
+    <item key="FrmPermissionItemEdit">編輯操作權限</item>
+    <item key="FrmPermissionItemEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmPermissionItemEdit_btnClose">關閉</item>
+    <item key="FrmPermissionItemEdit_btnCancel">取消(&amp;C)</item>
+    <item key="FrmPermissionItemEdit_btnSelect">選擇</item>
+    <item key="FrmPermissionItemEdit_btnSetEmpty">置空</item>
+    <item key="FrmPermissionItemEdit_lblParent">父節點：</item>
+    <item key="FrmPermissionItemEdit_lblFullName">名稱：</item>
+    <item key="FrmPermissionItemEdit_lblCode">編號：</item>
+    <item key="FrmPermissionItemEdit_chkEnabled">有效</item>
+    <item key="FrmPermissionItemEdit_chkIsPublic">公開</item>
+    <item key="FrmPermissionItemEdit_chkIsScope">數據權限</item>
+    <item key="FrmPermissionItemEdit_lblDescription">描述：</item>
+    <!-- FrmPermissionItemEdit End -->
+    <!-- FrmPermissionSelect Begin -->
+    <item key="FrmPermissionSelect">操作權限選擇</item>
+    <item key="FrmPermissionSelect_btnSetNull">置空(&amp;R)</item>
+    <item key="FrmPermissionSelect_btnClose">關閉</item>
+    <item key="FrmPermissionSelect_btnSelect">選擇(&amp;S)</item>
+    <item key="FrmPermissionSelect_gbMain">操作權限選擇</item>
+    <!-- FrmPermissionSelect End -->
+    <!-- RDIFramework.WinModule.FrmUserPermissionAdmin Begin -->
+    <item key="FrmUserPermissionAdmin">用戶權限管理</item>
+    <item key="FrmUserPermissionAdmin_lblSerach">搜索內容：</item>
+    <item key="FrmUserPermissionAdmin_lblCurrentPosition">   當前位置：</item>
+    <item key="FrmUserPermissionAdmin_tabItemOrganize">組織機構</item>
+    <item key="FrmUserPermissionAdmin_btnPermission">用戶權限(&amp;P)</item>
+    <item key="FrmUserPermissionAdmin_btnUserRole">用戶角色</item>
+    <item key="FrmUserPermissionAdmin_btnRoleUserBatchSet">用戶角色關聯</item>
+    <item key="FrmUserPermissionAdmin_btnBatchPermission">批量權限設置</item>
+    <item key="FrmUserPermissionAdmin_btnDropDownPermission">權限設置</item>
+    <item key="FrmUserPermissionAdmin_btnUserPermissionScope">用戶授權範圍</item>
+    <item key="FrmUserPermissionAdmin_btnTableFieldPermission">表字段權限</item>
+    <item key="FrmUserPermissionAdmin_btnUserTableConstraintSet">約束條件權限設置</item>
+    <item key="FrmUserPermissionAdmin_btnClose">關閉</item>
+    <item key="FrmUserPermissionAdmin_colSelected">選擇</item>
+    <item key="FrmUserPermissionAdmin_colCode">編號</item>
+    <item key="FrmUserPermissionAdmin_colUserName">登錄名</item>
+    <item key="FrmUserPermissionAdmin_colRealName">用戶名</item>
+    <item key="FrmUserPermissionAdmin_colDepartmentName">部門</item>
+    <item key="FrmUserPermissionAdmin_colRoleName">默認角色</item>
+    <item key="FrmUserPermissionAdmin_colEnabled">有效</item>
+    <item key="FrmUserPermissionAdmin_colEmail">郵箱</item>
+    <item key="FrmUserPermissionAdmin_colMobile">手機號碼</item>
+    <item key="FrmUserPermissionAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmUserPermissionAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmRolePermissionAdmin Begin -->
+    <item key="FrmRolePermissionAdmin">角色權限管理</item>
+    <item key="FrmRolePermissionAdmin_tabItemSearch">搜索</item>
+    <item key="FrmRolePermissionAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmRolePermissionAdmin_lblRoleCategory">角色分類：</item>
+    <item key="FrmRolePermissionAdmin_lblSearchValue">搜索內容</item>
+    <item key="FrmRolePermissionAdmin_btnRolePermission">角色權限(&amp;P)</item>
+    <item key="FrmRolePermissionAdmin_btnRoleUser">角色用戶</item>
+    <item key="FrmRolePermissionAdmin_btnRoleUserBatchSet">角色用戶關聯</item>
+    <item key="FrmRolePermissionAdmin_btnBatchPermission">批量權限設置</item>
+    <item key="FrmRolePermissionAdmin_btnDropDownPermission">權限設置</item>
+    <item key="FrmRolePermissionAdmin_btnRolePermissionScope">角色授權範圍</item>
+    <item key="FrmRolePermissionAdmin_btnTableFieldPermission">表字段權限</item>
+    <item key="FrmRolePermissionAdmin_btnRoleTableConstraintSet">約束條件權限設置</item>
+    <item key="FrmRolePermissionAdmin_btnClose">關閉</item>
+    <item key="FrmRolePermissionAdmin_colSelected">選擇</item>
+    <item key="FrmRolePermissionAdmin_colCode">編號</item>
+    <item key="FrmRolePermissionAdmin_colRealName">用戶名</item>
+    <item key="FrmRolePermissionAdmin_colEnabled">有效</item>
+    <item key="FrmRolePermissionAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmRolePermissionAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmOrganizePermission Begin -->
+    <item key="FrmOrganizePermission">組織機構權限設置</item>
+    <item key="FrmOrganizePermission_lblOrganize">組織機構</item>
+    <item key="FrmOrganizePermission_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmOrganizePermission_btnCopy">復制權限</item>
+    <item key="FrmOrganizePermission_btnPaste">粘貼權限</item>
+    <item key="FrmOrganizePermission_btnClose">關閉</item>
+    <item key="FrmOrganizePermission_tabItemModuleAccessPermission">模塊（菜單）訪問權限</item>
+    <item key="FrmOrganizePermission_tabItemHavePermissionItem">擁有操作權限</item>
+    <!-- RDIFramework.WinModule.FrmOrganizePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmRoleModulePermission Begin -->
+    <item key="FrmRoleModulePermission">角色模塊（菜單）權限</item>
+    <item key="FrmRoleModulePermission_lblRole">角色：</item>
+    <item key="FrmRoleModulePermission_btnSave">保存(&amp;S)</item>
+    <item key="FrmRoleModulePermission_btnClose">關閉</item>
+    <item key="FrmRoleModulePermission_tabItemModule">模塊|菜單(選中則擁有此權限)</item>
+    <item key="FrmRoleModulePermission_cmnuSelectAll">全選</item>
+    <item key="FrmRoleModulePermission_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmRoleModulePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmRoleModulePermissionBatchSet Begin -->
+    <item key="FrmRoleModulePermissionBatchSet">角色模塊（菜單）權限集中設置</item>
+    <item key="FrmRoleModulePermissionBatchSet_btnSave">保存(&amp;S)</item>
+    <item key="FrmRoleModulePermissionBatchSet_btnClose">關閉</item>
+    <item key="FrmRoleModulePermissionBatchSet_tabItemRoleList">角色列表</item>
+    <item key="FrmRoleModulePermissionBatchSet_tabItemModuleList">模塊|菜單訪問權限(選中則擁有此權限)</item>
+    <!-- RDIFramework.WinModule.FrmRoleModulePermissionBatchSet End -->
+
+    <!-- RDIFramework.WinModule.FrmRolePermission Begin -->
+    <item key="FrmRolePermission">角色權限設置</item>
+    <item key="FrmRolePermission_lblRole">角色：</item>
+    <item key="FrmRolePermission_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmRolePermission_btnCopy">復制權限</item>
+    <item key="FrmRolePermission_btnPaste">粘貼權限</item>
+    <item key="FrmRolePermission_btnClose">關閉</item>
+    <item key="FrmRolePermission_tabItemModuleAccessPermission">模塊（菜單）訪問權限</item>
+    <item key="FrmRolePermission_tabItemHavePermissionItem">擁有操作權限</item>
+    <!-- RDIFramework.WinModule.FrmRolePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmRolePermissionBatchSet Begin -->
+    <item key="FrmRolePermissionBatchSet">角色權限批量設置</item>
+    <item key="FrmRolePermissionBatchSet_lblRole">角色：</item>
+    <item key="FrmRolePermissionBatchSet_btnFilteringRole">過濾角色(&amp;F)</item>
+    <item key="FrmRolePermissionBatchSet_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmRolePermissionBatchSet_btnCopy">復制權限</item>
+    <item key="FrmRolePermissionBatchSet_btnPaste">粘貼權限</item>
+    <item key="FrmRolePermissionBatchSet_btnClose">關閉</item>
+    <item key="FrmRolePermissionBatchSet_tabItemRole">角色（用戶組）</item>
+    <item key="FrmRolePermissionBatchSet_tabItemHaveUsers">擁有的用戶</item>
+    <item key="FrmRolePermissionBatchSet_tabItemModuleAccessPermission">模塊（菜單）訪問權限</item>
+    <item key="FrmRolePermissionBatchSet_tabItemHavePermissionItem">擁有操作權限</item>
+    <!-- RDIFramework.WinModule.FrmRolePermissionBatchSet End -->
+
+    <!-- RDIFramework.WinModule.FrmRolePermissionItem Begin -->
+    <item key="FrmRolePermissionItem">角色權限批量設置</item>
+    <item key="FrmRolePermissionItem_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmRolePermissionItem_btnSave">保存</item>
+    <item key="FrmRolePermissionItem_btnClose">關閉</item>
+    <item key="FrmRolePermissionItem_tabItemRole">角色（用戶組）</item>
+    <item key="FrmRolePermissionItem_tabItemHavePermissionItem">擁有操作權限(選中則擁有此權限)</item>
+    <!-- RDIFramework.WinModule.FrmRolePermissionItem End -->
+
+    <!-- RDIFramework.WinModule.FrmRoleUserBatchSet Begin -->
+    <item key="FrmRoleUserBatchSet">角色用戶集中批量設置</item>
+    <item key="FrmRoleUserBatchSet_btnClearPermission">清除用戶(&amp;C)</item>
+    <item key="FrmRoleUserBatchSet_btnSave">保存(&amp;S)</item>
+    <item key="FrmRoleUserBatchSet_btnCopy">復制用戶</item>
+    <item key="FrmRoleUserBatchSet_btnPaste">粘貼用戶</item>
+    <item key="FrmRoleUserBatchSet_btnClose">關閉</item>
+    <item key="FrmRoleUserBatchSet_tabItemRoleList">角色（用戶組）</item>
+    <item key="FrmRoleUserBatchSet_tabItemHaveUsers">擁有的用戶</item>
+    <!-- RDIFramework.WinModule.FrmRoleUserBatchSet End -->
+    <!-- RDIFramework.WinModule.FrmSetTableConstraint Begin -->
+    <item key="FrmSetTableConstraint">設置約束條件</item>
+    <item key="FrmSetTableConstraint_lblUserOrRole">用戶/角色(&amp;U)：</item>
+    <item key="FrmSetTableConstraint_btnSave">保存</item>
+    <item key="FrmSetTableConstraint_btnTestConstraint">驗證表達式</item>
+    <item key="FrmSetTableConstraint_btnClearConstraint">清除表達式</item>
+    <item key="FrmSetTableConstraint_btnClose">關閉</item>
+    <item key="FrmSetTableConstraint_gbMain">設置約束條件</item>
+    <item key="FrmSetTableConstraint_chkEnabled">有效</item>
+    <item key="FrmSetTableConstraint_btnShowConstraintData">查看約束數據集</item>
+    <!-- RDIFramework.WinModule.FrmSetTableConstraint End -->
+    <!-- RDIFramework.WinModule.FrmShowConstraintTable Begin -->
+    <item key="FrmShowConstraintTable">查看約束數據集</item>
+    <item key="FrmShowConstraintTable_lblTargetTable">目標表：</item>
+    <item key="FrmShowConstraintTable_btnExport">導出Excel(&amp;E)</item>
+    <item key="FrmShowConstraintTable_btnClose">關閉</item>
+    <item key="FrmShowConstraintTable_tabItemDataList">表數據（顯示前500條數據）</item>
+    <!-- RDIFramework.WinModule.FrmShowConstraintTable End -->
+    <!-- RDIFramework.WinModule.FrmTableConstraint Begin -->
+    <item key="FrmTableConstraint">表約束條件</item>
+    <item key="FrmTableConstraint_lblUserOrRole">用戶/角色(&amp;U)：</item>
+    <item key="FrmTableConstraint_btnSetCondition">設置條件表達式</item>
+    <item key="FrmTableConstraint_btnDeleteCondition">刪除條件表達式</item>
+    <item key="FrmTableConstraint_btnExport">導出(&amp;E)</item>
+    <item key="FrmTableConstraint_btnClose">關閉</item>
+    <item key="FrmTableConstraint_tabItemTableConstraintDetail">表約束明細</item>
+    <item key="FrmTableConstraint_colSelected">選擇</item>
+    <item key="FrmTableConstraint_colTableCode">表</item>
+    <item key="FrmTableConstraint_colTableName">名稱</item>
+    <item key="FrmTableConstraint_colPermissionConstraint">約束條件</item>
+    <!-- RDIFramework.WinModule.FrmTableConstraint End -->
+    <!-- RDIFramework.WinModule.FrmTableFieldPermission Begin -->
+    <item key="FrmTableFieldPermission">表字段權限設置</item>
+    <item key="FrmTableFieldPermission_lblUserOrRole">用戶/角色(&amp;U)：</item>
+    <item key="FrmTableFieldPermission_btnSave">保存</item>
+    <item key="FrmTableFieldPermission_btnExport">導出(&amp;E)</item>
+    <item key="FrmTableFieldPermission_btnClose">關閉</item>
+    <item key="FrmTableFieldPermission_tabItemTableList">數據表（選中具有訪問權限）</item>
+    <item key="FrmTableFieldPermission_tabItemTableFieldList">表字段明細</item>
+    <item key="FrmTableFieldPermission_colColumnName">字段名稱</item>
+    <item key="FrmTableFieldPermission_colIsPublic">公開</item>
+    <item key="FrmTableFieldPermission_colColumnAccess">列訪問權限</item>
+    <item key="FrmTableFieldPermission_colColumnEdit">列編輯權限</item>
+    <item key="FrmTableFieldPermission_colColumnDeney">列拒絕訪問</item>
+    <!-- RDIFramework.WinModule.FrmTableFieldPermission End -->
+    <!-- RDIFramework.WinModule.FrmUserModulePermission Begin -->
+    <item key="FrmUserModulePermission">用戶模塊（菜單）權限設置</item>
+    <item key="FrmUserModulePermission_lblUser">用戶(&amp;U)：</item>
+    <item key="FrmUserModulePermission_btnSave">保存(&amp;S)</item>
+    <item key="FrmUserModulePermission_btnClose">關閉</item>
+    <item key="FrmUserModulePermission_tabItemModule">模塊|菜單(選中則擁有此權限)</item>
+    <!-- RDIFramework.WinModule.FrmUserModulePermission End -->
+    <!-- RDIFramework.WinModule.FrmUserModulePermissionBatchSet Begin -->
+    <item key="FrmUserModulePermissionBatchSet">用戶模塊（菜單）權限批量設置</item>
+    <item key="FrmUserModulePermissionBatchSet_btnSave">保存(&amp;S)</item>
+    <item key="FrmUserModulePermissionBatchSet_btnClose">關閉</item>
+    <item key="FrmUserModulePermissionBatchSet_tabItemUserList">用戶列表</item>
+    <item key="FrmUserModulePermissionBatchSet_tabItemModuleAccessPermission">模塊（菜單）訪問權限</item>
+    <!-- RDIFramework.WinModule.FrmUserModulePermissionBatchSet End -->
+    <!-- RDIFramework.WinModule.FrmUserPermission Begin -->
+    <item key="FrmUserPermission">用戶權限設置</item>
+    <item key="FrmUserPermission_lblUser">用戶：</item>
+    <item key="FrmUserPermission_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmUserPermission_btnCopy">復制權限</item>
+    <item key="FrmUserPermission_btnPaste">粘貼權限</item>
+    <item key="FrmUserPermission_btnClose">關閉</item>
+    <item key="FrmUserPermission_tabItemRoleList">歸屬角色</item>
+    <item key="FrmUserPermission_tabItemModuleAccessPermission">模塊（菜單）訪問權限</item>
+    <item key="FrmUserPermission_tabItemHavePermissionItem">擁有操作權限</item>
+    <!-- RDIFramework.WinModule.FrmUserPermission End -->
+    <!-- RDIFramework.WinModule.FrmUserPermissionBatchSet Begin -->
+    <item key="FrmUserPermissionBatchSet">用戶權限批量設置</item>
+    <item key="FrmUserPermissionBatchSet_lblUser">用戶(&amp;U)：</item>
+    <item key="FrmUserPermissionBatchSet_btnFilteringUser">過濾用戶(&amp;F)</item>
+    <item key="FrmUserPermissionBatchSet_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmUserPermissionBatchSet_btnCopy">復制權限</item>
+    <item key="FrmUserPermissionBatchSet_btnPaste">粘貼權限</item>
+    <item key="FrmUserPermissionBatchSet_btnClose">關閉</item>
+    <item key="FrmUserPermissionBatchSet_tabItemUser">用戶</item>
+    <item key="FrmUserPermissionBatchSet_tabItemRoleList">歸屬角色（用戶組）</item>
+    <item key="FrmUserPermissionBatchSet_tabItemModuleAccessPermission">模塊（菜單）訪問權限</item>
+    <item key="FrmUserPermissionBatchSet_tabItemHavePermissionItem">擁有操作權限</item>
+    <!-- RDIFramework.WinModule.FrmUserPermissionBatchSet End -->
+    <!-- RDIFramework.WinModule.FrmUserPermissionItem Begin -->
+    <item key="FrmUserPermissionItem">用戶權限批量設置</item>
+    <item key="FrmUserPermissionItem_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmUserPermissionItem_btnSave">保存</item>
+    <item key="FrmUserPermissionItem_btnClose">關閉</item>
+    <item key="FrmUserPermissionItem_tabItemUser">用戶</item>
+    <item key="FrmUserPermissionItem_tabItemHavePermissionItem">擁有操作權限(選中則擁有此權限)</item>
+    <!-- RDIFramework.WinModule.FrmUserPermissionItem End -->
+    <!-- RDIFramework.WinModule.FrmUserRoleAdmin Begin -->
+    <item key="FrmUserRoleAdmin">用戶角色關聯</item>
+    <item key="FrmUserRoleAdmin_tabItemSearch">常規信息</item>
+    <item key="FrmUserRoleAdmin_gbCustomSearch">當前</item>
+    <item key="FrmUserRoleAdmin_lblUser">用戶(&amp;U)：</item>
+    <item key="FrmUserRoleAdmin_lblDefaultRole">默認角色(&amp;R)：</item>
+    <item key="FrmUserRoleAdmin_btnAddToRole">添加角色</item>
+    <item key="FrmUserRoleAdmin_btnRemove">移除角色</item>
+    <item key="FrmUserRoleAdmin_btnRolePermission">查看角色權限</item>
+    <item key="FrmUserRoleAdmin_butSave">保存</item>
+    <item key="FrmUserRoleAdmin_btnCopy">復制角色</item>
+    <item key="FrmUserRoleAdmin_btnPaste">粘貼角色</item>
+    <item key="FrmUserRoleAdmin_btnClose">關閉</item>
+    <item key="FrmUserRoleAdmin_colSelected">選擇</item>
+    <item key="FrmUserRoleAdmin_colFullName">名稱</item>
+    <item key="FrmUserRoleAdmin_colDescription">描述</item>
+    <item key="FrmUserRoleAdmin_cmnuSelectAll">全選</item>
+    <item key="FrmUserRoleAdmin_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmUserRoleAdmin End -->
+    <!-- RDIFramework.WinModule.FrmUserRoleBatchSet Begin -->
+    <item key="FrmUserRoleBatchSet">用戶角色集中批量設置</item>
+    <item key="FrmUserRoleBatchSet_btnClearPermission">清除角色(&amp;C)</item>
+    <item key="FrmUserRoleBatchSet_btnSave">保存(&amp;S)</item>
+    <item key="FrmUserRoleBatchSet_btnCopy">復制角色</item>
+    <item key="FrmUserRoleBatchSet_btnPaste">粘貼角色</item>
+    <item key="FrmUserRoleBatchSet_btnClose">關閉</item>
+    <item key="FrmUserRoleBatchSet_tabItemUserList">用戶列表</item>
+    <item key="FrmUserRoleBatchSet_tabItemRoleList">歸屬角色</item>
+    <!-- RDIFramework.WinModule.FrmUserRoleBatchSet End -->
+    <!-- RDIFramework.WinModule.FrmViewUserPermission Begin -->
+    <item key="FrmViewUserPermission">用戶權限</item>
+    <item key="FrmViewUserPermission_lblHint">提示：</item>
+    <item key="FrmViewUserPermission_lblHintDetail">顯示當前用戶所擁有的所有可用權限（角色、模塊訪問權限、分配的操作權限）。</item>
+    <item key="FrmViewUserPermission_tabItemCurrentUser">當前用戶</item>
+    <item key="FrmViewUserPermission_lblUserName">登錄名：</item>
+    <item key="FrmViewUserPermission_lblRealName">姓名：</item>
+    <item key="FrmViewUserPermission_lblDefaultRole">默認角色：</item>
+    <item key="FrmViewUserPermission_gbHaveRole">擁有的角色</item>
+    <item key="FrmViewUserPermission_colFullName">角色名稱</item>
+    <item key="FrmViewUserPermission_colDescription">角色描述</item>
+    <item key="FrmViewUserPermission_btnShowRolePermission">查看角色權限</item>
+    <item key="FrmViewUserPermission_btnClose">關閉</item>
+    <item key="FrmViewUserPermission_tabItemModulePermission">所擁有的模塊（菜單）</item>
+    <item key="FrmViewUserPermission_tabItemPermissionItemPermission">分配的操作（功能）權限</item>
+    <!-- RDIFramework.WinModule.FrmViewUserPermission End -->
+    <!-- RDIFramework.WinModule.FrmOrganizeResourcePermission Begin -->
+    <item key="FrmOrganizeResourcePermission">組織機構資源權限設置</item>
+    <item key="FrmOrganizeResourcePermission_btnSave">保存(&amp;S)</item>
+    <item key="FrmOrganizeResourcePermission_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmOrganizeResourcePermission_btnCopyPermission">復制權限</item>
+    <item key="FrmOrganizeResourcePermission_btnPastePermission">粘貼權限</item>
+    <item key="FrmOrganizeResourcePermission_btnClose">關閉</item>
+    <item key="FrmOrganizeResourcePermission_tabItemOrganize">組織機構</item>
+    <item key="FrmOrganizeResourcePermission_tabItemTargetResource">目標資源</item>
+    <item key="FrmOrganizeResourcePermission_lblPermissionItemName">操作權限：資源管理權限</item>
+    <item key="FrmOrganizeResourcePermission_colSelected">選擇</item>
+    <item key="FrmOrganizeResourcePermission_colRealName">名稱</item>
+    <item key="FrmOrganizeResourcePermission_colDescription">描述</item>
+    <item key="FrmOrganizeResourcePermission_cmnuSelectAll">全選</item>
+    <item key="FrmOrganizeResourcePermission_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmOrganizeResourcePermission End -->
+    <!-- RDIFramework.WinModule.FrmResourcePermission Begin -->
+    <item key="FrmResourcePermission">數據權限設置</item>
+    <item key="FrmResourcePermission_btnSave">保存(&amp;S)</item>
+    <item key="FrmResourcePermission_btnClose">關閉</item>
+    <item key="FrmResourcePermission_lblResource">當前對象：</item>
+    <item key="FrmResourcePermission_lblResourceName">角色A</item>
+    <item key="FrmResourcePermission_lblPermissionItem">操作權限：</item>
+    <item key="FrmResourcePermission_lblPermissionItemName">資源管理權限</item>
+    <item key="FrmResourcePermission_tabItemTargetResource">目標資源[列表資源]</item>
+    <item key="FrmResourcePermission_colSelected">選擇</item>
+    <item key="FrmResourcePermission_colRealName">名稱</item>
+    <item key="FrmResourcePermission_colDescription">描述</item>
+    <item key="FrmResourcePermission_cmnuSelectAll">全選</item>
+    <item key="FrmResourcePermission_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmResourcePermission End -->
+    <!-- RDIFramework.WinModule.FrmResourcePermissionScope Begin -->
+    <item key="FrmResourcePermissionScope">資源權限設置</item>
+    <item key="FrmResourcePermissionScope_btnSave">保存(&amp;S)</item>
+    <item key="FrmResourcePermissionScope_btnClose">關閉</item>
+    <item key="FrmResourcePermissionScope_lblTargetResource">當前資源：</item>
+    <item key="FrmResourcePermissionScope_lblPermissionItem">操作權限：</item>
+    <item key="FrmResourcePermissionScope_tcItemUser">用戶</item>
+    <item key="FrmResourcePermissionScope_tcItemRole">角色</item>
+    <item key="FrmResourcePermissionScope_colUserSelected">選擇</item>
+    <item key="FrmResourcePermissionScope_colUserUserName">用戶</item>
+    <item key="FrmResourcePermissionScope_colUserRealName">姓名</item>
+    <item key="FrmResourcePermissionScope_colUserDescription">描述</item>
+    <item key="FrmResourcePermissionScope_colRoleSelected">選擇</item>
+    <item key="FrmResourcePermissionScope_colRoleRealName">名稱</item>
+    <item key="FrmResourcePermissionScope_colRoleDescription">描述</item>
+    <item key="FrmResourcePermissionScope_cmnuSelectAll">全選</item>
+    <item key="FrmResourcePermissionScope_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmResourcePermissionScope End -->
+    <!-- RDIFramework.WinModule.FrmRoleOrganizePermission Begin -->
+    <item key="FrmRoleOrganizePermission">角色權限批量設置（角色-組織機構）</item>
+    <item key="FrmRoleOrganizePermission_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmRoleOrganizePermission_btnCopy">復制權限</item>
+    <item key="FrmRoleOrganizePermission_btnPaste">粘貼權限</item>
+    <item key="FrmRoleOrganizePermission_btnClose">關閉</item>
+    <item key="FrmRoleOrganizePermission_tabItemRole">角色</item>
+    <item key="FrmRoleOrganizePermission_chkExpandAll">展開全部</item>
+    <item key="FrmRoleOrganizePermission_tabItemResource">資源（組織機構）</item>
+    <!-- RDIFramework.WinModule.FrmRoleOrganizePermission End -->
+    <!-- RDIFramework.WinModule.FrmRolePermissionScope Begin -->
+    <item key="FrmRolePermissionScope">角色授權範圍（資源管理權限）</item>
+    <item key="FrmRolePermissionScope_lblCurrentRole">當前角色：</item>
+    <item key="FrmRolePermissionScope_lblPermissionScope">數據集權限</item>
+    <item key="FrmRolePermissionScope_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmRolePermissionScope_btnCopy">復制權限</item>
+    <item key="FrmRolePermissionScope_btnPaste">粘貼權限</item>
+    <item key="FrmRolePermissionScope_btnClose">關閉</item>
+    <item key="FrmRolePermissionScope_tabItemUser">用戶</item>
+    <item key="FrmRolePermissionScope_tabItemRole">角色</item>
+    <item key="FrmRolePermissionScope_tabItemOrganize">組織機構</item>
+    <item key="FrmRolePermissionScope_tabItemModule">模塊（菜單）</item>
+    <item key="FrmRolePermissionScope_tabItemPermissionItem">可分配的操作（功能）權限</item>
+    <!-- RDIFramework.WinModule.FrmRolePermissionScope End -->
+    <!-- RDIFramework.WinModule.FrmRoleResourcePermission Begin -->
+    <item key="FrmRoleResourcePermission">角色資源權限設置</item>
+    <item key="FrmRoleResourcePermission_btnSave">保存(&amp;S)</item>
+    <item key="FrmRoleResourcePermission_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmRoleResourcePermission_btnCopyPermission">復制權限</item>
+    <item key="FrmRoleResourcePermission_btnPastePermission">粘貼權限</item>
+    <item key="FrmRoleResourcePermission_btnClose">關閉</item>
+    <item key="FrmRoleResourcePermission_tabItemRole">角色</item>
+    <item key="FrmRoleResourcePermission_tabItemTargetResource">目標資源</item>
+    <item key="FrmRoleResourcePermission_lblPermissionItemName">操作權限：資源管理權限</item>
+    <item key="FrmRoleResourcePermission_colSelected">選擇</item>
+    <item key="FrmRoleResourcePermission_colRealName">名稱</item>
+    <item key="FrmRoleResourcePermission_colDescription">描述</item>
+    <item key="FrmRoleResourcePermission_cmnuSelectAll">全選</item>
+    <item key="FrmRoleResourcePermission_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmRoleResourcePermission End -->
+    <!-- RDIFramework.WinModule.FrmUserOrganizePermission Begin -->
+    <item key="FrmUserOrganizePermission">用戶權限批量設置（用戶-組織機構）</item>
+    <item key="FrmUserOrganizePermission_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmUserOrganizePermission_btnCopy">復制權限</item>
+    <item key="FrmUserOrganizePermission_btnPaste">粘貼權限</item>
+    <item key="FrmUserOrganizePermission_btnClose">關閉</item>
+    <item key="FrmUserOrganizePermission_tabItemUser">用戶</item>
+    <item key="FrmUserOrganizePermission_tabItemResource">資源（組織機構）</item>
+    <item key="FrmUserOrganizePermission_chkExpandAll">展開全部</item>
+    <!-- RDIFramework.WinModule.FrmUserOrganizePermission End -->
+    <!-- RDIFramework.WinModule.FrmUserPermissionScope Begin -->
+    <item key="FrmUserPermissionScope">用戶授權範圍（資源管理權限）</item>
+    <item key="FrmUserPermissionScope_lblCurrentUser">當前用戶：</item>
+    <item key="FrmUserPermissionScope_lblPermissionScope">數據集權限</item>
+    <item key="FrmUserPermissionScope_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmUserPermissionScope_btnCopy">復制權限</item>
+    <item key="FrmUserPermissionScope_btnPaste">粘貼權限</item>
+    <item key="FrmUserPermissionScope_btnClose">關閉</item>
+    <item key="FrmUserPermissionScope_tabItemUser">用戶</item>
+    <item key="FrmUserPermissionScope_tabItemRole">角色</item>
+    <item key="FrmUserPermissionScope_tabItemOrganize">組織機構</item>
+    <item key="FrmUserPermissionScope_tabItemModule">模塊（菜單）</item>
+    <item key="FrmUserPermissionScope_tabItemPermissionItem">可分配的操作（功能）權限</item>
+    <!-- RDIFramework.WinModule.FrmUserPermissionScope End -->
+    <!-- RDIFramework.WinModule.FrmUserResourcePermission Begin -->
+    <item key="FrmUserResourcePermission">用戶資源權限設置</item>
+    <item key="FrmUserResourcePermission_btnSave">保存(&amp;S)</item>
+    <item key="FrmUserResourcePermission_btnClearPermission">清除權限(&amp;C)</item>
+    <item key="FrmUserResourcePermission_btnCopyPermission">復制權限</item>
+    <item key="FrmUserResourcePermission_btnPastePermission">粘貼權限</item>
+    <item key="FrmUserResourcePermission_btnClose">關閉</item>
+    <item key="FrmUserResourcePermission_tabItemUser">用戶</item>
+    <item key="FrmUserResourcePermission_tabItemTargetResource">目標資源</item>
+    <item key="FrmUserResourcePermission_lblPermissionItemName">操作權限：資源管理權限</item>
+    <item key="FrmUserResourcePermission_colSelected">選擇</item>
+    <item key="FrmUserResourcePermission_colRealName">名稱</item>
+    <item key="FrmUserResourcePermission_colDescription">描述</item>
+    <item key="FrmUserResourcePermission_cmnuSelectAll">全選</item>
+    <item key="FrmUserResourcePermission_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmUserResourcePermission End -->
+    <!-- RDIFramework.WinModule.FrmDataDictionaryAdmin Begin -->
+    <item key="FrmDataDictionaryAdmin">數據字典管理</item>
+    <item key="FrmDataDictionaryAdmin_lblCategory">字典分類：</item>
+    <item key="FrmDataDictionaryAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmDataDictionaryAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmDataDictionaryAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmDataDictionaryAdmin_btnItemDetail">字典明細</item>
+    <item key="FrmDataDictionaryAdmin_btnExport">導出</item>
+    <item key="FrmDataDictionaryAdmin_btnUserResourcePermission">用戶權限</item>
+    <item key="FrmDataDictionaryAdmin_btnRoleResourcePermission">角色權限</item>
+    <item key="FrmDataDictionaryAdmin_btnClose">關閉</item>
+    <item key="FrmDataDictionaryAdmin_colSelected">選擇</item>
+    <item key="FrmDataDictionaryAdmin_colCode">編號</item>
+    <item key="FrmDataDictionaryAdmin_colFullName">名稱</item>
+    <item key="FrmDataDictionaryAdmin_colEnabled">有效</item>
+    <item key="FrmDataDictionaryAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmDataDictionaryAdmin End -->
+    <!-- RDIFramework.WinModule.FrmEditDataDictionary Begin -->
+    <item key="FrmEditDataDictionary">數據字典編輯</item>
+    <item key="FrmEditDataDictionary_btnSave">保存(&amp;S)</item>
+    <item key="FrmEditDataDictionary_btnSaveContinue">繼續</item>
+    <item key="FrmEditDataDictionary_btnCancel">取消(&amp;C)</item>
+    <item key="FrmEditDataDictionary_btnClose">關閉</item>
+    <item key="FrmEditDataDictionary_lblCode">編號：</item>
+    <item key="FrmEditDataDictionary_lblFullName">名稱：</item>
+    <item key="FrmEditDataDictionary_lblCategory">分類：</item>
+    <item key="FrmEditDataDictionary_lblDescription">描述：</item>
+    <item key="FrmEditDataDictionary_chkEnabled">有效</item>
+    <!-- RDIFramework.WinModule.FrmEditDataDictionary End -->
+    <!-- RDIFramework.WinModule.FrmItemsDetailAdmin Begin -->
+    <item key="FrmItemsDetailAdmin">字典明細</item>
+    <item key="FrmItemsDetailAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmItemsDetailAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmItemsDetailAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmItemsDetailAdmin_btnClose">關閉(&amp;C)</item>
+    <item key="FrmItemsDetailAdmin_colSelected">選擇</item>
+    <item key="FrmItemsDetailAdmin_colItemCode">編號</item>
+    <item key="FrmItemsDetailAdmin_colItemName">名稱</item>
+    <item key="FrmItemsDetailAdmin_colItemValue">值</item>
+    <item key="FrmItemsDetailAdmin_colEnabled">有效</item>
+    <item key="FrmItemsDetailAdmin_colSortCode">順序</item>
+    <item key="FrmItemsDetailAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmItemsDetailAdmin End -->
+    <!-- RDIFramework.WinModule.FrmEditDictionaryDetail Begin -->
+    <item key="FrmEditDictionaryDetail">編輯字典明細</item>
+    <item key="FrmEditDictionaryDetail_btnSave">保存(&amp;S)</item>
+    <item key="FrmEditDictionaryDetail_btnSaveContinue">繼續</item>
+    <item key="FrmEditDictionaryDetail_btnCancel">取消(&amp;C)</item>
+    <item key="FrmEditDictionaryDetail_btnClose">關閉</item>
+    <item key="FrmEditDictionaryDetail_lblItemCode">編號：</item>
+    <item key="FrmEditDictionaryDetail_lblItemName">名稱：</item>
+    <item key="FrmEditDictionaryDetail_lblItemValue">值：</item>
+    <item key="FrmEditDictionaryDetail_lblDescription">描述：</item>
+    <item key="FrmEditDictionaryDetail_chkEnabled">有效</item>
+    <!-- RDIFramework.WinModule.FrmEditDictionaryDetail End -->
+
+    <!-- RDIFramework.WinModule.FrmItemsAdmin Begin -->
+    <item key="FrmItemsAdmin">數據字典管理</item>
+    <item key="FrmItemsAdmin_tabItems">字典項(右鍵操作)</item>
+    <item key="FrmItemsAdmin_mnuAdd">添加</item>
+    <item key="FrmItemsAdmin_mnuEdit">修改</item>
+    <item key="FrmItemsAdmin_mnuDelete">刪除</item>
+    <item key="FrmItemsAdmin_mnuUserPermission">用戶權限</item>
+    <item key="FrmItemsAdmin_mnuRolePermission">角色權限</item>
+    <item key="FrmItemsAdmin_btnAddItemDetail">添加(&amp;A)</item>
+    <item key="FrmItemsAdmin_btnEditItemDetail">修改(&amp;E)</item>
+    <item key="FrmItemsAdmin_btnDeleteItemDetail">刪除(&amp;D)</item>
+    <item key="FrmItemsAdmin_lblCurrentPosition">   當前位置：</item>
+    <item key="FrmItemsAdmin_colSelected">選擇</item>
+    <item key="FrmItemsAdmin_colItemCode">編號</item>
+    <item key="FrmItemsAdmin_colItemName">名稱</item>
+    <item key="FrmItemsAdmin_colItemValue">值</item>
+    <item key="FrmItemsAdmin_colEnabled">有效</item>
+    <item key="FrmItemsAdmin_colSortCode">順序</item>
+    <item key="FrmItemsAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmItemsAdmin End -->
+    <!-- RDIFramework.WinModule.FrmAddItems Begin -->
+    <item key="FrmAddItems">增加數據字典</item>
+    <item key="FrmAddItems_btnSave">保存(&amp;S)</item>
+    <item key="FrmAddItems_btnSaveContinue">繼續</item>
+    <item key="FrmAddItems_btnCancel">取消(&amp;C)</item>
+    <item key="FrmAddItems_btnClose">關閉</item>
+    <item key="FrmAddItems_lblCode">編號：</item>
+    <item key="FrmAddItems_lblFullName">名稱：</item>
+    <item key="FrmAddItems_lblParentId">父節點：</item>
+    <item key="FrmAddItems_lblCategory">分類：</item>
+    <item key="FrmAddItems_lblDescription">描述：</item>
+    <item key="FrmAddItems_chkEnabled">有效</item>
+    <!-- RDIFramework.WinModule.FrmAddItems End -->
+    <!-- RDIFramework.WinModule.FrmEditItems Begin -->
+    <item key="FrmEditItems">編輯數據字典</item>
+    <item key="FrmEditItems_btnSave">保存(&amp;S)</item>
+    <item key="FrmEditItems_btnCancel">取消(&amp;C)</item>
+    <item key="FrmEditItems_btnClose">關閉</item>
+    <item key="FrmEditItems_lblCode">編號：</item>
+    <item key="FrmEditItems_lblFullName">名稱：</item>
+    <item key="FrmEditItems_lblParentId">父節點：</item>
+    <item key="FrmEditItems_lblCategory">分類：</item>
+    <item key="FrmEditItems_lblDescription">描述：</item>
+    <item key="FrmEditItems_chkEnabled">有效</item>
+    <!-- RDIFramework.WinModule.FrmEditItems End -->
+    <!-- RDIFramework.WinModule.FrmAddItemDetail Begin -->
+    <item key="FrmAddItemDetail">增加字典明細</item>
+    <item key="FrmAddItemDetail_btnSave">保存(&amp;S)</item>
+    <item key="FrmAddItemDetail_btnSaveContinue">繼續</item>
+    <item key="FrmAddItemDetail_btnCancel">取消(&amp;C)</item>
+    <item key="FrmAddItemDetail_btnClose">關閉</item>
+    <item key="FrmAddItemDetail_lblItemCode">編號：</item>
+    <item key="FrmAddItemDetail_lblItemName">名稱：</item>
+    <item key="FrmAddItemDetail_lblItemValue">值：</item>
+    <item key="FrmAddItemDetail_lblDescription">描述：</item>
+    <item key="FrmAddItemDetail_chkEnabled">有效</item>
+    <!-- RDIFramework.WinModule.FrmAddItemDetail End -->
+    <!-- RDIFramework.WinModule.FrmEditItemsDetail Begin -->
+    <item key="FrmEditItemsDetail">編輯字典明細</item>
+    <item key="FrmEditItemsDetail_btnSave">保存(&amp;S)</item>
+    <item key="FrmEditItemsDetail_btnSaveContinue">繼續</item>
+    <item key="FrmEditItemsDetail_btnCancel">取消(&amp;C)</item>
+    <item key="FrmEditItemsDetail_btnClose">關閉</item>
+    <item key="FrmEditItemsDetail_lblItemCode">編號：</item>
+    <item key="FrmEditItemsDetail_lblItemName">名稱：</item>
+    <item key="FrmEditItemsDetail_lblItemValue">值：</item>
+    <item key="FrmEditItemsDetail_lblDescription">描述：</item>
+    <item key="FrmEditItemsDetail_chkEnabled">有效</item>
+    <!-- RDIFramework.WinModule.FrmEditItemsDetail End -->
+    
+    <!-- RDIFramework.WinModule.FrmDBLinkAdmin Begin -->
+    <item key="FrmDBLinkAdmin">數據庫連接管理</item>
+    <item key="FrmDBLinkAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmDBLinkAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmDBLinkAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmDBLinkAdmin_btnClose">關閉(&amp;C)</item>
+    <item key="FrmDBLinkAdmin_colSelected">選擇</item>
+    <item key="FrmDBLinkAdmin_colLinkName">連接名稱</item>
+    <item key="FrmDBLinkAdmin_colLinkType">數據庫類型</item>
+    <item key="FrmDBLinkAdmin_colEnabled">有效</item>
+    <item key="FrmDBLinkAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmDBLinkAdmin End -->
+    <!-- RDIFramework.WinModule.FrmDBLinkEdit Begin -->
+    <item key="FrmDBLinkEdit">編輯數據庫連接</item>
+    <item key="FrmDBLinkEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmDBLinkEdit_btnSaveContinue">繼續</item>
+    <item key="FrmDBLinkEdit_btnClose">關閉(&amp;C)</item>
+    <item key="FrmDBLinkEdit_lblLinkName">連接名稱：</item>
+    <item key="FrmDBLinkEdit_lblLinkType">連接類型：</item>
+    <item key="FrmDBLinkEdit_chkEnabled">有效</item>
+    <item key="FrmDBLinkEdit_lblDbLinks">連接字符串：</item>
+    <item key="FrmDBLinkEdit_lblDescription">描述：</item>
+    <item key="FrmDBLinkEdit_lblTip">其他更多類型詳細配置可參考：</item>
+    <!-- RDIFramework.WinModule.FrmDBLinkEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmExceptionAdmin Begin -->
+    <item key="FrmExceptionAdmin">系統異常管理</item>
+    <item key="FrmExceptionAdmin_tabItemSearch">搜索</item>
+    <item key="FrmExceptionAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmExceptionAdmin_lblStartDate">開始時間：</item>
+    <item key="FrmExceptionAdmin_lblEndDate">結束時間：</item>
+    <item key="FrmExceptionAdmin_lblUserName">創建者：</item>
+    <item key="FrmExceptionAdmin_btnQuery">查詢(&amp;Q)</item>
+    <item key="FrmExceptionAdmin_btnViewDetail">查看異常詳情</item>
+    <item key="FrmExceptionAdmin_btnExport">導出</item>
+    <item key="FrmExceptionAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmExceptionAdmin_btnDeleteAll">全部清除</item>
+    <item key="FrmExceptionAdmin_btnClose">關閉(&amp;C)</item>
+    <item key="FrmExceptionAdmin_colSelected">選擇</item>
+    <item key="FrmExceptionAdmin_CreateOn">發生時間</item>
+    <item key="FrmExceptionAdmin_ThreadName">異常信息來源</item>
+    <item key="FrmExceptionAdmin_Message">異常信息</item>
+    <item key="FrmExceptionAdmin_FormattedMessage">異常信息描述</item>
+    <item key="FrmExceptionAdmin_CreateBy">創建者</item>
+    <item key="FrmExceptionAdmin_cmnuSelectAll">全選</item>
+    <item key="FrmExceptionAdmin_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmExceptionAdmin End -->
+    <!-- RDIFramework.WinModule.FrmLogAdmin Begin -->
+    <item key="FrmLogAdmin">系統日誌管理</item>
+    <item key="FrmLogAdmin_tabItemSearch">搜索</item>
+    <item key="FrmLogAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmLogAdmin_lblStartDate">開始時間：</item>
+    <item key="FrmLogAdmin_lblEndDate">結束時間：</item>
+    <item key="FrmLogAdmin_lblUserName">操作用戶：</item>
+    <item key="FrmLogAdmin_lblIpAddress">IP地址：</item>
+    <item key="FrmLogAdmin_btnQuery">查詢(&amp;Q)</item>
+    <item key="FrmLogAdmin_btnExport">導出</item>
+    <item key="FrmLogAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmLogAdmin_btnDeleteAll">全部清除</item>
+    <item key="FrmLogAdmin_btnClose">關閉(&amp;C)</item>
+    <item key="FrmLogAdmin_colSelected">選擇</item>
+    <item key="FrmLogAdmin_colProcessName">模塊</item>
+    <item key="FrmLogAdmin_colUserRealName">操作者</item>
+    <item key="FrmLogAdmin_colCreateOn">訪問時間</item>
+    <item key="FrmLogAdmin_colIPAddress">IP地址</item>
+    <item key="FrmLogAdmin_colMethodName">操作</item>
+    <item key="FrmLogAdmin_colDescription">描述</item>
+    <item key="FrmLogAdmin_cmnuSelectAll">全選</item>
+    <item key="FrmLogAdmin_cmnuInvertSelect">反選</item>
+    <!-- RDIFramework.WinModule.FrmLogAdmin End -->
+    <!-- RDIFramework.WinModule.FrmTableFieldAdmin Begin -->
+    <item key="FrmTableFieldAdmin">表（字段）綜合管理</item>
+    <item key="FrmTableFieldAdmin_lblSearch">查詢：</item>
+    <item key="FrmTableFieldAdmin_btnBatchSave">保存(&amp;S)</item>
+    <item key="FrmTableFieldAdmin_btnSetTablePermission">設置權限控制表</item>
+    <item key="FrmTableFieldAdmin_btnExport">導出(&amp;E)</item>
+    <item key="FrmTableFieldAdmin_btnClose">關閉</item>
+    <item key="FrmTableFieldAdmin_tabItemTableList">數據表</item>
+    <item key="FrmTableFieldAdmin_tabTableFieldList">表字段明細</item>
+    <item key="FrmTableFieldAdmin_colColumnCode">英文名稱</item>
+    <item key="FrmTableFieldAdmin_colDataType">數據類型</item>
+    <item key="FrmTableFieldAdmin_colColumnName">中文名稱</item>
+    <item key="FrmTableFieldAdmin_colIsPublic">公開</item>
+    <item key="FrmTableFieldAdmin_colColumnAccess">訪問權限</item>
+    <item key="FrmTableFieldAdmin_colColumnEdit">編輯權限</item>
+    <item key="FrmTableFieldAdmin_colColumnDeney">拒絕訪問</item>
+    <item key="FrmTableFieldAdmin_colUseConstraint">啟用約束</item>
+    <item key="FrmTableFieldAdmin_colIsSearchColumn">查詢列</item>
+    <item key="FrmTableFieldAdmin_colIsExhibitColumn">展示列</item>
+    <item key="FrmTableFieldAdmin_colAllowEdit">允許編輯</item>
+    <item key="FrmTableFieldAdmin_colAllowDelete">允許刪除</item>
+    <item key="FrmTableFieldAdmin_colEnabled">有效</item>
+    <item key="FrmTableFieldAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmTableFieldAdmin End -->
+    <!-- RDIFramework.WinModule.FrmSetTablePermission Begin -->
+    <item key="FrmSetTablePermission">設置需要做表權限控制的數據表</item>
+    <item key="FrmSetTablePermission_btnAddAll">添加全部</item>
+    <item key="FrmSetTablePermission_btnClose">關閉</item>
+    <item key="FrmSetTablePermission_tabItemToSetTable">待設數據表</item>
+    <item key="FrmSetTablePermission_tabItemTheSelectedTable">已選數據表</item>
+    <item key="FrmSetTablePermission_btnAdd">添加(&amp;A)</item>
+    <item key="FrmSetTablePermission_btnRemove">刪除(&amp;R)</item>
+    <!-- RDIFramework.WinModule.FrmSetTablePermission End -->
+
+    <!-- RDIFramework.WinModule.FrmSequenceAdmin Begin -->
+    <item key="FrmSequenceAdmin">序列管理</item>
+    <item key="FrmSequenceAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmSequenceAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmSequenceAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmSequenceAdmin_btnExport">導出</item>
+    <item key="FrmSequenceAdmin_btnClose">關閉</item>
+    <item key="FrmSequenceAdmin_colSelected">選擇</item>
+    <item key="FrmSequenceAdmin_colFullName">名稱</item>
+    <item key="FrmSequenceAdmin_colPrefix">前綴</item>
+    <item key="FrmSequenceAdmin_colSeparate">分隔符</item>
+    <item key="FrmSequenceAdmin_colSequence">增序列</item>
+    <item key="FrmSequenceAdmin_colReduction">減序列</item>
+    <item key="FrmSequenceAdmin_colStep">步驟</item>
+    <item key="FrmSequenceAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmSequenceAdmin End -->
+    
+    <!-- RDIFramework.WinModule.FrmSequenceAdd Begin -->
+    <item key="FrmSequenceAdd">新增序列</item>
+    <item key="FrmSequenceAdd_btnSave">保存(&amp;S)</item>
+    <item key="FrmSequenceAdd_btnClose">關閉(&amp;C)</item>
+    <item key="FrmSequenceAdd_lblFullName">名  稱：</item>
+    <item key="FrmSequenceAdd_lblPrefix">前  綴：</item>
+    <item key="FrmSequenceAdd_lblSeparate">分隔符：</item>
+    <item key="FrmSequenceAdd_lblSequence">增序列：</item>
+    <item key="FrmSequenceAdd_lblReduction">減序列：</item>
+    <item key="FrmSequenceAdd_lblStep">步  驟：</item>
+    <item key="FrmSequenceAdd_lblDescription">描  述：</item>
+    <!-- RDIFramework.WinModule.FrmSequenceAdd End -->
+    
+    <!-- RDIFramework.WinModule.FrmSequenceEdit Begin -->
+    <item key="FrmSequenceEdit">編輯序列</item>
+    <item key="FrmSequenceEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmSequenceEdit_btnClose">關閉(&amp;C)</item>
+    <item key="FrmSequenceEdit_lblFullName">名  稱：</item>
+    <item key="FrmSequenceEdit_lblPrefix">前  綴：</item>
+    <item key="FrmSequenceEdit_lblSeparate">分隔符：</item>
+    <item key="FrmSequenceEdit_lblSequence">增序列：</item>
+    <item key="FrmSequenceEdit_lblReduction">減序列：</item>
+    <item key="FrmSequenceEdit_lblStep">步  驟：</item>
+    <item key="FrmSequenceEdit_lblDescription">描  述：</item>
+    <!-- RDIFramework.WinModule.FrmSequenceEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmParameterAdmin Begin -->
+    <item key="FrmParameterAdmin">系統參數管理</item>
+    <item key="FrmParameterAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmParameterAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmParameterAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmParameterAdmin_btnExport">導出</item>
+    <item key="FrmParameterAdmin_btnClose">關閉</item>
+    <item key="FrmParameterAdmin_colSelected">選擇</item>
+    <item key="FrmParameterAdmin_colCategoryKey">分類鍵</item>
+    <item key="FrmParameterAdmin_colParameterId">參數主鍵</item>
+    <item key="FrmParameterAdmin_colParameterCode">參數編號</item>
+    <item key="FrmParameterAdmin_colParameterContent">參數內容</item>
+    <item key="FrmParameterAdmin_colEnabled">有效</item>
+    <item key="FrmParameterAdmin_colAllowEdit">允許編輯</item>
+    <item key="FrmParameterAdmin_colAllowDelete">允許刪除</item>
+    <item key="FrmParameterAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmParameterAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmParameterAdd Begin -->
+    <item key="FrmParameterAdd">新增系統參數</item>
+    <item key="FrmParameterAdd_btnSave">保存(&amp;S)</item>
+    <item key="FrmParameterAdd_btnClose">關閉(&amp;C)</item>
+    <item key="FrmParameterAdd_gbDetail">基本信息</item>
+    <item key="FrmParameterAdd_lblCategoryKey">分類鍵值：</item>
+    <item key="FrmParameterAdd_lblParameterId">參數主鍵：</item>
+    <item key="FrmParameterAdd_lblParameterCode">參數編號：</item>
+    <item key="FrmParameterAdd_lblParameterContent">參數內容：</item>
+    <item key="FrmParameterAdd_lblOptionSet">選項設置：</item>
+    <item key="FrmParameterAdd_chkEnabled">有效</item>
+    <item key="FrmParameterAdd_chkAllowEdit">允許編輯</item>
+    <item key="FrmParameterAdd_chkAllowDelete">允許刪除</item>
+    <item key="FrmParameterAdd_lblDescription">描  述：</item>
+    <!-- RDIFramework.WinModule.FrmParameterAdd End -->
+
+    <!-- RDIFramework.WinModule.FrmParameterEdit Begin -->
+    <item key="FrmParameterEdit">編輯系統參數</item>
+    <item key="FrmParameterEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmParameterEdit_btnClose">關閉(&amp;C)</item>
+    <item key="FrmParameterEdit_gbDetail">基本信息</item>
+    <item key="FrmParameterEdit_lblCategoryKey">分類鍵值：</item>
+    <item key="FrmParameterEdit_lblParameterId">分類主鍵：</item>
+    <item key="FrmParameterEdit_lblParameterCode">參數編號：</item>
+    <item key="FrmParameterEdit_lblParameterContent">參數內容：</item>
+    <item key="FrmParameterEdit_lblOptionSet">選項設置：</item>
+    <item key="FrmParameterEdit_chkEnabled">有效</item>
+    <item key="FrmParameterEdit_chkAllowEdit">允許編輯</item>
+    <item key="FrmParameterEdit_chkAllowDelete">允許刪除</item>
+    <item key="FrmParameterEdit_lblDescription">描  述：</item>
+    <!-- RDIFramework.WinModule.FrmParameterEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineAdmin Begin -->
+    <item key="FrmQueryEngineAdmin">查詢引擎管理</item>
+    <item key="FrmQueryEngineAdmin_tabItemQueryEngineTree">查詢引擎樹</item>
+    <item key="FrmQueryEngineAdmin_tabItemSearch">搜索</item>
+    <item key="FrmQueryEngineAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmQueryEngineAdmin_lblSearchValue">搜索內容：</item>
+    <item key="FrmQueryEngineAdmin_rbCustomerExactSearch">精確</item>
+    <item key="FrmQueryEngineAdmin_rbCustomerLikeSearch">模糊</item>
+    <item key="FrmQueryEngineAdmin_btnSearch">搜索</item>
+    <item key="FrmQueryEngineAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmQueryEngineAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmQueryEngineAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmQueryEngineAdmin_btnClose">關閉</item>
+    <item key="FrmQueryEngineAdmin_lblCurrentPosition">   當前位置：</item>
+    <item key="FrmQueryEngineAdmin_colSelected">選擇</item>
+    <item key="FrmQueryEngineAdmin_colFullName">名稱</item>
+    <item key="FrmQueryEngineAdmin_colCode">編號</item>
+    <item key="FrmQueryEngineAdmin_colEnabled">有效</item>
+    <item key="FrmQueryEngineAdmin_colAllowEdit">可編輯</item>
+    <item key="FrmQueryEngineAdmin_colAllowDelete">可刪除</item>
+    <item key="FrmQueryEngineAdmin_colDescription">描述</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineAdd Begin -->
+    <item key="FrmQueryEngineAdd">添加查詢引擎</item>
+    <item key="FrmQueryEngineAdd_btnSave">保存(&amp;S)</item>
+    <item key="FrmQueryEngineAdd_btnClose">關閉(&amp;C)</item>
+    <item key="FrmQueryEngineAdd_lblParent">父節點：</item>
+    <item key="FrmQueryEngineAdd_lblCode">編號</item>
+    <item key="FrmQueryEngineAdd_lblFullName">名稱：</item>
+    <item key="FrmQueryEngineAdd_chkEnabled">有效</item>
+    <item key="FrmQueryEngineAdd_chkAllowEdit">允許編輯</item>
+    <item key="FrmQueryEngineAdd_chkAllowDelete">允許刪除</item>
+    <item key="FrmQueryEngineAdd_lblDescription">描  述：</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineAdd End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineEdit Begin -->
+    <item key="FrmQueryEngineEdit">編輯查詢引擎</item>
+    <item key="FrmQueryEngineEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmQueryEngineEdit_btnClose">關閉(&amp;C)</item>
+    <item key="FrmQueryEngineEdit_lblParent">父節點：</item>
+    <item key="FrmQueryEngineEdit_lblCode">編號</item>
+    <item key="FrmQueryEngineEdit_lblFullName">名稱：</item>
+    <item key="FrmQueryEngineEdit_chkEnabled">有效</item>
+    <item key="FrmQueryEngineEdit_chkAllowEdit">允許編輯</item>
+    <item key="FrmQueryEngineEdit_chkAllowDelete">允許刪除</item>
+    <item key="FrmQueryEngineEdit_lblDescription">描  述：</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineEdit End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineAdmin Begin -->
+    <item key="FrmQueryEngineDefineAdmin">查詢引擎定義</item>
+    <item key="FrmQueryEngineDefineAdmin_tabItemQueryEngineTree">查詢引擎樹</item>
+    <item key="FrmQueryEngineDefineAdmin_tabItemSearch">搜索</item>
+    <item key="FrmQueryEngineDefineAdmin_gbCustomSearch">常規搜索</item>
+    <item key="FrmQueryEngineDefineAdmin_lblSearchValue">搜索內容：</item>
+    <item key="FrmQueryEngineDefineAdmin_rbCustomerExactSearch">精確</item>
+    <item key="FrmQueryEngineDefineAdmin_rbCustomerLikeSearch">模糊</item>
+    <item key="FrmQueryEngineDefineAdmin_btnSearch">搜索</item>
+    <item key="FrmQueryEngineDefineAdmin_btnAdd">添加(&amp;A)</item>
+    <item key="FrmQueryEngineDefineAdmin_btnEdit">修改(&amp;E)</item>
+    <item key="FrmQueryEngineDefineAdmin_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmQueryEngineDefineAdmin_btnPreviewData">預覽數據(&amp;P)</item>
+    <item key="FrmQueryEngineDefineAdmin_mnuSplitShow">分隔顯示</item>
+    <item key="FrmQueryEngineDefineAdmin_mnuShoEngineList">顯示數據引擎列表</item>
+    <item key="FrmQueryEngineDefineAdmin_mnuShowDataSampleList">顯示數據樣例列表</item>
+    <item key="FrmQueryEngineDefineAdmin_mnuShoAll">全部顯示</item>
+    <item key="FrmQueryEngineDefineAdmin_btnClose">關閉</item>
+    <item key="FrmQueryEngineDefineAdmin_lblCurrentPosition">   當前位置：</item>
+    <item key="FrmQueryEngineDefineAdmin_colSelected">選擇</item>
+    <item key="FrmQueryEngineDefineAdmin_colCode">編號</item>
+    <item key="FrmQueryEngineDefineAdmin_colFullName">名稱</item>
+    <item key="FrmQueryEngineDefineAdmin_colLINKNAME_CHS">連接名稱</item>
+    <item key="FrmQueryEngineDefineAdmin_colDATASOURCETYPE">數據源類型</item>
+    <item key="FrmQueryEngineDefineAdmin_colDATASOURCENAME">數據源名稱</item>
+    <item key="FrmQueryEngineDefineAdmin_colEnabled">有效</item>
+    <item key="FrmQueryEngineDefineAdmin_colAllowEdit">可編輯</item>
+    <item key="FrmQueryEngineDefineAdmin_colAllowDelete">可刪除</item>
+    <item key="FrmQueryEngineDefineAdmin_colSORTCODE">排序</item>
+    <item key="FrmQueryEngineDefineAdmin_colDescription">描述</item>
+    <item key="FrmQueryEngineDefineAdmin_tabItemQueryEngineList">查詢引擎列表</item>
+    <item key="FrmQueryEngineDefineAdmin_tabItemDataSample">數據樣例</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineAdmin End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineAdd Begin -->
+    <item key="FrmQueryEngineDefineAdd">添加查詢引擎定義</item>
+    <item key="FrmQueryEngineDefineAdd_btnSave">保存(&amp;S)</item>
+    <item key="FrmQueryEngineDefineAdd_btnClose">關閉(&amp;C)</item>
+    <item key="FrmQueryEngineDefineAdd_lblParent">查詢引擎：</item>
+    <item key="FrmQueryEngineDefineAdd_lblCode">編號：</item>
+    <item key="FrmQueryEngineDefineAdd_lblFullName">名稱：</item>
+    <item key="FrmQueryEngineDefineAdd_lblDataBaseLinkName">連接名稱：</item>
+    <item key="FrmQueryEngineDefineAdd_lblDataSourceType">取值：</item>
+    <item key="FrmQueryEngineDefineAdd_lblDataSourceName">數據表名稱：</item>
+    <item key="FrmQueryEngineDefineAdd_lblQueryStringKey">查詢主鍵：</item>
+    <item key="FrmQueryEngineDefineAdd_lblQueryString">查詢語句：</item>
+    <item key="FrmQueryEngineDefineAdd_lblSelectedField">字段列表：</item>
+    <item key="FrmQueryEngineDefineAdd_lblOrderByField">排序字段：</item>
+    <item key="FrmQueryEngineDefineAdd_chkEnabled">有效</item>
+    <item key="FrmQueryEngineDefineAdd_chkAllowEdit">允許編輯</item>
+    <item key="FrmQueryEngineDefineAdd_chkAllowDelete">允許刪除</item>
+    <item key="FrmQueryEngineDefineAdd_lblDescription">描  述：</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineAdd End -->
+
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineEdit Begin -->
+    <item key="FrmQueryEngineDefineEdit">修改查詢引擎定義</item>
+    <item key="FrmQueryEngineDefineEdit_btnSave">保存(&amp;S)</item>
+    <item key="FrmQueryEngineDefineEdit_btnClose">關閉(&amp;C)</item>
+    <item key="FrmQueryEngineDefineEdit_lblParent">查詢引擎：</item>
+    <item key="FrmQueryEngineDefineEdit_lblCode">編號：</item>
+    <item key="FrmQueryEngineDefineEdit_lblFullName">名稱：</item>
+    <item key="FrmQueryEngineDefineEdit_lblDataBaseLinkName">連接名稱：</item>
+    <item key="FrmQueryEngineDefineEdit_lblDataSourceType">取值：</item>
+    <item key="FrmQueryEngineDefineEdit_lblDataSourceName">數據表名稱：</item>
+    <item key="FrmQueryEngineDefineEdit_lblQueryStringKey">查詢主鍵：</item>
+    <item key="FrmQueryEngineDefineEdit_lblQueryString">查詢語句：</item>
+    <item key="FrmQueryEngineDefineEdit_lblSelectedField">字段列表：</item>
+    <item key="FrmQueryEngineDefineEdit_lblOrderByField">排序字段：</item>
+    <item key="FrmQueryEngineDefineEdit_chkEnabled">有效</item>
+    <item key="FrmQueryEngineDefineEdit_chkAllowEdit">允許編輯</item>
+    <item key="FrmQueryEngineDefineEdit_chkAllowDelete">允許刪除</item>
+    <item key="FrmQueryEngineDefineEdit_lblDescription">描  述：</item>
+    <!-- RDIFramework.WinModule.FrmQueryEngineDefineEdit End -->
+    
+    <!-- RDIFramework.WinModule End -->
+
+
+    <!--RDIFramework.WorkFlow Begin -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowDesigner Begin -->
+    <item key="FrmWorkFlowDesigner">工作流程設計</item>
+    <item key="FrmWorkFlowDesigner_tabItemClassTree">分類樹</item>
+    <item key="FrmWorkFlowDesigner_btnWorkFlowDesigner">工作流程圖形展示區</item>
+    <item key="FrmWorkFlowDesigner_newclassToolStripMenuItem">新建分類</item>
+    <item key="FrmWorkFlowDesigner_updateclassToolStripMenuItem">修改分類</item>
+    <item key="FrmWorkFlowDesigner_delclassToolStripMenuItem">刪除分類</item>
+    <item key="FrmWorkFlowDesigner_newWftoolStripMenuItem1">新建流程</item>
+    <item key="FrmWorkFlowDesigner_updateWftoolStripMenuItem2">修改流程</item>
+    <item key="FrmWorkFlowDesigner_wfExportToolStripMenuItem">流程導出</item>
+    <item key="FrmWorkFlowDesigner_moveWfclsToolStripMenuItem">移動分類</item>
+    <item key="FrmWorkFlowDesigner_delWftoolStripMenuItem3">刪除流程</item>
+    <item key="FrmWorkFlowDesigner_UsedToolStripMenuItem">啟用</item>
+    <item key="FrmWorkFlowDesigner_unUsedToolStripMenuItem">禁用</item>
+    <item key="FrmWorkFlowDesigner_wfinputToolStripMenuItem">流程導入</item>
+    <!-- RDIFramework.WorkFlow.FrmWorkFlowDesigner End -->
+    <!--RDIFramework.WorkFlow.FrmAddWorkFlow Begin -->
+    <item key="FrmAddWorkFlow">信息維護</item>
+    <item key="FrmAddWorkFlow_gbBaseInfo">基本信息</item>
+    <item key="FrmAddWorkFlow_lblWorkFlowClass">流程分類：</item>
+    <item key="FrmAddWorkFlow_lblWorkFlowCaption">流程名稱：</item>
+    <item key="FrmAddWorkFlow_chkStatus">啟用</item>
+    <item key="FrmAddWorkFlow_lblWorkFlowDescription">流程描述：</item>
+    <item key="FrmAddWorkFlow_btnSave">保存(&amp;S)</item>
+    <item key="FrmAddWorkFlow_btnClose">關閉(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmAddWorkFlow End -->
+    <!--RDIFramework.WorkFlow.FrmSelectClass Begin -->
+    <item key="FrmSelectClass">選擇分類</item>
+    <item key="FrmSelectClass_lblWorkFlowClass">流程分類：</item>
+    <item key="FrmSelectClass_btnSave">確定(&amp;O)</item>
+    <item key="FrmSelectClass_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectClass End -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowClass Begin -->
+    <item key="FrmWorkFlowClass">流程分類</item>
+    <item key="FrmWorkFlowClass_gbBaseInfo">基本信息</item>
+    <item key="FrmWorkFlowClass_lblSuperClass">上級分類：</item>
+    <item key="FrmWorkFlowClass_lblClassName">分類名稱：</item>
+    <item key="FrmWorkFlowClass_lblClassLevel">分類級別：</item>
+    <item key="FrmWorkFlowClass_gbOtherInfo">其他信息</item>
+    <item key="FrmWorkFlowClass_lblClassDescription">分類描述：</item>
+    <item key="FrmWorkFlowClass_btnSave">保存(&amp;S)</item>
+    <item key="FrmWorkFlowClass_btnClose">關閉(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmWorkFlowClass End -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowExport Begin -->
+    <item key="FrmWorkFlowExport">流程導出</item>
+    <item key="FrmWorkFlowExport_gbOne">第壹步：導出到文件</item>
+    <item key="FrmWorkFlowExport_btnFilePath">瀏覽(&amp;B)</item>
+    <item key="FrmWorkFlowExport_rbtnAll">導出全部(&amp;B包含表單)</item>
+    <item key="FrmWorkFlowExport_rbtnWorkFlow">只導出原形(&amp;A不含表單)</item>
+    <item key="FrmWorkFlowExport_gbxReult">第二步：執行導出</item>
+    <item key="FrmWorkFlowExport_btnExport">導出(&amp;E)</item>
+    <item key="FrmWorkFlowExport_btnClose">關閉(&amp;C)</item>
+    <item key="FrmWorkFlowExport_lbStep">導出進度...</item>
+    <!--RDIFramework.WorkFlow.FrmWorkFlowExport End -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowImport Begin -->
+    <item key="FrmWorkFlowImport">流程導入</item>
+    <item key="FrmWorkFlowImport_gbxOne">第壹步：從文件導入</item>
+    <item key="FrmWorkFlowImport_btnFilePath">瀏覽(&amp;B)</item>
+    <item key="FrmWorkFlowImport_rbtnAll">導入全部(&amp;B包含表單)</item>
+    <item key="FrmWorkFlowImport_rbtnWorkFlow">只導入原形(&amp;A不含表單)</item>
+    <item key="FrmWorkFlowImport_rdbtNewWorkFlow">只導入原形(&amp;N新建)</item>
+    <item key="FrmWorkFlowImport_gbxReult">第二步：執行導入</item>
+    <item key="FrmWorkFlowImport_btnInput">導入(&amp;E)</item>
+    <item key="FrmWorkFlowImport_btnClose">關閉(&amp;C)</item>
+    <item key="FrmWorkFlowImport_lbStep">導入進度...</item>
+    <!--RDIFramework.WorkFlow.FrmWorkFlowImport End -->
+    <!--RDIFramework.WorkFlow.FrmAddCommands Begin -->
+    <item key="FrmAddCommands">任務命令</item>
+    <item key="FrmAddCommands_gbProcessCommand">處理命令</item>
+    <item key="FrmAddCommands_lblCommandName">命令名：</item>
+    <item key="FrmAddCommands_lblDescription">描述：</item>
+    <item key="FrmAddCommands_btnSave">確定(&amp;O)</item>
+    <item key="FrmAddCommands_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmAddCommands End -->
+    <!--RDIFramework.WorkFlow.FrmAlterNode Begin -->
+    <item key="FrmAlterNode">交互節點配置</item>
+    <item key="FrmAlterNode_tabItemGeneral">常規</item>
+    <item key="FrmAlterNode_lblTaskName">任務名稱：</item>
+    <item key="FrmAlterNode_lblFormName">表單名稱：</item>
+    <item key="FrmAlterNode_lblTaskDescription">任務描述：</item>
+    <item key="FrmAlterNode_lblProcess">處理：</item>
+    <item key="FrmAlterNode_btnAddcmd">增加...</item>
+    <item key="FrmAlterNode_btnModifycmd">修改...</item>
+    <item key="FrmAlterNode_btnDeletecmd">刪除</item>
+    <item key="FrmAlterNode_btnSave">確定(&amp;S)</item>
+    <item key="FrmAlterNode_btnClose">關閉(&amp;C)</item>
+    <item key="FrmAlterNode_tabItemOperator">處理者</item>
+    <item key="FrmAlterNode_gbOperatorStrategy">處理者策略</item>
+    <item key="FrmAlterNode_rbtShareUser">任意用戶處理</item>
+    <item key="FrmAlterNode_rbtEveryUser">所有用戶處理（會簽）</item>
+    <item key="FrmAlterNode_lblOperator">處理者：</item>
+    <item key="FrmAlterNode_btnAddOpr">增加...</item>
+    <item key="FrmAlterNode_btnModifyOpr">修改...</item>
+    <item key="FrmAlterNode_btnDeleteOpr">刪除</item>
+    <item key="FrmAlterNode_cbxJumpSelf">處理者是提交人則跳過本處理</item>
+    <item key="FrmAlterNode_chkJumpNoOperator">無對應處理人則跳過本處理</item>
+    <item key="FrmAlterNode_tabItemTaskVariable">任務變量</item>
+    <item key="FrmAlterNode_btnAddVar">增加...</item>
+    <item key="FrmAlterNode_btnModifyVar">修改...</item>
+    <item key="FrmAlterNode_btnDeleteVar">刪除</item>
+    <item key="FrmAlterNode_tabItemControlPermission">控制權限</item>
+    <item key="FrmAlterNode_cbxReturn">允許退回</item>
+    <item key="FrmAlterNode_cbxAssign">允許指派他人處理</item>
+    <item key="FrmAlterNode_cbxDyAssignNext">允許動態指定下壹任務處理人</item>
+    <item key="FrmAlterNode_cbxReturnry">允許任意退回</item>
+    <item key="FrmAlterNode_tabItemTimeOut">超時設置</item>
+    <item key="FrmAlterNode_gbTimeOutSet">超時設置</item>
+    <item key="FrmAlterNode_chkEnableTimeOut">啟用超時</item>
+    <item key="FrmAlterNode_lblNotice">說明:設置完成任務所需要的時間。</item>
+    <item key="FrmAlterNode_gbTimeOutProcess">超時處理</item>
+    <item key="FrmAlterNode_rbRemain">保留本節點處理</item>
+    <item key="FrmAlterNode_rbOver">跳過本節點處理</item>
+    <item key="FrmAlterNode_tabItemTaskNotice">任務通知</item>
+    <item key="FrmAlterNode_gbTimeoutNotice">超時通知</item>
+    <item key="FrmAlterNode_cbxOtMessage">即時消息通知</item>
+    <item key="FrmAlterNode_cbxOtSms">手機短信通知</item>
+    <item key="FrmAlterNode_cbxOtMail">郵件通知</item>
+    <item key="FrmAlterNode_lblNoticeUsers">同時通知下列人員：</item>
+    <item key="FrmAlterNode_btnOtAdd">增加</item>
+    <item key="FrmAlterNode_btnOtDelete">刪除</item>
+    <item key="FrmAlterNode_gbArriveNotice">到達通知</item>
+    <item key="FrmAlterNode_cbxRmMessage">即時消息通知</item>
+    <item key="FrmAlterNode_cbxRmSms">手機短信通知</item>
+    <item key="FrmAlterNode_cbxRmMail">郵件通知</item>
+    <item key="FrmAlterNode_lblArriveNoticeUsers">同時通知下列人員：</item>
+    <item key="FrmAlterNode_btnRmAdd">增加</item>
+    <item key="FrmAlterNode_btnRmDelete">刪除</item>
+    <!--RDIFramework.WorkFlow.FrmAlterNode End -->
+    <!--RDIFramework.WorkFlow.FrmJudgeNode Begin -->
+    <item key="FrmJudgeNode">控制節點配置</item>
+    <item key="FrmJudgeNode_lblTaskName">名稱：</item>
+    <item key="FrmJudgeNode_gbJudgeType">判斷類型</item>
+    <item key="FrmJudgeNode_rbtAnd">與(and)</item>
+    <item key="FrmJudgeNode_rbtOr">或(or)</item>
+    <item key="FrmJudgeNode_btnSave">確定(&amp;O)</item>
+    <item key="FrmJudgeNode_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmJudgeNode End -->
+    <!--RDIFramework.WorkFlow.FrmLinkConfig Begin -->
+    <item key="FrmLinkConfig">連線配置</item>
+    <item key="FrmLinkConfig_gbCommandPriority">命令優先級</item>
+    <item key="FrmLinkConfig_lblCommandPriorityTip">(優先級由高到低0,1,2,3...)</item>
+    <item key="FrmLinkConfig_gbExpressConfig">表達式配置</item>
+    <item key="FrmLinkConfig_btnVarChoose">變量選擇</item>
+    <item key="FrmLinkConfig_lblOperator">運算符：</item>
+    <item key="FrmLinkConfig_lblExpress">表達式：</item>
+    <item key="FrmLinkConfig_lblDescription">備註說明</item>
+    <item key="FrmLinkConfig_btnSave">保存(&amp;S)</item>
+    <item key="FrmLinkConfig_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmLinkConfig End -->
+    <!--RDIFramework.WorkFlow.FrmOperator Begin -->
+    <item key="FrmOperator">增加處理者</item>
+    <item key="FrmOperator_gbOperator">人員</item>
+    <item key="FrmOperator_rbtOpr1">流程啟動者</item>
+    <item key="FrmOperator_rbtOpr2">某壹任務實際執行者</item>
+    <item key="FrmOperator_rbtOpr3">指定人員</item>
+    <item key="FrmOperator_rbtOpr4">部門</item>
+    <item key="FrmOperator_rbtOpr5">角色</item>
+    <item key="FrmOperator_rbtOpr6">崗位</item>
+    <item key="FrmOperator_rbtOpr7">從變量中獲取</item>
+    <item key="FrmOperator_rbtOpr9">所有人</item>
+    <item key="FrmOperator_rbtOpr8">某壹任務選擇的處理者</item>
+    <item key="FrmOperator_cbxRelation">與處理者的關系和篩選</item>
+    <item key="FrmOperator_rbtRlt1">本部門領導</item>
+    <item key="FrmOperator_rbtRlt2">所在部門</item>
+    <item key="FrmOperator_rbtRlt3">上級部門</item>
+    <item key="FrmOperator_rbtRlt4">下級部門</item>
+    <item key="FrmOperator_rbtRlt5">上級領導</item>
+    <item key="FrmOperator_rbtRlt6">下級領導</item>
+    <item key="FrmOperator_gbIncludeOrExclude">包含或排除</item>
+    <item key="FrmOperator_rbtInclude">包含</item>
+    <item key="FrmOperator_rbtExclude">排除</item>
+    <item key="FrmOperator_btnSave">確定(&amp;O)</item>
+    <item key="FrmOperator_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmOperator End -->
+    <!--RDIFramework.WorkFlow.FrmSelectArch Begin -->
+    <item key="FrmSelectArch">選擇部門</item>
+    <item key="FrmSelectArch_lblSelectDepartment">請選擇部門：</item>
+    <item key="FrmSelectArch_btnSave">確定(&amp;O)</item>
+    <item key="FrmSelectArch_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectArch End -->
+    <!--RDIFramework.WorkFlow.FrmSelectGroup Begin -->
+    <item key="FrmSelectGroup">選擇角色</item>
+    <item key="FrmSelectGroup_btnSave">確定(&amp;O)</item>
+    <item key="FrmSelectGroup_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectGroup End -->
+    <!--RDIFramework.WorkFlow.FrmSelectMainUserCtrl Begin -->
+    <item key="FrmSelectMainUserCtrl">選擇主表單</item>
+    <item key="FrmSelectMainUserCtrl_lblFormName">表單名稱：</item>
+    <item key="FrmSelectMainUserCtrl_btnSearch">查詢</item>
+    <item key="FrmSelectMainUserCtrl_btnNew">新建</item>
+    <item key="FrmSelectMainUserCtrl_btnModify">修改</item>
+    <item key="FrmSelectMainUserCtrl_btnSave">確定(&amp;O)</item>
+    <item key="FrmSelectMainUserCtrl_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectMainUserCtrl End -->
+    <!--RDIFramework.WorkFlow.FrmSelectTaskOperUser Begin -->
+    <item key="FrmSelectTaskOperUser">選擇任務</item>
+    <item key="FrmSelectTaskOperUser_btnSave">確定(&amp;O)</item>
+    <item key="FrmSelectTaskOperUser_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectTaskOperUser End -->
+    <!--RDIFramework.WorkFlow.FrmSelectUser Begin -->
+    <item key="FrmSelectUser">選擇用戶</item>
+    <item key="FrmSelectUser_lblAccount">帳號：</item>
+    <item key="FrmSelectUser_lblUserName">姓名：</item>
+    <item key="FrmSelectUser_btnSearch">查詢</item>
+    <item key="FrmSelectUser_btnSave">確定(&amp;O)</item>
+    <item key="FrmSelectUser_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectUser End -->
+    <!--RDIFramework.WorkFlow.FrmSelectVar Begin -->
+    <item key="FrmSelectVar">選擇變量</item>
+    <item key="FrmSelectVar_btnSave">確定(&amp;O)</item>
+    <item key="FrmSelectVar_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectVar End -->
+    <!--RDIFramework.WorkFlow.FrmSelectWorkFlow Begin -->
+    <item key="FrmSelectWorkFlow">選擇流程</item>
+    <item key="FrmSelectWorkFlow_lblFlowName">流程名：</item>
+    <item key="FrmSelectWorkFlow_btnSearch">查詢</item>
+    <item key="FrmSelectWorkFlow_btnSave">確定(&amp;O)</item>
+    <item key="FrmSelectWorkFlow_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectWorkFlow End -->
+    <!--RDIFramework.WorkFlow.FrmStartNode Begin -->
+    <item key="FrmStartNode">啟動節點</item>
+    <item key="FrmStartNode_tabItemGeneral">常規</item>
+    <item key="FrmStartNode_lblTaskName">任務名稱:</item>
+    <item key="FrmStartNode_lblFormName">表單名:</item>
+    <item key="FrmStartNode_lblTaskDescription">任務描述:</item>
+    <item key="FrmStartNode_lblProcess">處理:</item>
+    <item key="FrmStartNode_btnAddcmd">增加...</item>
+    <item key="FrmStartNode_btnModifycmd">修改...</item>
+    <item key="FrmStartNode_btnDeletecmd">刪除</item>
+    <item key="FrmStartNode_btnSave">確定(&amp;O)</item>
+    <item key="FrmStartNode_btnClose">關閉(&amp;C)</item>
+    <item key="FrmStartNode_tabItemOperator">處理者</item>
+    <item key="FrmStartNode_gbOperatorStrategy">處理者策略</item>
+    <item key="FrmStartNode_rbtShareUser">任意用戶處理</item>
+    <item key="FrmStartNode_rbtEveryUser">所有用戶處理（會簽）</item>
+    <item key="FrmStartNode_lblOperator">處理者：</item>
+    <item key="FrmStartNode_btnAddOpr">增加...</item>
+    <item key="FrmStartNode_btnModifyOpr">修改...</item>
+    <item key="FrmStartNode_btnDeleteOpr">刪除</item>
+    <item key="FrmStartNode_tabItemTaskVariable">任務變量</item>
+    <!--RDIFramework.WorkFlow.FrmStartNode End -->
+    <!--RDIFramework.WorkFlow.FrmSubWorkFlowNode Begin -->
+    <item key="FrmSubWorkFlowNode">子流程節點配置</item>
+    <item key="FrmSubWorkFlowNode_tabItemGeneral">常規</item>
+    <item key="FrmSubWorkFlowNode_lblSubFlowName">子流程名稱:</item>
+    <item key="FrmSubWorkFlowNode_lblStartNode">啟動節點:</item>
+    <item key="FrmSubWorkFlowNode_lblTaskDescription">任務描述:</item>
+    <item key="FrmSubWorkFlowNode_btnSave">確定(&amp;O)</item>
+    <item key="FrmSubWorkFlowNode_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmSubWorkFlowNode End -->
+    <!--RDIFramework.WorkFlow.FrmTaskVar Begin -->
+    <item key="FrmTaskVar">任務變量</item>
+    <item key="FrmTaskVar_lblVarName">變量名稱:</item>
+    <item key="FrmTaskVar_lblVarType">變量類型:</item>
+    <item key="FrmTaskVar_lblInitValue">初始值:</item>
+    <item key="FrmTaskVar_lblVarModel">變量模式:</item>
+    <item key="FrmTaskVar_lblAccessType">訪問類型:</item>
+    <item key="FrmTaskVar_lblDataBase">數據庫:</item>
+    <item key="FrmTaskVar_lblTableName">表名:</item>
+    <item key="FrmTaskVar_lblTableField">表字段:</item>
+    <item key="FrmTaskVar_lblSortField">排序字段:</item>
+    <item key="FrmTaskVar_lblDesc">--倒序</item>
+    <item key="FrmTaskVar_btnTest">測試連接</item>
+    <item key="FrmTaskVar_btnSave">確定(&amp;O)</item>
+    <item key="FrmTaskVar_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmTaskVar End -->
+    <!--RDIFramework.WorkFlow.FrmViewTaskNode Begin -->
+    <item key="FrmViewTaskNode">查看節點配置</item>
+    <item key="FrmViewTaskNode_tabItemGeneral">常規</item>
+    <item key="FrmViewTaskNode_lblTaskName">任務名稱：</item>
+    <item key="FrmViewTaskNode_lblFormName">表單名稱：</item>
+    <item key="FrmViewTaskNode_lblTaskDescription">任務描述：</item>
+    <item key="FrmViewTaskNode_lblProcess">處理：</item>
+    <item key="FrmViewTaskNode_btnAddcmd">增加...</item>
+    <item key="FrmViewTaskNode_btnModifycmd">修改...</item>
+    <item key="FrmViewTaskNode_btnDeletecmd">刪除</item>
+    <item key="FrmViewTaskNode_btnSave">確定(&amp;S)</item>
+    <item key="FrmViewTaskNode_btnClose">關閉(&amp;C)</item>
+    <item key="FrmViewTaskNode_tabItemOperator">處理者</item>
+    <item key="FrmViewTaskNode_gbOperatorStrategy">處理者策略</item>
+    <item key="FrmViewTaskNode_rbtShareUser">任意用戶處理</item>
+    <item key="FrmViewTaskNode_rbtEveryUser">所有用戶處理（會簽）</item>
+    <item key="FrmViewTaskNode_lblOperator">處理者：</item>
+    <item key="FrmViewTaskNode_btnAddOpr">增加...</item>
+    <item key="FrmViewTaskNode_btnModifyOpr">修改...</item>
+    <item key="FrmViewTaskNode_btnDeleteOpr">刪除</item>
+    <item key="FrmViewTaskNode_tabItemTaskNotice">任務通知</item>
+    <item key="FrmViewTaskNode_gbArriveNotice">到達通知</item>
+    <item key="FrmViewTaskNode_cbxRmMessage">即時消息通知</item>
+    <item key="FrmViewTaskNode_cbxRmSms">手機短信通知</item>
+    <item key="FrmViewTaskNode_cbxRmMail">郵件通知</item>
+    <item key="FrmViewTaskNode_lblNoticeUsers">同時通知下列人員：</item>
+    <item key="FrmViewTaskNode_btnRmAdd">增加</item>
+    <item key="FrmViewTaskNode_btnRmDelete">刪除</item>
+    <!--RDIFramework.WorkFlow.FrmViewTaskNode End -->
+    <!--RDIFramework.WorkFlow.FrmUserControlAdmin Begin -->
+    <item key="FrmUserControlAdmin">用戶表單（控件）維護</item>
+    <item key="FrmUserControlAdmin_tbtnOper">操作(&amp;A)</item>
+    <item key="FrmUserControlAdmin_tbtnLook">查看(&amp;V)</item>
+    <item key="FrmUserControlAdmin_tbtnAdd">添加</item>
+    <item key="FrmUserControlAdmin_tbtnDelete">刪除</item>
+    <item key="FrmUserControlAdmin_tbtnVisable">顯示/關閉</item>
+    <item key="FrmUserControlAdmin_tbtnRefrush">刷新</item>
+    <item key="FrmUserControlAdmin_tbtnLargeIcon">大圖標</item>
+    <item key="FrmUserControlAdmin_tbtnSmallIcon">小圖標</item>
+    <item key="FrmUserControlAdmin_tbtnListIcon">列表</item>
+    <item key="FrmUserControlAdmin_tbtnDetails">詳細信息</item>
+    <item key="FrmUserControlAdmin_tbtnAttribute">屬性</item>
+    <item key="FrmUserControlAdmin_tbtnExit">關閉</item>
+    <item key="FrmUserControlAdmin_tabItemUserControlList">表單列表樹</item>
+    <item key="FrmUserControlAdmin_lvNewMuctoolStripMenuItem1">新建主表單</item>
+    <item key="FrmUserControlAdmin_lvModifyMuctoolStripMenuItem2">修改主表單</item>
+    <item key="FrmUserControlAdmin_lvDelMuctoolStripMenuItem3">刪除主表單</item>
+    <item key="FrmUserControlAdmin_NewUctoolStripMenuItem2">新建子表單</item>
+    <item key="FrmUserControlAdmin_ModifyUcToolStripMenuItem">修改子表單</item>
+    <item key="FrmUserControlAdmin_delucToolStripMenuItem">刪除子表單</item>
+    <item key="FrmUserControlAdmin_lvnewUctoolStripMenuItem1">新建子表單</item>
+    <item key="FrmUserControlAdmin_lvModifyUctoolStripMenuItem2">修改子表單</item>
+    <item key="FrmUserControlAdmin_lvDelUctoolStripMenuItem3">刪除子表單</item>
+    <item key="FrmUserControlAdmin_newmucToolStripMenuItem">新建主表單</item>
+    <item key="FrmUserControlAdmin_modifymucToolStripMenuItem">修改主表單</item>
+    <item key="FrmUserControlAdmin_delmucToolStripMenuItem">刪除主表單</item>
+    <item key="FrmUserControlAdmin_largeToolStripMenuItem">大圖標(&amp;G)</item>
+    <item key="FrmUserControlAdmin_smallToolStripMenuItem">小圖標(&amp;M)</item>
+    <item key="FrmUserControlAdmin_listToolStripMenuItem">列表(&amp;L)</item>
+    <item key="FrmUserControlAdmin_detailsToolStripMenuItem">詳細信息(&amp;D)</item>
+    <item key="FrmUserControlAdmin_exitToolStripMenuItem">退出(&amp;X)</item>
+    <!--RDIFramework.WorkFlow.FrmUserControlAdmin End -->
+    <!--RDIFramework.WorkFlow.FrmAddUserControl Begin -->
+    <item key="FrmAddUserControl">子表單維護</item>
+    <item key="FrmAddUserControl_gbBaseInfo">基本信息</item>
+    <item key="FrmAddUserControl_lblFullName">子表單名：</item>
+    <item key="FrmAddUserControl_lblFormType">表單類型：</item>
+    <item key="FrmAddUserControl_lblPath">位置：</item>
+    <item key="FrmAddUserControl_lblControlId">控件ID：</item>
+    <item key="FrmAddUserControl_lblFormName">表單名稱：</item>
+    <item key="FrmAddUserControl_lblAssemblyName">所在程序集：</item>
+    <item key="FrmAddUserControl_lblDescription">描述：</item>
+    <item key="FrmAddUserControl_btnSave">保存(&amp;S)</item>
+    <item key="FrmAddUserControl_btnClose">關閉(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmAddUserControl End -->
+    <!--RDIFramework.WorkFlow.FrmMainUserControl Begin -->
+    <item key="FrmMainUserControl">主表單信息維護</item>
+    <item key="FrmMainUserControl_lblFullName">主表單：</item>
+    <item key="FrmMainUserControl_lblDescription">描述：</item>
+    <item key="FrmMainUserControl_lblSubControl">子表單：</item>
+    <item key="FrmMainUserControl_btnReadOnly">查看</item>
+    <item key="FrmMainUserControl_btnModify">修改</item>
+    <item key="FrmMainUserControl_btnNew">新建</item>
+    <item key="FrmMainUserControl_btnAdd">添加(&amp;A)</item>
+    <item key="FrmMainUserControl_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmMainUserControl_btnUp">上移</item>
+    <item key="FrmMainUserControl_btnDown">下移</item>
+    <item key="FrmMainUserControl_btnSave">保存(&amp;S)></item>
+    <item key="FrmMainUserControl_btnClose">關閉(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmMainUserControl End -->
+    <!--RDIFramework.WorkFlow.FrmSelectUserControl Begin -->
+    <item key="FrmSelectUserControl">選擇子表單</item>
+    <item key="FrmSelectUserControl_btnAdd">添加(&amp;A)</item>
+    <item key="FrmSelectUserControl_btnDelete">刪除(&amp;D)</item>
+    <item key="FrmSelectUserControl_btnUp">上移</item>
+    <item key="FrmSelectUserControl_btnDown">下移</item>
+    <item key="FrmSelectUserControl_btnSave">確定(&amp;S)"></item>
+    <item key="FrmSelectUserControl_btnClose">關閉(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmSelectUserControl End -->
+    <!--RDIFramework.WorkFlow.FrmUserControls Begin -->
+    <item key="FrmUserControls">子表單維護</item>
+    <item key="FrmUserControls_tabItemGeneral">常規</item>
+    <item key="FrmUserControls_tabItemBelong">隸屬於</item>
+    <item key="FrmUserControls_lblFullName">子表單名：</item>
+    <item key="FrmUserControls_lblFormType">表單類型：</item>
+    <item key="FrmUserControls_lblPath">位置：</item>
+    <item key="FrmUserControls_lblControlId">控件ID：</item>
+    <item key="FrmUserControls_lblFormName">表單名稱：</item>
+    <item key="FrmUserControls_lblAssemblyName">所在程序集：</item>
+    <item key="FrmUserControls_lblDescription">描述：</item>
+    <item key="FrmUserControls_lblBelongMainForm">隸屬於主表單(&amp;M):</item>
+    <item key="FrmUserControls_btnSave">保存(&amp;S)</item>
+    <item key="FrmUserControls_btnClose">關閉(&amp;E)</item>
+    <!--RDIFramework.WorkFlow.FrmUserControls End -->
+    
+    
+    <!--RDIFramework.WorkFlow.FrmBeDoneTask Begin -->
+    <item key="FrmBeDoneTask">已完成的任務</item>
+    <item key="FrmBeDoneTask_tabItemSearch">搜索</item>
+    <item key="FrmBeDoneTask_gbCustomSearch">常規搜索</item>
+    <item key="FrmBeDoneTask_lblBizName">業務名稱：</item>
+    <item key="FrmBeDoneTask_lblTaskTime">任務時間：</item>
+    <item key="FrmBeDoneTask_lblTo">至：</item>
+    <item key="FrmBeDoneTask_rbExactSearch">精確</item>
+    <item key="FrmBeDoneTask_rbLikeSearch">模糊</item>
+    <item key="FrmBeDoneTask_btnSearch">搜索</item>
+    <item key="FrmBeDoneTask_btnViewTask">查看任務</item>
+    <item key="FrmBeDoneTask_btnViewWFChart">查看流程圖</item>
+    <item key="FrmBeDoneTask_btnClose">關閉</item>
+    <item key="FrmBeDoneTask_colSelected">選擇</item>
+    <item key="FrmBeDoneTask_colWorkFlowNo">流程編號</item>
+    <item key="FrmBeDoneTask_colFlowInsCaption">任務實例名</item>
+    <item key="FrmBeDoneTask_colTaskInsCaption">任務名稱</item>
+    <item key="FrmBeDoneTask_colpOperatedDes">提交人</item>
+    <item key="FrmBeDoneTask_coltaskStartTime">開始時間</item>
+    <item key="FrmBeDoneTask_colTaskEndTime">結束時間</item>
+    <!--RDIFramework.WorkFlow.FrmBeDoneTask End -->
+    <!--RDIFramework.WorkFlow.FrmDailyBiz Begin -->
+    <item key="FrmDailyBiz">日常業務</item>
+    <item key="FrmDailyBiz_tabItemMyBusiness">可用業務</item>
+    <item key="FrmDailyBiz_btnStartTask">開始任務</item>
+    <item key="FrmDailyBiz_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmDailyBiz End -->
+    <!--RDIFramework.WorkFlow.FrmMyParticipantTask Begin -->
+    <item key="FrmMyParticipantTask">我參與的任務</item>
+    <item key="FrmMyParticipantTask_tabItemSearch">搜索</item>
+    <item key="FrmMyParticipantTask_gbCustomSearch">常規搜索</item>
+    <item key="FrmMyParticipantTask_lblBizName">業務名稱：</item>
+    <item key="FrmMyParticipantTask_lblTaskTime">任務時間：</item>
+    <item key="FrmMyParticipantTask_lblTo">至：</item>
+    <item key="FrmMyParticipantTask_rbExactSearch">精確</item>
+    <item key="FrmMyParticipantTask_rbLikeSearch">模糊</item>
+    <item key="FrmMyParticipantTask_btnSearch">搜索</item>
+    <item key="FrmMyParticipantTask_btnViewTask">查看任務</item>
+    <item key="FrmMyParticipantTask_btnViewWFChart">查看流程圖</item>
+    <item key="FrmMyParticipantTask_btnClose">關閉</item>
+    <item key="FrmMyParticipantTask_colSelected">選擇</item>
+    <item key="FrmMyParticipantTask_colWorkFlowNo">流程編號</item>
+    <item key="FrmMyParticipantTask_colFlowInsCaption">業務名稱</item>
+    <item key="FrmMyParticipantTask_colTaskInsCaption">任務名稱</item>
+    <item key="FrmMyParticipantTask_colpOperatedDes">任務提交人</item>
+    <item key="FrmMyParticipantTask_colPriority">優先級</item>
+    <item key="FrmMyParticipantTask_colStatus">狀態</item>
+    <item key="FrmMyParticipantTask_coltaskStartTime">任務到達時間</item>
+    <item key="FrmMyParticipantTask_colTaskEndTime">任務結束時間</item>
+    <item key="FrmMyParticipantTask_colOPERDATETIME">處理時間</item>
+    <item key="FrmMyParticipantTask_colFLOWSTARTTIME">流程開始時間</item>
+    <item key="FrmMyParticipantTask_colFLOWENDTIME">流程結束時間</item>
+    <item key="FrmMyParticipantTask_colDESCRIPTION">描述</item>
+    <!--RDIFramework.WorkFlow.FrmMyParticipantTask End -->
+    <!--RDIFramework.WorkFlow.FrmToDoTask Begin -->
+    <item key="FrmToDoTask">待辦任務</item>
+    <item key="FrmToDoTask_tabItemSearch">搜索</item>
+    <item key="FrmToDoTask_gbCustomSearch">常規搜索</item>
+    <item key="FrmToDoTask_lblBizName">業務名稱：</item>
+    <item key="FrmToDoTask_lblTaskTime">任務時間：</item>
+    <item key="FrmToDoTask_lblTo">至：</item>
+    <item key="FrmToDoTask_rbExactSearch">精確</item>
+    <item key="FrmToDoTask_rbLikeSearch">模糊</item>
+    <item key="FrmToDoTask_btnSearch">搜索</item>
+    <item key="FrmToDoTask_btnHandleTask">處理任務</item>
+    <item key="FrmToDoTask_btnUnClaim">放棄認領</item>
+    <item key="FrmToDoTask_btnViewWFChart">查看流程圖</item>
+    <item key="FrmToDoTask_btnProcessStep">處理記錄</item>
+    <item key="FrmToDoTask_btnClose">關閉</item>
+    <item key="FrmToDoTask_colSelected">選擇</item>
+    <item key="FrmToDoTask_colWorkFlowNo">流程編號</item>
+    <item key="FrmToDoTask_colFlowInsCaption">流程實例名</item>
+    <item key="FrmToDoTask_coltaskStartTime">任務到達時間</item>
+    <item key="FrmToDoTask_colTaskInsCaption">任務名稱</item>
+    <item key="FrmToDoTask_colpOperatedDes">任務提交人</item>
+    <item key="FrmToDoTask_colStatus">任務類型</item>
+    <!--RDIFramework.WorkFlow.FrmToDoTask End -->
+    <!--RDIFramework.WorkFlow.FrmUnClaimedTask Begin -->
+    <item key="FrmUnClaimedTask">未認領任務</item>
+    <item key="FrmUnClaimedTask_tabItemSearch">搜索</item>
+    <item key="FrmUnClaimedTask_gbCustomSearch">常規搜索</item>
+    <item key="FrmUnClaimedTask_lblBizName">業務名稱：</item>
+    <item key="FrmUnClaimedTask_lblTaskTime">任務時間：</item>
+    <item key="FrmUnClaimedTask_lblTo">至：</item>
+    <item key="FrmUnClaimedTask_rbExactSearch">精確</item>
+    <item key="FrmUnClaimedTask_rbLikeSearch">模糊</item>
+    <item key="FrmUnClaimedTask_btnSearch">搜索</item>
+    <item key="FrmUnClaimedTask_btnClaimTask">認領任務</item>
+    <item key="FrmUnClaimedTask_btnClose">關閉</item>
+    <item key="FrmUnClaimedTask_colSelected">選擇</item>
+    <item key="FrmUnClaimedTask_colWorkFlowNo">流程編號</item>
+    <item key="FrmUnClaimedTask_colFlowInsCaption">業務名稱</item>
+    <item key="FrmUnClaimedTask_colTaskInsCaption">任務名稱</item>
+    <item key="FrmUnClaimedTask_colpOperatedDes">任務提交人</item>
+    <item key="FrmUnClaimedTask_coltaskStartTime">任務到達時間</item>
+    <item key="FrmUnClaimedTask_colflowStartTime">流程開始時間</item>
+    <!--RDIFramework.WorkFlow.FrmToDoTask End -->
+    <!--RDIFramework.WorkFlow.FrmWorkFlowMonitor Begin -->
+    <item key="FrmWorkFlowMonitor">流程監控</item>
+    <item key="FrmWorkFlowMonitor_tabItemSearch">搜索</item>
+    <item key="FrmWorkFlowMonitor_gbCustomSearch">常規搜索</item>
+    <item key="FrmWorkFlowMonitor_lblBizName">業務名稱：</item>
+    <item key="FrmWorkFlowMonitor_lblStartTime">發起時間：</item>
+    <item key="FrmWorkFlowMonitor_lblTo">至：</item>
+    <item key="FrmWorkFlowMonitor_gbWorkFlowStatus">流程狀態</item>
+    <item key="FrmWorkFlowMonitor_rbWFRunning">正在運行</item>
+    <item key="FrmWorkFlowMonitor_rbWFCompleted">已經完成</item>
+    <item key="FrmWorkFlowMonitor_rbWFAll">所有狀態</item>
+    <item key="FrmWorkFlowMonitor_rbExactSearch">精確</item>
+    <item key="FrmWorkFlowMonitor_rbLikeSearch">模糊</item>
+    <item key="FrmWorkFlowMonitor_btnSearch">搜索</item>
+    <item key="FrmWorkFlowMonitor_btnViewWFStatus">查看流程狀態</item>
+    <item key="FrmWorkFlowMonitor_btnProcessStep">處理記錄</item>
+    <item key="FrmWorkFlowMonitor_btnClose">關閉</item>
+    <item key="FrmWorkFlowMonitor_lblStatus1">還未執行</item>
+    <item key="FrmWorkFlowMonitor_lblStatus2">正在辦理</item>
+    <item key="FrmWorkFlowMonitor_lblStatus3">正常結束</item>
+    <item key="FrmWorkFlowMonitor_colSelected">選擇</item>
+    <item key="FrmWorkFlowMonitor_colWorkFlowNo">流程編號</item>
+    <item key="FrmWorkFlowMonitor_colFlowInsCaption">流程實例名</item>
+    <item key="FrmWorkFlowMonitor_colStartTime">開始時間</item>
+    <item key="FrmWorkFlowMonitor_colEndTime">結束時間</item>
+    <item key="FrmWorkFlowMonitor_colStatus">當前狀態</item>
+    <item key="FrmWorkFlowMonitor_colDescription">說明</item>
+    <!--RDIFramework.WorkFlow.FrmToDoTask End -->
+    <!--RDIFramework.WorkFlow.FrmViewWorkFlowChart Begin -->
+    <item key="FrmViewWorkFlowChart">流程執行狀態圖</item>
+    <item key="FrmViewWorkFlowChart_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmViewWorkFlowChart End -->
+    <!--RDIFramework.WorkFlow.FrmTaskReturn Begin -->
+    <item key="FrmTaskReturn">任務退回</item>
+    <item key="FrmTaskReturn_gbReturnInfo">退回信息</item>
+    <item key="FrmTaskReturn_lblBackCause">退回原因：</item>
+    <item key="FrmTaskReturn_lblBackStep">退回到那壹步：</item>
+    <item key="FrmTaskReturn_btnConfirm">確定</item>
+    <item key="FrmTaskReturn_btnCancel">取消</item>
+    <!--RDIFramework.WorkFlow.FrmTaskReturn End -->
+    <!--RDIFramework.WorkFlow.FrmTaskAssign Begin -->
+    <item key="FrmTaskAssign">任務指派</item>
+    <item key="FrmTaskAssign_gbAssignInfo">指派信息</item>
+    <item key="FrmTaskAssign_lblAssignUser">選擇要指派的人：</item>
+    <item key="FrmTaskAssign_btnAssign">指派</item>
+    <item key="FrmTaskAssign_btnCancel">取消</item>
+    <!--RDIFramework.WorkFlowFrm.TaskAssign End -->
+    <!--RDIFramework.WorkFlow.FrmDyAssignNextOper Begin -->
+    <item key="FrmDyAssignNextOper">動態指定下壹處理人</item>
+    <item key="FrmDyAssignNextOper_gbAssignInfo">指定處理人信息</item>
+    <item key="FrmDyAssignNextOper_lblAssignNextUser">選擇下壹處理人：</item>
+    <item key="FrmDyAssignNextOper_btnAssign">指派</item>
+    <item key="FrmDyAssignNextOper_btnCancel">取消</item>
+    <!--RDIFramework.WorkFlowFrm.TaskAssign End -->
+    <!--RDIFramework.WorkFlow.FrmProcessStep Begin -->
+    <item key="FrmProcessStep">流程處理記錄（流程軌跡）</item>
+    <item key="FrmProcessStep_colflowcaption">流程名稱</item>
+    <item key="FrmProcessStep_coltaskcaption">任務名稱</item>
+    <item key="FrmProcessStep_coloperateddes">任務處理者</item>
+    <item key="FrmProcessStep_coltaskendtime">處理時間</item>
+    <item key="FrmProcessStep_coloperatorinsid">處理者ID</item>
+    <item key="FrmProcessStep_btnClose">關閉(&amp;C)</item>
+    <!--RDIFramework.WorkFlow.FrmProcessStep End -->
+    <!--RDIFramework.WorkFlow End -->
+  </items>
+</resources>

@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8469820-6856-4823-9F01-E9F107763E73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDIFramework.CodeMaker</RootNamespace>
+    <AssemblyName>RDIFramework.CodeMaker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\CodeMaker\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\CodeMaker\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>RDIFramework.CodeMaker.AppStart</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.TextEditor, Version=2.0.0.922, Culture=neutral, PublicKeyToken=4d61825e8dd49f1a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RDIFramework.ExternalReference\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="MagicLibrary">
+      <HintPath>..\RDIFramework.ExternalReference\MagicLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\RDIFramework.ExternalReference\Microsoft.Office.Interop.Word.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RDIFramework.ExternalReference\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NVelocity">
+      <HintPath>..\RDIFramework.ExternalReference\NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RDIFramework.ExternalReference\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLogic\DBCodeMaker\DBCodeMaker.SQL.cs" />
+    <Compile Include="BusinessLogic\DBCodeWebUIMaker\CodeOptions.cs" />
+    <Compile Include="CommForm\BrowserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\BrowserForm.Designer.cs">
+      <DependentUpon>BrowserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\DBCodeMaker\DBCodeMaker.Table.cs" />
+    <Compile Include="BusinessLogic\DBCodeMaker\DBCodeMaker.Entity.cs" />
+    <Compile Include="BusinessLogic\DBCodeMaker\DBCodeMaker.Manager.cs" />
+    <Compile Include="BusinessLogic\CodeMakerLibary.cs" />
+    <Compile Include="BusinessLogic\PDMCodeMaker\PDMCodeMaker.TableToHTML.cs" />
+    <Compile Include="CommForm\CodeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\CodeEditor.designer.cs">
+      <DependentUpon>CodeEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\DBCodeMaker\DBCodeMaker.cs" />
+    <Compile Include="BusinessLogic\PDMCodeMaker\PDMCodeMaker.cs" />
+    <Compile Include="BusinessLogic\PDMCodeMaker\PDMCodeMaker.SQL.cs" />
+    <Compile Include="BusinessLogic\PDMCodeMaker\PDMCodeMaker.Entity.cs" />
+    <Compile Include="BusinessLogic\PDMCodeMaker\PDMCodeMaker.Manager.cs" />
+    <Compile Include="BusinessLogic\PDMCodeMaker\PDMCodeMaker.Table.cs" />
+    <Compile Include="BusinessLogic\PDMCodeMaker\PdmReader.cs" />
+    <Compile Include="CommForm\CodeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\CodeView.Designer.cs">
+      <DependentUpon>CodeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommForm\LoginOra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\RegionFoldingStrategy.cs" />
+    <Compile Include="Components\CodeEditorControlEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\CodeEditorControlEx.Designer.cs">
+      <DependentUpon>CodeEditorControlEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\DBCodeWebUIMaker\DBCodeWebUIMaker.cs" />
+    <Compile Include="MakerMvcUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakerMvcUI.Designer.cs">
+      <DependentUpon>MakerMvcUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakerWebUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakerWebUI.Designer.cs">
+      <DependentUpon>MakerWebUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbObjects\Oracle\DbObject.cs" />
+    <Compile Include="DbObjects\Oracle\DbScriptBuilder.cs" />
+    <Compile Include="Utility\NVelocityHelper.cs" />
+    <Compile Include="Tool\FrmBatchCodeMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tool\FrmBatchCodeMaker.Designer.cs">
+      <DependentUpon>FrmBatchCodeMaker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDObjectView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDObjectView.Designer.cs">
+      <DependentUpon>PDObjectView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommForm\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\FrmAbout.designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTestForm.Designer.cs">
+      <DependentUpon>FrmTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Templates\Class1.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Tool\FrmDbToWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FileHelper.cs" />
+    <Compile Include="Utility\IniFileHelper.cs" />
+    <Compile Include="Utility\INI\IniFile.cs" />
+    <Compile Include="Utility\INI\IniFileSection.cs" />
+    <Compile Include="Utility\INI\IniFileSectionCollection.cs" />
+    <Compile Include="Utility\INI\IniFileSectionItem.cs" />
+    <Compile Include="Utility\INI\IniFileSectionItemCollection.cs" />
+    <Compile Include="Utility\LogHelper.cs" />
+    <Compile Include="Utility\Provider\FileProvider.cs" />
+    <Compile Include="Utility\Provider\FilesizeFormatProvider.cs" />
+    <Compile Include="Utility\Provider\SimpleTimerProvider.cs" />
+    <Compile Include="Utility\SettingHelper.cs" />
+    <Compile Include="Components\CodeEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\CodeEditorControl.Designer.cs">
+      <DependentUpon>CodeEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\SyntaxReader.cs" />
+    <Compile Include="Components\TextEditorControlWrapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\XmlFoldingStrategy.cs" />
+    <Compile Include="DataObjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataObjectForm.Designer.cs">
+      <DependentUpon>DataObjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommForm\DataList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\DataList.designer.cs">
+      <DependentUpon>DataList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommForm\DbQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\DbQuery.designer.cs">
+      <DependentUpon>DbQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommForm\DbTypeSel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\DbTypeSel.designer.cs">
+      <DependentUpon>DbTypeSel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\FindAndReplaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\FindAndReplaceForm.designer.cs">
+      <DependentUpon>FindAndReplaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommForm\IEView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\IEView.designer.cs">
+      <DependentUpon>IEView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\ModuleConfig.cs" />
+    <Compile Include="Utility\PageUtility.cs" />
+    <Compile Include="CommForm\ProjectProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\ProjectProperty.Designer.cs">
+      <DependentUpon>ProjectProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tool\FrmDbToScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\ObjHelper.cs" />
+    <Compile Include="Utility\Cache.cs" />
+    <Compile Include="CodeCommon\CodeCommon.cs" />
+    <Compile Include="CodeCommon\CodeKeys.cs" />
+    <Compile Include="CodeCommon\ColumnInfo.cs" />
+    <Compile Include="CodeCommon\TableInfo.cs" />
+    <Compile Include="Utility\DbConfig.cs" />
+    <Compile Include="CommForm\DbBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\DbBrowser.designer.cs">
+      <DependentUpon>DbBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbObjects\DBFactory.cs" />
+    <Compile Include="DbObjects\Interface\IDbObject.cs" />
+    <Compile Include="DbObjects\Interface\IDbScriptBuilder.cs" />
+    <Compile Include="DbObjects\SqlServer\DbObject.cs" />
+    <Compile Include="DbObjects\SqlServer\DbScriptBuilder.cs" />
+    <Compile Include="DbView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DbView.designer.cs">
+      <DependentUpon>DbView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommForm\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppStart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CommForm\StartPageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommForm\StartPageForm.designer.cs">
+      <DependentUpon>StartPageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\ConfigHelper.cs" />
+    <Compile Include="Utility\StringPlus.cs" />
+    <Compile Include="Utility\XmlHelper.cs" />
+    <Content Include="Config\Snippets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\generate.png" />
+    <None Include="Resources\GRDIFrameworkHeader.jpg" />
+    <Content Include="Resources\word.ico" />
+    <Content Include="Templates\table.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="CommForm\LoginOra.resx">
+      <DependentUpon>LoginOra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakerMvcUI.resx">
+      <DependentUpon>MakerMvcUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakerWebUI.resx">
+      <DependentUpon>MakerWebUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tool\FrmBatchCodeMaker.resx">
+      <DependentUpon>FrmBatchCodeMaker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tool\FrmDbToWord.resx">
+      <DependentUpon>FrmDbToWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\expand.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\workspace.png" />
+    <None Include="Resources\load.gif" />
+    <None Include="Resources\pd.gif" />
+    <None Include="Resources\startPage.png" />
+    <None Include="Resources\document.png" />
+    <None Include="Resources\view.png" />
+    <None Include="Resources\tables.png" />
+    <None Include="Resources\table.png" />
+    <None Include="Resources\procedure.png" />
+    <None Include="Resources\qqcallme.png" />
+    <None Include="Resources\exclamation.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\serverLink.png" />
+    <None Include="Resources\serverDelete.png" />
+    <None Include="Resources\serverAdd.png" />
+    <EmbeddedResource Include="CommForm\BrowserForm.resx">
+      <DependentUpon>BrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\CodeEditor.resx">
+      <DependentUpon>CodeEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\CodeView.resx">
+      <DependentUpon>CodeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\CodeEditorControl.resx">
+      <DependentUpon>CodeEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\TextEditorControlWrapper.resx">
+      <DependentUpon>TextEditorControlWrapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\CodeEditorControlEx.resx">
+      <DependentUpon>CodeEditorControlEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataObjectForm.resx">
+      <DependentUpon>DataObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\DataList.resx">
+      <DependentUpon>DataList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\DbBrowser.resx">
+      <DependentUpon>DbBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\DbQuery.resx">
+      <DependentUpon>DbQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\DbTypeSel.resx">
+      <DependentUpon>DbTypeSel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbView.resx">
+      <DependentUpon>DbView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\FindAndReplaceForm.resx">
+      <DependentUpon>FindAndReplaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDObjectView.resx">
+      <DependentUpon>PDObjectView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTestForm.resx">
+      <DependentUpon>FrmTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\IEView.resx">
+      <DependentUpon>IEView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommForm\ProjectProperty.resx">
+      <DependentUpon>ProjectProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="CommForm\StartPageForm.resx">
+      <DependentUpon>StartPageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tool\FrmDbToScript.resx">
+      <DependentUpon>FrmDbToScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <EmbeddedResource Include="DbSetting.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Config\datatype.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Config\cmcfg.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Templates\IService.cst">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Service.cst">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Service_back.cst">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Service_back1.cst">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Templates\WebUI\aspx.vm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\WebUI\ashx.vm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\WebUI\html.vm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\WebUI\JavaScript.vm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\MvcUI\Controller.vm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\MvcUI\IndexCshtml.vm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\MvcUI\FormCshtml.vm">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\MvcUI\JavaScript.vm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\158.gif" />
+    <EmbeddedResource Include="Resources\application.ico" />
+    <EmbeddedResource Include="Resources\apply.ico" />
+    <EmbeddedResource Include="Resources\ascx.gif" />
+    <EmbeddedResource Include="Resources\aspx.gif" />
+    <EmbeddedResource Include="Resources\body_bg.jpg" />
+    <EmbeddedResource Include="Resources\cancel.gif" />
+    <EmbeddedResource Include="Resources\close.ico" />
+    <EmbeddedResource Include="Resources\config.gif" />
+    <EmbeddedResource Include="Resources\content.gif" />
+    <EmbeddedResource Include="Resources\copy.png" />
+    <EmbeddedResource Include="Resources\cs.gif" />
+    <EmbeddedResource Include="Resources\cut.png" />
+    <EmbeddedResource Include="Resources\db.gif" />
+    <EmbeddedResource Include="Resources\主题ToolStripMenuItem.gif" />
+    <EmbeddedResource Include="Resources\粘贴ToolStripMenuItem.gif" />
+    <EmbeddedResource Include="Resources\运行当前查询ToolStripMenuItem.gif" />
+    <EmbeddedResource Include="Resources\选项OToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\数据库管理器ToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\生成数据库文档ToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\起始页GToolStripMenuItem.gif" />
+    <EmbeddedResource Include="Resources\恢复ToolStripMenuItem.gif" />
+    <EmbeddedResource Include="Resources\复制ToolStripMenuItem.gif" />
+    <EmbeddedResource Include="Resources\代码自动输出器ToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\代码生成器ToolStripMenuItem.gif" />
+    <EmbeddedResource Include="Resources\查询分析器ToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\编辑ToolStripMenuItem.gif" />
+    <EmbeddedResource Include="Resources\dB脚本生成器ToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\edit.gif" />
+    <EmbeddedResource Include="Resources\folderopen.png" />
+    <EmbeddedResource Include="Resources\form.gif" />
+    <EmbeddedResource Include="Resources\help.gif" />
+    <EmbeddedResource Include="Resources\home.gif" />
+    <EmbeddedResource Include="Resources\html.gif" />
+    <EmbeddedResource Include="Resources\innerlink.gif" />
+    <EmbeddedResource Include="Resources\js.gif" />
+    <EmbeddedResource Include="Resources\lock.ico" />
+    <EmbeddedResource Include="Resources\loginsql.jpg" />
+    <EmbeddedResource Include="Resources\machine.gif" />
+    <EmbeddedResource Include="Resources\new.ico" />
+    <EmbeddedResource Include="Resources\paste.png" />
+    <EmbeddedResource Include="Resources\propery.png" />
+    <EmbeddedResource Include="Resources\reply.ico" />
+    <EmbeddedResource Include="Resources\save.gif" />
+    <EmbeddedResource Include="Resources\saveas.png" />
+    <EmbeddedResource Include="Resources\search.ico" />
+    <EmbeddedResource Include="Resources\succeed.gif" />
+    <EmbeddedResource Include="Resources\toolBtn_CreatCode.png" />
+    <EmbeddedResource Include="Resources\toolBtn_CreatTempCode.png" />
+    <EmbeddedResource Include="Resources\toolBtn_DbView.png" />
+    <EmbeddedResource Include="Resources\toolBtn_Exit.png" />
+    <EmbeddedResource Include="Resources\toolBtn_New.png" />
+    <EmbeddedResource Include="Resources\toolBtn_NewProject.png" />
+    <EmbeddedResource Include="Resources\toolBtn_OutCode.png" />
+    <EmbeddedResource Include="Resources\toolBtn_Run.png" />
+    <EmbeddedResource Include="Resources\toolBtn_SQL.png" />
+    <EmbeddedResource Include="Resources\toolBtn_SQLExe.png" />
+    <EmbeddedResource Include="Resources\toolBtn_Web.png" />
+    <EmbeddedResource Include="Resources\toolBtn_Word.png" />
+    <EmbeddedResource Include="Resources\trash.gif" />
+    <EmbeddedResource Include="Resources\txt.gif" />
+    <EmbeddedResource Include="Resources\ValidateGroup.gif" />
+    <EmbeddedResource Include="Resources\vb.gif" />
+    <EmbeddedResource Include="Resources\webEvent.png" />
+    <EmbeddedResource Include="Resources\wEB项目发布ToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\word.gif" />
+    <EmbeddedResource Include="Resources\xml.gif" />
+    <EmbeddedResource Include="Resources\zoomin.png" />
+    <EmbeddedResource Include="Resources\zoomout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="app.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Config\DataTypeReference.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\projectPropery.png" />
+    <None Include="Resources\code.png" />
+    <None Include="Resources\vs2010.png" />
+    <None Include="Resources\sql.png" />
+    <None Include="Resources\word.png" />
+    <None Include="Templates\Manager.cst">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\msg.png" />
+    <None Include="Resources\Loading.gif" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\List.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BusinessLogic\Core\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

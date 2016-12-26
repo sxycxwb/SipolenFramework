@@ -1,0 +1,30 @@
+﻿<form id="uiform">
+	<table class="grid" id="productinfo">
+		<tr>
+            <td>入库单编码：</td><td><input type="text" id="txt_Code" name="CODE" class="txt03" /></td>
+		    <td>入库日期：</td><td><input type="text" id="txt_InDate" name="INDATE" class="txt03" /></td>
+		</tr>
+        <tr>
+            <td>入库类型：</td><td><input type="text" id="txt_InType" name="INTYPE" class="txt03" /></td>
+		    <td>库房：</td><td><input type="text" id="txt_Depot" name="DEPOT" class="txt03" /></td>
+		</tr>
+		<tr>
+            <td>保管员：</td><td><input type="text" id="txt_Custodian" name="CUSTODIAN" /></td>
+		    <td>供货商名称：</td><td><input type="text" id="txt_SupplierName" name="SUPPLIERNAME" class="txt03" /></td>
+		</tr>
+		<tr>
+            <td>录入人：</td><td><input type="text" id="txt_CreateBy" name="CREATEBY" class="txt03" /></td>
+		    <td>录入日期：</td><td><input type="text" id="txt_CreateOn" name="CREATEON" class="txt03" /></td>
+		</tr>
+		<tr>
+            <td>描述：</td><td colspan="3"><textarea style="width: 90%;height:50px;" id="txt_Description" name="DESCRIPTION" class="txt03" /></td>
+		</tr>
+	</table> 
+    <div style="margin-top: 10px">
+        <table id="products"></table>        
+    </div>    
+    <div id="tools">            
+        <a id="a_add1"  href="javascript:;" plain="true" class="easyui-linkbutton" icon="icon16_add" title="添加">添加</a>      
+        <a id="a_delete1" href="javascript:;" plain="true" class="easyui-linkbutton" icon="icon-delete3" title="删除">删除</a>
+    </div> 
+</form>

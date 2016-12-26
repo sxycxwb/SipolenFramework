@@ -1,0 +1,38 @@
+﻿<form id="ItemDetailEditForm">	
+    <table class="grid">
+        <tr>
+            <td style="width: 80px; " align="right">编码：</td>
+            <td><input data-options="required:true,validType:'length[1,40]',missingMessage:'请输入编码'"  type="text" class="txt03 easyui-validatebox" name="ItemCode" id="txt_ItemCode" /></td>
+        </tr>
+        <tr>
+            <td align="right">名称：</td>
+            <td><input data-options="required:true,validType:'length[1,100]',missingMessage:'请输入名称'" type="text" class="txt03 easyui-validatebox" name="ItemName" id="txt_ItemName" /></td>
+        </tr>
+        <tr>
+            <td align="right">  值：</td>
+            <td><input data-options="required:true,validType:'length[1,100]',missingMessage:'请输入值'" type="text" class="txt03 easyui-validatebox" name="ItemValue" id="txt_ItemValue" /></td>
+        </tr>		
+        <tr>
+            <td align="right">类别：</td>
+            <td><input type="text" class="txt03" name="ItemId" id="txt_ItemId"/></td>
+        </tr>
+		
+        <tr>
+            <td align="right">上级：</td>
+            <td><input type="text" class="txt03" name="ParentId" id="txt_ParentId"/></td>
+        </tr>
+        <tr>
+            <td align="right">选项：</td>
+            <td>
+                <input type="checkbox" class="txt03" name="Enabled" id="chk_Enabled" /><label>有效</label> 
+                <input type="checkbox" class="txt03" name="IsPublic" id="chk_IsPublic" /><label>公共</label>
+                <input type="checkbox" class="txt03" name="AllowEdit" id="chk_AllowEdit" /><label>允许编辑</label>
+                <input type="checkbox" class="txt03" name="AllowDelete" id="chk_AllowDelete" /><label>允许删除</label>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">备注：</td>
+            <td><textarea style="width:300px;height:70px;" class="txt03" name="Description" id="txt_Description" ></textarea></td>
+        </tr>
+    </table>
+</form>

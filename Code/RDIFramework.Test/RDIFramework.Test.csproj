@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C6DDB96-BCB6-4E71-9692-34E09B685478}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDIFramework.Test</RootNamespace>
+    <AssemblyName>RDIFramework.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>http://localhost/RDIFramework.Test/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>References\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RDIFramework.ExternalReference\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RDIFramework.ExternalReference\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="RDIFramework.BizLogic">
+      <HintPath>References\RDIFramework.BizLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="RDIFramework.Controls">
+      <HintPath>References\RDIFramework.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="RDIFramework.ServiceClient">
+      <HintPath>References\RDIFramework.ServiceClient.dll</HintPath>
+    </Reference>
+    <Reference Include="RDIFramework.Utilities">
+      <HintPath>References\RDIFramework.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="RDIFramework.WinForm.Utilities">
+      <HintPath>References\RDIFramework.WinForm.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Test\FrmFormBindingTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmFormBindingTest.Designer.cs">
+      <DependentUpon>FrmFormBindingTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\ExportExcelTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\ExportExcelTest.Designer.cs">
+      <DependentUpon>ExportExcelTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\ReportCommonTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\ReportCommonTool.designer.cs">
+      <DependentUpon>ReportCommonTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmTestDgvSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmTestDgvSummary.Designer.cs">
+      <DependentUpon>FrmTestDgvSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmTestForm.Designer.cs">
+      <DependentUpon>FrmTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\FrmProductSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\FrmProductSearch.Designer.cs">
+      <DependentUpon>FrmProductSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\FrmProductEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\FrmProductEdit.Designer.cs">
+      <DependentUpon>FrmProductEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\FrmProductAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\FrmProductAdmin.Designer.cs">
+      <DependentUpon>FrmProductAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business\ProductInfoEntity.cs" />
+    <Compile Include="Business\ProductInfoManager.cs" />
+    <Compile Include="Business\ProductInfoTable.cs" />
+    <Compile Include="AppStart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Test\FrmFormBindingTest.resx">
+      <DependentUpon>FrmFormBindingTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ProductInfo.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ExportExcelTest.resx">
+      <DependentUpon>ExportExcelTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\ReportCommonTool.resx">
+      <DependentUpon>ReportCommonTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmTestDgvSummary.resx">
+      <DependentUpon>FrmTestDgvSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmTestForm.resx">
+      <DependentUpon>FrmTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\FrmProductSearch.resx">
+      <DependentUpon>FrmProductSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\FrmProductEdit.resx">
+      <DependentUpon>FrmProductEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\FrmProductAdmin.resx">
+      <DependentUpon>FrmProductAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\ProductInfoEntity.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Config.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

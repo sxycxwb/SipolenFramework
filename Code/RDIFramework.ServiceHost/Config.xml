@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <!-- 登录时的配置文件选项 -->
+    <add key="CurrentUsername" value="Administrator"/>
+    <add key="CurrentPassword" value=""/>
+    <add key="RememberPassword" value="True"/>
+
+    <add key="EnableRecordLog" value="True"/>
+    <add key="PersistCookie" value="True"/>
+
+    <!-- 客户等相关信息配置 -->
+    <add key="CustomerCompanyName" value="柯锐特软件"/>
+    <add key="ConfigurationFrom" value="UserConfig"/>
+    <add key="SoftName" value="RDIFramework.NET V3.0"/>
+    <add key="SoftFullName" value="RDIFramework.NET ━ .NET快速信息化系统开发框架"/>
+    <add key="Version" value="3.0" />
+    <add key="RootMenuCode" value="RDIFramework"/>
+    <add key="CurrentLanguage" value="zh-CHS"/>
+
+    <!-- 启用用户授权 -->
+    <add key="EnableUserAuthorization" value="True" />
+    <!-- 启用用户授权范围-->
+    <add key="EnableUserAuthorizationScope" value="True" />
+    <!-- 启用模块菜单权限 -->
+    <add key="EnableModulePermission" value="True" />
+    <!-- 启用操作/功能权限 -->
+    <add key="EnablePermissionItem" value="True" />
+    <!-- 启用表字段权限 -->
+    <add key="EnableTableFieldPermission" value="True" />
+    <!-- 启用表约束权限 -->
+    <add key="EnableTableConstraintPermission" value="True" />
+    <!-- 启用组织机构权限 -->
+    <add key="EnableOrganizePermission" value="True" />
+    <!-- 登录窗体 -->
+    <add key="LoginAssembly" value="RDIFramework.NET"/>
+    <add key="LoginForm" value="FrmLogOn"/>
+    <add key="MainForm" value="FrmRDIFrameworkRibbon" Options="FrmRDIFrameworkNav,FrmRDIFrameworkTree,FrmRDIFrameworkRibbon" />
+    <!-- 默认加载用户 -->
+    <add key="LoadUser" value="True"/>
+    <!-- 允许用户注册 -->
+    <add key="AllowUserToRegister" value="False"/>
+    <!-- 启用即时通讯 -->
+    <add key="UseMessage" value="True" />
+    <!-- 不检查在线状态 -->
+    <add key="CheckOnLine" value="False"/>
+    <!-- 服务器端加密存储密码 -->
+    <add key="EnableEncryptServerPassword" value="True" />
+
+    <add key="RegisterKey" value="nTr90/TsoB+j8YU+K5CxP/PQ0hN2aYST4rbPQrFZkJVnthTFrXTSPORoSWJkQmxUgSYFOsauuKm5TPo9p3v/V3ysD9Pai8uMsiEH4gjxEZlciDXMQq4J97766htzk2sS13NSCFbyMvV9MWXWNHEK3DSflf6x+vbyQhmSxeTkqLY="/>
+
+    <add key="ServiceFactory" value="ServiceFactory"/>
+    <add key="ServicePath" value="RDIFramework.BizLogic"/>
+
+    <!--add key="DbType" value="Sqlserver"/-->
+    <!-- 是否加密存储数据库连接字符串-->
+    <add key="EncryptDbConnection" value="False" />
+    <!-- RDIFramework.NET框架数据库类型 目前框架支持（SQLSERVER、ORACLE、DB2-->
+    <add key="RDIFrameworkDbType" value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access" />
+    <!-- 工作流数据库类型-->
+    <add key="WorkFlowDbType" value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access" />
+    <!-- .RDIFramework.NET框架数据库连接字符串-->
+    <!--SQLSERVER参考配置-->
+    <add key="RDIFrameworkDbConection" value="Data Source=YONGHU\SQLINSTANCE;Initial Catalog=RDIFrameworkV3.0;uid=sa;password=qaz;Pooling=True;Max Pool Size=350; Min Pool Size=5;Connect Timeout=60;"/>
+    <!--ORACLE参考配置-->
+    <!--add key="RDIFrameworkDbConection" value="Data Source=orcl;User Id=RDIFRAMEWORK;Password=qaz;" /-->
+    <!-- 工作流数据库连接字符串-->
+    <add key="WorkFlowDbConnection" value="Data Source=YONGHU\SQLINSTANCE;Initial Catalog=RDIFrameworkWFV3.0;uid=sa;password=qaz" />
+
+    <!-- 远程调用Service用户名（为了提高软件的安全性） -->
+    <add key="ServiceUserName" value="RDIFramework.NET" />
+    <!-- 远程调用Service密码（为了提高软件的安全性） -->
+    <add key="ServicePassword" value="ojaS0yGinUa7D4/lBfKb8IM8DeYTJu18ohIj57Msbc8=" />
+
+    <!-- 软件的错误报告配置 -->
+    <!-- 软件的错误报告来源 -->
+    <add key="ErrorReportFrom" value="406590790@qq.com" />
+    <!-- 发出错误邮箱的地址 -->
+    <add key="ErrorReportMailUserName" value="RDIFramework@126.com" />
+    <!-- 发出错误邮箱的密码 -->
+    <add key="ErrorReportMailPassword" value="P7PoJP0xLJLxMhOBnr3C2g==" />
+    <!-- 发出错误邮箱的服务器 -->
+    <add key="ErrorReportMailServer" value="smtp.126.com" />
+  </appSettings>
+</configuration>

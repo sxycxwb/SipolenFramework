@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <!-- ================== 一、客户端配置项 ================== -->
+    <!-- 当前登录用户名 -->
+    <add key="CurrentUserName" value="Administrator" />
+    <!-- 当前登录用户密码 -->
+    <add key="CurrentPassword" value="uVZPsr3YFSKnrn19vGKD6A==" />
+    <!-- 客户端加密存储登录密码-->
+    <add key="EncryptClientPassword" value="True" />
+    <!-- 是否记住登录密码 -->
+    <add key="RememberPassword" value="True" />
+    <!-- 是否可以自动登录-->
+    <add key="AutoLogOn" value="False" />
+    <!-- 远程调用服务的用户名 -->
+    <add key="ServiceUserName" value="RDIFramework.NET" />
+    <!-- 远程调用服务的密码 -->
+    <add key="ServicePassword" value="ojaS0yGinUa7D4/lBfKb8IM8DeYTJu18ohIj57Msbc8=" />
+    <!-- 是否一次加载所有用户 -->
+    <add key="LoadAllUser" value="True" />
+    <!-- 平台当前语言类型 -->
+    <add key="CurrentLanguage" value="zh-CN" Options="zh-CN,zh-TW,en-US" />
+    <!-- 平台当前主题样式[推荐为：Office2010Blue] -->
+    <add key="CurrentStyle" value="VisualStudio2010Blue" />
+    <!-- 平台当前主题颜色[推荐为：#EEC710] -->
+    <add key="CurrentThemeColor" value="#EEC710" />
+
+    <!-- ==================二、服务器端配置项 ================== -->
+    <!-- 启用用户授权 -->
+    <add key="EnableUserAuthorization" value="True" />
+    <!-- 启用用户授权范围-->
+    <add key="EnableUserAuthorizationScope" value="True" />
+    <!-- 启用模块菜单权限 -->
+    <add key="EnableModulePermission" value="True" />
+    <!-- 启用操作/功能权限 -->
+    <add key="EnablePermissionItem" value="True" />
+    <!-- 启用表字段权限 -->
+    <add key="EnableTableFieldPermission" value="True" />
+    <!-- 启用表约束权限 -->
+    <add key="EnableTableConstraintPermission" value="True" />
+    <!-- 启用组织机构权限 -->
+    <add key="EnableOrganizePermission" value="True" />
+    <!-- 允许用户注册 -->
+    <add key="AllowUserToRegister" value="False" />
+    <!-- 记录系统日志 -->
+    <add key="EnableRecordLog" value="True" />
+    <!-- 同时在线用户数量限制 -->
+    <add key="OnLineLimit" value="300" />
+    <!-- 是否开启IP限制 -->
+    <add key="EnableCheckIPAddress" value="True" />
+    <!-- 是否开启手写签名 -->
+    <add key="EnableHandWrittenSignature" value="True" />
+    <!-- 系统默认密码 -->
+    <add key="DefaultPassword" value="M2kmnANRmALNReJDpJx1Gw==" />
+    <!-- 加密存储服务器端密码 -->
+    <add key="EnableEncryptServerPassword" value="True" />
+    <!-- 检查密码强度-->
+    <add key="EnableCheckPasswordStrength" value="False" />
+    <!-- 密码最小长度 -->
+    <add key="PasswordMiniLength" value="6" />
+    <!-- 密码是否必须为字母+数字组合 -->
+    <add key="NumericCharacters" value="True" />
+    <!-- 密码修改周期(月) -->
+    <add key="PasswordChangeCycle" value="2" />
+    <!-- 检测用户是否在线（为True:不允许重复登录） -->
+    <add key="CheckOnLine" value="False" />
+    <!--在线超时时间（以秒为单位）,2分钟内不在线的，就认为没在线-->
+    <add key="OnLineTime0ut" value="120" />
+    <!-- 用户名最小长度 -->
+    <add key="AccountMinimumLength" value="4" />
+    <!-- 密码错误尝试次数 -->
+    <add key="PasswordErrorLockLimit" value="3" />
+    <!-- 密码错误锁定周期(分钟) -->
+    <add key="PasswordErrorLockCycle" value="15" />
+    <!-- 启用即时通讯 -->
+    <add key="UseMessage" value="True" />
+    <!-- ==================三、数据库连接相关配置 ================== -->
+    <!-- RDIFramework.NET框架数据库类型 目前框架支持（SQLSERVER、ORACLE、DB2-->
+    <add key="RDIFrameworkDbType" value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access" />
+    <!-- 业务逻辑数据库类型-->
+    <add key="BusinessDbType" value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access" />
+    <!-- 工作流数据库类型-->
+    <add key="WorkFlowDbType" value="SqlServer" Options="SqlServer,Oracle,MySql,DB2,SQLite,Access" />
+    <!-- 是否加密存储数据库连接字符串-->
+    <add key="EncryptDbConnection" value="False" />
+    <!-- .RDIFramework.NET框架数据库连接字符串-->
+    <!--SQLSERVER参考配置-->
+    <add key="RDIFrameworkDbConection" value="Data Source=YONGHU\SQLINSTANCE;Initial Catalog=RDIFrameworkV3.0;uid=sa;password=qaz" />
+    <!--ORACLE参考配置-->
+    <!--add key="RDIFrameworkDbConection" value="Data Source=orcl;User Id=RDIFRAMEWORK;Password=qaz;" /-->
+    <!-- 业务数据库连接字符串-->
+    <add key="BusinessDbConnection" value="Data Source=YONGHU\SQLINSTANCE;Initial Catalog=RDIFrameworkV3.0;uid=sa;password=qaz" />
+    <!-- 工作流数据库连接字符串-->
+    <add key="WorkFlowDbConnection" value="Data Source=YONGHU\SQLINSTANCE;Initial Catalog=RDIFrameworkWFV3.0;uid=sa;password=qaz" />
+
+    <!-- ================== 四、系统参数配置 ================== -->
+    <!-- 系统主窗体，目前支持三种主界面展示方式 -->
+    <add key="MainForm" value="FrmRDIFrameworkRibbon" Options="FrmRDIFrameworkNav,FrmRDIFrameworkTree,FrmRDIFrameworkRibbon" />
+    <!-- 系统登录窗体 -->
+    <add key="LogOnForm" value="FrmLogOn" />
+    <!-- 登录部分所在程序集 -->
+    <add key="LogOnAssembly" value="RDIFramework.NET" />
+    <!-- 客户端信息配置 -->
+    <!-- 公司名称 -->
+    <add key="CustomerCompanyName" value="艾特科技" />
+    <!-- 配置信息存储方式 -->
+    <add key="ConfigurationFrom" value="UserConfig" />
+    <!-- 软件名称 -->
+    <add key="SoftName" value="RDIFramework.NET V3.0" />
+    <!-- 软件全称 -->
+    <add key="SoftFullName" value="RDIFramework.NET ━ .NET快速信息化系统开发框架" />
+    <!-- 软件版本 -->
+    <add key="Version" value="V3.0" />
+    <!-- 注册码，备用 -->
+    <add key="RegisterKey" value="nTr90/TsoB+j8YU+K5CxP/PQ0hN2aYST4rbPQrFZkJVnthTFrXTSPORoSWJkQmxUgSYFOsauuKm5TPo9p3v/V3ysD9Pai8uMsiEH4gjxEZlciDXMQq4J97766htzk2sS13NSCFbyMvV9MWXWNHEK3DSflf6x+vbyQhmSxeTkqLY=" />
+    <!-- 软件的服务提供程序 -->
+    <add key="Service" value="RDIFramework.BizLogic" Options="RDIFramework.BizLogic,RDIFramework.ServiceClient" />
+    <!-- 工作流节点超时时间设置（以小时为单位） -->
+    <add key ="NodeTimeout" value="72" />
+    <!-- ================== 五、错误报告反馈配置【下面的配置用户请不要随意更改】 ================== -->
+    <!--平台博客-->
+    <add key="RDIFrameworkBlog" value="http://blog.csdn.net/chinahuyong" />
+    <!--平台微博-->
+    <add key="RDIFrameworkWeibo" value="http://t.qq.com/yonghu86"/>
+    <!-- 软件的错误报告来源 -->
+    <add key="ErrorReportFrom" value="406590790@qq.com" />
+    <!-- 发出错误邮箱的地址 -->
+    <add key="ErrorReportMailUserName" value="UMPlatForm@126.com" />
+    <!-- 发出错误邮箱的密码 -->
+    <add key="ErrorReportMailPassword" value="P7PoJP0xLJLxMhOBnr3C2g==" />
+    <!-- 发出错误邮箱的服务器 -->
+    <add key="ErrorReportMailServer" value="smtp.126.com" />
+  </appSettings>
+</configuration>

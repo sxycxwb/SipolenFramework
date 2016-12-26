@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UMPLateFormAddIns>
+  <UMPLateFormAddIn Id="1">
+    <Guid>0361763d-738f-4878-b2ac-6b6b5f475768</Guid>
+    <Name>UMPlatForm.Module.dll</Name>
+    <AssemblyName>UMPlatForm.Module</AssemblyName>
+    <Version>1.0.0.1</Version>
+    <Description>
+    </Description>
+    <CreateOn>2012-5-25 15:14:31</CreateOn>
+    <ModifiedOn>2012-5-25 16:23:38</ModifiedOn>
+  </UMPLateFormAddIn>
+  <UMPLateFormAddIn Id="2">
+    <Guid>eeccc379-2e61-479b-babd-84b7e29e9602</Guid>
+    <Name>MiniBrowser.dll</Name>
+    <AssemblyName>MiniBrowser</AssemblyName>
+    <Version>1.0.0.0</Version>
+    <Description>内嵌MiniWEB浏览器，运行效率高。</Description>
+    <CreateOn>2012-5-25 16:31:01</CreateOn>
+    <ModifiedOn>2012-5-25 16:31:01</ModifiedOn>
+  </UMPLateFormAddIn>
+  <UMPLateFormAddIn Id="6">
+    <Guid>a6a77b76-3434-43a5-8957-5ca9e9211659</Guid>
+    <Name>UMPlatForm.Business.dll</Name>
+    <AssemblyName>UMPlatForm.Business</AssemblyName>
+    <Version>1.0.0.0</Version>
+    <Description>
+    </Description>
+    <CreateOn>2012-5-25 16:32:08</CreateOn>
+    <ModifiedOn>2012-5-25 16:32:08</ModifiedOn>
+  </UMPLateFormAddIn>
+  <UMPLateFormAddIn Id="7">
+    <Guid>16fc4b02-6747-44d9-893d-adc7ff8e9410</Guid>
+    <Name>UMPlatForm.Utilities.dll</Name>
+    <AssemblyName>UMPlatForm.Utilities</AssemblyName>
+    <Version>1.0.0.0</Version>
+    <Description>
+    </Description>
+    <CreateOn>2012-5-25 17:15:17</CreateOn>
+    <ModifiedOn>2012-5-25 17:15:17</ModifiedOn>
+  </UMPLateFormAddIn>
+  <UMPLateFormAddIn Id="9">
+    <Guid>7c681b97-8700-494c-aece-b8b23f8a48f4</Guid>
+    <Name>UMPlatForm.WinForm.Utilities.dll</Name>
+    <AssemblyName>UMPlatForm.WinForm.Utilities</AssemblyName>
+    <Version>1.0.0.0</Version>
+    <Description>WinForm开发公共类。</Description>
+    <CreateOn>2012-5-28 13:52:15</CreateOn>
+    <ModifiedOn>2012-5-28 13:52:20</ModifiedOn>
+  </UMPLateFormAddIn>
+</UMPLateFormAddIns>

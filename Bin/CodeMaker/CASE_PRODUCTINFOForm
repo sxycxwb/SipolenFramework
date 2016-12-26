@@ -1,0 +1,142 @@
+<form id="uiform">
+  <table class="grid">
+   <tr>
+      <td>产品编码：</td>
+      <td>
+        <input type="text" id="PRODUCTCODE" name="PRODUCTCODE" class="txt03 required" />
+      </td>
+    </tr>
+    <tr>
+      <td>产品名称：</td>
+      <td>
+        <input type="text" id="PRODUCTNAME" name="PRODUCTNAME" class="txt03 required" />
+      </td>
+    </tr>
+   <tr>
+      <td>产品型号：</td>
+      <td>
+        <input type="text" id="PRODUCTMODEL" name="PRODUCTMODEL" class="txt03"/>
+      </td>
+    </tr>
+   <tr>
+      <td>产品规格：</td>
+      <td>
+        <input type="text" id="PRODUCTSTANDARD" name="PRODUCTSTANDARD" class="txt03" />
+      </td>
+    </tr>
+                <tr>
+      <td>产品类别：</td>
+      <td>
+        <input type="text" id="PRODUCTCATEGORY" name="PRODUCTCATEGORY" class="txt03    " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品单位：</td>
+      <td>
+        <input type="text" id="PRODUCTUNIT" name="PRODUCTUNIT" class="txt03    " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品描述、备注：</td>
+      <td>
+        <input type="text" id="PRODUCTDESCRIPTION" name="PRODUCTDESCRIPTION" class="txt03    " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品基准价：</td>
+      <td>
+        <input type="text" id="MIDDLERATE" name="MIDDLERATE" class="txt03    number " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品基准系数：</td>
+      <td>
+        <input type="text" id="REFERENCECOEFFICIENT" name="REFERENCECOEFFICIENT" class="txt03    number " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品单价：</td>
+      <td>
+        <input type="text" id="PRODUCTPRICE" name="PRODUCTPRICE" class="txt03    number " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品批发价：</td>
+      <td>
+        <input type="text" id="WHOLESALEPRICE" name="WHOLESALEPRICE" class="txt03    number " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品促销价：</td>
+      <td>
+        <input type="text" id="PROMOTIONPRICE" name="PROMOTIONPRICE" class="txt03    number " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品内部价：</td>
+      <td>
+        <input type="text" id="INTERNALPRICE" name="INTERNALPRICE" class="txt03    number " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品特别价：</td>
+      <td>
+        <input type="text" id="SPECIALPRICE" name="SPECIALPRICE" class="txt03    number " />
+      </td>
+    </tr>
+                <tr>
+      <td>作废标志：</td>
+      <td>
+        <input type="text" id="ENABLED" name="ENABLED" class="txt03  required   digits " />
+      </td>
+    </tr>
+                <tr>
+      <td>产品功能描述：</td>
+      <td>
+        <input type="text" id="DESCRIPTION" name="DESCRIPTION" class="txt03    " />
+      </td>
+    </tr>
+                <tr>
+      <td>删除标志：</td>
+      <td>
+        <input type="text" id="DELETEMARK" name="DELETEMARK" class="txt03  required   digits " />
+      </td>
+    </tr>
+                <tr>
+      <td>创建日期：</td>
+      <td>
+        <input type="text" id="CREATEON" name="CREATEON" class="txt03  required   dateISO " />
+      </td>
+    </tr>
+                <tr>
+      <td>创建用户主键：</td>
+      <td>
+        <input type="text" id="CREATEUSERID" name="CREATEUSERID" class="txt03    " />
+      </td>
+    </tr>
+                <tr>
+      <td>创建用户：</td>
+      <td>
+        <input type="text" id="CREATEBY" name="CREATEBY" class="txt03    " />
+      </td>
+    </tr>
+                <tr>
+      <td>修改日期：</td>
+      <td>
+        <input type="text" id="MODIFIEDON" name="MODIFIEDON" class="txt03    dateISO " />
+      </td>
+    </tr>
+                <tr>
+      <td>修改用户主键：</td>
+      <td>
+        <input type="text" id="MODIFIEDUSERID" name="MODIFIEDUSERID" class="txt03    " />
+      </td>
+    </tr>
+                <tr>
+      <td>修改用户：</td>
+      <td>
+        <input type="text" id="MODIFIEDBY" name="MODIFIEDBY" class="txt03    " />
+      </td>
+    </tr>
+          </table>
+</form>

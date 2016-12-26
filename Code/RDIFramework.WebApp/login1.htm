@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>RDIFramework.NET ━ .NET快速信息化系统开发框架 V3.0->用户登录</title>
+		<link href="Content/Scripts/easyui/themes/gray/easyui.css" rel="stylesheet" />
+		<script type="text/javascript" src="Content/Scripts/jquery-1.8.3.min.js"></script>
+		<script src="Content/Scripts/easyui/jquery.easyui.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="Content/css/sexybuttons.css" />
+		<link rel="stylesheet" type="text/css" href="Content/css/mainlogin.css" />
+		<link rel="stylesheet" type="text/css" href="Content/Scripts/Selectui/select2css.css" />
+		<script type="text/javascript" src="Content/Scripts/qqmsg/jQuery.qqmsg.js"></script>
+		<script type="text/javascript" src="Content/Scripts/Selectui/select2css.js"></script>
+		<script type="text/javascript" src="Content/Scripts/jQuery.Overlay.js"></script>
+		<script type="text/javascript" src="Content/Scripts/jQuery.cookie.js"></script>
+		<script src="Content/Scripts/easyui/rdi.easyui-extend.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			/*
+			       检查浏览器是否支持
+			       */
+			var isIE = !!window.ActiveXObject;
+			var isIE6 = isIE && !window.XMLHttpRequest;
+			if (isIE6) {
+				window.location.href = "Error/Browser.html";
+			}
+			//回车键
+			document.onkeydown = function(e) {
+				if (!e) e = window.event; //火狐中是 window.event
+				if ((e.keyCode || e.which) == 13) {
+					var btlogin = document.getElementById("btnLogin");
+					btlogin.focus();
+					btlogin.click();
+				}
+			};
+
+			function login() {
+				var txtUserName = $("#txtUserName");
+				var txtPassword = $("#txtPassword");
+				var txtSystemType = $('#txtSystemType');
+				var saveCookieDays = $('#ddlcookdays').val();
+				var wsize = getsize();
+				//$('body').showLoading({ 'overlayHeight': wsize.height });
+				if (txtSystemType.val() == "") {
+					alert("请输入要登录的系统！");
+					txtSystemType.focus();
+					return false;
+				} else if (txtUserName.val() == "") {
+					alert("请输入用户名！");
+					txtUserName.focus();
+					return false;
+				} else if (txtPassword.val() == "") {
+					alert("请输入密码！");
+					txtPassword.focus();
+					return false;
+				} else {
+					$.ajax({
+						type: "post",
+						url: "/ajax/login.ashx",
+						data: "uName=" + txtUserName.val() + "&uPwd=" + txtPassword.val() + "&cookieDay=" + saveCookieDays + "&systemType=" + txtSystemType.val(),
+						beforeSend: function() {
+							$.RightOverlay.show();
+							$('#btnLogin').attr('disabled', 'true');
+						}, //发送数据之前
+						complete: function() {
+							$.RightOverlay.hide();
+							$('#btnLogin').removeAttr('disabled');
+						}, //接收数据完毕
+						success: function(msg) {
+							if (msg == "1") {
+								$.cookie('RDIFramework_SystemType', txtSystemType.val());
+								location.href = "Default.aspx";
+							} else if (msg == "0") {
+								alert('用户名或密码不正确！');
+								return false;
+							} else if (msg == "2") {
+								alert('对不起此用户已被管理员锁定！您无法登录。！');
+								return false;
+							} else {
+								alert(msg);
+							}
+							return true;
+						}
+					});
+				}
+				return false;
+			}
+
+			function getsize() {
+				var windowHeight = 0;
+				var widowWidth = 0;
+				if (typeof(window.innerHeight) == 'number') {
+					windowHeight = window.innerHeight;
+					widowWidth = window.innerWidth;
+				} else {
+					if (document.documentElement && document.documentElement.clientHeight) {
+						windowHeight = document.documentElement.clientHeight;
+						widowWidth = document.documentElement.clientWidth;
+					} else {
+						if (document.body && document.body.clientHeight) {
+							windowHeight = document.body.clientHeight;
+							widowWidth = document.body.clientWidth;
+						}
+					}
+				}
+				return {
+					width: widowWidth,
+					height: windowHeight
+				};
+			}
+			$(function() {
+				$("#txtSystemType").val('RDIFramework.NET');
+				$("#txtUserName").val('Administrator');
+				$("#txtPassword").val('Administrator');
+				$('#btnLogin').click(function() {
+					login();
+					return false;
+				});
+				$('#txtUserName').focus();
+				//响应键盘的回车事件
+				//$(this).keydown(function (event) {
+				//    if (event.keyCode == 13) {
+				//        event.returnValue = false;
+				//        event.cancel = true;
+				//        return login();
+				//    }
+				//});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="LoginCircle">
+			<div id="LoginDoc">
+				<div id="SysName"></div>
+				<form method="post">
+					<div id="SysInput">
+						<ul>
+							<li>登录系统：</li>
+							<li>
+								<input id="txtSystemType" name="SystemType" value="RDIFramework.NET" type="text" class="InputStyle" maxlength="18" />
+							</li>
+						</ul>
+						<ul>
+							<li>用户名：</li>
+							<li>
+								<input id="txtUserName" name="username" value="" type="text" class="InputStyle" maxlength="18" />
+							</li>
+						</ul>
+						<ul>
+							<li>密&nbsp;&nbsp;&nbsp;码：</li>
+							<li>
+								<input name="password" type="password" class="InputStyle" value="" id="txtPassword" />
+							</li>
+						</ul>
+						<ul>
+							<li>&nbsp;</li>
+							<li>
+								<div id="uboxstyle">
+									<select id="ddlcookdays" name="DropExpiration">
+										<option value="0">不保存</option>
+										<option value="7">保存7天</option>
+										<option value="30">保存30天</option>
+										<option value="365">保存1年</option>
+									</select>
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li>&nbsp;</li>
+							<li>
+								<div style="width:170px; text-align:left">
+									<button class="sexybutton" id="btnLogin"><span><span><span class="usergo">登录</span></span>
+										</span>
+									</button>&nbsp;
+									<button class="sexybutton" type="reset"><span><span><span class="reload">重置</span></span>
+										</span>
+									</button>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</form>
+				<div class="clear">
+				</div>
+			</div>
+		</div>
+		<div id="Copy">
+			<font color="red">RDIFramework.NET</font> Version 2.9 Copyright &copy; 2010~2016 By EricHu
+		</div>
+		<script type="text/javascript" src="Content/Scripts/jQuery.Ajax.js"></script>
+	</body>
+
+</html>

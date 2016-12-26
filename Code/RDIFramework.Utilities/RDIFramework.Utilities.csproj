@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1916FE94-6129-4F93-BC55-0CF5F2CF9B05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDIFramework.Utilities</RootNamespace>
+    <AssemblyName>RDIFramework.Utilities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>http://localhost/RDIFramework.Utilities/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\dotnet4.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IBM.Data.DB2">
+      <HintPath>..\RDIFramework.ExternalReference\IBM.Data.DB2.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\RDIFramework.ExternalReference\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\RDIFramework.ExternalReference\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\RDIFramework.ExternalReference\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\RDIFramework.ExternalReference\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess">
+      <HintPath>..\RDIFramework.ExternalReference\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\RDIFramework.ExternalReference\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RDIFrameworkMessage\DataReaderExtension.cs" />
+    <Compile Include="PublicLibrary\ConvertHelper.cs" />
+    <Compile Include="PublicLibrary\NetHelper.cs" />
+    <Compile Include="PublicLibrary\ChineseStringHelper.cs" />
+    <Compile Include="DataAccessLibary\DbProvider\MSOracleProvider.cs" />
+    <Compile Include="DataAccessLibary\DbProvider\OracleProvider.cs" />
+    <Compile Include="DataAccessLibary\BaseDbProvider.Method.cs" />
+    <Compile Include="PublicLibrary\GZipHelper.cs" />
+    <Compile Include="PublicLibrary\NPOIHelper.cs" />
+    <Compile Include="RDIFrameworkMessage\BusinessLogic.ConvertTo.cs" />
+    <Compile Include="RDIFrameworkMessage\WorkFlowConst.cs" />
+    <Compile Include="RDIFrameworkMessage\RDIFrameworkMessage.WorkFlow.cs" />
+    <Compile Include="Wrapper\HttpCookieHelper.cs" />
+    <Compile Include="Wrapper\HttpCookieHelper类使用方法参考.cs" />
+    <Compile Include="Wrapper\HttpHelper.cs" />
+    <Compile Include="PublicLibrary\ImageHandle\DrawUtil.cs" />
+    <Compile Include="PublicLibrary\Export\CellType.cs" />
+    <Compile Include="PublicLibrary\Export\CellValueType.cs" />
+    <Compile Include="PublicLibrary\Export\DataGridViewExportable.cs" />
+    <Compile Include="PublicLibrary\Export\DataTableExportable.cs" />
+    <Compile Include="PublicLibrary\Export\DataViewExportable.cs" />
+    <Compile Include="PublicLibrary\Export\Exportable.cs" />
+    <Compile Include="PublicLibrary\Export\ExportCallback.cs" />
+    <Compile Include="PublicLibrary\Export\ExportContext.cs" />
+    <Compile Include="PublicLibrary\Export\Exporter.cs" />
+    <Compile Include="PublicLibrary\Export\GridViewExportable.cs" />
+    <Compile Include="PublicLibrary\Export\IExportable.cs" />
+    <Compile Include="PublicLibrary\Export\IExportHeader.cs" />
+    <Compile Include="PublicLibrary\Export\ListExportable.cs" />
+    <Compile Include="PublicLibrary\Export\PagedExportable.cs" />
+    <Compile Include="RDIFrameworkMessage\RDIFrameworkMessage.WF.cs" />
+    <Compile Include="PublicLibrary\WindowAPI.cs" />
+    <Compile Include="PublicLibrary\PinYinConverter.cs" />
+    <Compile Include="PublicLibrary\FTPUtil.cs" />
+    <Compile Include="PublicLibrary\INI\IniFile.cs" />
+    <Compile Include="PublicLibrary\INI\IniFileSection.cs" />
+    <Compile Include="PublicLibrary\INI\IniFileSectionCollection.cs" />
+    <Compile Include="PublicLibrary\INI\IniFileSectionItem.cs" />
+    <Compile Include="PublicLibrary\INI\IniFileSectionItemCollection.cs" />
+    <Compile Include="PublicLibrary\INI\SimpleTimerProvider.cs" />
+    <Compile Include="PublicLibrary\WebCommon\JsonHelper.cs" />
+    <Compile Include="PublicLibrary\FTPHelper.cs" />
+    <Compile Include="PublicLibrary\WebCommon\CookieHelper.cs" />
+    <Compile Include="EmailSender\AttachmentEncoding.cs" />
+    <Compile Include="EmailSender\Format.cs" />
+    <Compile Include="EmailSender\GmailSender.cs" />
+    <Compile Include="EmailSender\IEmailSender.cs" />
+    <Compile Include="EmailSender\IRichMessageEmailSender.cs" />
+    <Compile Include="EmailSender\Message.cs" />
+    <Compile Include="EmailSender\MessageAttachment.cs" />
+    <Compile Include="EmailSender\MessageAttachmentList.cs" />
+    <Compile Include="EmailSender\MessagePriority.cs" />
+    <Compile Include="EmailSender\MockSender.cs" />
+    <Compile Include="EmailSender\SmtpSender.cs" />
+    <Compile Include="PublicLibrary\ReflectHelper.cs" />
+    <Compile Include="Wrapper\HTMLReportEngine.cs" />
+    <Compile Include="PublicLibrary\WebCommon\JsonHelper1.cs" />
+    <Compile Include="PublicLibrary\HiPerfTimerHelper.cs" />
+    <Compile Include="PublicLibrary\ImageHandle\ImageHandler.cs" />
+    <Compile Include="PublicLibrary\ImageHandle\ImageHelper.cs" />
+    <Compile Include="PublicLibrary\EmailHelper.cs" />
+    <Compile Include="PublicLibrary\DosHelper.cs" />
+    <Compile Include="PublicLibrary\LunarCalendarHelper.cs" />
+    <Compile Include="PublicLibrary\CHS2PinYinHelper.cs" />
+    <Compile Include="PublicLibrary\InvokeServiceHelper.cs" />
+    <Compile Include="PublicLibrary\SerializeHelper.cs" />
+    <Compile Include="PublicLibrary\Regex\RegexPatternHelper.cs" />
+    <Compile Include="PublicLibrary\Regex\RegexValidatorHelper.cs" />
+    <Compile Include="PublicLibrary\Thread\QueuedBackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PublicLibrary\Thread\QueuedBackgroundWorkerEvents.cs" />
+    <Compile Include="SqlDynBuilder.cs" />
+    <Compile Include="RDIFrameworkMessage\SystemInfo.cs" />
+    <Compile Include="RDIFrameworkMessage\UserInfo.cs" />
+    <Compile Include="ConfigurationClass\BaseConfiguration.cs" />
+    <Compile Include="ConfigurationClass\ConfigurationCategory.cs" />
+    <Compile Include="ConfigurationClass\ConfigurationHelper.cs" />
+    <Compile Include="ConfigurationClass\IConfiguration.cs" />
+    <Compile Include="ConfigurationClass\RegistryHelper.cs" />
+    <Compile Include="ConfigurationClass\TableConfigHelper.cs" />
+    <Compile Include="ConfigurationClass\UserConfigHelper.cs" />
+    <Compile Include="DataAccessLibary\CurrentDbType.cs" />
+    <Compile Include="DataAccessLibary\DBProvider.cs" />
+    <Compile Include="DataAccessLibary\DbFactoryProvider.cs" />
+    <Compile Include="DataAccessLibary\DbOperation.cs" />
+    <Compile Include="DataAccessLibary\BaseDbProvider.cs" />
+    <Compile Include="DataAccessLibary\DbProvider\DB2Provider.cs" />
+    <Compile Include="DataAccessLibary\DbProvider\IDbProvider.cs" />
+    <Compile Include="DataAccessLibary\DbProvider\MySqlProvider.cs" />
+    <Compile Include="DataAccessLibary\DbProvider\OleDbProvider.cs" />
+    <Compile Include="DataAccessLibary\DbProvider\SqLiteProvider.cs" />
+    <Compile Include="DataAccessLibary\DbProvider\SqlProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RDIFrameworkMessage\RDIFrameworkMessage.cs" />
+    <Compile Include="ResourceManager\ResourceManager.cs" />
+    <Compile Include="ResourceManager\ResourceManagerWrapper.cs" />
+    <Compile Include="ResourceManager\Resources.cs" />
+    <Compile Include="RDIFrameworkMessage\AuditStatus.cs" />
+    <Compile Include="RDIFrameworkMessage\BusinessLogic.cs" />
+    <Compile Include="PublicLibrary\ExportCSVHelper.cs" />
+    <Compile Include="PublicLibrary\RandomHelper.cs" />
+    <Compile Include="RDIFrameworkMessage\SortLogic.cs" />
+    <Compile Include="PublicLibrary\ClsImeHelper.cs" />
+    <Compile Include="PublicLibrary\DateTimeHelper.cs" />
+    <Compile Include="RDIFrameworkMessage\DefaultRole.cs" />
+    <Compile Include="PublicLibrary\DialogHelper.cs" />
+    <Compile Include="PublicLibrary\EnumDescription.cs" />
+    <Compile Include="PublicLibrary\EnumExtensions.cs" />
+    <Compile Include="PublicLibrary\FileHelper.cs" />
+    <Compile Include="Wrapper\HttpHelper类使用方法参考.cs" />
+    <Compile Include="Wrapper\HttpWebHelper.cs" />
+    <Compile Include="PublicLibrary\IniFileHelper.cs" />
+    <Compile Include="PublicLibrary\LogHelper.cs" />
+    <Compile Include="PublicLibrary\MachineInfoHelper.cs" />
+    <Compile Include="PublicLibrary\MathHelper.cs" />
+    <Compile Include="RDIFrameworkMessage\MessageCategory.cs" />
+    <Compile Include="RDIFrameworkMessage\MessageFunction.cs" />
+    <Compile Include="RDIFrameworkMessage\MessageStateCode.cs" />
+    <Compile Include="RDIFrameworkMessage\OperationCode.cs" />
+    <Compile Include="RDIFrameworkMessage\OrganizeCategory.cs" />
+    <Compile Include="RDIFrameworkMessage\PermissionScope.cs" />
+    <Compile Include="PublicLibrary\RMBHelper.cs" />
+    <Compile Include="PublicLibrary\SecretHelper.cs" />
+    <Compile Include="RDIFrameworkMessage\StatusCode.cs" />
+    <Compile Include="PublicLibrary\StringHelper.cs" />
+    <Compile Include="PublicLibrary\ValidateUtil.cs" />
+    <Compile Include="PublicLibrary\WebCommon\VerifyCodeImage.cs" />
+    <Compile Include="PublicLibrary\XmlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RDIFrameworkMessage\RDIFrameworkMessage.Core.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

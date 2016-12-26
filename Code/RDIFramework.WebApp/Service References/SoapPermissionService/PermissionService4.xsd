@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RDIFramework.Utilities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8096/PermissionService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="UserInfo">
+    <xs:sequence>
+      <xs:element name="code" nillable="true" type="xs:string" />
+      <xs:element name="companyCode" nillable="true" type="xs:string" />
+      <xs:element name="companyId" nillable="true" type="xs:string" />
+      <xs:element name="companyName" nillable="true" type="xs:string" />
+      <xs:element name="currentLanguage" nillable="true" type="xs:string" />
+      <xs:element name="departmentCode" nillable="true" type="xs:string" />
+      <xs:element name="departmentId" nillable="true" type="xs:string" />
+      <xs:element name="departmentName" nillable="true" type="xs:string" />
+      <xs:element name="id" nillable="true" type="xs:string" />
+      <xs:element name="ipAddress" nillable="true" type="xs:string" />
+      <xs:element name="isAdministrator" type="xs:boolean" />
+      <xs:element name="lastVisit" nillable="true" type="xs:string" />
+      <xs:element name="macAddress" nillable="true" type="xs:string" />
+      <xs:element name="openId" nillable="true" type="xs:string" />
+      <xs:element name="password" nillable="true" type="xs:string" />
+      <xs:element name="processId" nillable="true" type="xs:string" />
+      <xs:element name="processName" nillable="true" type="xs:string" />
+      <xs:element name="realName" nillable="true" type="xs:string" />
+      <xs:element name="roleId" nillable="true" type="xs:string" />
+      <xs:element name="roleName" nillable="true" type="xs:string" />
+      <xs:element name="securityLevel" type="xs:int" />
+      <xs:element name="servicePassword" nillable="true" type="xs:string" />
+      <xs:element name="serviceUserName" nillable="true" type="xs:string" />
+      <xs:element name="staffId" nillable="true" type="xs:string" />
+      <xs:element name="subCompanyCode" nillable="true" type="xs:string" />
+      <xs:element name="subCompanyId" nillable="true" type="xs:string" />
+      <xs:element name="subCompanyName" nillable="true" type="xs:string" />
+      <xs:element name="targetUserId" nillable="true" type="xs:string" />
+      <xs:element name="themes" nillable="true" type="xs:string" />
+      <xs:element name="userName" nillable="true" type="xs:string" />
+      <xs:element name="workgroupCode" nillable="true" type="xs:string" />
+      <xs:element name="workgroupId" nillable="true" type="xs:string" />
+      <xs:element name="workgroupName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserInfo" nillable="true" type="tns:UserInfo" />
+  <xs:simpleType name="PermissionScope">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="All">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">-1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="UserCompany">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">-2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="UserSubOrg">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">-3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="UserDepartment">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">-4</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="UserWorkgroup">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">-5</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="User">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">-6</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Detail">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">-7</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PermissionScope" nillable="true" type="tns:PermissionScope" />
+</xs:schema>

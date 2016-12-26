@@ -1,0 +1,100 @@
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Controls.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Controls.pdb
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.csprojResolveAssemblyReference.cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.FindForm.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.Properties.Resources.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.ReplaceForm.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcButton.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcCombinQuery.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcDataGridView.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcEditToolManage.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcHtmlEditor.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcImageList.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcImageView.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcMaskTextBox.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcNavBarEx.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPageControl.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPageControlByCode.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPagerEx.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcQueryControl.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcRichTextBoxEx.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcTextBox.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcTextBoxEx.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.csproj.GenerateResource.Cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Controls.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Controls.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.csprojResolveAssemblyReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.FindForm.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.Properties.Resources.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.ReplaceForm.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcButton.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcCombinQuery.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcDataGridView.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcEditToolManage.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcHtmlEditor.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcImageList.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcImageView.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcMaskTextBox.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcNavBarEx.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPageControl.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPageControlByCode.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPagerEx.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcQueryControl.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcRichTextBoxEx.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcTextBox.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcTextBoxEx.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.csproj.GenerateResource.Cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Controls.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.Controls.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.FindForm.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.Properties.Resources.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.ReplaceForm.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcButton.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcCombinQuery.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcDataGridView.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcEditToolManage.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcHtmlEditor.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcImageList.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcImageView.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcMaskTextBox.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcNavBarEx.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPageControl.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPageControlByCode.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPagerEx.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcQueryControl.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcRichTextBoxEx.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcTextBox.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcTextBoxEx.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.csproj.GenerateResource.Cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.pdb
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.Controls.dll
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\RDIFramework.Controls.pdb
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.FindForm.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.Properties.Resources.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.ReplaceForm.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcButton.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcCombinQuery.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcDataGridView.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcEditToolManage.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcHtmlEditor.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcImageList.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcImageView.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcMaskTextBox.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcNavBarEx.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPageControl.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPageControlByCode.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcPagerEx.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcQueryControl.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcRichTextBoxEx.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcTextBox.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.UcTextBoxEx.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.csproj.GenerateResource.Cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.dll
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.Control\obj\Debug\RDIFramework.Controls.pdb

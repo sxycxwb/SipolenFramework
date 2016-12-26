@@ -1,0 +1,37 @@
+﻿<!--<div region="north" split="true" border="false" style="overflow: hidden; height: 73px; width:100%;background:#34495e url(images/logo.png) no-repeat;line-height: 63px;color: #fff; font-family: Verdana, 微软雅黑,黑体">
+	<span style="float:right; padding-right:25px; padding-top:20px;" class="head">            
+		欢迎 <b id="curname">${username}</b>&nbsp;&nbsp; <a href="#" id="editpass">修改密码</a>&nbsp;&nbsp;<a href="#" id="loginOut">安全退出</a><a id="btnHideNorth" class="easyui-linkbutton" data-options="plain: true, iconCls: 'layout-button-up'"></a>
+	</span>
+</div>-->
+<div id="northPanel" data-options="region: 'north', border: false" style="height: 103px; overflow: hidden;">
+    <div id="topbar" class="top-bar headbackcss">
+        <div class="top-bar-right">
+            <div id="timerSpan"></div>
+            <!--
+            <div id="themeSpan">                
+                <a id="btnHideNorth" class="easyui-linkbutton" data-options="plain: true, iconCls: 'layout-button-up'"></a>
+            </div>
+            -->
+        </div>
+    </div>
+    <div id="toolbar" class="panel-header panel-header-noborder top-toolbar">
+        <div id="infobar">
+            <span class="icon16_user_business_boss" style="padding-left: 25px; background-position: left center;">
+                欢迎 <b id="curname">${username}</b>
+            </span>
+        </div>
+        <div id="buttonbar">
+            <a id="btnQQ" class="easyui-linkbutton" href="http://wpa.qq.com/msgrd?v=3&uin=406590790&site=qq&menu=yes" target="_blank" plain ="true" icon="icon16_qq" title="在线QQ客服">在线QQ客服</a>
+            <a id="btnPurcahse" class="easyui-linkbutton" href="http://yonghu86.taobao.com/" target="_blank" plain ="true" icon="icon16_shopping_cart" title="如果你需要RDIFramework.NET框架可以点此购买或联系QQ：406590790">购买</a>
+            <a id="btnContact" class="easyui-linkbutton" href="http://blog.rdiframework.net/" target="_blank" plain ="true" icon="icon16_email_forward" title="前往作者博客可查看框架相关文章、问题反馈或留言操作。">博客留言</a>
+            <a id="editpass" class="easyui-linkbutton" data-options="plain: true, iconCls: 'icon16_user_level_filtering'">修改密码</a>
+            <a id="loginOut" class="easyui-linkbutton" data-options="plain: true, iconCls: 'icon16_door_out'">退出系统</a>
+            <a id="btnShowNorth" class="easyui-linkbutton" data-options="plain: true, iconCls: 'layout-button-down'" style="display: none;"></a>
+        </div>
+    </div>
+</div>
+<div region="west" split="true" title="导航菜单" style="width:180px;" id="west">
+	<div id="wnav">
+		<!--  手风琴导航内容 -->
+	</div>
+</div>

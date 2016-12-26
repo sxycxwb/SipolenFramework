@@ -1,0 +1,252 @@
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WorkFlow.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WorkFlow.pdb
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Bin\dotnet4.0\zh-CN\RDIFramework.WorkFlow.resources.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.csprojResolveAssemblyReference.cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAttachment.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmEvection.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmQingJia.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.WorkPlace.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddWorkFlow.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectClass.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowClass.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowDesigner.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowExport.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowImport.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAuditForm.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAuditList.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmJudgeNode.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSubWorkFlowNode.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAlterNode.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmBeDoneTask.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmCommTestAuditWF.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmCommTestWF.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmDailyBiz.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmDyAssignNextOper.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessingTaskCommon.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessStep.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmStartWorkFlow.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskAssign.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskReturn.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmToDoTask.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmViewWorkFlowChart.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowMonitor.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserControls.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserControlAdmin.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.Properties.Resources.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddUserControl.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmMainUserControl.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectUserControl.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.BaseFrom_Blank.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.BaseForm_Single.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddCommands.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmOrganizeSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmRoleSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserSelect.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmLinkConfig.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmOperator.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectArch.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectGroup.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectMainUserCtrl.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectTaskOperUser.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectUser.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectVar.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectWorkFlow.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmStartNode.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskVar.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUnClaimedTask.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessingTask.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmViewTaskNode.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmMyParticipantTask.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAttachment.zh-CN.resources
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.csproj.GenerateResource.Cache
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\zh-CN\RDIFramework.WorkFlow.resources.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.dll
+G:\发布\V3.0 Version\企业版\V2.9豪华版升级到V3.0版本\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WorkFlow.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WorkFlow.pdb
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Bin\dotnet4.0\zh-CN\RDIFramework.WorkFlow.resources.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.csprojResolveAssemblyReference.cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAttachment.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmEvection.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmQingJia.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.WorkPlace.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddWorkFlow.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectClass.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowClass.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowDesigner.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowExport.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowImport.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAuditForm.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAuditList.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmJudgeNode.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSubWorkFlowNode.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAlterNode.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmBeDoneTask.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmCommTestAuditWF.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmCommTestWF.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmDailyBiz.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmDyAssignNextOper.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessingTaskCommon.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessStep.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmStartWorkFlow.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskAssign.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskReturn.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmToDoTask.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmViewWorkFlowChart.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowMonitor.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserControls.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserControlAdmin.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.Properties.Resources.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddUserControl.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmMainUserControl.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectUserControl.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.BaseFrom_Blank.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.BaseForm_Single.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddCommands.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmOrganizeSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmRoleSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserSelect.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmLinkConfig.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmOperator.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectArch.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectGroup.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectMainUserCtrl.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectTaskOperUser.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectUser.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectVar.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectWorkFlow.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmStartNode.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskVar.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUnClaimedTask.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessingTask.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmViewTaskNode.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmMyParticipantTask.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAttachment.zh-CN.resources
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.csproj.GenerateResource.Cache
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\zh-CN\RDIFramework.WorkFlow.resources.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.dll
+E:\我的DotNet技术方案\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WorkFlow.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\RDIFramework.WorkFlow.pdb
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Bin\dotnet4.0\zh-CN\RDIFramework.WorkFlow.resources.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAttachment.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmEvection.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmQingJia.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.WorkPlace.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddWorkFlow.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectClass.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowClass.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowDesigner.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowExport.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowImport.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAuditForm.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAuditList.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmJudgeNode.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSubWorkFlowNode.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAlterNode.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmBeDoneTask.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmCommTestAuditWF.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmCommTestWF.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmDailyBiz.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmDyAssignNextOper.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessingTaskCommon.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessStep.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmStartWorkFlow.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskAssign.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskReturn.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmToDoTask.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmViewWorkFlowChart.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowMonitor.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserControls.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserControlAdmin.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.Properties.Resources.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddUserControl.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmMainUserControl.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectUserControl.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.BaseFrom_Blank.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.BaseForm_Single.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddCommands.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmOrganizeSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmRoleSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserSelect.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmLinkConfig.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmOperator.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectArch.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectGroup.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectMainUserCtrl.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectTaskOperUser.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectUser.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectVar.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectWorkFlow.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmStartNode.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskVar.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUnClaimedTask.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessingTask.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmViewTaskNode.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmMyParticipantTask.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAttachment.zh-CN.resources
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.csproj.GenerateResource.Cache
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\zh-CN\RDIFramework.WorkFlow.resources.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.dll
+E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.pdb
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAttachment.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmEvection.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmQingJia.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.WorkPlace.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddWorkFlow.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectClass.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowClass.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowDesigner.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowExport.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowImport.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAuditForm.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAuditList.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmJudgeNode.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSubWorkFlowNode.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAlterNode.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmBeDoneTask.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmCommTestAuditWF.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmCommTestWF.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmDailyBiz.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmDyAssignNextOper.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessingTaskCommon.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessStep.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmStartWorkFlow.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskAssign.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskReturn.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmToDoTask.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmViewWorkFlowChart.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmWorkFlowMonitor.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserControls.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserControlAdmin.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.Properties.Resources.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddUserControl.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmMainUserControl.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectUserControl.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.BaseFrom_Blank.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.BaseForm_Single.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAddCommands.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmOrganizeSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmRoleSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUserSelect.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmLinkConfig.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmOperator.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectArch.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectGroup.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectMainUserCtrl.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectTaskOperUser.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectUser.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectVar.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmSelectWorkFlow.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmStartNode.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmTaskVar.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmUnClaimedTask.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmProcessingTask.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmViewTaskNode.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmMyParticipantTask.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.FrmAttachment.zh-CN.resources
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.csproj.GenerateResource.Cache
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.dll
+E:\E420\My\Framework\SipolenFramework\Code\RDIFramework.WorkFlow\obj\x86\Debug\RDIFramework.WorkFlow.pdb
