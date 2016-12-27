@@ -1,9 +1,0 @@
-2016-12-20 09:17:03 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
-InnerException:
-FullException:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
-   在 CRM.LinkManService.GetDataTable(UserInfo userInfo)
-   在 CRM.FrmLinkManList.GetLinkManData()
-   在 CRM.FrmLinkManList.FormOnLoad()
-   在 RDIFramework.WinForm.Utilities.BaseForm.Form_Load(Object sender, EventArgs e) 位置 E:\E420\My\Framework\RDIFramework.NET V3.0\RDIFramework.NET V3.0\Code\RDIFramework.WinForm.Utilities\BaseUI\BaseForm.cs:行号 254
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
