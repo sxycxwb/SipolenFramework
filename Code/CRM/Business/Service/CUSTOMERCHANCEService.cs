@@ -36,12 +36,12 @@ namespace CRM.BizLogic
 	/// 
 	/// 修改记录
 	/// 
-	///	2013-07-11 版本：1.0 EricHu 建立客户机会服务层。
+	///	2013-07-11 版本：1.0 XuWangBin 建立客户机会服务层。
 	///		
 	/// 版本：1.0
 	///
 	/// <author>
-	///	<name>EricHu</name>
+	///	<name>XuWangBin</name>
 	///	<date>2013-07-11</date>
 	/// </author> 
 	/// </summary>

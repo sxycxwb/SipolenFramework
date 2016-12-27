@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-18 9:24:14
  ******************************************************************************/
 
@@ -17,13 +17,13 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     /// 
-    ///     2012-07-08 版本: 1.3 EricHu 新增用户对模块的授权范围控制部分。
-    ///		2012-03-02 版本：1.0 EricHu 创建文件。
+    ///     2012-07-08 版本: 1.3 XuWangBin 新增用户对模块的授权范围控制部分。
+    ///		2012-03-02 版本：1.0 XuWangBin 创建文件。
     ///		
     /// 版本：1.3
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-03-02</date>
     /// </author> 
     /// </summary>

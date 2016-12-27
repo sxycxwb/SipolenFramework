@@ -17,14 +17,14 @@ namespace RDIFramework.BizLogic
     /// 员工服务
 	/// 
 	/// 修改紀錄
-    ///     2014-05-29 版本：2.8 EricHu 增加:GetDTNotOrganize接口实现。
-    ///     2013-08-12 版本：2.5 EricHu 增加“GetDTByPage”按分页获取数据，满足Web分页的要求。
-	///		2012-03-02 版本：1.0 EricHu 建立檔案。
+    ///     2014-05-29 版本：2.8 XuWangBin 增加:GetDTNotOrganize接口实现。
+    ///     2013-08-12 版本：2.5 XuWangBin 增加“GetDTByPage”按分页获取数据，满足Web分页的要求。
+	///		2012-03-02 版本：1.0 XuWangBin 建立檔案。
 	///		
 	/// 版本：1.0
 	///
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2012-03-02</date>
 	/// </author> 
 	/// </summary>

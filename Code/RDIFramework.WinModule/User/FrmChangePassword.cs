@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-8 10:54:17
  ******************************************************************************/
 using System;
@@ -17,7 +17,7 @@ namespace RDIFramework.WinModule
     /// 修改用户密码
     /// 
     /// 修改记录   
-    ///     2012-06-08 EricHu 新增FrmChangePassword
+    ///     2012-06-08 XuWangBin 新增FrmChangePassword
     /// </summary>
     public partial class FrmChangePassword : BaseForm
     {

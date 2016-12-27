@@ -18,7 +18,7 @@ namespace RDIFramework.WinModule
     /// 系统序列管理
     /// 
     /// 修改记录
-    ///    2015-08-08 EricHu V3.0 增加FrmSequenceAdmin.cs
+    ///    2015-08-08 XuWangBin V3.0 增加FrmSequenceAdmin.cs
     /// 
     /// </summary>
     public partial class FrmSequenceAdmin : BaseForm

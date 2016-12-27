@@ -15,13 +15,13 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     ///
-    ///     2013-08-13 版本：2.5 EricHu 增加“GetDTByPage”按分页获取数据，满足Web分页的要求。
-    ///		2012-03-02 版本：2.9 EricHu 创建文件。
+    ///     2013-08-13 版本：2.5 XuWangBin 增加“GetDTByPage”按分页获取数据，满足Web分页的要求。
+    ///		2012-03-02 版本：2.9 XuWangBin 创建文件。
     ///		
     /// 版本：2.9
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-03-02</date>
     /// </author> 
     /// </summary>

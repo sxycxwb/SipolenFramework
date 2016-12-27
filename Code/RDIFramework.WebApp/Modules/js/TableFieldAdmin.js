@@ -13,7 +13,7 @@ RDIFramework.NET，基于.NET的快速信息化系统开发、整合框架，给
 *
 * 主要完成员工的增加、修改、删除、移动、导出等。
 * 修改记录：
-*   1. 2013-08-22 EricHu 新增本业务逻辑的编写。
+*   1. 2013-08-22 XuWangBin 新增本业务逻辑的编写。
 */
 
 var actionUrl = 'handler/TableFieldAdminHandler.ashx';

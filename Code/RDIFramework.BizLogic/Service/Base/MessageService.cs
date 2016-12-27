@@ -15,12 +15,12 @@ namespace RDIFramework.BizLogic
     /// 修改记录
     /// 
     ///     2016-01-03 版本：3.0 增加SetDeleted接口方法。
-    ///		2014-02-27 版本：2.8 EricHu 建立。
+    ///		2014-02-27 版本：2.8 XuWangBin 建立。
     ///		
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014-02-27</date>
     /// </author> 
     /// </summary>

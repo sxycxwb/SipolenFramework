@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 namespace RDIFramework.Utilities
@@ -9,13 +9,13 @@ namespace RDIFramework.Utilities
     /// 组织机构类别。
     /// 
     /// 修改纪录
-    ///     2014-05-28 v2.8 EricHu 取消Group与Area枚举值。
-    ///     2010.03.16 版本：1.0 EricHu 结构优化整理。
+    ///     2014-05-28 v2.8 XuWangBin 取消Group与Area枚举值。
+    ///     2010.03.16 版本：1.0 XuWangBin 结构优化整理。
     ///		
     /// 版本：1.1
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.03.16</date>
     /// </author> 
     /// </summary>

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 using System.Windows.Forms;
 
@@ -9,11 +9,11 @@ namespace RDIFramework.Utilities
     /// 通用对话框显示类
     /// 
     /// 修改纪录
-    ///     2008-08-05 EricHu 增加"得到用户选择的结果:DialogResult ShowDlgReturnResult(string strMsg)"
-    ///     2008-05-20 EricHu 创建通用对话框显示类
+    ///     2008-08-05 XuWangBin 增加"得到用户选择的结果:DialogResult ShowDlgReturnResult(string strMsg)"
+    ///     2008-05-20 XuWangBin 创建通用对话框显示类
     ///     
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>80368704</QQ>
     ///     <Email>80368704@qq.com</Email>
     /// </author>

@@ -13,7 +13,7 @@ namespace RDIFramework.WinModule
     /// 用户兼职组织机构
     /// 
     /// 修改记录
-    ///     2014-07-08 V2.8 EricHu 增加FrmUserOrganize.cs。
+    ///     2014-07-08 V2.8 XuWangBin 增加FrmUserOrganize.cs。
     /// </summary>
     public partial class FrmUserOrganize : BaseForm
     {

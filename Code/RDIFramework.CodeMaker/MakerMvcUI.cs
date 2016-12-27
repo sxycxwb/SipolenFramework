@@ -9,7 +9,7 @@ namespace RDIFramework.CodeMaker
     /// <summary>
     /// MakerMvcUI
     /// 
-    /// 2016-03-28 V3.0 EricHu 新增生成“创建MVC UI的界面代码”。
+    /// 2016-03-28 V3.0 XuWangBin 新增生成“创建MVC UI的界面代码”。
     /// 
     /// </summary>
     public partial class MakerMvcUI : Form

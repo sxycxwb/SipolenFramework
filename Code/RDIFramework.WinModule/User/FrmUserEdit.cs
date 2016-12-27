@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-26 16:57:56
  ******************************************************************************/
 using System;
@@ -20,7 +20,7 @@ namespace RDIFramework.WinModule
     /// 用户编辑
     /// 
     /// 修改记录
-    ///     2012-05-31 EricHu 新增对组织机构的选择。
+    ///     2012-05-31 XuWangBin 新增对组织机构的选择。
     ///     
     /// </summary>
     public partial class FrmUserEdit : BaseForm

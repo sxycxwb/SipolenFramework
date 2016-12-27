@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-13 9:16:52
  ******************************************************************************/
 using System;
@@ -20,9 +20,9 @@ namespace RDIFramework.WinModule
     /// 角色综合管理界面
     /// 
     /// 修改记录
-    ///     2012-08-12 EricHu 增加界面数据排序功能。
-    ///     2012-07-23 EricHu 修改查询方式。
-    ///     2012-04-13 EricHu 创建FrmRoleAdmin。
+    ///     2012-08-12 XuWangBin 增加界面数据排序功能。
+    ///     2012-07-23 XuWangBin 修改查询方式。
+    ///     2012-04-13 XuWangBin 创建FrmRoleAdmin。
     /// </summary>
     public partial class FrmRoleAdmin : BaseForm
     {

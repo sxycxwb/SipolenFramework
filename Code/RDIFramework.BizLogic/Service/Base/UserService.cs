@@ -18,18 +18,18 @@ namespace RDIFramework.BizLogic
 	/// 用户服务层
 	/// 
 	/// 修改记录
-	///     2016-04-06 EricHu V3.0 删除用户一并删除用户所拥有的角色、权限等。
-    ///     2015-12-09 EricHu V3.0 新增GetCompanyUser、GetDepartmentUser服务。
-    ///     2015-06-08 EricHu V3.0 增加两个List<PiUserEntity>接口服务。
-    ///     2014-05-30 EricHu V2.8 增加 GetUserPageDTByDepartment 根据部门查询用户分页列表。
-	///     2014-04-02 EricHu V2.8 全面重构。
-    ///     2013-05-18 版本: 2.5 EricHu 修改“GetDT”方法，由原来的只得到有效用户，修改为现在的可得到逻辑删除外的用户。
-    ///		2012-03-02 版本：1.0 EricHu 建立UserService。
+	///     2016-04-06 XuWangBin V3.0 删除用户一并删除用户所拥有的角色、权限等。
+    ///     2015-12-09 XuWangBin V3.0 新增GetCompanyUser、GetDepartmentUser服务。
+    ///     2015-06-08 XuWangBin V3.0 增加两个List<PiUserEntity>接口服务。
+    ///     2014-05-30 XuWangBin V2.8 增加 GetUserPageDTByDepartment 根据部门查询用户分页列表。
+	///     2014-04-02 XuWangBin V2.8 全面重构。
+    ///     2013-05-18 版本: 2.5 XuWangBin 修改“GetDT”方法，由原来的只得到有效用户，修改为现在的可得到逻辑删除外的用户。
+    ///		2012-03-02 版本：1.0 XuWangBin 建立UserService。
 	///		
 	/// 版本：3.0
 	///
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2012-03-02</date>
 	/// </author> 
 	/// </summary>

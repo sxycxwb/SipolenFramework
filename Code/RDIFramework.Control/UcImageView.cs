@@ -7,7 +7,7 @@
 // 类  全  名： RDIFramework.Controls.UcImageView 
 // 描      述:  图像显示控件
 // 创建  时间： 2010-08-05
-// 创建人信息： [**** 姓名:EricHu QQ:406590790 E-Mail:406590790@qq.com *****]
+// 创建人信息： [**** 姓名:XuWangBin QQ:406590790 E-Mail:406590790@qq.com *****]
 *----------------------------------------------------------------------*/
 #endregion
 
@@ -25,11 +25,11 @@ namespace RDIFramework.Controls
     /// UcImageView
     /// 
     /// 修改纪录
-    ///     2010-11-6  EricHu 优化相关代码。
-    ///     2010-8-5   EricHu 创建图像显示控件
+    ///     2010-11-6  XuWangBin 优化相关代码。
+    ///     2010-8-5   XuWangBin 创建图像显示控件
     ///     
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>406590790</QQ>
     ///     <Email>406590790@qq.com</Email>
     /// </author>

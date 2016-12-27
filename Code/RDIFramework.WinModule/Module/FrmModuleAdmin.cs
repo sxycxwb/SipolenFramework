@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-17 10:53:34
  ******************************************************************************/
 using System;
@@ -21,10 +21,10 @@ namespace RDIFramework.WinModule
     /// 
     /// 修改记录
     ///     
-    ///     2012-10-24 EricHu 新增组织机构模块权限。
-    ///     2012-05-16 EricHu 新增排序功能的实现。
-    ///     2012-04-17 EricHu 创建模块综合管理（FrmModuleAdmin）。
-    ///     2012-05-15 EricHu 启用对分级授权（范围授权）的支持。
+    ///     2012-10-24 XuWangBin 新增组织机构模块权限。
+    ///     2012-05-16 XuWangBin 新增排序功能的实现。
+    ///     2012-04-17 XuWangBin 创建模块综合管理（FrmModuleAdmin）。
+    ///     2012-05-15 XuWangBin 启用对分级授权（范围授权）的支持。
     /// </summary>
     public partial class FrmModuleAdmin : BaseForm
     {

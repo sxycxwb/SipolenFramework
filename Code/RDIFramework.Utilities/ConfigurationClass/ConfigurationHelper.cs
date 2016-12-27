@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System.Configuration;
@@ -11,13 +11,13 @@ namespace RDIFramework.Utilities
     /// 连接配置。
     /// 
     /// 修改纪录
-    ///     2011.07.05 版本：1.1 EricHu 增加  SystemInfo.EnableCheckIPAddress 
-    ///		2010.09.29 版本：1.0 EricHu 将程序从 BaseConfiguration 进行了分离。
+    ///     2011.07.05 版本：1.1 XuWangBin 增加  SystemInfo.EnableCheckIPAddress 
+    ///		2010.09.29 版本：1.0 XuWangBin 将程序从 BaseConfiguration 进行了分离。
     /// 
     /// 版本：1.0
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.09.29</date>
     /// </author> 
     /// </summary>

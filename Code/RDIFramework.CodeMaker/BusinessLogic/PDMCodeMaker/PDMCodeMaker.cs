@@ -19,7 +19,7 @@ namespace RDIFramework.CodeMaker
     /// 版本：1.4
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.10.15</date>
     /// </author> 
     /// </summary>
@@ -658,7 +658,7 @@ namespace RDIFramework.CodeMaker
                 if (fieldDataType.IndexOf(DataTypeMapping[i, 0]) >= 0)
                 {
                     returnValue = DataTypeMapping[i, 1];
-                    // 如果defaultValue 为空的话 读取默认的 默认值 add by EricHu 20110618
+                    // 如果defaultValue 为空的话 读取默认的 默认值 add by XuWangBin 20110618
                     if (string.IsNullOrEmpty(defaultValue))
                     {
                         defaultValue = DataTypeMapping[i, 2];

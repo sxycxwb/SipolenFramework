@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2013 , EricHu. 
+// All Rights Reserved , Copyright (C) 2013 , XuWangBin. 
 //-----------------------------------------------------------------
 using System;
 using System.Collections.Generic;

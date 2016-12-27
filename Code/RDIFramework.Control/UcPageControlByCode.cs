@@ -28,7 +28,7 @@ namespace RDIFramework.Controls
     /// 分页控件（使用代码实现，不用存储过程）
     /// UcPageControlByCode
     /// 修改纪录
-    ///     2013-11-28 EricHu 整合此分页控件进RDIFramework.NET，同时修改对Oracle、Access、DB2的支持。
+    ///     2013-11-28 XuWangBin 整合此分页控件进RDIFramework.NET，同时修改对Oracle、Access、DB2的支持。
     ///     2010-01-06 胡勇 修改转到某页由原来的KeyPress方法改为KeyDown，让用户按回车键确认转页，以防止连续绑定两次。
     ///     2011-01-06 胡勇 增加对分页控件的初始化代码:public DataTable InitializePageControl()。
     ///     2011-01-05 胡勇 创建分页控件

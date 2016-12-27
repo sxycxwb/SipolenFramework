@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-7-20 16:35:51
  ******************************************************************************/
 
@@ -14,13 +14,13 @@ namespace RDIFramework.BizLogic
      ///
      /// 修改纪录
      ///    
-    ///         2014-06-11 版本: 2.8 EricHu 增加主负责人主键与副负责人主键。
-     ///	    2012-03-02 版本：1.0 EricHu 创建主键。
+    ///         2014-06-11 版本: 2.8 XuWangBin 增加主负责人主键与副负责人主键。
+     ///	    2012-03-02 版本：1.0 XuWangBin 创建主键。
      ///
      /// 版本：2.8
      ///
      /// <author>
-     ///		<name>EricHu</name>
+     ///		<name>XuWangBin</name>
      ///		<date>2012-03-02</date>
      /// </author>
      /// </summary>

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 
@@ -11,10 +11,10 @@ namespace RDIFramework.Utilities
     /// 人民币通用操作类
     /// 
     /// 修改纪录
-    ///     2008-07-25 EricHu 创建人民币通用操作类
+    ///     2008-07-25 XuWangBin 创建人民币通用操作类
     ///     
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>80368704</QQ>
     ///     <Email>80368704@qq.com</Email>
     /// </author>

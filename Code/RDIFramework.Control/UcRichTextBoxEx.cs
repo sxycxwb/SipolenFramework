@@ -25,10 +25,10 @@ namespace RDIFramework.Controls
     /// 
     /// 修改纪录
     ///     
-    ///     2010-08-05 EricHu 创建扩展文本控件
+    ///     2010-08-05 XuWangBin 创建扩展文本控件
     ///     
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>406590790</QQ>
     ///     <Email>406590790@qq.com</Email>
     /// </author>

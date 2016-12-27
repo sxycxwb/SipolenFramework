@@ -9,7 +9,7 @@ namespace RDIFramework.CodeMaker
     /// <summary>
     /// MakerWebUI
     /// 
-    /// 2016-03-12 V3.0 EricHu 新增生成“生成WebForm UI界面代码”。
+    /// 2016-03-12 V3.0 XuWangBin 新增生成“生成WebForm UI界面代码”。
     /// 
     /// </summary>
     public partial class MakerWebUI : Form

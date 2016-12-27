@@ -10,17 +10,17 @@ namespace RDIFramework.Utilities
 	/// 数据库访问通用类标准接口。
 	/// 
 	/// 修改纪录
-    ///     2012.02.15 版本: 2.2 EricHu 添加:IDbDataParameter[] MakeParameters(List<KeyValuePair<string, object>> parameters)
-	///		2011.08.26 版本：2.0 EricHu 将主键进行精简整理。
-	///		2011.08.25 版本：1.3 EricHu 将标准数据库接口方法进行分离、分离为标准接口方法与扩展接口方法部分。
-	///		2010.06.03 版本：1.2 EricHu 增加 DbParameter[] dbParameters 方法。
-	///		2010.05.07 版本：1.1 EricHu 增加GetWhereString定义。
-	///		2010.03.20 版本：1.0 EricHu 创建标准接口，这次应该算是一次飞跃。
+    ///     2012.02.15 版本: 2.2 XuWangBin 添加:IDbDataParameter[] MakeParameters(List<KeyValuePair<string, object>> parameters)
+	///		2011.08.26 版本：2.0 XuWangBin 将主键进行精简整理。
+	///		2011.08.25 版本：1.3 XuWangBin 将标准数据库接口方法进行分离、分离为标准接口方法与扩展接口方法部分。
+	///		2010.06.03 版本：1.2 XuWangBin 增加 DbParameter[] dbParameters 方法。
+	///		2010.05.07 版本：1.1 XuWangBin 增加GetWhereString定义。
+	///		2010.03.20 版本：1.0 XuWangBin 创建标准接口，这次应该算是一次飞跃。
 	/// 
 	/// 版本：2.0
 	/// 
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2010.08.26</date>
 	/// </author> 
 	/// </summary>

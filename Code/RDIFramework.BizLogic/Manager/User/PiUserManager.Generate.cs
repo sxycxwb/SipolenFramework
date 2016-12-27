@@ -11,13 +11,13 @@ namespace RDIFramework.BizLogic
      /// 用户账户表
      ///
      /// 修改纪录
-     ///        2014-05-27 EricHu V2.8 增加子公司与子部门的管理。
-     ///		2012-03-02 版本：1.0 EricHu 创建主键。
+     ///        2014-05-27 XuWangBin V2.8 增加子公司与子部门的管理。
+     ///		2012-03-02 版本：1.0 XuWangBin 创建主键。
      ///
      /// 版本：1.0
      ///
      /// <author>
-     ///		<name>EricHu</name>
+     ///		<name>XuWangBin</name>
      ///		<date>2012-03-02</date>
      /// </author>
      /// </summary>

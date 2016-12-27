@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2010 , EricHu. 
+// All Rights Reserved , Copyright (C) 2010 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -19,20 +19,20 @@ namespace RDIFramework.WinForm.Utilities
 	/// 通用页面控制类
 	/// 
 	/// 修改纪录
-	///     2014-11-26 EricHu V2.8 增加对DataGridView右键自动增加“全选、取消全选与反选快捷菜单”。
-    ///     2014-11-23 EricHu V2.8 新增重构方法：public static string GetDataGridViewEntityId(DataGridView targetDataGridView, string fieldId, string fieldSelected, bool selected = true)
-	///     2014-06-27 EricHu V2.8 重新组织本类，对常用功能进行了分离。
-    ///     2014-05-27 EricHu V2.8 修改“LoadDataGridViewColumnWidth”方法，对于列名称改后，加载DGV时不再出错。
-    ///     2014-01-03 EricHu V2.7 重新重构，把所有能用Linq表示的全用Linq实现，精简代码，提供效率，代码质量得到了质的飞跃。
-    ///     2012-06-12 EricHu 添加方法：设置进度条当前进度值(显示百分比)。
-    ///     2012-05-31 EricHu 对方法：GetComboSelectedValue进行了重构。
-    ///     2012-03-12 EricHu 再次对【容器包含控件属性控制】各方法集进行重构，清除多余重复代码，程序执行效率大大提升。
-    ///     2011.02.03 EricHu 新增对【容器包含控件属性控制】各方法集。
+	///     2014-11-26 XuWangBin V2.8 增加对DataGridView右键自动增加“全选、取消全选与反选快捷菜单”。
+    ///     2014-11-23 XuWangBin V2.8 新增重构方法：public static string GetDataGridViewEntityId(DataGridView targetDataGridView, string fieldId, string fieldSelected, bool selected = true)
+	///     2014-06-27 XuWangBin V2.8 重新组织本类，对常用功能进行了分离。
+    ///     2014-05-27 XuWangBin V2.8 修改“LoadDataGridViewColumnWidth”方法，对于列名称改后，加载DGV时不再出错。
+    ///     2014-01-03 XuWangBin V2.7 重新重构，把所有能用Linq表示的全用Linq实现，精简代码，提供效率，代码质量得到了质的飞跃。
+    ///     2012-06-12 XuWangBin 添加方法：设置进度条当前进度值(显示百分比)。
+    ///     2012-05-31 XuWangBin 对方法：GetComboSelectedValue进行了重构。
+    ///     2012-03-12 XuWangBin 再次对【容器包含控件属性控制】各方法集进行重构，清除多余重复代码，程序执行效率大大提升。
+    ///     2011.02.03 XuWangBin 新增对【容器包含控件属性控制】各方法集。
 	///	
 	/// 版本：2.9
 	///
 	/// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.02.03</date>
 	/// </author> 
 	/// </summary>

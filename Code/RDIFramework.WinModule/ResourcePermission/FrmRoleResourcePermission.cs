@@ -19,7 +19,7 @@ namespace RDIFramework.WinModule
     /// 角色资源权限设置（那个角色对那些资源有什么权限）
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.05.27</date>
     /// </author> 
     /// </summary>

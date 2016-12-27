@@ -12,15 +12,15 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     /// 
-    ///		2011.05.07 版本：2.3 EricHu 改进为虚类。
-    ///		2010.08.15 版本：2.2 EricHu 改进运行速度采用 WebService 变量定义 方式处理数据。
-    ///		2010.08.14 版本：2.1 EricHu 改进运行速度采用 Instance 方式处理数据。
-    ///		2010.07.10 版本：1.0 EricHu 数据库访问类。
+    ///		2011.05.07 版本：2.3 XuWangBin 改进为虚类。
+    ///		2010.08.15 版本：2.2 XuWangBin 改进运行速度采用 WebService 变量定义 方式处理数据。
+    ///		2010.08.14 版本：2.1 XuWangBin 改进运行速度采用 Instance 方式处理数据。
+    ///		2010.07.10 版本：1.0 XuWangBin 数据库访问类。
     ///		
     /// 版本：2.3
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.07.10</date>
     /// </author> 
     /// </summary>

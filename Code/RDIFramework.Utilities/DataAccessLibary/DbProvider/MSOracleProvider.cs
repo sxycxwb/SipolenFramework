@@ -13,16 +13,16 @@ namespace RDIFramework.Utilities
 	/// 
 	/// 修改纪录
 	///     
-    ///     2014-10-13 版本：2.8 EricHu 修改"public IDbDataParameter MakeInParam(string targetFiled, object targetValue)"方法，取消生成参数时添加的冒号“:”。
-	///		2008.08.26 版本：1.3 EricHu 修改Open时的错误反馈。
-	///		2008.06.01 版本：1.2 EricHu 数据库连接获得方式进行改进，构造函数获得调通。
-	///		2008.05.08 版本：1.1 EricHu 调试通过，修改一些 有关参数的 Bug。
-	///		2008.05.07 版本：1.0 EricHu 创建。
+    ///     2014-10-13 版本：2.8 XuWangBin 修改"public IDbDataParameter MakeInParam(string targetFiled, object targetValue)"方法，取消生成参数时添加的冒号“:”。
+	///		2008.08.26 版本：1.3 XuWangBin 修改Open时的错误反馈。
+	///		2008.06.01 版本：1.2 XuWangBin 数据库连接获得方式进行改进，构造函数获得调通。
+	///		2008.05.08 版本：1.1 XuWangBin 调试通过，修改一些 有关参数的 Bug。
+	///		2008.05.07 版本：1.0 XuWangBin 创建。
 	/// 
 	/// 版本：1.3
 	/// 
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2010.08.26</date>
 	/// </author> 
 	/// </summary>

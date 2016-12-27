@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-5-4 11:10:15
  ******************************************************************************/
 
@@ -12,12 +12,12 @@ namespace RDIFramework.WinModule
     /// 
     /// 修改纪录
     ///
-    ///		2012-5-4 版本：1.0 EricHu 创建。
+    ///		2012-5-4 版本：1.0 XuWangBin 创建。
     ///		
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-5-4</date>
     /// </author> 
     /// </summary>

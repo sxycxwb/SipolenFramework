@@ -37,13 +37,13 @@ namespace RDIFramework.BizLogic
     /// 平台插件实体
     ///
     /// 修改纪录
-    ///     2014-07-30 版本: 2.8 EricHu 以自动属性进行重新组织。
-    ///		2012-05-25 版本：1.0 EricHu 创建PiPlatFormAddInEntity。
+    ///     2014-07-30 版本: 2.8 XuWangBin 以自动属性进行重新组织。
+    ///		2012-05-25 版本：1.0 XuWangBin 创建PiPlatFormAddInEntity。
     ///
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-05-25</date>
     /// </author>
     /// </summary>

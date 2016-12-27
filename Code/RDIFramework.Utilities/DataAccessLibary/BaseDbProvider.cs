@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2010 , EricHu. 
+// All Rights Reserved , Copyright (C) 2010 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -17,17 +17,17 @@ namespace RDIFramework.Utilities
 	/// 数据库访问层基础类。
 	/// 
 	/// 修改纪录
-    ///     2014.06.06 版本：2.8 EricHu 拆分为partial类。
-	///     2013.02.20 版本：2.7 EricHu 重新排版代码。
-	///     2012.01.29 版本：2.5 EricHu 实现IDisposable接口。
-	///     2011.01.13 版本：2.2 EricHu 改进为支持静态方法，不用数据库Open、Close的方式，AutoOpenClose开关。
-	///		2010.06.12 版本：2.0 EricHu 无法彻底释放、并发时出现异常问题解决。
-    ///		2010.03.14 版本：1.0 EricHu 改进ConnectionString。
+    ///     2014.06.06 版本：2.8 XuWangBin 拆分为partial类。
+	///     2013.02.20 版本：2.7 XuWangBin 重新排版代码。
+	///     2012.01.29 版本：2.5 XuWangBin 实现IDisposable接口。
+	///     2011.01.13 版本：2.2 XuWangBin 改进为支持静态方法，不用数据库Open、Close的方式，AutoOpenClose开关。
+	///		2010.06.12 版本：2.0 XuWangBin 无法彻底释放、并发时出现异常问题解决。
+    ///		2010.03.14 版本：1.0 XuWangBin 改进ConnectionString。
 	/// 
 	/// 版本：2.8
 	/// 
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
     ///		<date>2010.03.14</date>
 	/// </author> 
 	/// </summary>

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
@@ -15,12 +15,12 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     /// 
-    ///		2012.02.04 版本：1.0 EricHu 进行提炼，把代码进行分组。
+    ///		2012.02.04 版本：1.0 XuWangBin 进行提炼，把代码进行分组。
     ///
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.02.04</date>
     /// </author> 
     /// </summary>

@@ -38,12 +38,12 @@ namespace RDIFramework.BizLogic
 	/// 
 	/// 修改记录
 	/// 
-	///	2015-09-18 版本：1.0 EricHu 建立查询引擎服务层。
+	///	2015-09-18 版本：1.0 XuWangBin 建立查询引擎服务层。
 	///		
 	/// 版本：1.0
 	///
 	/// <author>
-	///	<name>EricHu</name>
+	///	<name>XuWangBin</name>
 	///	<date>2015-09-18</date>
 	/// </author> 
 	/// </summary>

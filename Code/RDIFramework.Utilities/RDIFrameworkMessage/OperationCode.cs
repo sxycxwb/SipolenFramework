@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 namespace RDIFramework.Utilities
@@ -10,13 +10,13 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改记录
     ///
-    ///		2008.05.10 版本：1.1 EricHu 命名为 OperationCode。 
-    ///		2007.12.08 版本：1.0 EricHu 添加 Config、UpLoad、DownLoad 权限。 
+    ///		2008.05.10 版本：1.1 XuWangBin 命名为 OperationCode。 
+    ///		2007.12.08 版本：1.0 XuWangBin 添加 Config、UpLoad、DownLoad 权限。 
     ///		
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2007.12.08</date>
     /// </author> 
     /// </remarks>

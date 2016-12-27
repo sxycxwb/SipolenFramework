@@ -13,8 +13,8 @@ namespace RDIFramework.WebApp
     /// 
     /// 修改记录 
     /// 
-    /// EricHu 2014-01-16 V2.7 增加对Tree导航菜单的加载。
-    /// EricHu 2013-11-08 V2.7 增加只加载与WebForm相关的模块。
+    /// XuWangBin 2014-01-16 V2.7 增加对Tree导航菜单的加载。
+    /// XuWangBin 2013-11-08 V2.7 增加只加载与WebForm相关的模块。
     /// </summary>
     public partial class _Default : BasePage
     {

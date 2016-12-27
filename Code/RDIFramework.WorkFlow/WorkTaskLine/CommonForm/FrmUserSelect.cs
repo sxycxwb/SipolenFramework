@@ -13,7 +13,7 @@ namespace RDIFramework.WorkFlow
     /// 用户选择公共界面
     /// 
     /// 修改记录
-    ///     EricHu 2014-06-18 v2.8 对用户选择界面进行重构。
+    ///     XuWangBin 2014-06-18 v2.8 对用户选择界面进行重构。
     /// 
     /// </summary>
     public partial class FrmUserSelect : BaseForm

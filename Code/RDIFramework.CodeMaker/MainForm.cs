@@ -630,7 +630,7 @@ namespace RDIFramework.CodeMaker
             {
                 case "mitemAbout": //关于本软件
                     var assembly = new AssemblyInformation(Assembly.GetEntryAssembly());
-                    var frmAbout = new FrmAbout(assembly, "EricHu", "http://www.rdiframework.net/");
+                    var frmAbout = new FrmAbout(assembly, "XuWangBin", "http://www.rdiframework.net/");
                     frmAbout.ShowDialog();
                     break;
                 case "mitemOnlineHelp": //在线帮助

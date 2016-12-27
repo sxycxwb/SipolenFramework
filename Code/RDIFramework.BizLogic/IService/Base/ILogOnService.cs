@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-19 16:40:11
  ******************************************************************************/
 
@@ -20,7 +20,7 @@ namespace RDIFramework.BizLogic
     ///     2016-01-30 版本：3.0 新增UserDimission 用户离职接口
     ///     2016-01-16 版本：3.0 增加LockUser、UnLockUser的接口
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.04.19</date>
     /// </author> 
     /// </summary>

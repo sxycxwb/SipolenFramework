@@ -13,7 +13,7 @@ http://blog.csdn.net/chinahuyong
 *
 * 主要完成系统参数的增加、修改、删除、导出等。
 * 修改记录：
-*   1、 2015-08-05 EricHu V3.0 新增本业务逻辑的编写。
+*   1、 2015-08-05 XuWangBin V3.0 新增本业务逻辑的编写。
 */
 
 var actionUrl = 'handler/ParameterAdminHandler.ashx',

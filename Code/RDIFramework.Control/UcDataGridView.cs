@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-13 10:24:30
  ******************************************************************************/
 
@@ -21,11 +21,11 @@ namespace RDIFramework.Controls
     /// </summary>
     /// 
     ///修改纪录:
-    ///       2016-01-11 EricHu V3.0 增加点击某个单元格时使当前行前面的复选框(DataGridViewCheckBoxColumn控件)选中（打勾）或不选中（取消打勾）
-    ///       2010-07-18 EricHu 创建"扩展DataGridView控件"
+    ///       2016-01-11 XuWangBin V3.0 增加点击某个单元格时使当前行前面的复选框(DataGridViewCheckBoxColumn控件)选中（打勾）或不选中（取消打勾）
+    ///       2010-07-18 XuWangBin 创建"扩展DataGridView控件"
     /// 
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>406590790</QQ>
     ///     <Email>406590790@qq.com</Email>
     /// </author>

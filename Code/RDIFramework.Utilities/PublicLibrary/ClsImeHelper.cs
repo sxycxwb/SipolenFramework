@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -12,11 +12,11 @@ namespace RDIFramework.Utilities
     /// RDIFramework窗体全角与半角漏洞处理(主要针对在光标移动到下一控件时，输入法全角与半角会自动切换)
     /// 
     /// 修改纪录(此ClsImeHelper经过多次修改，已趋于完美，可放心使用。)
-    ///     2009-11-05 EricHu 对代码做了相应优化
-    ///     2009-08-12 EricHu 创建ClsImeHelper
+    ///     2009-11-05 XuWangBin 对代码做了相应优化
+    ///     2009-08-12 XuWangBin 创建ClsImeHelper
     ///     
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>80368704</QQ>
     ///     <Email>80368704@qq.com</Email>
     /// </author>

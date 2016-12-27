@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -17,13 +17,13 @@ namespace RDIFramework.WinForm.Utilities
     /// 
     /// 修改纪录
     /// 
-    ///     2007.08.20 版本：2.0 EricHu Instance 实例调用模式，加快运行速度。
-    ///		2007.04.16 版本：1.0 EricHu 创建。
+    ///     2007.08.20 版本：2.0 XuWangBin Instance 实例调用模式，加快运行速度。
+    ///		2007.04.16 版本：1.0 XuWangBin 创建。
     ///		
     /// 版本：2.1
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2007.04.16</date>
     /// </author> 
     /// </summary>

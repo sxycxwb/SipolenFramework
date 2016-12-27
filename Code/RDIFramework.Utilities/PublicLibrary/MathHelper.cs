@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System.Text.RegularExpressions;
@@ -10,10 +10,10 @@ namespace RDIFramework.Utilities
     /// 数字通用操作类
     /// 
     /// 修改纪录
-    ///     2008-07-01 EricHu 数字通用操作类
+    ///     2008-07-01 XuWangBin 数字通用操作类
     ///     
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>80368704</QQ>
     ///     <Email>80368704@qq.com</Email>
     /// </author>

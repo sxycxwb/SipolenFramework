@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-26 16:54:57
  ******************************************************************************/
 using System;
@@ -230,7 +230,7 @@ namespace RDIFramework.WinModule
 
         //private void tvModule_AfterCheck(object sender, TreeViewEventArgs e)
         //{
-        // 是用户点了复选框。改用在tvModule_NodeMouseClick函数中处理了，edit by EricHu on 2011-10-31
+        // 是用户点了复选框。改用在tvModule_NodeMouseClick函数中处理了，edit by XuWangBin on 2011-10-31
         //if (this.isUserClick)
         //{
         //    for (int i = 0; i < e.Node.Nodes.Count; i++)

@@ -13,9 +13,9 @@ namespace RDIFramework.WebApp.Modules.handler
     /// RoleAdminHandler 的摘要说明
     /// 
     /// 修改说明：    
-    ///     1、2013-07-25 EricHu 新增：GetRoleListByPage。
-    ///     2、 2015-10-27 EricHu V3.0版本 重新设计增加与修改代码，直接序列化页面的json，减少大量代码。
-    ///     3、 2015-10-29 EricHu V3.0版本 重构分页部分的代码使用通用分页参数代替，减少重复大量代码。 
+    ///     1、2013-07-25 XuWangBin 新增：GetRoleListByPage。
+    ///     2、 2015-10-27 XuWangBin V3.0版本 重新设计增加与修改代码，直接序列化页面的json，减少大量代码。
+    ///     3、 2015-10-29 XuWangBin V3.0版本 重构分页部分的代码使用通用分页参数代替，减少重复大量代码。 
     /// </summary>
     public class RoleAdminHandler : IHttpHandler, IRequiresSessionState
     {

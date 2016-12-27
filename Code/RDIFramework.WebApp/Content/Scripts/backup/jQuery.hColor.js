@@ -1,5 +1,5 @@
 ﻿/*
-作者：EricHU
+作者：XuWangBin
 
 页面中加入的CSS
 .colorpicker{position: absolute;top:0px; background:#fafafa;padding:2px;border:1px solid #666;z-index:9999999;}

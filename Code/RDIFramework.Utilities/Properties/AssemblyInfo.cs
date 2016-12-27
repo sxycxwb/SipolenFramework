@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("QQ：406590790 Bolg:http://www.rdiframework.net/")]
 [assembly: AssemblyProduct("RDIFramework.Utilities")]
-[assembly: AssemblyCopyright("Copyright © EricHu 2010-2016")]
+[assembly: AssemblyCopyright("Copyright © XuWangBin 2010-2016")]
 [assembly: AssemblyTrademark("http://www.rdiframework.net/")]
 [assembly: AssemblyCulture("")]
 

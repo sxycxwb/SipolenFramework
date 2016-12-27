@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2011 , EricHu. 
+// All Rights Reserved , Copyright (C) 2011 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -17,17 +17,17 @@ namespace RDIFramework.Utilities
 	/// 
 	/// 修改纪录
 	///
-	///		2011.01.22 版本：5.6 EricHu 参数首字母大小写规范化。
-	///		2008.08.26 版本：5.5 EricHu 修改 Open 时的错误反馈。
-	///		2008.06.01 版本：5.4 EricHu 数据库连接获得方式进行改进，构造函数获得调通。
-	///		2008.05.31 版本：5.3 EricHu 参数命名 param 前缀替换为小写字母开始。
-	///		2008.05.09 版本：5.2 EricHu InTransaction 命名改进。
-	///		2008.05.07 版本：5.1 EricHu AddParameter 方法改进。
-	///		2008.03.27 版本：5.1 EricHu 完善写日志功能。
+	///		2011.01.22 版本：5.6 XuWangBin 参数首字母大小写规范化。
+	///		2008.08.26 版本：5.5 XuWangBin 修改 Open 时的错误反馈。
+	///		2008.06.01 版本：5.4 XuWangBin 数据库连接获得方式进行改进，构造函数获得调通。
+	///		2008.05.31 版本：5.3 XuWangBin 参数命名 param 前缀替换为小写字母开始。
+	///		2008.05.09 版本：5.2 XuWangBin InTransaction 命名改进。
+	///		2008.05.07 版本：5.1 XuWangBin AddParameter 方法改进。
+	///		2008.03.27 版本：5.1 XuWangBin 完善写日志功能。
 	/// 版本：2.0
 	/// 
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2008.03.27</date>
 	/// </author> 
 	/// </summary>

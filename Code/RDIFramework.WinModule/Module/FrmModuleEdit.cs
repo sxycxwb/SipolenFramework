@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-18 9:00:32
  ******************************************************************************/
 using System;
@@ -19,11 +19,11 @@ namespace RDIFramework.WinModule
     /// 模块编辑（新增、修改）。
     /// 
     /// 修改记录
-    ///     2015-08-08 EricHu V3.0 增加对MVC导航地址的配置。
-    ///     2013-11-08 EricHu V2.7 增加对模块类型（1：WinForm、2：WebForm、3：WinForm与WebForm都支持-默认、6：其他）的识别。
-    ///     2013-02-15 EricHu 修改模块ImageIndex为空时提示的错误信息。
-    ///     2012-10-28 EricHu 新增对WebForm配置的要求。
-    ///     2012-05-18 EricHu 新增模块图标的选择。
+    ///     2015-08-08 XuWangBin V3.0 增加对MVC导航地址的配置。
+    ///     2013-11-08 XuWangBin V2.7 增加对模块类型（1：WinForm、2：WebForm、3：WinForm与WebForm都支持-默认、6：其他）的识别。
+    ///     2013-02-15 XuWangBin 修改模块ImageIndex为空时提示的错误信息。
+    ///     2012-10-28 XuWangBin 新增对WebForm配置的要求。
+    ///     2012-05-18 XuWangBin 新增模块图标的选择。
     /// </summary>
     public partial class FrmModuleEdit : BaseForm
     {

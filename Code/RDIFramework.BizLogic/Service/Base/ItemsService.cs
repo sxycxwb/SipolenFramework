@@ -17,13 +17,13 @@ namespace RDIFramework.BizLogic
 	/// 
 	/// 修改记录
 	/// 
-    ///     2015-04-03 版本：2.9 EricHu 新增：GetItemDetailDTByItemId
-	///		2012-03-02 版本：1.0 EricHu 建立。
+    ///     2015-04-03 版本：2.9 XuWangBin 新增：GetItemDetailDTByItemId
+	///		2012-03-02 版本：1.0 XuWangBin 建立。
 	///		
 	/// 版本：1.0
 	///
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2012-03-02</date>
 	/// </author> 
 	/// </summary>

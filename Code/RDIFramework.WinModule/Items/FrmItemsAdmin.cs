@@ -13,7 +13,7 @@ namespace RDIFramework.WinModule
     /// 数据字典管理
     /// 
     /// 修改记录
-    ///     2015-04-06 EricHu V2.9 新增数据字典管理。
+    ///     2015-04-06 XuWangBin V2.9 新增数据字典管理。
     ///     
     /// 
     /// </summary>

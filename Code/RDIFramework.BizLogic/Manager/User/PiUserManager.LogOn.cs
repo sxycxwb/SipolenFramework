@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-18 9:49:17
  ******************************************************************************/
 using System;
@@ -13,7 +13,7 @@ namespace RDIFramework.BizLogic
 
     /// <summary>
     /// 
-    /// 2014-03-26 EricHu V2.8 增加对用户（用户名与密码）的验证。
+    /// 2014-03-26 XuWangBin V2.8 增加对用户（用户名与密码）的验证。
     /// 
     /// </summary>
     public partial class PiUserManager

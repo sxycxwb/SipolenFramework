@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-14 14:43:42
  ******************************************************************************/
 using System;
@@ -15,9 +15,9 @@ namespace RDIFramework.NET
     /// 平台选择配置
     /// 
     /// 修改记录
-    ///     2015-04-19 EricHu V2.9 新增“当前语言”的配置项。
-    ///     2012-06-15 EricHu 新增对配置文件的保存。
-    ///     2012-06-14 EricHu 创建FrmOption
+    ///     2015-04-19 XuWangBin V2.9 新增“当前语言”的配置项。
+    ///     2012-06-15 XuWangBin 新增对配置文件的保存。
+    ///     2012-06-14 XuWangBin 创建FrmOption
     /// </summary>
     public partial class FrmOption : BaseForm
     {

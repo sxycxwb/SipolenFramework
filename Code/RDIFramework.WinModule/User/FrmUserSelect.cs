@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-26 16:57:57
  ******************************************************************************/
 using System;
@@ -18,8 +18,8 @@ namespace RDIFramework.WinModule
     /// 用户选择公共界面
     /// 
     /// 修改记录
-    ///     EricHu  2015-07-10 V3.0 修正Oracle下GetDTByPage排序的小问题。
-    ///     EricHu  2014-06-18 v2.8 对用户选择界面进行重构。
+    ///     XuWangBin  2015-07-10 V3.0 修正Oracle下GetDTByPage排序的小问题。
+    ///     XuWangBin  2014-06-18 v2.8 对用户选择界面进行重构。
     /// 
     /// </summary>
     public partial class FrmUserSelect : BaseForm

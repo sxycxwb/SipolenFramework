@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-02-08 12:57:46
  ******************************************************************************/
 using System;
@@ -25,15 +25,15 @@ namespace RDIFramework.NET
     /// 
     /// 修改记录
     /// 
-    ///     2014-02-28 EricHu V2.8 增加企业通，修改退出代码对企业通退出的支持。
-    ///     2013-11-08 EricHu V2.7 增加针对模块类型自动只加载WinForm类型的模块。
-    ///     2013-02-21 EricHu 新增向服务端发送心跳数据（每一分钟心跳一次，以示当前用户在线）。
-    ///     2013-01-20 EricHu 修改为子系统显示形式。
-    ///     2013-01-14 EricHu 新增全屏显示功能。
-    ///     2012-06-04 EricHu 增加换肤功能。
-    ///     2012-06-15 EricHu 修改窗体名称后的版本以两位数据显示。
+    ///     2014-02-28 XuWangBin V2.8 增加企业通，修改退出代码对企业通退出的支持。
+    ///     2013-11-08 XuWangBin V2.7 增加针对模块类型自动只加载WinForm类型的模块。
+    ///     2013-02-21 XuWangBin 新增向服务端发送心跳数据（每一分钟心跳一次，以示当前用户在线）。
+    ///     2013-01-20 XuWangBin 修改为子系统显示形式。
+    ///     2013-01-14 XuWangBin 新增全屏显示功能。
+    ///     2012-06-04 XuWangBin 增加换肤功能。
+    ///     2012-06-15 XuWangBin 修改窗体名称后的版本以两位数据显示。
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.02.08</date>
     /// </author> 
     /// </summary>
@@ -660,7 +660,7 @@ namespace RDIFramework.NET
         private void biAbout_Click(object sender, EventArgs e)
         {
             var assembly = new AssemblyInformation(Assembly.GetEntryAssembly());
-            FrmAbout frmAbout = new FrmAbout(assembly, "EricHu", "http://www.cnblogs.com/huyong/");
+            FrmAbout frmAbout = new FrmAbout(assembly, "XuWangBin", "http://www.cnblogs.com/huyong/");
             frmAbout.ShowDialog();
         }
 

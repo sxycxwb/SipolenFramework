@@ -7,7 +7,7 @@
 // 类  全  名： RDIFramework.Controls.UcPageControl 
 // 描      述:  分页控件
 // 创建  时间： 2010-06-05
-// 创建人信息： [**** 姓名:EricHu QQ:406590790 E-Mail:406590790@qq.com *****]
+// 创建人信息： [**** 姓名:XuWangBin QQ:406590790 E-Mail:406590790@qq.com *****]
 *----------------------------------------------------------------------*/
 #endregion
 
@@ -37,14 +37,14 @@ namespace RDIFramework.Controls
     /// 
     /// 修改纪录(此分页控件经过多次修改，已趋于完美，可放心使用。)
     /// 
-    ///     2014-01-20 EricHu V2.7 提供对Oracle分页的支持！
-    ///     2013-08-21 EricHu V2.5 更新对Sqlserver分页的存储过程，分页效率更高。
-    ///     2010-12-06 EricHu 对上一条、下一条、首条、末条数据导航的隐藏，因为控件本身已做了处理。
-    ///     2010-12-05 EricHu 对分页控件代码做了相应优化
-    ///     2010-06-05 EricHu 创建分页控件
+    ///     2014-01-20 XuWangBin V2.7 提供对Oracle分页的支持！
+    ///     2013-08-21 XuWangBin V2.5 更新对Sqlserver分页的存储过程，分页效率更高。
+    ///     2010-12-06 XuWangBin 对上一条、下一条、首条、末条数据导航的隐藏，因为控件本身已做了处理。
+    ///     2010-12-05 XuWangBin 对分页控件代码做了相应优化
+    ///     2010-06-05 XuWangBin 创建分页控件
     ///     
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>406590790</QQ>
     ///     <Email>406590790@qq.com</Email>
     /// </author>
@@ -349,7 +349,7 @@ namespace RDIFramework.Controls
     /// 数据源提供
     /// 
     ///     修改记录：
-    ///     2010-12-19 EricHu 修改int GetTotalCount(string connectionstring)方法
+    ///     2010-12-19 XuWangBin 修改int GetTotalCount(string connectionstring)方法
     ///                     当查询条件为空时，高效得到指定表的记录总数。
     /// </summary>
     public class PageData

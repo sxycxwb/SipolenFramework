@@ -13,7 +13,7 @@ namespace RDIFramework.WinModule
     /// 
     /// 修改记录
     /// 
-    ///     2015-01-30 EricHu 新增FrmModulePermissionItemSet.cs.
+    ///     2015-01-30 XuWangBin 新增FrmModulePermissionItemSet.cs.
     /// </summary>
     public partial class FrmModulePermissionItemSet : BaseForm
     {

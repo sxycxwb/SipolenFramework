@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -15,22 +15,22 @@ namespace RDIFramework.BizLogic
     /// 
     /// 
     /// 修改纪录
-    ///     2012.02.05 版本：2.2 EricHu 增加“List<KeyValuePair<string, object>>”形式参数。
-    ///		2011.11.01 版本：1.9 EricHu 改进 BUOperatorInfo 去掉这个变量，可以提高性能，提高速度，基类的又一次飞跃。
-    ///		2011.05.23 版本：1.8 EricHu 修改完善了 对象事件触发器，完善了GetDT, ref 方法部分。
-    ///		2011.05.20 版本：1.7 EricHu 修改完善了 对象事件触发器，完善了GetDT方法部分。
-    ///		2011.05.19 版本：1.6 EricHu 修改完善了 Delete，Exists方法部分，累了休息一下下，争取周六周日两天内完成。
-    ///		2011.05.18 版本：1.5 EricHu 规范了一些接口的标准方法，进行了补充。
-    ///		2011.05.17 版本：1.4 EricHu 重新调整主键的规范化，整体上又上升了一个层次了。
-    ///		2011.02.05 版本：1.3 EricHu 重新调整主键的规范化。
-    ///		2010.08.19 版本：1.2 EricHu 参数进行改进
-    ///		2009.07.23 版本：1.1 EricHu 增加了接口ClearProperty、GetFromDS 的定义。
-    ///		2009.07.21 版本：1.0 EricHu 提炼了最基础的方法部分、觉得这些是很有必要的方法。
+    ///     2012.02.05 版本：2.2 XuWangBin 增加“List<KeyValuePair<string, object>>”形式参数。
+    ///		2011.11.01 版本：1.9 XuWangBin 改进 BUOperatorInfo 去掉这个变量，可以提高性能，提高速度，基类的又一次飞跃。
+    ///		2011.05.23 版本：1.8 XuWangBin 修改完善了 对象事件触发器，完善了GetDT, ref 方法部分。
+    ///		2011.05.20 版本：1.7 XuWangBin 修改完善了 对象事件触发器，完善了GetDT方法部分。
+    ///		2011.05.19 版本：1.6 XuWangBin 修改完善了 Delete，Exists方法部分，累了休息一下下，争取周六周日两天内完成。
+    ///		2011.05.18 版本：1.5 XuWangBin 规范了一些接口的标准方法，进行了补充。
+    ///		2011.05.17 版本：1.4 XuWangBin 重新调整主键的规范化，整体上又上升了一个层次了。
+    ///		2011.02.05 版本：1.3 XuWangBin 重新调整主键的规范化。
+    ///		2010.08.19 版本：1.2 XuWangBin 参数进行改进
+    ///		2009.07.23 版本：1.1 XuWangBin 增加了接口ClearProperty、GetFromDS 的定义。
+    ///		2009.07.21 版本：1.0 XuWangBin 提炼了最基础的方法部分、觉得这些是很有必要的方法。
     ///
     /// 版本：2.8
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2009.05.23</date>
     /// </author> 
     /// </summary>

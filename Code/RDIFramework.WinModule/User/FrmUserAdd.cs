@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-26 16:57:56
  ******************************************************************************/
 using System;
@@ -19,9 +19,9 @@ namespace RDIFramework.WinModule
     /// 用户新增
     /// 
     /// 修改记录
-    ///     2014-05-28 EricHu V2.8 增加分支机构/子公司、子部门的管理。
-    ///     2014-05-07 EricHu V2.8 修改增加用户时，对用户密码进行了重复加密的问题（在服务层已经做了相应的加密处理）。
-    ///     2012-05-31 EricHu 新增对组织机构的选择。
+    ///     2014-05-28 XuWangBin V2.8 增加分支机构/子公司、子部门的管理。
+    ///     2014-05-07 XuWangBin V2.8 修改增加用户时，对用户密码进行了重复加密的问题（在服务层已经做了相应的加密处理）。
+    ///     2012-05-31 XuWangBin 新增对组织机构的选择。
     ///     
     /// </summary>
     public partial class FrmUserAdd : BaseForm

@@ -18,7 +18,7 @@ namespace RDIFramework.WinModule
     /// 通用查询
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2015-12-07</date>
     /// </author> 
     /// </summary>

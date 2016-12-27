@@ -16,11 +16,11 @@ namespace RDIFramework.WinModule
     /// 
     /// 修改记录    
     /// 
-    ///     2014-08-05 版本：2.8 EricHu  新增移动功能。
-    ///     2014.06.16 版本：2.8 EricHu  岗位管理功能页面编写。
+    ///     2014-08-05 版本：2.8 XuWangBin  新增移动功能。
+    ///     2014.06.16 版本：2.8 XuWangBin  岗位管理功能页面编写。
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014.06.16</date>
     /// </author> 
     /// </summary>

@@ -14,10 +14,10 @@ namespace RDIFramework.Controls
     /// </summary>
     /// 
     ///修改纪录:
-    ///       2014-12-10 EricHu 创建"带汇总功能的DataGridView控件"
+    ///       2014-12-10 XuWangBin 创建"带汇总功能的DataGridView控件"
     /// 
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>406590790</QQ>
     ///     <Email>406590790@qq.com</Email>
     /// </author>  

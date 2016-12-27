@@ -3,10 +3,10 @@
   <language>zh-CN</language>
   <displayName>简体中文</displayName>
   <version>3.0</version>
-  <author>EricHu</author>
+  <author>XuWangBin</author>
   <description>简体中文语言包</description>
   <items>
-    <!-- Global Language Resources Begin EricHu -->
+    <!-- Global Language Resources Begin XuWangBin -->
     <item key="MSG0000">提示信息</item>
     <item key="MSG0001">发生未知错误。</item>
     <item key="MSG0002">数据库联接不正常。</item>

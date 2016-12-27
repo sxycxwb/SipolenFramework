@@ -51,7 +51,7 @@
   <ItemGroup>
     <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\UMPlatForm.ExternalReference\DevComponents.DotNetBar2.dll</HintPath>
+      <HintPath>..\RDIFramework.ExternalReference\DevComponents.DotNetBar2.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ICSharpCode.TextEditor">

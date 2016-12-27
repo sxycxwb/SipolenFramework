@@ -12,7 +12,7 @@ namespace CRM
     /// 联系人列表
     /// 
     /// 修改记录
-    ///     2012-06-17 EricHu 创建FrmLinkManList。
+    ///     2012-06-17 XuWangBin 创建FrmLinkManList。
     /// </summary>
     public partial class FrmLinkManList : BaseForm
     {

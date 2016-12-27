@@ -13,7 +13,7 @@ namespace RDIFramework.WinModule
     /// 表字段综合管理
     /// 
     /// 修改记录：
-    ///     2013-02-18 EricHu 版本2.0 新增FrmTableFieldAdmin。
+    ///     2013-02-18 XuWangBin 版本2.0 新增FrmTableFieldAdmin。
     ///     
     /// </summary>
     public partial class FrmTableFieldAdmin : BaseForm

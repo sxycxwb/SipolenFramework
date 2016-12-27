@@ -152,7 +152,7 @@ namespace CAutoUpdater
                         tempFolderPath = Path.Combine(CommonUnitity.systemBinUrl, ConstFile.TEMPFOLDERNAME);
                     }
 
-                    //2014-05-15 新增 EricHu 说明有子目录
+                    //2014-05-15 新增 XuWangBin 说明有子目录
                     if (file.FileFullName.Contains(@"\")) 
                     {
                         string tmpDir = Path.Combine(tempFolderPath, file.FileFullName.Substring(0, file.FileFullName.LastIndexOf(@"\")));

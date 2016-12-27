@@ -10,12 +10,12 @@ namespace RDIFramework.CodeMaker
     /// 
     /// 修改纪录
     /// 
-    ///		2011.10.13 版本：1.0    EricHu 整理。
+    ///		2011.10.13 版本：1.0    XuWangBin 整理。
     ///	
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2011.10.13</date>
     /// </author> 
     /// </summary>

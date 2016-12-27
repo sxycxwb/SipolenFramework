@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-3-31 13:41:01
  ******************************************************************************/
 using System;
@@ -15,8 +15,8 @@ namespace RDIFramework.WinModule
     /// FrmEditOrganize
     /// 编辑组织机构
     /// 
-    ///     2016-01-30 V3.0 EricHu 修改编辑树根节点时的错误问题。
-    ///     2014-06-11 v2.8 EricHu 增加管理员主键与副管理员主键。
+    ///     2016-01-30 V3.0 XuWangBin 修改编辑树根节点时的错误问题。
+    ///     2014-06-11 v2.8 XuWangBin 增加管理员主键与副管理员主键。
     ///     
     /// </summary>
     public partial class FrmEditOrganize : BaseForm

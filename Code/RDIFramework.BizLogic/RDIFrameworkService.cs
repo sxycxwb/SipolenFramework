@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -13,15 +13,15 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     ///     
-    ///     2014-06-18 版本: 2.8 EricHu 新增工作流程服务部分。
-    ///     2014-02-28 版本: 2.8 EricHu 新增信息通讯服务。
-    ///     2013-05-11 版本：2.5 EricHu 新增表字段结构服务。
-    ///		2010.03.05 版本：1.0 EricHu 创建。
+    ///     2014-06-18 版本: 2.8 XuWangBin 新增工作流程服务部分。
+    ///     2014-02-28 版本: 2.8 XuWangBin 新增信息通讯服务。
+    ///     2013-05-11 版本：2.5 XuWangBin 新增表字段结构服务。
+    ///		2010.03.05 版本：1.0 XuWangBin 创建。
     ///		
     /// 版本：2.8
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.03.05</date>
     /// </author> 
     /// </summary>

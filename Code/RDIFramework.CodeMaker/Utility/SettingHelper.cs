@@ -7,12 +7,12 @@
     /// 
     /// 修改纪录
     /// 
-    ///		2010.08.06 版本：1.0    EricHu创建。
+    ///		2010.08.06 版本：1.0    XuWangBin创建。
     ///	
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.08.06</date>
     /// </author> 
     /// </summary>

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -17,19 +17,19 @@ namespace RDIFramework.BizLogic
     /// 
     /// 
     /// 修改纪录
-    ///     2015-09-17 版本：3.0 EricHu 增加DbCommonManager.GetDataReader.cs 下大量通用方法。
-    ///     2015-02-22 版本：2.8 EricHu 增加DbCommonManager.GetList.css 下大量通用方法。
-    ///		2012.02.04 版本：1.5 EricHu 文件进行分割，简化处理。
-    ///		2010.06.23 版本：1.4 EricHu 删除简化了一些重复的函数功能。
-    ///		2009.11.22 版本：1.3 EricHu 创建没有SystemInfo的构造函数。
-    ///		2009.11.20 版本：1.2 EricHu 完善有数据库连接、当前用户信息的构造函数、增加NonSerialized。
-    ///		2009.11.15 版本：1.1 EricHu 设置 SetParameter 函数功能。
-    ///		2009.08.01 版本：1.0 EricHu 提炼了最基础的方法部分、觉得这些是很有必要的方法。
+    ///     2015-09-17 版本：3.0 XuWangBin 增加DbCommonManager.GetDataReader.cs 下大量通用方法。
+    ///     2015-02-22 版本：2.8 XuWangBin 增加DbCommonManager.GetList.css 下大量通用方法。
+    ///		2012.02.04 版本：1.5 XuWangBin 文件进行分割，简化处理。
+    ///		2010.06.23 版本：1.4 XuWangBin 删除简化了一些重复的函数功能。
+    ///		2009.11.22 版本：1.3 XuWangBin 创建没有SystemInfo的构造函数。
+    ///		2009.11.20 版本：1.2 XuWangBin 完善有数据库连接、当前用户信息的构造函数、增加NonSerialized。
+    ///		2009.11.15 版本：1.1 XuWangBin 设置 SetParameter 函数功能。
+    ///		2009.08.01 版本：1.0 XuWangBin 提炼了最基础的方法部分、觉得这些是很有必要的方法。
     ///
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2009.06.02</date>
     /// </author> 
     /// </summary>

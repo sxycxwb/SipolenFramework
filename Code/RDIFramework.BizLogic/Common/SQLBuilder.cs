@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2009 ,EricHu. 
+// All Rights Reserved , Copyright (C) 2009 ,XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -19,27 +19,27 @@ namespace RDIFramework.BizLogic
 	/// 
 	/// 修改记录
     ///     
-	///     2014.03.20 版本: 2.8 EricHu 增加对TopN、OrderBy的支持。
-	///     2013.06.20 版本：3.7 EricHu	支持Oracle序列功能改进。
-	///     2012.06.13 版本：2.5 EricHu	改进为支持静态方法，不用数据库Open、Close的方式，AutoOpenClose开关。
-	///     2011.08.30 版本：2.3 EricHu	确认 BeginSelect 方法的正确性。
-	///     2011.08.29 版本：2.2 EricHu	改进 public string SetWhere(string targetFiled, Object[] targetValue) 方法。
-	///     2011.06.29 版本：2.1 EricHu	修正 BeginSelect、BeginInsert、BeginUpdate、BeginDelete。
-	///     2010.05.07 版本：2.0 EricHu	改进为多种数据库的支持类型。
-	///     2010.05.20 版本：1.8 EricHu	改进了OleDbCommand使其可以在多个事件穿插使用。
-	///     2010.02.22 版本：1.7 EricHu	改进了OleDbCommand使其可以在多个事件穿插使用。
-	///		2010.02.05 版本：1.6 EricHu	重新调整主键的规范化。
-	///		2010.01.20 版本：1.5 EricHu   修改主键,货币型的插入。
-	///		2009.12.29 版本：1.4 EricHu   修改主键,将公式的功能完善,提高效率。
-	///		2009.12.29 版本：1.3 EricHu   修改主键,将公式的功能完善,提高效率。
-	///		2009.08.08 版本：1.2 EricHu   修改主键，修改格式。
-	///		2009.12.30 版本：1.1 EricHu   数据库连接进行优化。
-	///		2009.12.29 版本：1.0 EricHu   主键创建。
+	///     2014.03.20 版本: 2.8 XuWangBin 增加对TopN、OrderBy的支持。
+	///     2013.06.20 版本：3.7 XuWangBin	支持Oracle序列功能改进。
+	///     2012.06.13 版本：2.5 XuWangBin	改进为支持静态方法，不用数据库Open、Close的方式，AutoOpenClose开关。
+	///     2011.08.30 版本：2.3 XuWangBin	确认 BeginSelect 方法的正确性。
+	///     2011.08.29 版本：2.2 XuWangBin	改进 public string SetWhere(string targetFiled, Object[] targetValue) 方法。
+	///     2011.06.29 版本：2.1 XuWangBin	修正 BeginSelect、BeginInsert、BeginUpdate、BeginDelete。
+	///     2010.05.07 版本：2.0 XuWangBin	改进为多种数据库的支持类型。
+	///     2010.05.20 版本：1.8 XuWangBin	改进了OleDbCommand使其可以在多个事件穿插使用。
+	///     2010.02.22 版本：1.7 XuWangBin	改进了OleDbCommand使其可以在多个事件穿插使用。
+	///		2010.02.05 版本：1.6 XuWangBin	重新调整主键的规范化。
+	///		2010.01.20 版本：1.5 XuWangBin   修改主键,货币型的插入。
+	///		2009.12.29 版本：1.4 XuWangBin   修改主键,将公式的功能完善,提高效率。
+	///		2009.12.29 版本：1.3 XuWangBin   修改主键,将公式的功能完善,提高效率。
+	///		2009.08.08 版本：1.2 XuWangBin   修改主键，修改格式。
+	///		2009.12.30 版本：1.1 XuWangBin   数据库连接进行优化。
+	///		2009.12.29 版本：1.0 XuWangBin   主键创建。
 	///		
 	/// 版本：3.0
 	///
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
     ///		<date>2009.12.29</date>
 	/// </author> 
 	/// </summary>

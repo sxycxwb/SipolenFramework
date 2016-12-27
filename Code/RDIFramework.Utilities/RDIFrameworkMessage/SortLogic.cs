@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System.Data;
@@ -12,15 +12,15 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改纪录
     /// 
-    ///		2011.10.09 版本：   1.4 EricHu 更新函数名为*Id。
-    ///		2010.12.10 版本：   1.3 EricHu 改进 序列产生码的长度问题。
-    ///		2010.11.01 版本：   1.2 EricHu 改进 BUOperatorInfo 去掉这个变量，可以提高性能，提高速度，基类的又一次飞跃。
-    ///		2010.03.01 版本：   1.0 EricHu 将主键从 BUBusinessLogic 类分离出来。
+    ///		2011.10.09 版本：   1.4 XuWangBin 更新函数名为*Id。
+    ///		2010.12.10 版本：   1.3 XuWangBin 改进 序列产生码的长度问题。
+    ///		2010.11.01 版本：   1.2 XuWangBin 改进 BUOperatorInfo 去掉这个变量，可以提高性能，提高速度，基类的又一次飞跃。
+    ///		2010.03.01 版本：   1.0 XuWangBin 将主键从 BUBusinessLogic 类分离出来。
     ///	
     /// 版本：1.3
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.12.10</date>
     /// </author> 
     /// </summary>

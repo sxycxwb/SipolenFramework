@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -14,13 +14,13 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改纪录
     /// 
-    ///		2011.09.18 版本：2.0 EricHu 采用默认参数技术,把一些方法进行简化。
-    ///		2010.09.03 版本：1.0 EricHu 创建。
+    ///		2011.09.18 版本：2.0 XuWangBin 采用默认参数技术,把一些方法进行简化。
+    ///		2010.09.03 版本：1.0 XuWangBin 创建。
     /// 
     /// 版本：3.0
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.09.03</date>
     /// </author> 
     /// </summary>

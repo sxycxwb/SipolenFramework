@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-02-08 12:57:46
  ******************************************************************************/
 using System;
@@ -24,11 +24,11 @@ namespace RDIFramework.NET
     /// 
     /// 修改记录
     /// 
-    ///     2014-02-28 EricHu V2.8 增加企业通，修改退出代码对企业通退出的支持。
-    ///     2014.01.17 EricHu V2.7 增加RDIFramework.NET框架主界面(Tree格式)。
+    ///     2014-02-28 XuWangBin V2.8 增加企业通，修改退出代码对企业通退出的支持。
+    ///     2014.01.17 XuWangBin V2.7 增加RDIFramework.NET框架主界面(Tree格式)。
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014.01.17</date>
     /// </author> 
     /// </summary>
@@ -700,7 +700,7 @@ namespace RDIFramework.NET
         private void biAbout_Click(object sender, EventArgs e)
         {
             var assembly = new AssemblyInformation(Assembly.GetEntryAssembly());
-            var frmAbout = new FrmAbout(assembly, "EricHu", "http://www.cnblogs.com/huyong/");
+            var frmAbout = new FrmAbout(assembly, "XuWangBin", "http://www.cnblogs.com/huyong/");
             frmAbout.ShowDialog();
         }
 

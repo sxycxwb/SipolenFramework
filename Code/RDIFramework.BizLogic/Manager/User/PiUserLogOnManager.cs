@@ -10,10 +10,10 @@ namespace RDIFramework.BizLogic
     ///
     /// 修改纪录
     ///
-    ///		2014-03-26 版本：1.0 EricHu 创建主键。
+    ///		2014-03-26 版本：1.0 XuWangBin 创建主键。
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014-03-26</date>
     /// </author>
     /// </summary>

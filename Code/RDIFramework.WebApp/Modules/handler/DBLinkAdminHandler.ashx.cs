@@ -12,7 +12,7 @@ namespace RDIFramework.WebApp.Modules.handler
     /// DBLinkAdminHandler 的摘要说明
     /// 
     /// 修改说明：
-    ///     2015-10-27 EricHu V3.0版本 重新设计增加与修改代码，直接序列化页面的json，减少大量代码
+    ///     2015-10-27 XuWangBin V3.0版本 重新设计增加与修改代码，直接序列化页面的json，减少大量代码
     /// </summary>
     public class DBLinkAdminHandler : IHttpHandler, IRequiresSessionState
     {

@@ -36,13 +36,13 @@ namespace CRM.BizLogic
     /// 
     /// 修改纪录
     /// 
-    /// 2016-01-08 版本：3.0 EricHu 针对3.0版本的基础业务实体BaseEntity重构。
-    /// 2013-07-11 版本：1.0 EricHu 创建主键。
+    /// 2016-01-08 版本：3.0 XuWangBin 针对3.0版本的基础业务实体BaseEntity重构。
+    /// 2013-07-11 版本：1.0 XuWangBin 创建主键。
     /// 
     /// 版本：2.0
     /// 
     /// <author>
-    /// <name>EricHu</name>
+    /// <name>XuWangBin</name>
     /// <date>2013-07-11</date>
     /// </author>
     /// </summary>

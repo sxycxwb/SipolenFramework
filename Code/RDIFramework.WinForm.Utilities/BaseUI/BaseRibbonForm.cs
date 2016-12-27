@@ -19,13 +19,13 @@ namespace RDIFramework.WinForm.Utilities
     /// 
     /// 修改纪录
     /// 
-    ///     2012-06-21 EricHu 修改分页绑定后，记录不能上下移动的情况。
-    ///		2012.01.21 版本：1.0 EricHu 创建。
+    ///     2012-06-21 XuWangBin 修改分页绑定后，记录不能上下移动的情况。
+    ///		2012.01.21 版本：1.0 XuWangBin 创建。
     ///		
     /// 版本：1.1
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.01.21</date>
     /// </author> 
     /// </summary>

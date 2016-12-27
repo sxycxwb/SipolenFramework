@@ -13,7 +13,7 @@ RDIFramework.NET，基于.NET的快速信息化系统开发、整合框架，给
 *
 * 主要完成用户或角色权限的集中批量设置。
 * 修改记录：
-* 1. 2013-08-27 EricHu 新增本业务逻辑的编写。
+* 1. 2013-08-27 XuWangBin 新增本业务逻辑的编写。
 */
 var navgrid,
     actionUrl                       = 'handler/PermissionHandler.ashx',

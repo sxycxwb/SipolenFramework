@@ -12,13 +12,13 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     /// 
-    ///     2015-08-05 版本：3.0 EricHu 新增分页显示、逻辑删除。
-    ///		2013-12-21 版本：2.7.0 EricHu 创建文件。
+    ///     2015-08-05 版本：3.0 XuWangBin 新增分页显示、逻辑删除。
+    ///		2013-12-21 版本：2.7.0 XuWangBin 创建文件。
     ///		
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-03-02</date>
     /// </author> 
     /// </summary>

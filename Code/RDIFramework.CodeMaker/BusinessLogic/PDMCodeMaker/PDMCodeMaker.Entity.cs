@@ -9,13 +9,13 @@ namespace RDIFramework.CodeMaker
     /// 
     /// 修改纪录
     ///     
-    ///     2016-03-01 版本: 3.0  EricHu 修改针对3.0适合的业务实体生成。
-    ///		2011.10.13 版本：1.0    EricHu 整理。
+    ///     2016-03-01 版本: 3.0  XuWangBin 修改针对3.0适合的业务实体生成。
+    ///		2011.10.13 版本：1.0    XuWangBin 整理。
     ///	
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2011.10.13</date>
     /// </author> 
     /// </summary>

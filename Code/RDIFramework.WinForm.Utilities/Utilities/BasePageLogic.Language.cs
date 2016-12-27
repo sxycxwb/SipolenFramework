@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2010 , EricHu. 
+// All Rights Reserved , Copyright (C) 2010 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System.Reflection;
@@ -22,7 +22,7 @@ namespace RDIFramework.WinForm.Utilities
 	/// 版本：2.9
 	///
 	/// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.02.03</date>
 	/// </author> 
 	/// </summary>

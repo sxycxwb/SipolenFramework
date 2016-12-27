@@ -11,13 +11,13 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     /// 
-    ///     2016-02-08 版本：3.0 EricHu 针对Mysql版本全部把存储过程改写为Sql语句的形式。
-    ///     2014-06-03 版本：1.0 EricHu 创建。
+    ///     2016-02-08 版本：3.0 XuWangBin 针对Mysql版本全部把存储过程改写为Sql语句的形式。
+    ///     2014-06-03 版本：1.0 XuWangBin 创建。
     /// 
     /// 版本：3.0
     /// 
     /// <author>
-    /// <name>EricHu</name>
+    /// <name>XuWangBin</name>
     /// <date>2014-06-08</date>
     /// </author>
     /// </summary>

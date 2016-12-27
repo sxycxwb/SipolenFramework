@@ -13,7 +13,7 @@ namespace RDIFramework.CodeMaker
     /// <summary>
     /// DataObjectForm
     /// 
-    /// 2015-04-30 V2.9 EricHu 新增生成“生成数据库脚本”
+    /// 2015-04-30 V2.9 XuWangBin 新增生成“生成数据库脚本”
     /// 
     /// </summary>
     public partial class DataObjectForm : Form

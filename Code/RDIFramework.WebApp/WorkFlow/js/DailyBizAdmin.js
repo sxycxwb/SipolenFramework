@@ -13,7 +13,7 @@ RDIFramework.NET，基于.NET的快速信息化系统开发、整合框架，给
 * 修改记录：
 *   
 *   
-*   1. 2014-08-07 EricHu V2.8 新增本业务逻辑的编写。
+*   1. 2014-08-07 XuWangBin V2.8 新增本业务逻辑的编写。
 */
 
 var actionRoleUrl = 'handler/DailyBizAdminHandler.ashx';

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System.Collections.Generic;
@@ -14,17 +14,17 @@ namespace RDIFramework.BizLogic
     /// 通用基类
     /// 
     /// 修改纪录
-    ///     2015-01-08 V3.0 EricHu  修改Oracle分页起始页少一条数据的问题。
+    ///     2015-01-08 V3.0 XuWangBin  修改Oracle分页起始页少一条数据的问题。
     ///     2015-11-12 V3.0 胡勇    修改针对Mysql分页，第一页的数据范围应从0开始。
     ///     2015-03-24 V2.9 胡勇    修改分页起始页不精确的问题。
     ///     2015-01-07 V2.9 王进    修正对MySql分页的方法。
-    ///     2014-03-15 V2.8 Erichu  修改GetDTByPage方法的异常情况。
-    ///		2013.02.05 版本：2.0	EricHu 分离程序。
+    ///     2014-03-15 V2.8 XuWangBin  修改GetDTByPage方法的异常情况。
+    ///		2013.02.05 版本：2.0	XuWangBin 分离程序。
     ///	
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.02.05</date>
     /// </author> 
     /// </summary>

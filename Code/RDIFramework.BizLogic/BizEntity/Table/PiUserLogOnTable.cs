@@ -30,12 +30,12 @@ namespace RDIFramework.BizLogic
     ///
     /// 修改纪录
     ///
-    ///		2014-03-25 版本：2.8 EricHu 创建。
+    ///		2014-03-25 版本：2.8 XuWangBin 创建。
     ///
     /// 版本：2.8
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014-03-25</date>
     /// </author>
     /// </summary>

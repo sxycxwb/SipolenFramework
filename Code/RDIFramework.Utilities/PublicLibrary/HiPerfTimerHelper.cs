@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-4 13:44:14
  ******************************************************************************/
 using System;
@@ -15,7 +15,7 @@ namespace RDIFramework.Utilities
     /// 高性能计时器
     /// 
     /// 修改记录
-    /// 2012-06-04 EricHu 创建HiPerfTimerHelper
+    /// 2012-06-04 XuWangBin 创建HiPerfTimerHelper
     /// 
     /// <example>
     /// HiPerfTimerHelper perfTimer = new HiPerfTimerHelper();

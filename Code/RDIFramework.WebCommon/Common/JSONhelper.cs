@@ -15,7 +15,7 @@ namespace RDIFramework.WebCommon
     /// <summary>
     /// JSON 帮助类
     /// 
-    ///     2015-03-31 V2.8 EricHu 新增：Json数据转换为泛型集合(或实体).
+    ///     2015-03-31 V2.8 XuWangBin 新增：Json数据转换为泛型集合(或实体).
     /// </summary>
     public static class JSONhelper
     {

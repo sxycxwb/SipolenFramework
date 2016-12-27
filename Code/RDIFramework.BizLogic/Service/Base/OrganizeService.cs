@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-3-30 13:02:31
  ******************************************************************************/
 
@@ -21,14 +21,14 @@ namespace RDIFramework.BizLogic
 	/// 
 	/// 修改记录
 	///     2015-04-11 V2.9 王进 修改删除组织机构时同步删除员工组织机构关联出现的问题。
-    ///     2014-05-29 V2.8 EricHu 更新组织机构时，同步更新用户表的公司、分公司、部门、子部门、工作组。
-    ///     2014-05-28 v2.8 EricHu 增加 GetChildrensById方法。
-	///		2012-03-02 版本：1.0 EricHu 建立。
+    ///     2014-05-29 V2.8 XuWangBin 更新组织机构时，同步更新用户表的公司、分公司、部门、子部门、工作组。
+    ///     2014-05-28 v2.8 XuWangBin 增加 GetChildrensById方法。
+	///		2012-03-02 版本：1.0 XuWangBin 建立。
 	///		
 	/// 版本：1.0
 	///
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2012-03-02</date>
 	/// </author> 
 	/// </summary>

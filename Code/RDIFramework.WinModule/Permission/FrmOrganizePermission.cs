@@ -15,12 +15,12 @@ namespace RDIFramework.WinModule
     /// 
     /// 修改记录
     /// 
-    ///     2014.02.25 版本：2.7 EricHu  权限设置-组织机构权限设置。
+    ///     2014.02.25 版本：2.7 XuWangBin  权限设置-组织机构权限设置。
     ///		
     /// 版本：2.7
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014.02.25</date>
     /// </author> 
     /// </summary>

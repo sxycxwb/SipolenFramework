@@ -11,7 +11,7 @@ using System;
 [assembly: AssemblyTitle("MiNiWeb 浏览器")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("EricHu")]
+[assembly: AssemblyCompany("XuWangBin")]
 [assembly: AssemblyProduct("MiniWeb Browser")]
 [assembly: AssemblyCopyright("Copyright © 柯锐特软件 2010-2016")]
 [assembly: AssemblyTrademark("")]

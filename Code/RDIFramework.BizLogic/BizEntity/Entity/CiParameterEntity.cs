@@ -34,14 +34,14 @@ namespace RDIFramework.BizLogic
      /// 系统参数配置表
      ///
      /// 修改纪录
-     ///        2015-08-06 版本：3.0 EricHu 新增允许编辑、允许删除。
-     ///        2014-07-30 版本: 2.8 EricHu 以自动属性进行重新组织。
-     ///		2012-03-02 版本：1.0 EricHu 创建主键。
+     ///        2015-08-06 版本：3.0 XuWangBin 新增允许编辑、允许删除。
+     ///        2014-07-30 版本: 2.8 XuWangBin 以自动属性进行重新组织。
+     ///		2012-03-02 版本：1.0 XuWangBin 创建主键。
      ///
      /// 版本：3.0
      ///
      /// <author>
-     ///		<name>EricHu</name>
+     ///		<name>XuWangBin</name>
      ///		<date>2012-03-02</date>
      /// </author>
      /// </summary>

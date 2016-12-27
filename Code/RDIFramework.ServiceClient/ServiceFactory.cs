@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-5-2 11:38:00
  ******************************************************************************/
 
@@ -16,9 +16,9 @@ namespace RDIFramework.ServiceClient
     /// ServiceFactory
     /// 本地服务实现接口
     ///     
-    ///     修改记录 2014-08-01 V2.8 EricHu 新增工作流程相关服务。
-    ///     修改记录 2014-04-28 V2.8 EricHu 重构本地服务实现方法，让代码更加精简。
-    ///     修改记录 2012-05-02 V1.0 EricHu 创建文件。
+    ///     修改记录 2014-08-01 V2.8 XuWangBin 新增工作流程相关服务。
+    ///     修改记录 2014-04-28 V2.8 XuWangBin 重构本地服务实现方法，让代码更加精简。
+    ///     修改记录 2012-05-02 V1.0 XuWangBin 创建文件。
     /// </summary>
     public class ServiceFactory:IServiceFactory
     {

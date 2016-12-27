@@ -11,7 +11,7 @@ namespace RDIFramework.Utilities
     /// 版本：2.8
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014.03.18</date>
     /// </author> 
     /// </summary>

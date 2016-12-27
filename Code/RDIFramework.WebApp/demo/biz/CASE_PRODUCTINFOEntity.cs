@@ -11,7 +11,7 @@ namespace RDIFramework.WebApp
     /// 
     /// 
     /// 修改纪录
-    ///     2016-03-08 EricHu 修改继承自BaseEntity
+    ///     2016-03-08 XuWangBin 修改继承自BaseEntity
     ///     2013-12-18 版本：1.0  创建主键。
     /// 
     /// 版本：1.0

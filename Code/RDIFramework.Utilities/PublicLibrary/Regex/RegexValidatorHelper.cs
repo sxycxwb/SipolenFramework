@@ -6,7 +6,7 @@ namespace RDIFramework.Utilities
     /// <summary>
     /// 利用正则表达式来验证各种字符串格式
     /// 
-    ///     2016-03-28 EricHu 增加：public static string GetMatchData(string input, string regExpress, int groupIndex)
+    ///     2016-03-28 XuWangBin 增加：public static string GetMatchData(string input, string regExpress, int groupIndex)
     /// 
     /// </summary>
     public class RegexValidatorHelper

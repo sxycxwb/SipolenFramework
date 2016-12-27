@@ -562,7 +562,7 @@ namespace RDIFramework.CodeMaker
             {
                 if (fieldDataType.ToUpper().IndexOf(DataTypeMapping[i, 0], System.StringComparison.OrdinalIgnoreCase) < 0) continue;
                 returnValue = DataTypeMapping[i, 1];
-                // 如果defaultValue 为空的话 读取默认的 默认值 add by EricHu 20110618
+                // 如果defaultValue 为空的话 读取默认的 默认值 add by XuWangBin 20110618
                 if (string.IsNullOrEmpty(defaultValue))
                 {
                     defaultValue = DataTypeMapping[i, 2];

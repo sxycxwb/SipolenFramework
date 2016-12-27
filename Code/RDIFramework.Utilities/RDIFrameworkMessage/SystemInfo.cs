@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -15,7 +15,7 @@ namespace RDIFramework.Utilities
     /// 版本：3.0
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.02.07</date>
     /// </author>
     /// </summary>
@@ -468,13 +468,13 @@ namespace RDIFramework.Utilities
         /// </summary>
         public static ConfigurationCategory ConfigurationFrom = ConfigurationCategory.Configuration;
 
-        public static string RegisterException = "请您联系：EricHu QQ:406590790 手机：13005007127 电子邮件：406590790@qq.com 对软件进行注册。";
+        public static string RegisterException = "请您联系：XuWangBin QQ:406590790 手机：13005007127 电子邮件：406590790@qq.com 对软件进行注册。";
 
         public static string CustomerPhone = "";	// 当前客户公司电话
         public static string CompanyName = "";	// 公司名称
         public static string CompanyPhone = "13005007127";	// 公司电话
 
-        public static string Copyright = "Copyright 2009-2016 EricHu";
+        public static string Copyright = "Copyright 2009-2016 XuWangBin";
         public static string BugFeedback = @"mailto:RDIFramework@126.com?subject=On the UMPllatForm feedback&body=Here to enter your valuable feedback";
         public static string IEDownloadUrl = @"http://download.microsoft.com/download/ie6sp1/finrel/6_sp1/W98NT42KMeXP/CN/ie6setup.exe";
 

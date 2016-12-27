@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -16,15 +16,15 @@ namespace RDIFramework.Utilities
 	/// 有关数据库连接的方法。
 	/// 
 	/// 修改纪录
-    ///     2014-05-23 版本：2.8 EricHu 增加ConvertToSqlDbType方法。
-	///		2011.08.26 版本：1.2 EricHu 修改Open时的错误反馈。
-	///		2010.06.01 版本：1.1 EricHu 数据库连接获得方式进行改进，构造函数获得调通。
-	///		2010.05.07 版本：1.0 EricHu 创建。
+    ///     2014-05-23 版本：2.8 XuWangBin 增加ConvertToSqlDbType方法。
+	///		2011.08.26 版本：1.2 XuWangBin 修改Open时的错误反馈。
+	///		2010.06.01 版本：1.1 XuWangBin 数据库连接获得方式进行改进，构造函数获得调通。
+	///		2010.05.07 版本：1.0 XuWangBin 创建。
 	/// 
 	/// 版本：3.0
 	/// 
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2010.05.11</date>
 	/// </author> 
 	/// </summary>

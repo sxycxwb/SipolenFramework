@@ -10,11 +10,11 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改纪录
     /// 
-    ///     2014-02-13 V2.8 EricHu 新增ToChineseSpell方法。
-    ///     2010-08-08 EricHu 创建字符串通用操作类
+    ///     2014-02-13 V2.8 XuWangBin 新增ToChineseSpell方法。
+    ///     2010-08-08 XuWangBin 创建字符串通用操作类
     ///     
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>406590790</QQ>
     ///     <Email>406590790@qq.com</Email>
     /// </author>

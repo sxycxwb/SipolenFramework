@@ -1,6 +1,6 @@
 /******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-13 10:24:11
  ******************************************************************************/
 #region  版权信息
@@ -12,7 +12,7 @@
 // 类  全  名： RDIFramework.Controls.UcHtmlEditor 
 // 描      述:  Html编辑器控件
 // 创建  时间： 2009-07-02
-// 创建人信息： [**** 姓名:EricHu QQ:406590790 E-Mail:406590790@qq.com *****]
+// 创建人信息： [**** 姓名:XuWangBin QQ:406590790 E-Mail:406590790@qq.com *****]
 *----------------------------------------------------------------------*/
 #endregion
 
@@ -31,11 +31,11 @@ namespace RDIFramework.Controls
     /// <summary>
     /// Html编辑器控件
     /// 修改纪录:    
-    ///     2010-01-11 EricHu 对于"字条大小"下拉列表框，使用VS自带的Combox控件。
-    ///     2010-01-02 EricHu 新增"线条的插入"。
-    ///     2009-07-02 EricHu 创建Html编辑器控件。
+    ///     2010-01-11 XuWangBin 对于"字条大小"下拉列表框，使用VS自带的Combox控件。
+    ///     2010-01-02 XuWangBin 新增"线条的插入"。
+    ///     2009-07-02 XuWangBin 创建Html编辑器控件。
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>406590790</QQ>
     ///     <Email>406590790@qq.com</Email>
     /// </author>

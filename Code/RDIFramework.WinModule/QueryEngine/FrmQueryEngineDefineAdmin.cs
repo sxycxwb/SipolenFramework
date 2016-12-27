@@ -19,10 +19,10 @@ namespace RDIFramework.WinModule
     /// 
     /// 修改记录    
     /// 
-    ///     2015-10-23 版本：3.0 EricHu  查询引擎定义功能页面编写。
+    ///     2015-10-23 版本：3.0 XuWangBin  查询引擎定义功能页面编写。
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2015-10-23</date>
     /// </author> 
     /// </summary>

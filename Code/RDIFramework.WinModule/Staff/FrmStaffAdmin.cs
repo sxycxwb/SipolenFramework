@@ -17,9 +17,9 @@ namespace RDIFramework.WinModule
     /// 
     /// 修改记录
     ///     
-    ///     2014-05-29 EricHu V2.8 增加未设置部门的员工数据的显示。
-    ///     2014-03-10 EricHu V2.8 新增打印功能。
-    ///     2012-07-22 EricHu 创建FrmStaffAdmin。
+    ///     2014-05-29 XuWangBin V2.8 增加未设置部门的员工数据的显示。
+    ///     2014-03-10 XuWangBin V2.8 新增打印功能。
+    ///     2012-07-22 XuWangBin 创建FrmStaffAdmin。
     /// </summary>
     public partial class FrmStaffAdmin : BaseForm
     {

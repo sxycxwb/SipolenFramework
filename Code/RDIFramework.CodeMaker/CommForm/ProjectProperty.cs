@@ -34,7 +34,7 @@ namespace RDIFramework.CodeMaker
             }
             if (String.IsNullOrEmpty(this.txtCreateBy.Text))
             {
-                this.txtCreateBy.Text = "EricHu";
+                this.txtCreateBy.Text = "XuWangBin";
             }
             return settingHelper;
         }

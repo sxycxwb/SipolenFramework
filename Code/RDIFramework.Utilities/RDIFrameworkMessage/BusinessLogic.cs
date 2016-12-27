@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -22,14 +22,14 @@ namespace RDIFramework.Utilities
     /// 这个类可是修改了很多次啊，已经比较经典了，随着专业的提升，人也会不断提高，技术也会越来越精湛。
     /// 
     /// 修改纪录
-    ///     2016-01-23 EricHu V3.0 新增：GetModelByDataRow 通过DataRow 填充实体  
-    ///     2015-09-10 EricHu V3.0 把类型转换ConvertTo类型的方便分离到单独的文件，并增加可空与非空各类型转换公共方法。
-    ///     2014-03-28 EricHu V2.8 再次重构本基类，代码健壮性再度提升。
+    ///     2016-01-23 XuWangBin V3.0 新增：GetModelByDataRow 通过DataRow 填充实体  
+    ///     2015-09-10 XuWangBin V3.0 把类型转换ConvertTo类型的方便分离到单独的文件，并增加可空与非空各类型转换公共方法。
+    ///     2014-03-28 XuWangBin V2.8 再次重构本基类，代码健壮性再度提升。
     ///	
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2011.08.01</date>
     /// </author> 
     /// </summary>

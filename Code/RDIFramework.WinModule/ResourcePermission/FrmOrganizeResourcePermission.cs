@@ -18,7 +18,7 @@ namespace RDIFramework.WinModule
     /// 组织机构资源权限设置（那个组织机构对那些资源有什么权限）
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.05.28</date>
     /// </author> 
     /// </summary>

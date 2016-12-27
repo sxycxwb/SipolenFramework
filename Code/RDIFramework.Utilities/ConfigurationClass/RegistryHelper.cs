@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using Microsoft.Win32;
@@ -12,18 +12,18 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改纪录
     ///
-    ///		2013.06.08 版本：2.7 EricHu 命名修改为 RegistryHelper。 
-    ///		2012.07.30 版本：2.5 EricHu Exists 函数名规范化。 
-    ///		2012.04.14 版本：2.3 EricHu 检查程序格式通过，不再进行修改主键操作。 
-    ///     2011.11.17 版本：2.2 EricHu 添加方法CheckExistSubKey()。
-    ///     2011.09.08 版本：2.1 EricHu 变量命名规范化。
-    ///     2011.04.18 版本：2.0 EricHu 重新调整主键的规范化。
-    ///		2010.09.29 版本：1.0 EricHu 专门读取注册表的类，主键书写格式改进。
+    ///		2013.06.08 版本：2.7 XuWangBin 命名修改为 RegistryHelper。 
+    ///		2012.07.30 版本：2.5 XuWangBin Exists 函数名规范化。 
+    ///		2012.04.14 版本：2.3 XuWangBin 检查程序格式通过，不再进行修改主键操作。 
+    ///     2011.11.17 版本：2.2 XuWangBin 添加方法CheckExistSubKey()。
+    ///     2011.09.08 版本：2.1 XuWangBin 变量命名规范化。
+    ///     2011.04.18 版本：2.0 XuWangBin 重新调整主键的规范化。
+    ///		2010.09.29 版本：1.0 XuWangBin 专门读取注册表的类，主键书写格式改进。
     ///		
     ///	版本：2.7
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.09.29</date>
     /// </author> 
     /// </summary>

@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2011-01-16 11:09:15
  ******************************************************************************/
 using System;
@@ -25,7 +25,7 @@ namespace RDIFramework.WinModule
     /// 
     /// </summary>
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2011.01.16</date>
     /// </author> 
     public partial class FrmOrganizeAdmin : BaseForm

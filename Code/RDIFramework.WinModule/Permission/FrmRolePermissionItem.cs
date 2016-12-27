@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-24 14:06:55
  ******************************************************************************/
 using System;
@@ -256,7 +256,7 @@ namespace RDIFramework.WinModule
 
         private void tvPermissionItem_AfterCheck(object sender, TreeViewEventArgs e)
         {
-            // 在点击节点执行保存时使用此方法， comment by EricHu
+            // 在点击节点执行保存时使用此方法， comment by XuWangBin
             //if (this.isUserClick)
             //{
             //    if (e.Node.Checked)

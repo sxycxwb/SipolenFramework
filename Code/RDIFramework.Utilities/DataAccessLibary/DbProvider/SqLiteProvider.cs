@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2011 , EricHu. 
+// All Rights Reserved , Copyright (C) 2011 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -18,14 +18,14 @@ namespace RDIFramework.Utilities
 	/// 
 	/// 修改纪录
 	/// 
-	///		2011.07.06 版本：1.1 EricHu 修改获得参数Sql表达式的BUG，?改成@
-    ///		2011.07.06 版本：1.1 EricHu 修改获得数据库日期时间的表达式，从UTC+0时区改成当前时区:UTC+8。
-	///		2010.10.18 版本：1.0 EricHu 创建。
+	///		2011.07.06 版本：1.1 XuWangBin 修改获得参数Sql表达式的BUG，?改成@
+    ///		2011.07.06 版本：1.1 XuWangBin 修改获得数据库日期时间的表达式，从UTC+0时区改成当前时区:UTC+8。
+	///		2010.10.18 版本：1.0 XuWangBin 创建。
 	/// 
 	/// 版本：1.1
 	/// 
 	/// <author>
-	///		<name>EricHu</name>
+	///		<name>XuWangBin</name>
 	///		<date>2010.10.18</date>
 	/// </author> 
 	/// </summary>

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -14,17 +14,17 @@ namespace RDIFramework.Utilities
     /// 访问用户配置文件的类
     /// 
     /// 修改纪录
-    ///     2013.02.06 版本: 2.0 EricHu 新增平台博客、微博地址。
-    ///     2012.07.06 版本：1.4 EricHu 增加对 EnableCheckIPAddress 的操作
-    ///		2012.06.08 版本：1.3 EricHu 命名修改为 ConfigHelper。
-    ///		2012.04.22 版本：1.2 EricHu 从指定的文件读取配置项。
-    ///		2011.07.31 版本：1.1 EricHu 规范化 FielName 变量。
-    ///		2010.09.29 版本：1.0 EricHu 专门读取注册表的类，主键书写格式改进。
+    ///     2013.02.06 版本: 2.0 XuWangBin 新增平台博客、微博地址。
+    ///     2012.07.06 版本：1.4 XuWangBin 增加对 EnableCheckIPAddress 的操作
+    ///		2012.06.08 版本：1.3 XuWangBin 命名修改为 ConfigHelper。
+    ///		2012.04.22 版本：1.2 XuWangBin 从指定的文件读取配置项。
+    ///		2011.07.31 版本：1.1 XuWangBin 规范化 FielName 变量。
+    ///		2010.09.29 版本：1.0 XuWangBin 专门读取注册表的类，主键书写格式改进。
     ///		
     ///	版本：2.0
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.09.29</date>
     /// </author> 
     /// </summary>

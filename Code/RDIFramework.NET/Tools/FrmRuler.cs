@@ -10,7 +10,7 @@ namespace RDIFramework.NET
     /// FrmRuler
     /// 屏幕尺
     /// 
-    /// <author>EricHu</author>
+    /// <author>XuWangBin</author>
     /// <create>2012-09-26</create>
     /// </summary>
     public partial class FrmRuler : Form

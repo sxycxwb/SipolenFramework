@@ -12,7 +12,7 @@ RDIFramework.NET，基于.NET的快速信息化系统开发、整合框架，给
 * RDIFramework.NET框架“查询引擎定义”业务界面逻辑
 *
 * 修改记录：
-*   1. 2015-12-07 EricHu V3.0 新增本业务逻辑的编写。
+*   1. 2015-12-07 XuWangBin V3.0 新增本业务逻辑的编写。
 */
 var commonQueryGrid,
     controlQueryEngineUrl = 'handler/CommonQueryAdminHandler.ashx';

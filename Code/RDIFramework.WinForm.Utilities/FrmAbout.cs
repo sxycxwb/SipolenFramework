@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-6 12:55:06
  ******************************************************************************/
 using System;
@@ -17,7 +17,7 @@ namespace RDIFramework.WinForm.Utilities
     /// 关于本软件
     /// 
     /// 修改记录
-    ///     2012-06-06 EricHu 创建：FrmAbout
+    ///     2012-06-06 XuWangBin 创建：FrmAbout
     /// </summary>
     public partial class FrmAbout : BaseForm
     {

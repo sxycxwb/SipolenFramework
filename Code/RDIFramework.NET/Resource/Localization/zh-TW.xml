@@ -3,10 +3,10 @@
   <language>zh-TW</language>
   <displayName>繁體中文</displayName>
   <version>3.0</version>
-  <author>EricHu</author>
+  <author>XuWangBin</author>
   <description>繁體中文語言包</description>
   <items>
-    <!-- Global Language Resources Begin EricHu -->
+    <!-- Global Language Resources Begin XuWangBin -->
     <item key="MSG0000">提示信息</item>
     <item key="MSG0001">發生未知錯誤。</item>
     <item key="MSG0002">數據庫聯接不正常。</item>

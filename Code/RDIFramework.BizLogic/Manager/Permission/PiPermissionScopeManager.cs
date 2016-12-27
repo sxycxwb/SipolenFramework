@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-17 14:28:55
  ******************************************************************************/
 
@@ -18,13 +18,13 @@ namespace RDIFramework.BizLogic
     ///
     /// 修改纪录
     ///
-    ///     2016-03-20 版本：3.0 EricHu 修改public string[] GetTreeResourceScopeIds(string userId, string tableName, string permissionItemCode, bool childrens)对Mysql,Oracle下的异常。
-    ///		2012-03-02 版本：1.0 EricHu 创建主键。
+    ///     2016-03-20 版本：3.0 XuWangBin 修改public string[] GetTreeResourceScopeIds(string userId, string tableName, string permissionItemCode, bool childrens)对Mysql,Oracle下的异常。
+    ///		2012-03-02 版本：1.0 XuWangBin 创建主键。
     ///
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-03-02</date>
     /// </author>
     /// </summary>

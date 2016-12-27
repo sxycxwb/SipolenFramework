@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-5-10
  ******************************************************************************/
 
@@ -16,14 +16,14 @@ namespace RDIFramework.BizLogic
     /// 权限判断服务
     /// 
     /// 修改记录
-    ///     2014-03-19 EricHu V2.8 重构。
-    ///		2012-06-12 版本：1.0 EricHu 对权限服务进行重构。
-    ///		2012-05-12 版本：1.0 EricHu 建立。
+    ///     2014-03-19 XuWangBin V2.8 重构。
+    ///		2012-06-12 版本：1.0 XuWangBin 对权限服务进行重构。
+    ///		2012-05-12 版本：1.0 XuWangBin 建立。
     ///		
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-05-12</date>
     /// </author> 
     /// </summary>

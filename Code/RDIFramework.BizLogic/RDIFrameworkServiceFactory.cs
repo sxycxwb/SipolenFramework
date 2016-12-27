@@ -11,12 +11,12 @@ namespace RDIFramework.BizLogic
     /// 
     ///     2014-07-18 版本:2.8 再次重构，去掉默认空的构造函数。
     ///     2013-05-15 版本 :2.0 重构。
-    ///		2012-03-01 版本：1.0 EricHu 创建。
+    ///		2012-03-01 版本：1.0 XuWangBin 创建。
     ///		
     /// 版本：2.8
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-03-01</date>
     /// </author> 
     /// </summary>

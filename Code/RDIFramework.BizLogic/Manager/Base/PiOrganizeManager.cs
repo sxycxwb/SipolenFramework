@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-3-30 13:00:39
  ******************************************************************************/
 
@@ -16,14 +16,14 @@ namespace RDIFramework.BizLogic
      /// 组织机构、部门
      ///
      /// 修改纪录
-    ///         2014-06-13 版本：2.8 EricHu 修改客户提出的：GetFullNameDepartment方法，访问多业务时扩展的不方便，不方便SOA的部署，解决了交叉依赖。
-     ///        2013-05-12 版本：2.5 EricHu 修改客户提出的“Enabled”字段异常问题。
-     ///		2012-03-02 版本：1.0 EricHu 创建主键。
+    ///         2014-06-13 版本：2.8 XuWangBin 修改客户提出的：GetFullNameDepartment方法，访问多业务时扩展的不方便，不方便SOA的部署，解决了交叉依赖。
+     ///        2013-05-12 版本：2.5 XuWangBin 修改客户提出的“Enabled”字段异常问题。
+     ///		2012-03-02 版本：1.0 XuWangBin 创建主键。
      ///
      /// 版本：1.0
      ///
      /// <author>
-     ///		<name>EricHu</name>
+     ///		<name>XuWangBin</name>
      ///		<date>2012-03-02</date>
      /// </author>
      /// </summary>

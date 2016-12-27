@@ -8,12 +8,12 @@ namespace RDIFramework.Utilities
     /// 通用工作流信息控制基类
     /// 
     /// 修改记录
-    ///		2014.06.05 EricHu 2.8 建立WorkFlowConst.cs。
+    ///		2014.06.05 XuWangBin 2.8 建立WorkFlowConst.cs。
     ///	
     /// 版本：2.8
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014.06.05</date>
     /// </author> 
     /// </summary>

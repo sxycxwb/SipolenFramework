@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-5 13:56:14
  ******************************************************************************/
 using System;
@@ -19,8 +19,8 @@ namespace RDIFramework.WinModule
     /// 日志/系统异常管理
     /// 
     /// 修改记录
-    ///     2015-03-07 EricHu V2.8 使用新的分页方式。
-    ///     2012-06-05 EricHu 创建FrmLogAdmin
+    ///     2015-03-07 XuWangBin V2.8 使用新的分页方式。
+    ///     2012-06-05 XuWangBin 创建FrmLogAdmin
     /// </summary>
     public partial class FrmLogAdmin : BaseForm
     {

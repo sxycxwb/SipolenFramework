@@ -14,8 +14,8 @@ namespace RDIFramework.WinModule
     /// 数据字典明细管理
     /// 
     /// 修改记录
-    ///     EricHu 2012-05-31 新增对于权限的判断。
-    ///     EricHu 2012-03-29 创建数据字典明细管理。
+    ///     XuWangBin 2012-05-31 新增对于权限的判断。
+    ///     XuWangBin 2012-03-29 创建数据字典明细管理。
     ///     
     /// </summary>
     public partial class FrmItemsDetailAdmin : BaseForm

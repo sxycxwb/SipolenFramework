@@ -568,7 +568,7 @@ namespace RDIFramework.NET
         private void btnItemAbout_Click(object sender, EventArgs e)
         {
             var assembly = new AssemblyInformation(Assembly.GetEntryAssembly());
-            FrmAbout frmAbout = new FrmAbout(assembly, "EricHu", "http://www.cnblogs.com/huyong/");
+            FrmAbout frmAbout = new FrmAbout(assembly, "XuWangBin", "http://www.cnblogs.com/huyong/");
             frmAbout.ShowDialog();
         }
 

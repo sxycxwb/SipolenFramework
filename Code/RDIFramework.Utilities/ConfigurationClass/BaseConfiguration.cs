@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -12,16 +12,16 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改纪录
     /// 
-    ///     2013.09.29 版本：3.8 EricHu 删除一些多余的变量定义。
-    ///     2013.07.06 版本：3.7 EricHu 增加 EnableCheckIPAddress。
-    ///		2012.01.21 版本：3.6 EricHu 自动登录、加密数据库连接功能完善。
-    ///		2011.06.08 版本：3.6 EricHu 将读取配置文件进行分离。
-    ///		2010.09.29 版本：3.4 EricHu 获得不同的数据库连接字符串 OracleConnection、SqlConnection、OleDbConnection。
+    ///     2013.09.29 版本：3.8 XuWangBin 删除一些多余的变量定义。
+    ///     2013.07.06 版本：3.7 XuWangBin 增加 EnableCheckIPAddress。
+    ///		2012.01.21 版本：3.6 XuWangBin 自动登录、加密数据库连接功能完善。
+    ///		2011.06.08 版本：3.6 XuWangBin 将读取配置文件进行分离。
+    ///		2010.09.29 版本：3.4 XuWangBin 获得不同的数据库连接字符串 OracleConnection、SqlConnection、OleDbConnection。
     /// 
     /// 版本：2.7
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.09.29</date>
     /// </author> 
     /// </summary>

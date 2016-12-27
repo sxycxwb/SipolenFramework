@@ -13,9 +13,9 @@ RDIFramework.NET，基于.NET的快速信息化系统开发、整合框架，给
 *
 * 主要完成员工的增加、修改、删除、移动、导出等。
 * 修改记录：
-*   1、2013-08-10 EricHu V2.5 新增本业务逻辑的编写。
-*   2、2013-11-15 EricHU V2.7 新增导出数据功能与移动功能。
-*   3、2015-10-28 EricHu V3.0 重构新增与修改，自动绑定界面控件以及界面控件序列化，减少大量代码。
+*   1、2013-08-10 XuWangBin V2.5 新增本业务逻辑的编写。
+*   2、2013-11-15 XuWangBin V2.7 新增导出数据功能与移动功能。
+*   3、2015-10-28 XuWangBin V3.0 重构新增与修改，自动绑定界面控件以及界面控件序列化，减少大量代码。
 */
 var actionUrl = 'handler/StaffAdminHandler.ashx',
     formUrl   = "Modules/html/StaffForm.htm";

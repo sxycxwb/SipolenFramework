@@ -17,7 +17,7 @@ namespace RDIFramework.BizLogic
     /// 版本：2.8
     /// 
     /// <author>
-    /// <name>EricHu</name>
+    /// <name>XuWangBin</name>
     /// <date>2014-03-01</date>
     /// </author>
     /// </summary>

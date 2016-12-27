@@ -7,7 +7,7 @@
 // 类  全  名： RDIFramework.Controls.用户控件属性 
 // 描      述:  数据编辑控件
 // 创建  时间： 2010-06-18
-// 创建人信息： [**** 姓名:EricHu QQ:406590790 E-Mail:406590790@qq.com *****]
+// 创建人信息： [**** 姓名:XuWangBin QQ:406590790 E-Mail:406590790@qq.com *****]
 *----------------------------------------------------------------------*/
 #endregion
 
@@ -23,10 +23,10 @@ namespace RDIFramework.Controls
     /// 用户控件属性
     /// 
     ///修改纪录:
-    ///       2010-06-18 EricHu 创建数据编辑控件
+    ///       2010-06-18 XuWangBin 创建数据编辑控件
     /// 
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>406590790</QQ>
     ///     <Email>406590790@qq.com</Email>
     /// </author>

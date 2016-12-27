@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -13,13 +13,13 @@ namespace RDIFramework.CodeMaker
     /// 通用文件处理类
     /// 
     /// 修改纪录
-    ///     2011-10-12 EricHu 对命名进行规范，对代码进行规范
-    ///     2009-02-07 EricHu 增加"得到指定路径下全部文件:
+    ///     2011-10-12 XuWangBin 对命名进行规范，对代码进行规范
+    ///     2009-02-07 XuWangBin 增加"得到指定路径下全部文件:
     ///             GetFile(string fileAllName, out string filePath, out string fileName, out string fileType)"
-    ///     2008-05-27 EricHu 创建通用文件处理类
-    ///     2013-06-03 EricHu 修改CopyDir函数的批量容易卡的情况。
+    ///     2008-05-27 XuWangBin 创建通用文件处理类
+    ///     2013-06-03 XuWangBin 修改CopyDir函数的批量容易卡的情况。
     /// <author>
-    ///     <name>EricHu</name>
+    ///     <name>XuWangBin</name>
     ///     <QQ>80368704</QQ>
     ///     <Email>80368704@qq.com</Email>
     /// </author>

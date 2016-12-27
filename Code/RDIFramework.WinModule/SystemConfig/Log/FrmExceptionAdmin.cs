@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-5 17:11:55
  ******************************************************************************/
 using System;
@@ -19,9 +19,9 @@ namespace RDIFramework.WinModule
     /// 系统异常情况记录
     /// 
     /// 修改记录
-    ///     2015-03-07 EricHu V2.8 使用新的分页方式。
-    ///     2012-06-06 EricHu 新增各功能(查询、删除等)。
-    ///     2012-06-05 EricHu 创建：FrmExceptionAdmin
+    ///     2015-03-07 XuWangBin V2.8 使用新的分页方式。
+    ///     2012-06-06 XuWangBin 新增各功能(查询、删除等)。
+    ///     2012-06-05 XuWangBin 创建：FrmExceptionAdmin
     /// </summary>
     public partial class FrmExceptionAdmin : BaseForm
     {

@@ -40,7 +40,7 @@ namespace RDIFramework.BizLogic
         /// 版本：2.8
         /// 
         /// <author>
-        /// <name>EricHu</name>
+        /// <name>XuWangBin</name>
         /// <date>2014-02-27</date>
         /// </author>
         /// </summary>

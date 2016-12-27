@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System.Collections.Generic;
@@ -15,12 +15,12 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改记录
     ///
-    ///		2011.07.15 版本：1.0 EricHu	主键创建。
+    ///		2011.07.15 版本：1.0 XuWangBin	主键创建。
     ///		
     /// 版本：1.0
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2011.07.15</date>
     /// </author>
     /// </summary>

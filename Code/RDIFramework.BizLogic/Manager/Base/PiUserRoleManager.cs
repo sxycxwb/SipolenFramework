@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-4-13 10:04:04
  ******************************************************************************/
 using System.Data;
@@ -14,13 +14,13 @@ namespace RDIFramework.BizLogic
      /// 系统用户角色表
      ///
      /// 修改纪录
-     ///        2013-10-10 版本：2.7 EricHu 修改Sql语句方式。
-     ///		2012-03-02 版本：1.0 EricHu 创建主键。
+     ///        2013-10-10 版本：2.7 XuWangBin 修改Sql语句方式。
+     ///		2012-03-02 版本：1.0 XuWangBin 创建主键。
      ///
      /// 版本：1.0
      ///
      /// <author>
-     ///		<name>EricHu</name>
+     ///		<name>XuWangBin</name>
      ///		<date>2012-03-02</date>
      /// </author>
      /// </summary>

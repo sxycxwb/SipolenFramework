@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-5-25 10:15:58
  ******************************************************************************/
 using System.Data;
@@ -17,12 +17,12 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     /// 
-    ///		2012-05-25 版本：1.0 EricHu 建立PlatFormAddInService。
+    ///		2012-05-25 版本：1.0 XuWangBin 建立PlatFormAddInService。
     ///		
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-05-25</date>
     /// </author> 
     /// </summary>

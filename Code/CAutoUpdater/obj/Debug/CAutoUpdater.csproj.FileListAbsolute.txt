@@ -1,9 +1,0 @@
-E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\CAutoUpdater.dll
-E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\CAutoUpdater.pdb
-E:\E420\My\Framework\SipolenFramework\Code\CAutoUpdater\obj\Debug\CAutoUpdater.DownloadConfirm.resources
-E:\E420\My\Framework\SipolenFramework\Code\CAutoUpdater\obj\Debug\CAutoUpdater.DownloadProgress.resources
-E:\E420\My\Framework\SipolenFramework\Code\CAutoUpdater\obj\Debug\CAutoUpdater.Properties.Resources.resources
-E:\E420\My\Framework\SipolenFramework\Code\CAutoUpdater\obj\Debug\CAutoUpdater.Res.resources
-E:\E420\My\Framework\SipolenFramework\Code\CAutoUpdater\obj\Debug\CAutoUpdater.csproj.GenerateResource.Cache
-E:\E420\My\Framework\SipolenFramework\Code\CAutoUpdater\obj\Debug\CAutoUpdater.dll
-E:\E420\My\Framework\SipolenFramework\Code\CAutoUpdater\obj\Debug\CAutoUpdater.pdb

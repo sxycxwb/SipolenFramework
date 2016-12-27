@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -14,12 +14,12 @@ namespace RDIFramework.Utilities
     /// 资源管理器
     /// 
     ///	修改纪录
-    ///		2011.05.16 版本：1.0 EricHu	重新调整主键的规范化。
+    ///		2011.05.16 版本：1.0 XuWangBin	重新调整主键的规范化。
     /// 
     /// 版本：1.0
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2011.05.16</date>
     /// </author> 
     /// </summary>

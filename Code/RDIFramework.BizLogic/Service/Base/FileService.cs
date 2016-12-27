@@ -16,14 +16,14 @@ namespace RDIFramework.BizLogic
     /// 文件服务
     /// 
     /// 修改记录
-    ///     2016-01-12 版本：3.0 EricHu 增加GetFileDTByPage接口。
-    ///     2012-06-20 EricHu 取消下载文件的日志记录。
-    ///		2012-03-02 版本：1.0 EricHu 建立文件服务。
+    ///     2016-01-12 版本：3.0 XuWangBin 增加GetFileDTByPage接口。
+    ///     2012-06-20 XuWangBin 取消下载文件的日志记录。
+    ///		2012-03-02 版本：1.0 XuWangBin 建立文件服务。
     ///		
     /// 版本：3.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012-03-02</date>
     /// </author> 
     /// </summary>

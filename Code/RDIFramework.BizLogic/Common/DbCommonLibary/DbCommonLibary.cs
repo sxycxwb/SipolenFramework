@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -15,11 +15,11 @@ namespace RDIFramework.BizLogic
     /// 数据库通用基类
     /// 
     /// 修改纪录
-    ///     2015-09-17 EricHu V3.0 增加大量泛型操作公共类。
+    ///     2015-09-17 XuWangBin V3.0 增加大量泛型操作公共类。
     ///	
     /// 版本：3.0 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2011.11.15</date>
     /// </author> 
     /// </summary>

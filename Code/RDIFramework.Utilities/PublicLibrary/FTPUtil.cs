@@ -43,7 +43,7 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改纪录：
     ///     2011-06-17 版本V1.0 封装了FTP几个基本常用的操作接口，增加远程文件移动功能。
-    ///     2010-02-28 版本V2.0 EricHu FTPUtil
+    ///     2010-02-28 版本V2.0 XuWangBin FTPUtil
     ///     
     /// 版本2.0
     /// </remarks>

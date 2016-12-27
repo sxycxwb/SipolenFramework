@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 
@@ -13,12 +13,12 @@ namespace RDIFramework.BizLogic
     /// 
     /// 修改纪录
     /// 
-    ///		2012.05.18 版本：1.0	EricHu 创建。
+    ///		2012.05.18 版本：1.0	XuWangBin 创建。
     ///	
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.05.18</date>
     /// </author> 
     /// </summary>

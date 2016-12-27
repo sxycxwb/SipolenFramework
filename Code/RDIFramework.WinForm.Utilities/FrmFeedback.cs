@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-6-7 14:36:16
  ******************************************************************************/
 using System;
@@ -22,7 +22,7 @@ namespace RDIFramework.WinForm.Utilities
     /// 意见反馈
     /// 
     /// 修改记录
-    ///     2012-06-07 EricHu 创建FrmFeedback
+    ///     2012-06-07 XuWangBin 创建FrmFeedback
     /// </summary>
     public partial class FrmFeedback :BaseForm
     {

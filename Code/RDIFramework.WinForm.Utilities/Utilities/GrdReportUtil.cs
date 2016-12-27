@@ -14,10 +14,10 @@ namespace RDIFramework.WinForm.Utilities
     /// 
     /// 修改记录：
     /// 
-    ///     2014-03-10 EricHu V2.8  增加报表操作公共辅助类。
+    ///     2014-03-10 XuWangBin V2.8  增加报表操作公共辅助类。
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2014-03-10</date>
     /// </author> 
     /// </summary>

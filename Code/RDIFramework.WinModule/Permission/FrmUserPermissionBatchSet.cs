@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
- *  All Rights Reserved , Copyright (C) 2012 , EricHu. 
- *  作    者： EricHu
+ *  All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
+ *  作    者： XuWangBin
  *  创建时间： 2012-5-4 10:31:42
  ******************************************************************************/
 using System;
@@ -19,7 +19,7 @@ namespace RDIFramework.WinModule
     /// FrmUserPermissionBatchSet
     /// 权限设置-用户权限批量设置
     /// 
-    ///     2012-07-13 EricHu 新增过滤用户功能，满足用户过多查看的方便。
+    ///     2012-07-13 XuWangBin 新增过滤用户功能，满足用户过多查看的方便。
     ///     
     /// </summary>
     public partial class FrmUserPermissionBatchSet : BaseForm

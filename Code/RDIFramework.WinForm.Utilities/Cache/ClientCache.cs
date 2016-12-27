@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -17,12 +17,12 @@ namespace RDIFramework.WinForm.Utilities
     /// 
     /// 修改纪录
     ///
-    ///		2010.02.03 版本：1.0 EricHu 窗体与数据库连接的分离。
+    ///		2010.02.03 版本：1.0 XuWangBin 窗体与数据库连接的分离。
     ///		
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2010.02.03</date>
     /// </author> 
     /// </summary>

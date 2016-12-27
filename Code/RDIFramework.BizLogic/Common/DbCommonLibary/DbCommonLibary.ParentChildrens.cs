@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -14,14 +14,14 @@ namespace RDIFramework.BizLogic
     /// 通用基类
     /// 
     /// 修改纪录
-    ///     2015-11-12 版本：3.0   EricHu  新增MySql数据库递归得到当前节点的所有子节点方法：GetMySqlChildrensId
+    ///     2015-11-12 版本：3.0   XuWangBin  新增MySql数据库递归得到当前节点的所有子节点方法：GetMySqlChildrensId
     ///     2015-06-08 版本：3.0   WoodyLi 修正GetParentChildrensByCode中参数重复问题。
-    ///		2012.02.05 版本：1.0   EricHu 分离程序。
+    ///		2012.02.05 版本：1.0   XuWangBin 分离程序。
     ///	
     /// 版本：1.0
     ///
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.02.05</date>
     /// </author> 
     /// </summary>

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 using System;
@@ -11,7 +11,7 @@ namespace RDIFramework.Utilities
 	/// 日期时间公共处理类
 	/// 
 	/// <author>
-	///     <name>EricHu</name>
+	///     <name>XuWangBin</name>
 	///     <QQ>80368704</QQ>
 	///     <Email>80368704@qq.com</Email>
 	/// </author>

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------
-// All Rights Reserved , Copyright (C) 2012 , EricHu. 
+// All Rights Reserved , Copyright (C) 2012 , XuWangBin. 
 //-----------------------------------------------------------------
 
 namespace RDIFramework.Utilities
@@ -10,13 +10,13 @@ namespace RDIFramework.Utilities
     /// 
     /// 修改纪录
     /// 
-    ///		2013.02.09 版本：1.1 EricHu 重新命名为 StatusCode。
-    ///		2012.12.04 版本：1.0 EricHu 重新调整主键的规范化。
+    ///		2013.02.09 版本：1.1 XuWangBin 重新命名为 StatusCode。
+    ///		2012.12.04 版本：1.0 XuWangBin 重新调整主键的规范化。
     ///		
     /// 版本：1.0
     /// 
     /// <author>
-    ///		<name>EricHu</name>
+    ///		<name>XuWangBin</name>
     ///		<date>2012.05.18</date>
     /// </author> 
     /// </summary>    
