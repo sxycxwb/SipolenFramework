@@ -93,6 +93,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDIFramework.BizLogic", "RD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDIFramework.NET", "RDIFramework.NET\RDIFramework.NET.csproj", "{764EC29C-DB35-4627-89B6-7F550CF4B239}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 RDIFramework.Tools", "08 RDIFramework.Tools", "{AC1BCDEE-1F1A-4FEF-A4F8-66962EE5882C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDIFramework.ChangeIcon", "RDIFramework.ChangeIcon\RDIFramework.ChangeIcon.csproj", "{32E1CAC3-38AC-46AC-8254-8C184FF020C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -274,6 +278,18 @@ Global
 		{764EC29C-DB35-4627-89B6-7F550CF4B239}.Release|Mixed Platforms.Build.0 = Release|x86
 		{764EC29C-DB35-4627-89B6-7F550CF4B239}.Release|x86.ActiveCfg = Release|x86
 		{764EC29C-DB35-4627-89B6-7F550CF4B239}.Release|x86.Build.0 = Release|x86
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Debug|x86.Build.0 = Debug|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|x86.ActiveCfg = Release|Any CPU
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -300,6 +316,7 @@ Global
 		{55E2E05C-5614-4A03-8429-6F6C5AB5E2BD} = {C78D1E21-A2E0-4792-AF91-BAB803D0228D}
 		{3DFEEFB2-547E-4744-B667-3103B0ACAC65} = {AEAE2514-93CB-402D-B628-C3F12AEADA8D}
 		{764EC29C-DB35-4627-89B6-7F550CF4B239} = {DB9B7FF0-D347-430C-BDC0-F74C95F1D7FD}
+		{32E1CAC3-38AC-46AC-8254-8C184FF020C9} = {AC1BCDEE-1F1A-4FEF-A4F8-66962EE5882C}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = RDIFramework.NET V2.9.vsmdi
