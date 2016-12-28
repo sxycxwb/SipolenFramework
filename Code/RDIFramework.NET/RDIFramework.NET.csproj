@@ -245,8 +245,8 @@
     <Content Include="Resource\Media\msg.wav" />
     <Content Include="Resource\Media\system.wav" />
     <EmbeddedResource Include="Config.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Include="Resource\Department.gif" />
     <None Include="Resource\Company.gif" />

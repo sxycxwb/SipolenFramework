@@ -15,3 +15,6 @@
 /Code/RDIFramework.WCFService/Bin
 /Code/RDIFramework.Utilities/obj/Debug
 /Code/RDIFramework.Test/obj/x86/Debug
+/Code/RDIFramework.WCFService/obj/Debug
+/Code/RDIFramework.WebCommon/obj/Debug
+/Code/RDIFramework.WebApp/obj/Debug
