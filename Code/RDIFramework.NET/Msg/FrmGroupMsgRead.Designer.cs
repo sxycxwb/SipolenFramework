@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGroupMsgRead));
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
@@ -54,26 +53,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Info;
-            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(670, 49);
-            this.panel4.TabIndex = 0;
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Controls.Add(this.splitter1);
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(0, 49);
+            this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(670, 490);
+            this.panel5.Size = new System.Drawing.Size(670, 539);
             this.panel5.TabIndex = 1;
             // 
             // panel6
@@ -82,7 +70,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(489, 490);
+            this.panel6.Size = new System.Drawing.Size(489, 539);
             this.panel6.TabIndex = 0;
             // 
             // splitContainer2
@@ -100,8 +88,8 @@
             // 
             this.splitContainer2.Panel2.Controls.Add(this.txtMsgContent);
             this.splitContainer2.Panel2.Controls.Add(this.panel8);
-            this.splitContainer2.Size = new System.Drawing.Size(489, 490);
-            this.splitContainer2.SplitterDistance = 273;
+            this.splitContainer2.Size = new System.Drawing.Size(489, 539);
+            this.splitContainer2.SplitterDistance = 300;
             this.splitContainer2.TabIndex = 0;
             // 
             // webMsg
@@ -110,7 +98,7 @@
             this.webMsg.Location = new System.Drawing.Point(0, 0);
             this.webMsg.MinimumSize = new System.Drawing.Size(20, 20);
             this.webMsg.Name = "webMsg";
-            this.webMsg.Size = new System.Drawing.Size(489, 273);
+            this.webMsg.Size = new System.Drawing.Size(489, 300);
             this.webMsg.TabIndex = 1;
             this.webMsg.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBMsg_DocumentCompleted);
             // 
@@ -156,7 +144,7 @@
             this.txtMsgContent.SeparatorIndentAndBulletsVisible = false;
             this.txtMsgContent.SeparatorInsertVisible = false;
             this.txtMsgContent.SeparatorSaveLoadVisible = false;
-            this.txtMsgContent.Size = new System.Drawing.Size(489, 174);
+            this.txtMsgContent.Size = new System.Drawing.Size(489, 196);
             this.txtMsgContent.TabIndex = 0;
             this.txtMsgContent.ToolStripVisible = true;
             this.txtMsgContent.UnderlineVisible = true;
@@ -171,7 +159,7 @@
             this.panel8.Controls.Add(this.btnSend);
             this.panel8.Controls.Add(this.btnClose);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel8.Location = new System.Drawing.Point(0, 174);
+            this.panel8.Location = new System.Drawing.Point(0, 196);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(489, 39);
             this.panel8.TabIndex = 1;
@@ -201,7 +189,7 @@
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Right;
             this.splitter1.Location = new System.Drawing.Point(489, 0);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 490);
+            this.splitter1.Size = new System.Drawing.Size(3, 539);
             this.splitter1.TabIndex = 2;
             this.splitter1.TabStop = false;
             // 
@@ -214,7 +202,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel7.Location = new System.Drawing.Point(492, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(178, 490);
+            this.panel7.Size = new System.Drawing.Size(178, 539);
             this.panel7.TabIndex = 1;
             // 
             // splitter2
@@ -222,7 +210,7 @@
             this.splitter2.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.splitter2.Cursor = System.Windows.Forms.Cursors.HSplit;
             this.splitter2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitter2.Location = new System.Drawing.Point(0, 228);
+            this.splitter2.Location = new System.Drawing.Point(0, 277);
             this.splitter2.Name = "splitter2";
             this.splitter2.Size = new System.Drawing.Size(178, 3);
             this.splitter2.TabIndex = 2;
@@ -231,7 +219,7 @@
             // panel9
             // 
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 231);
+            this.panel9.Location = new System.Drawing.Point(0, 280);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(178, 259);
             this.panel9.TabIndex = 1;
@@ -252,8 +240,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(670, 539);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmGroupMsgRead";
             this.Text = "即时通讯";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMsgRead_FormClosing);
@@ -278,7 +266,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Splitter splitter1;

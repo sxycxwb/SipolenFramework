@@ -473,7 +473,7 @@
             this.lblDept,
             this.lblUser});
             this.bar1.ItemSpacing = 2;
-            this.bar1.Location = new System.Drawing.Point(5, 591);
+            this.bar1.Location = new System.Drawing.Point(5, 589);
             this.bar1.Name = "bar1";
             this.bar1.Size = new System.Drawing.Size(1000, 21);
             this.bar1.Stretch = true;
@@ -516,7 +516,7 @@
             this.mdiClient1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mdiClient1.Location = new System.Drawing.Point(5, 150);
             this.mdiClient1.Name = "mdiClient1";
-            this.mdiClient1.Size = new System.Drawing.Size(1000, 441);
+            this.mdiClient1.Size = new System.Drawing.Size(1000, 439);
             this.mdiClient1.TabIndex = 15;
             // 
             // imageListMain
@@ -555,7 +555,7 @@
             this.tabControlMain.ReorderTabsEnabled = true;
             this.tabControlMain.SelectedTabFont = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold);
             this.tabControlMain.SelectedTabIndex = 0;
-            this.tabControlMain.Size = new System.Drawing.Size(1000, 441);
+            this.tabControlMain.Size = new System.Drawing.Size(1000, 439);
             this.tabControlMain.TabFont = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tabControlMain.TabIndex = 19;
             this.tabControlMain.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -573,7 +573,7 @@
             this.superTabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel5.Location = new System.Drawing.Point(0, 58);
             this.superTabControlPanel5.Name = "superTabControlPanel5";
-            this.superTabControlPanel5.Size = new System.Drawing.Size(1000, 383);
+            this.superTabControlPanel5.Size = new System.Drawing.Size(1000, 381);
             this.superTabControlPanel5.TabIndex = 0;
             this.superTabControlPanel5.TabItem = this.tabStartPage;
             // 
@@ -582,7 +582,7 @@
             this.ucStartPage1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucStartPage1.Location = new System.Drawing.Point(0, 0);
             this.ucStartPage1.Name = "ucStartPage1";
-            this.ucStartPage1.Size = new System.Drawing.Size(1000, 383);
+            this.ucStartPage1.Size = new System.Drawing.Size(1000, 381);
             this.ucStartPage1.TabIndex = 0;
             this.ucStartPage1.OnMoreClicked += new System.EventHandler(this.ucStartPage1_OnMoreClicked);
             // 
@@ -600,7 +600,7 @@
             this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel4.Location = new System.Drawing.Point(0, 0);
             this.superTabControlPanel4.Name = "superTabControlPanel4";
-            this.superTabControlPanel4.Size = new System.Drawing.Size(1000, 441);
+            this.superTabControlPanel4.Size = new System.Drawing.Size(1000, 439);
             this.superTabControlPanel4.TabIndex = 0;
             // 
             // superTabControlPanel2
@@ -608,7 +608,7 @@
             this.superTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel2.Location = new System.Drawing.Point(0, 0);
             this.superTabControlPanel2.Name = "superTabControlPanel2";
-            this.superTabControlPanel2.Size = new System.Drawing.Size(1000, 441);
+            this.superTabControlPanel2.Size = new System.Drawing.Size(1000, 439);
             this.superTabControlPanel2.TabIndex = 0;
             // 
             // superTabControlPanel1
@@ -618,7 +618,7 @@
             this.superTabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel1.Location = new System.Drawing.Point(0, 0);
             this.superTabControlPanel1.Name = "superTabControlPanel1";
-            this.superTabControlPanel1.Size = new System.Drawing.Size(1000, 441);
+            this.superTabControlPanel1.Size = new System.Drawing.Size(1000, 439);
             this.superTabControlPanel1.TabIndex = 1;
             // 
             // 下划线
@@ -643,14 +643,14 @@
             this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel3.Location = new System.Drawing.Point(0, 0);
             this.superTabControlPanel3.Name = "superTabControlPanel3";
-            this.superTabControlPanel3.Size = new System.Drawing.Size(1000, 441);
+            this.superTabControlPanel3.Size = new System.Drawing.Size(1000, 439);
             this.superTabControlPanel3.TabIndex = 0;
             // 
             // FrmRDIFrameworkRibbon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1010, 614);
+            this.ClientSize = new System.Drawing.Size(1010, 612);
             this.Controls.Add(this.tabControlMain);
             this.Controls.Add(this.ribbonControlMain);
             this.Controls.Add(this.bar1);
@@ -658,7 +658,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Name = "FrmRDIFrameworkRibbon";
-            this.Text = "RDIFramework.NET ━ .NET快速信息化系统开发框架";
+            this.Text = "思普林国际贸易 -->业务系统";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmRDIFrameworkRibbon_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmRDIFrameworkRibbon_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.bar1)).EndInit();

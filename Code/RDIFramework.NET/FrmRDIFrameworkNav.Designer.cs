@@ -815,7 +815,7 @@ namespace RDIFramework.NET
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmRDIFrameworkNav";
             this.ShowInTaskbar = true;
-            this.Text = "RDIFramework.NET ━ .NET快速信息化系统开发框架";
+            this.Text = "思普林国际贸易 -->业务系统";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmRDIFramework_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmRDIFramework_FormClosed);
