@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RDIFramework.Utilities</RootNamespace>
     <AssemblyName>RDIFramework.Utilities</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -42,6 +42,7 @@
     </DocumentationFile>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -53,13 +54,15 @@
     <DocumentationFile>
     </DocumentationFile>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="IBM.Data.DB2">
       <HintPath>..\RDIFramework.ExternalReference\IBM.Data.DB2.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\RDIFramework.ExternalReference\ICSharpCode.SharpZipLib.dll</HintPath>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualBasic" />
@@ -69,8 +72,21 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\RDIFramework.ExternalReference\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="NPOI">
-      <HintPath>..\RDIFramework.ExternalReference\NPOI.dll</HintPath>
+    <Reference Include="NPOI, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NPOI.2.2.1\lib\net40\NPOI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NPOI.2.2.1\lib\net40\NPOI.OOXML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NPOI.2.2.1\lib\net40\NPOI.OpenXml4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NPOI.2.2.1\lib\net40\NPOI.OpenXmlFormats.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Oracle.DataAccess">
       <HintPath>..\RDIFramework.ExternalReference\Oracle.DataAccess.dll</HintPath>
@@ -103,7 +119,6 @@
     <Compile Include="DataAccessLibary\DbProvider\OracleProvider.cs" />
     <Compile Include="DataAccessLibary\BaseDbProvider.Method.cs" />
     <Compile Include="PublicLibrary\GZipHelper.cs" />
-    <Compile Include="PublicLibrary\NPOIHelper.cs" />
     <Compile Include="RDIFrameworkMessage\BusinessLogic.ConvertTo.cs" />
     <Compile Include="RDIFrameworkMessage\WorkFlowConst.cs" />
     <Compile Include="RDIFrameworkMessage\RDIFrameworkMessage.WorkFlow.cs" />
@@ -111,20 +126,6 @@
     <Compile Include="Wrapper\HttpCookieHelper类使用方法参考.cs" />
     <Compile Include="Wrapper\HttpHelper.cs" />
     <Compile Include="PublicLibrary\ImageHandle\DrawUtil.cs" />
-    <Compile Include="PublicLibrary\Export\CellType.cs" />
-    <Compile Include="PublicLibrary\Export\CellValueType.cs" />
-    <Compile Include="PublicLibrary\Export\DataGridViewExportable.cs" />
-    <Compile Include="PublicLibrary\Export\DataTableExportable.cs" />
-    <Compile Include="PublicLibrary\Export\DataViewExportable.cs" />
-    <Compile Include="PublicLibrary\Export\Exportable.cs" />
-    <Compile Include="PublicLibrary\Export\ExportCallback.cs" />
-    <Compile Include="PublicLibrary\Export\ExportContext.cs" />
-    <Compile Include="PublicLibrary\Export\Exporter.cs" />
-    <Compile Include="PublicLibrary\Export\GridViewExportable.cs" />
-    <Compile Include="PublicLibrary\Export\IExportable.cs" />
-    <Compile Include="PublicLibrary\Export\IExportHeader.cs" />
-    <Compile Include="PublicLibrary\Export\ListExportable.cs" />
-    <Compile Include="PublicLibrary\Export\PagedExportable.cs" />
     <Compile Include="RDIFrameworkMessage\RDIFrameworkMessage.WF.cs" />
     <Compile Include="PublicLibrary\WindowAPI.cs" />
     <Compile Include="PublicLibrary\PinYinConverter.cs" />
@@ -249,6 +250,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
