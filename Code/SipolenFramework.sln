@@ -97,6 +97,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 RDIFramework.Tools", "08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDIFramework.ChangeIcon", "RDIFramework.ChangeIcon\RDIFramework.ChangeIcon.csproj", "{32E1CAC3-38AC-46AC-8254-8C184FF020C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 SipolenCode", "09 SipolenCode", "{708ACC24-B95A-453F-9B7C-94F9FD47D185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sipolen.ExcelTools", "SipolenCode\Sipolen.ExcelTools\Sipolen.ExcelTools.csproj", "{24F8BB96-8724-4A54-9D46-E3757F12D300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sipolen.Code", "SipolenCode\Sipolen.Code\Sipolen.Code.csproj", "{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -290,6 +296,30 @@ Global
 		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|x86.ActiveCfg = Release|Any CPU
 		{32E1CAC3-38AC-46AC-8254-8C184FF020C9}.Release|x86.Build.0 = Release|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Debug|x86.Build.0 = Debug|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Release|x86.ActiveCfg = Release|Any CPU
+		{24F8BB96-8724-4A54-9D46-E3757F12D300}.Release|x86.Build.0 = Release|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Debug|x86.Build.0 = Debug|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Release|x86.ActiveCfg = Release|Any CPU
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -317,6 +347,8 @@ Global
 		{3DFEEFB2-547E-4744-B667-3103B0ACAC65} = {AEAE2514-93CB-402D-B628-C3F12AEADA8D}
 		{764EC29C-DB35-4627-89B6-7F550CF4B239} = {DB9B7FF0-D347-430C-BDC0-F74C95F1D7FD}
 		{32E1CAC3-38AC-46AC-8254-8C184FF020C9} = {AC1BCDEE-1F1A-4FEF-A4F8-66962EE5882C}
+		{24F8BB96-8724-4A54-9D46-E3757F12D300} = {708ACC24-B95A-453F-9B7C-94F9FD47D185}
+		{038B58C1-5A9C-4608-B6FD-FA4D04EC69C1} = {708ACC24-B95A-453F-9B7C-94F9FD47D185}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = RDIFramework.NET V2.9.vsmdi

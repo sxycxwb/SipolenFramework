@@ -811,7 +811,7 @@ namespace RDIFramework.WinModule
             {
                 try
                 {
-                    NPOIHelper.ExportByWinform(DTUser, dtHeaderText, savePath);
+                    //NPOIHelper.ExportByWinform(DTUser, dtHeaderText, savePath);
                     MessageBoxHelper.ShowSuccessMsg("恭喜你，导出成功！");
                 }
                 catch (Exception ex)

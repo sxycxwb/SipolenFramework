@@ -46,7 +46,7 @@ namespace RDIFramework.Utilities
         /// <param name="connectionString">数据库连接串</param>
         /// <returns>数据库访问类</returns>
         public static IDbProvider GetProvider(CurrentDbType dbType = CurrentDbType.SqlServer, string connectionString = null)
-        {
+       {
             // 这里是每次都获取新的数据库连接,否则会有并发访问的问题存在
             var dbProviderClass = BusinessLogic.GetDbProviderClass(dbType);
             var dbProvider = (IDbProvider)Assembly.Load(SystemInfo.DbProviderAssmely).CreateInstance(dbProviderClass, true);
