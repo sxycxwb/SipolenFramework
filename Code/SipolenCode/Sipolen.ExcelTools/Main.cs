@@ -460,7 +460,7 @@ namespace Sipolen.ExcelTools
                     if (key.Trim().IndexOf('-') != -1)//如果找到'-'则跳出
                         continue;
                     string[] arr = key.Split('|');
-                    keyWordList.Add(new AliexpressKeyWord() { KeyWord = arr[0], SeachCount = string.IsNullOrEmpty(arr[1].Trim()) ? "99999" : arr[1].Trim() });
+                    keyWordList.Add(new AliexpressKeyWord() { KeyWord = arr[0].TrimStart().TrimEnd(), SeachCount = string.IsNullOrEmpty(arr[1].Trim()) ? "99999" : arr[1].Trim() });
                 }
                 //按搜索量排序
                 keyWordList = keyWordList.OrderByDescending(t => t.SeachCount).ToList();
