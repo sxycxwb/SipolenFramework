@@ -21,6 +21,10 @@ namespace Sipolen.ExcelTools
 {
     public partial class Main : BaseForm
     {
+        /// <summary>
+        /// 推荐节点码
+        /// </summary>
+        public string BrowseNodeNum { get; set; }
 
         /// <summary>
         /// 业务逻辑数据库连接字符串
@@ -191,6 +195,16 @@ namespace Sipolen.ExcelTools
             BindCountryList("Europe");
 
             #endregion
+
+
+            #region 关键词模式类型
+
+            cmbKeyWordStyle.Items.Add("AliexpressKey");
+            cmbKeyWordStyle.Items.Add("KeyWordTool");
+            cmbKeyWordStyle.SelectedIndex = 0;
+
+            #endregion
+
         }
         #endregion
 
@@ -227,7 +241,7 @@ namespace Sipolen.ExcelTools
         /// 绑定国家模板列表
         /// </summary>
         /// <param name="countryCode">国家编码</param>
-        private void BindCountryTemplateList(string countryCode,string coutryName)
+        private void BindCountryTemplateList(string countryCode, string coutryName)
         {
             var templateListData = templateList.Where(t => t.CountryCode == countryCode).ToList();
             cbCountryTemplate.DataSource = templateListData;
@@ -237,7 +251,7 @@ namespace Sipolen.ExcelTools
             BindProductType(coutryName, templateListData[0].TemplateName);
         }
 
-        private void BindProductType(string coutryName,string templateName)
+        private void BindProductType(string coutryName, string templateName)
         {
             string searchSql = $"select VaildValue,VaildValueDesc from S_VAILDVALUE where country='{coutryName}' and templete='{templateName}'";
             var dt = ExecSql(searchSql);
@@ -336,8 +350,6 @@ namespace Sipolen.ExcelTools
                 BindCountryList(rbAmericaSite.Tag.ToString());//绑定美洲站国家
         }
 
-
-
         /// <summary>
         /// 确定国际及模板 - 实质是复制模板到工作目录并重命名
         /// </summary>
@@ -406,49 +418,57 @@ namespace Sipolen.ExcelTools
 
         private string nodeFlag = string.Empty;
 
-        private void browse_nodes1_KeyUp(object sender, KeyEventArgs e)
+        private void browse_nodes1_MouseClick(object sender, MouseEventArgs e)
         {
             nodeFlag = "browse_nodes1";
-            BindNodeGridView();
+            BrowseNodes formBrowseNodes = new BrowseNodes(cbCountry.SelectedItem as Country, cbCountryTemplate.SelectedItem as CountryTemplate);
+            formBrowseNodes.Owner = this;
+            formBrowseNodes.StartPosition = FormStartPosition.CenterScreen;
+            formBrowseNodes.WindowState = FormWindowState.Maximized;
+            formBrowseNodes.ShowDialog();
+            browse_nodes1.Text = BrowseNodeNum;
         }
 
-        private void browse_nodes2_KeyUp(object sender, KeyEventArgs e)
+        private void browse_nodes2_MouseClick(object sender, MouseEventArgs e)
         {
             nodeFlag = "browse_nodes2";
-            BindNodeGridView();
+            BrowseNodes formBrowseNodes = new BrowseNodes(cbCountry.SelectedItem as Country, cbCountryTemplate.SelectedItem as CountryTemplate);
+            formBrowseNodes.Owner = this;
+            formBrowseNodes.StartPosition = FormStartPosition.CenterScreen;
+            formBrowseNodes.WindowState = FormWindowState.Maximized;
+            formBrowseNodes.ShowDialog();
+            browse_nodes2.Text = BrowseNodeNum;
         }
 
-        /// <summary>
-        /// GridView双击
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void nodeGridView_DoubleClick(object sender, EventArgs e)
+        #endregion
+
+        #region 关键字
+
+        #region 统计
+        private void btnKeyWordStatistics_Click(object sender, EventArgs e)
         {
-            int index = nodeGridView.CurrentRow.Index;
-            string[] arr = new string[nodeGridView.ColumnCount];
-            for (int i = 0; i < nodeGridView.ColumnCount; i++)
+            //判断类型
+            if (cmbKeyWordStyle.SelectedIndex == 0) //选择阿里通关键字模式
             {
-                arr[i] = nodeGridView.Rows[index].Cells[i].Value.ToString();
-            }
-            if (nodeFlag == "browse_nodes1")
-            {
-                if (MessageBox.Show($"确认选择【{arr[1]}】", "确认信息", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                string keyword = txtKeyWords.Text;
+                string[] keyArr = keyword.Split(new string[] { "\r\n" }, StringSplitOptions.None);
+                var keyWordList = new List<AliexpressKeyWord>();
+                foreach (var key in keyArr)
                 {
-                    browse_nodes1.Text = arr[0];
-                    nodeGridView.Visible = false;
+                    if (string.IsNullOrEmpty(key.Trim()))//如果为空则跳出
+                        continue;
+                    if (key.Trim().IndexOf('-') != -1)//如果找到'-'则跳出
+                        continue;
+                    string[] arr = key.Split('|');
+                    keyWordList.Add(new AliexpressKeyWord() { KeyWord = arr[0], SeachCount = string.IsNullOrEmpty(arr[1].Trim()) ? "99999" : arr[1].Trim() });
                 }
+                //按搜索量排序
+                keyWordList = keyWordList.OrderByDescending(t => t.SeachCount).ToList();
 
             }
-            else if (nodeFlag == "browse_nodes2")
-            {
-                if (MessageBox.Show($"确认选择【{arr[1]}】", "确认信息", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-                {
-                    browse_nodes2.Text = arr[0];
-                    nodeGridView.Visible = false;
-                }
-            }
         }
+
+        #endregion
 
         #endregion
 
@@ -459,37 +479,11 @@ namespace Sipolen.ExcelTools
         private bool NullCheck()
         {
             bool flag = false;
-            if (string.IsNullOrEmpty(browse_nodes1.Text.Trim())|| string.IsNullOrEmpty(browse_nodes2.Text.Trim()))
+            if (string.IsNullOrEmpty(browse_nodes1.Text.Trim()) || string.IsNullOrEmpty(browse_nodes2.Text.Trim()))
             {
                 flag = true;
             }
             return flag;
-        }
-
-        /// <summary>
-        /// 绑定节点GridView
-        /// </summary>
-        private void BindNodeGridView()
-        {
-            //选择国家与模板类型
-            var selectedCountry = cbCountry.SelectedItem as Country;
-            var selectedCountryTemplate = cbCountryTemplate.SelectedItem as CountryTemplate;
-            var country = selectedCountry.CountryName;
-            var template = selectedCountryTemplate.TemplateName;
-
-            string searchTxt = nodeFlag == "browse_nodes1" ? browse_nodes1.Text.Trim() : browse_nodes2.Text.Trim();
-            string searchSql = $"SELECT NODEID,NODENAME,NODEDESC FROM S_NODEDICT WHERE NODEDESC LIKE '%{searchTxt}%' AND COUNTRY ='{country}' AND CATEGORY = '{template}'";
-            var dt = ExecSql(searchSql);
-            if (dt.Rows.Count > 0)
-            {
-                nodeGridView.Visible = true;
-                this.nodeGridView.AutoGenerateColumns = false;
-                nodeGridView.DataSource = dt;
-            }
-            else
-            {
-                nodeGridView.Visible = false;
-            }
         }
 
         private TargetExcelInputDto GetExcelInputDto()
@@ -499,7 +493,7 @@ namespace Sipolen.ExcelTools
             var inputDto = new TargetExcelInputDto();
             inputDto.ExternalProductId = txtEANCountryCode.Text.Trim() + txtEANFactoryCode.Text.Trim() + txtEANProductCode.Text.Trim();
             inputDto.BrandName = txtBrandName.Text.Trim();
-            inputDto.FeedProductType = cbProductType.;
+            inputDto.FeedProductType = cbProductType.SelectedValue.ToString();
             inputDto.CurrencyExchangeRate = selectCountry.CurrencyExchangeRate;
             inputDto.Currency = selectCountry.CurrencyUnit;
             inputDto.Quantity = txtQuantity.Text.Trim();
@@ -534,8 +528,11 @@ namespace Sipolen.ExcelTools
         }
 
 
+
+
+
         #endregion
 
-        
+
     }
 }

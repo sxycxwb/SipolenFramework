@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.btnSelectSourceExcel = new System.Windows.Forms.Button();
             this.lbSourceExcelPath = new System.Windows.Forms.Label();
@@ -71,21 +68,21 @@
             this.label10 = new System.Windows.Forms.Label();
             this.btnSetWorkPath = new System.Windows.Forms.Button();
             this.browse_nodes1 = new System.Windows.Forms.TextBox();
-            this.nodeGridView = new RDIFramework.Controls.UcDataGridView();
-            this.NodeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NodeDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NodeName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.browse_nodes2 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
             this.cbProductType = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtKeyWords = new System.Windows.Forms.TextBox();
+            this.btnKeyWordStatistics = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.cmbKeyWordStyle = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nodeGridView)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
@@ -159,10 +156,12 @@
             // 
             // btnBeginMove
             // 
-            this.btnBeginMove.Location = new System.Drawing.Point(60, 699);
+            this.btnBeginMove.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnBeginMove.ForeColor = System.Drawing.Color.Red;
+            this.btnBeginMove.Location = new System.Drawing.Point(1351, 581);
             this.btnBeginMove.Margin = new System.Windows.Forms.Padding(5);
             this.btnBeginMove.Name = "btnBeginMove";
-            this.btnBeginMove.Size = new System.Drawing.Size(137, 40);
+            this.btnBeginMove.Size = new System.Drawing.Size(137, 90);
             this.btnBeginMove.TabIndex = 6;
             this.btnBeginMove.Text = "开始移表";
             this.btnBeginMove.UseVisualStyleBackColor = true;
@@ -533,74 +532,7 @@
             this.browse_nodes1.Name = "browse_nodes1";
             this.browse_nodes1.Size = new System.Drawing.Size(287, 31);
             this.browse_nodes1.TabIndex = 18;
-            this.browse_nodes1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.browse_nodes1_KeyUp);
-            // 
-            // nodeGridView
-            // 
-            this.nodeGridView.AllowUserToOrderColumns = true;
-            this.nodeGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.nodeGridView.CheckboxFieldName = "colSelected";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.nodeGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.nodeGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.nodeGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.NodeId,
-            this.NodeDesc,
-            this.NodeName});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.nodeGridView.DefaultCellStyle = dataGridViewCellStyle2;
-            this.nodeGridView.EnableHeadersVisualStyles = false;
-            this.nodeGridView.Location = new System.Drawing.Point(60, 422);
-            this.nodeGridView.Name = "nodeGridView";
-            this.nodeGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.nodeGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.nodeGridView.RowHeadersWidth = 25;
-            this.nodeGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.nodeGridView.RowTemplate.Height = 30;
-            this.nodeGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.nodeGridView.Size = new System.Drawing.Size(1428, 263);
-            this.nodeGridView.TabIndex = 30;
-            this.nodeGridView.DoubleClick += new System.EventHandler(this.nodeGridView_DoubleClick);
-            // 
-            // NodeId
-            // 
-            this.NodeId.DataPropertyName = "NODEID";
-            this.NodeId.HeaderText = "节点ID";
-            this.NodeId.Name = "NodeId";
-            this.NodeId.Width = 120;
-            // 
-            // NodeDesc
-            // 
-            this.NodeDesc.DataPropertyName = "NODEDESC";
-            this.NodeDesc.HeaderText = "类别名称";
-            this.NodeDesc.Name = "NodeDesc";
-            this.NodeDesc.Width = 800;
-            // 
-            // NodeName
-            // 
-            this.NodeName.DataPropertyName = "NODENAME";
-            this.NodeName.HeaderText = "类别英文";
-            this.NodeName.Name = "NodeName";
-            this.NodeName.Width = 360;
+            this.browse_nodes1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.browse_nodes1_MouseClick);
             // 
             // label16
             // 
@@ -633,7 +565,7 @@
             this.browse_nodes2.Name = "browse_nodes2";
             this.browse_nodes2.Size = new System.Drawing.Size(287, 31);
             this.browse_nodes2.TabIndex = 32;
-            this.browse_nodes2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.browse_nodes2_KeyUp);
+            this.browse_nodes2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.browse_nodes2_MouseClick);
             // 
             // panel4
             // 
@@ -657,6 +589,15 @@
             this.panel5.Size = new System.Drawing.Size(657, 77);
             this.panel5.TabIndex = 27;
             // 
+            // cbProductType
+            // 
+            this.cbProductType.FormattingEnabled = true;
+            this.cbProductType.Location = new System.Drawing.Point(249, 29);
+            this.cbProductType.Margin = new System.Windows.Forms.Padding(5);
+            this.cbProductType.Name = "cbProductType";
+            this.cbProductType.Size = new System.Drawing.Size(263, 29);
+            this.cbProductType.TabIndex = 34;
+            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -669,26 +610,72 @@
             this.label18.Tag = "";
             this.label18.Text = "产品类别（有效值）";
             // 
-            // cbProductType
+            // label19
             // 
-            this.cbProductType.FormattingEnabled = true;
-            this.cbProductType.Location = new System.Drawing.Point(249, 29);
-            this.cbProductType.Margin = new System.Windows.Forms.Padding(5);
-            this.cbProductType.Name = "cbProductType";
-            this.cbProductType.Size = new System.Drawing.Size(263, 29);
-            this.cbProductType.TabIndex = 34;
+            this.label19.AutoSize = true;
+            this.label19.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label19.Location = new System.Drawing.Point(60, 452);
+            this.label19.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(73, 21);
+            this.label19.TabIndex = 34;
+            this.label19.Tag = "";
+            this.label19.Text = "关键词";
+            // 
+            // txtKeyWords
+            // 
+            this.txtKeyWords.Location = new System.Drawing.Point(60, 492);
+            this.txtKeyWords.Multiline = true;
+            this.txtKeyWords.Name = "txtKeyWords";
+            this.txtKeyWords.Size = new System.Drawing.Size(1256, 300);
+            this.txtKeyWords.TabIndex = 35;
+            // 
+            // btnKeyWordStatistics
+            // 
+            this.btnKeyWordStatistics.Location = new System.Drawing.Point(1351, 494);
+            this.btnKeyWordStatistics.Name = "btnKeyWordStatistics";
+            this.btnKeyWordStatistics.Size = new System.Drawing.Size(137, 43);
+            this.btnKeyWordStatistics.TabIndex = 36;
+            this.btnKeyWordStatistics.Text = "关键词统计";
+            this.btnKeyWordStatistics.UseVisualStyleBackColor = true;
+            this.btnKeyWordStatistics.Click += new System.EventHandler(this.btnKeyWordStatistics_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label20.Location = new System.Drawing.Point(1051, 452);
+            this.label20.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(73, 21);
+            this.label20.TabIndex = 37;
+            this.label20.Tag = "";
+            this.label20.Text = "模式：";
+            // 
+            // cmbKeyWordStyle
+            // 
+            this.cmbKeyWordStyle.FormattingEnabled = true;
+            this.cmbKeyWordStyle.Location = new System.Drawing.Point(1117, 449);
+            this.cmbKeyWordStyle.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbKeyWordStyle.Name = "cmbKeyWordStyle";
+            this.cmbKeyWordStyle.Size = new System.Drawing.Size(199, 29);
+            this.cmbKeyWordStyle.TabIndex = 35;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1502, 744);
+            this.ClientSize = new System.Drawing.Size(1500, 683);
+            this.Controls.Add(this.cmbKeyWordStyle);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.btnKeyWordStatistics);
+            this.Controls.Add(this.txtKeyWords);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.browse_nodes2);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.nodeGridView);
             this.Controls.Add(this.browse_nodes1);
             this.Controls.Add(this.btnSetWorkPath);
             this.Controls.Add(this.panel3);
@@ -718,7 +705,6 @@
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nodeGridView)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -769,17 +755,18 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button btnSetWorkPath;
         private System.Windows.Forms.TextBox browse_nodes1;
-        private RDIFramework.Controls.UcDataGridView nodeGridView;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox browse_nodes2;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NodeId;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NodeDesc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NodeName;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.ComboBox cbProductType;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txtKeyWords;
+        private System.Windows.Forms.Button btnKeyWordStatistics;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox cmbKeyWordStyle;
     }
 }
 

@@ -42,10 +42,6 @@
     <Reference Include="DevComponents.DotNetBar2">
       <HintPath>..\..\RDIFramework.ExternalReference\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
-    <Reference Include="RDIFramework.Controls, Version=3.0.6237.35249, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Bin\dotnet4.0\RDIFramework.Controls.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.OracleClient" />
@@ -79,6 +75,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BrowseNodes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrowseNodes.Designer.cs">
+      <DependentUpon>BrowseNodes.cs</DependentUpon>
+    </Compile>
     <Compile Include="DTO\TargetExcelInputDto.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -86,11 +88,15 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\AliexpressKeyWord.cs" />
     <Compile Include="Model\CountryTemplate.cs" />
     <Compile Include="Model\Country.cs" />
     <Compile Include="SipolenExcelUtility.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BrowseNodes.resx">
+      <DependentUpon>BrowseNodes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -348,6 +354,10 @@
     <ProjectReference Include="..\..\RDIFramework.BizLogic\RDIFramework.BizLogic.csproj">
       <Project>{3dfeefb2-547e-4744-b667-3103b0acac65}</Project>
       <Name>RDIFramework.BizLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RDIFramework.Control\RDIFramework.Controls.csproj">
+      <Project>{e91e412c-381b-46d8-979b-9afa4a947562}</Project>
+      <Name>RDIFramework.Controls</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\RDIFramework.Utilities\RDIFramework.Utilities.csproj">
       <Project>{1916fe94-6129-4f93-bc55-0cf5f2cf9b05}</Project>
