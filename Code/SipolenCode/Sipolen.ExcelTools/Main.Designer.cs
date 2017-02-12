@@ -78,8 +78,10 @@
             this.label19 = new System.Windows.Forms.Label();
             this.txtKeyWords = new System.Windows.Forms.TextBox();
             this.btnKeyWordStatistics = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
             this.cmbKeyWordStyle = new System.Windows.Forms.ComboBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txtKeyWordPath = new System.Windows.Forms.Label();
+            this.txtKeyWordInfo = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -617,18 +619,23 @@
             this.label19.Location = new System.Drawing.Point(60, 452);
             this.label19.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(73, 21);
+            this.label19.Size = new System.Drawing.Size(136, 21);
             this.label19.TabIndex = 34;
             this.label19.Tag = "";
-            this.label19.Text = "关键词";
+            this.label19.Text = "关键词模式：";
             // 
             // txtKeyWords
             // 
+            this.txtKeyWords.AllowDrop = true;
             this.txtKeyWords.Location = new System.Drawing.Point(60, 492);
             this.txtKeyWords.Multiline = true;
             this.txtKeyWords.Name = "txtKeyWords";
-            this.txtKeyWords.Size = new System.Drawing.Size(1256, 300);
+            this.txtKeyWords.Size = new System.Drawing.Size(1046, 320);
             this.txtKeyWords.TabIndex = 35;
+            this.txtKeyWords.Text = "【请拖入导出的关键词文件或直接复制文件数据】";
+            this.txtKeyWords.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtKeyWords_MouseClick);
+            this.txtKeyWords.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtKeyWords_DragDrop);
+            this.txtKeyWords.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtKeyWords_DragEnter);
             // 
             // btnKeyWordStatistics
             // 
@@ -640,34 +647,57 @@
             this.btnKeyWordStatistics.UseVisualStyleBackColor = true;
             this.btnKeyWordStatistics.Click += new System.EventHandler(this.btnKeyWordStatistics_Click);
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label20.Location = new System.Drawing.Point(1051, 452);
-            this.label20.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(73, 21);
-            this.label20.TabIndex = 37;
-            this.label20.Tag = "";
-            this.label20.Text = "模式：";
-            // 
             // cmbKeyWordStyle
             // 
             this.cmbKeyWordStyle.FormattingEnabled = true;
-            this.cmbKeyWordStyle.Location = new System.Drawing.Point(1117, 449);
+            this.cmbKeyWordStyle.Location = new System.Drawing.Point(196, 449);
             this.cmbKeyWordStyle.Margin = new System.Windows.Forms.Padding(5);
             this.cmbKeyWordStyle.Name = "cmbKeyWordStyle";
             this.cmbKeyWordStyle.Size = new System.Drawing.Size(199, 29);
             this.cmbKeyWordStyle.TabIndex = 35;
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.ForeColor = System.Drawing.Color.SeaGreen;
+            this.label20.Location = new System.Drawing.Point(411, 452);
+            this.label20.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(137, 21);
+            this.label20.TabIndex = 37;
+            this.label20.Tag = "";
+            this.label20.Text = "关键词文件->";
+            // 
+            // txtKeyWordPath
+            // 
+            this.txtKeyWordPath.AutoSize = true;
+            this.txtKeyWordPath.ForeColor = System.Drawing.Color.SeaGreen;
+            this.txtKeyWordPath.Location = new System.Drawing.Point(559, 452);
+            this.txtKeyWordPath.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.txtKeyWordPath.Name = "txtKeyWordPath";
+            this.txtKeyWordPath.Size = new System.Drawing.Size(0, 21);
+            this.txtKeyWordPath.TabIndex = 38;
+            this.txtKeyWordPath.Tag = "";
+            // 
+            // txtKeyWordInfo
+            // 
+            this.txtKeyWordInfo.Location = new System.Drawing.Point(1113, 492);
+            this.txtKeyWordInfo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtKeyWordInfo.Multiline = true;
+            this.txtKeyWordInfo.Name = "txtKeyWordInfo";
+            this.txtKeyWordInfo.Size = new System.Drawing.Size(226, 320);
+            this.txtKeyWordInfo.TabIndex = 39;
+            this.txtKeyWordInfo.Visible = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1500, 683);
-            this.Controls.Add(this.cmbKeyWordStyle);
+            this.ClientSize = new System.Drawing.Size(1509, 698);
+            this.Controls.Add(this.txtKeyWordInfo);
+            this.Controls.Add(this.txtKeyWordPath);
             this.Controls.Add(this.label20);
+            this.Controls.Add(this.cmbKeyWordStyle);
             this.Controls.Add(this.btnKeyWordStatistics);
             this.Controls.Add(this.txtKeyWords);
             this.Controls.Add(this.label19);
@@ -765,8 +795,10 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox txtKeyWords;
         private System.Windows.Forms.Button btnKeyWordStatistics;
-        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.ComboBox cmbKeyWordStyle;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label txtKeyWordPath;
+        private System.Windows.Forms.TextBox txtKeyWordInfo;
     }
 }
 

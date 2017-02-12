@@ -21,6 +21,22 @@ namespace Sipolen.ExcelTools
 {
     public partial class Main : BaseForm
     {
+        #region 属性值
+
+        #region 关键词
+
+        public string GenericKeywords1 { get; set; }
+
+        public string GenericKeywords2 { get; set; }
+
+        public string GenericKeywords3 { get; set; }
+
+        public string GenericKeywords4 { get; set; }
+
+        public string GenericKeywords5 { get; set; }
+
+        #endregion
+
         /// <summary>
         /// 推荐节点码
         /// </summary>
@@ -30,6 +46,8 @@ namespace Sipolen.ExcelTools
         /// 业务逻辑数据库连接字符串
         /// </summary>
         public string BusinessDbConnection = SystemInfo.BusinessDbConnection;
+
+        #endregion
 
         CurrentDbType BusinessDbType = CurrentDbType.SqlServer;
 
@@ -445,6 +463,57 @@ namespace Sipolen.ExcelTools
         #region 关键字
 
         #region 统计
+        /// <summary>
+        /// 关键词文件拖入 进入事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtKeyWords_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                e.Effect = DragDropEffects.Link;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        /// <summary>
+        /// 关键词文件拖入 离开事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtKeyWords_DragDrop(object sender, DragEventArgs e)
+        {
+            string path = ((System.Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();
+
+            var sb = new StringBuilder();
+            if (cmbKeyWordStyle.SelectedIndex == 0) //速卖通
+            {
+                string keyWordStr = File.ReadAllText(path);
+                string[] keyArr = keyWordStr.Split(new string[] { "\r\n" }, StringSplitOptions.None);
+                int keyWordLength = 0;
+                foreach (var key in keyArr)
+                {
+                    if (string.IsNullOrEmpty(key.Trim()))//如果为空则跳出
+                        continue;
+                    if (key.Trim().IndexOf('-') != -1)//如果找到'-'则跳出
+                        continue;
+                    string[] arr = key.Split('|');
+                    keyWordLength += arr[0].TrimStart().TrimEnd().Length+1;
+                    sb.AppendLine(key.TrimStart().TrimEnd());
+                }
+                txtKeyWords.Text = sb.ToString();
+                this.txtKeyWordPath.Text = path + " " + $"【关键字字符数->{keyWordLength}】";
+            }
+            else if (cmbKeyWordStyle.SelectedIndex == 1) //读svc文件
+            {
+
+            }
+        }
+
         private void btnKeyWordStatistics_Click(object sender, EventArgs e)
         {
             //判断类型
@@ -460,11 +529,55 @@ namespace Sipolen.ExcelTools
                     if (key.Trim().IndexOf('-') != -1)//如果找到'-'则跳出
                         continue;
                     string[] arr = key.Split('|');
-                    keyWordList.Add(new AliexpressKeyWord() { KeyWord = arr[0].TrimStart().TrimEnd(), SeachCount = string.IsNullOrEmpty(arr[1].Trim()) ? "99999" : arr[1].Trim() });
+                    //去重复
+                    if (keyWordList.FindAll(t => t.KeyWord == arr[0].TrimStart().TrimEnd()).Count == 0)
+                    {
+                        keyWordList.Add(new AliexpressKeyWord() { KeyWord = arr[0].TrimStart().TrimEnd(), SeachCount = string.IsNullOrEmpty(arr[1].Trim()) ? "99999" : arr[1].Trim() });
+                    }
                 }
                 //按搜索量排序
                 keyWordList = keyWordList.OrderByDescending(t => t.SeachCount).ToList();
+                int genericKeywordsIndex = 1;
+                string genericKeywords = string.Empty;
+                var keywordInfoSb = new StringBuilder();
+                foreach (var keyWord in keyWordList)
+                {
 
+                    genericKeywords += keyWord.KeyWord;
+                    if (genericKeywords.Length <= 900)
+                        genericKeywords += ",";
+                    else
+                    {
+                        if (genericKeywordsIndex == 1)    
+                            GenericKeywords1 = genericKeywords;                                     
+                        else if (genericKeywordsIndex == 2)
+                            GenericKeywords2 = genericKeywords;
+
+                        else if (genericKeywordsIndex == 3)
+                            GenericKeywords3 = genericKeywords;
+
+                        else if (genericKeywordsIndex == 4)
+                            GenericKeywords4 = genericKeywords;
+
+                        else if (genericKeywordsIndex == 5)
+                            GenericKeywords5 = genericKeywords;
+
+                        keywordInfoSb.AppendLine($"Keywords{genericKeywordsIndex}:字符数[{genericKeywords.Length}],词组数[{genericKeywords.Split(',').Length}]");
+                        genericKeywords = string.Empty;
+                        genericKeywordsIndex++;
+                    }
+                }
+                txtKeyWordInfo.Visible = true;
+                txtKeyWordInfo.Text = string.IsNullOrEmpty(keywordInfoSb.ToString())? $"Keywords1:字符数[{genericKeywords.Length}],词组数[{genericKeywords.Split(',').Length}]":
+                keywordInfoSb.ToString();
+            }
+        }
+
+        private void txtKeyWords_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (txtKeyWords.Text.Contains("【"))
+            {
+                txtKeyWords.Text = "";
             }
         }
 
@@ -501,6 +614,12 @@ namespace Sipolen.ExcelTools
             inputDto.WebsiteShippingWeight = txtShippingWeight.Text.Trim();
             inputDto.RecommendedBrowseNodes1 = browse_nodes1.Text.Trim();
             inputDto.RecommendedBrowseNodes2 = browse_nodes2.Text.Trim();
+            inputDto.GenericKeywords1 = GenericKeywords1;
+            inputDto.GenericKeywords2 = GenericKeywords2;
+            inputDto.GenericKeywords3 = GenericKeywords3;
+            inputDto.GenericKeywords4 = GenericKeywords4;
+            inputDto.GenericKeywords5 = GenericKeywords5;
+
             return inputDto;
         }
 
@@ -526,6 +645,9 @@ namespace Sipolen.ExcelTools
             }
             return dt;
         }
+
+
+
 
 
 

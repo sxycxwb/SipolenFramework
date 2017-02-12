@@ -68,5 +68,36 @@ namespace Sipolen.ExcelTools.DTO
         /// </summary>
         [Description("recommended_browse_nodes2")]
         public string RecommendedBrowseNodes2 { get; set; }
+
+
+        /// <summary>
+        /// 关键词1
+        /// </summary>
+        [Description("generic_keywords1")]
+        public string GenericKeywords1 { get; set; }
+
+        /// <summary>
+        /// 关键词2
+        /// </summary>
+        [Description("generic_keywords2")]
+        public string GenericKeywords2 { get; set; }
+
+        /// <summary>
+        /// 关键词3
+        /// </summary>
+        [Description("generic_keywords3")]
+        public string GenericKeywords3 { get; set; }
+
+        /// <summary>
+        /// 关键词4
+        /// </summary>
+        [Description("generic_keywords4")]
+        public string GenericKeywords4 { get; set; }
+
+        /// <summary>
+        /// 关键词5
+        /// </summary>
+        [Description("generic_keywords5")]
+        public string GenericKeywords5 { get; set; }
     }
 }
