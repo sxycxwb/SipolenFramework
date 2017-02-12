@@ -21,11 +21,12 @@ D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\bin\Deb
 D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\bin\Debug\log4net.xml
 D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\bin\Debug\Newtonsoft.Json.xml
 D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\bin\Debug\NPOI.xml
-D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.dll
-D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.pdb
 D:\sipolen\code\framework\SipolenFramework\Code\Bin\dotnet4.0\Sipolen.Code.dll.config
 D:\sipolen\code\framework\SipolenFramework\Code\Bin\dotnet4.0\Sipolen.Code.dll
 D:\sipolen\code\framework\SipolenFramework\Code\Bin\dotnet4.0\Sipolen.Code.pdb
 D:\sipolen\code\framework\SipolenFramework\Bin\dotnet4.0\Sipolen.Code.dll.config
 D:\sipolen\code\framework\SipolenFramework\Bin\dotnet4.0\Sipolen.Code.dll
 D:\sipolen\code\framework\SipolenFramework\Bin\dotnet4.0\Sipolen.Code.pdb
+D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.dll
+D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.pdb
+D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.csprojResolveAssemblyReference.cache
