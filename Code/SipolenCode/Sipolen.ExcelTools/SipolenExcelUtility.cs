@@ -59,7 +59,7 @@ namespace Sipolen.ExcelTools
                         string[] columnsArr = descriptionName.Split('|');
                         foreach (var columnName in columnsArr)
                         {
-                            row[columnName] = cellValue.ToString();
+                            row[columnName] = cellValue==null?"":cellValue.ToString();
                         }
                     }
                 }

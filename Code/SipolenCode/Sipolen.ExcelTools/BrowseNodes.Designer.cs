@@ -43,10 +43,10 @@
             // 
             // browse_nodes
             // 
-            this.browse_nodes.Location = new System.Drawing.Point(258, 52);
-            this.browse_nodes.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.browse_nodes.Location = new System.Drawing.Point(164, 35);
+            this.browse_nodes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.browse_nodes.Name = "browse_nodes";
-            this.browse_nodes.Size = new System.Drawing.Size(475, 31);
+            this.browse_nodes.Size = new System.Drawing.Size(304, 23);
             this.browse_nodes.TabIndex = 32;
             this.browse_nodes.TextChanged += new System.EventHandler(this.browse_nodes_TextChanged);
             // 
@@ -54,10 +54,10 @@
             // 
             this.label16.AutoSize = true;
             this.label16.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label16.Location = new System.Drawing.Point(17, 56);
-            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label16.Location = new System.Drawing.Point(11, 37);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(220, 21);
+            this.label16.Size = new System.Drawing.Size(147, 14);
             this.label16.TabIndex = 33;
             this.label16.Tag = "";
             this.label16.Text = "输入推荐节点关键字：";
@@ -67,10 +67,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(806, 56);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(513, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(318, 21);
+            this.label1.Size = new System.Drawing.Size(217, 14);
             this.label1.TabIndex = 34;
             this.label1.Tag = "";
             this.label1.Text = "【提示：双击数据项进行选择】";
@@ -102,7 +102,8 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.nodeGridView.DefaultCellStyle = dataGridViewCellStyle2;
             this.nodeGridView.EnableHeadersVisualStyles = false;
-            this.nodeGridView.Location = new System.Drawing.Point(21, 148);
+            this.nodeGridView.Location = new System.Drawing.Point(13, 99);
+            this.nodeGridView.Margin = new System.Windows.Forms.Padding(2);
             this.nodeGridView.Name = "nodeGridView";
             this.nodeGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -117,41 +118,41 @@
             this.nodeGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.nodeGridView.RowTemplate.Height = 30;
             this.nodeGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.nodeGridView.Size = new System.Drawing.Size(1636, 747);
+            this.nodeGridView.Size = new System.Drawing.Size(1218, 498);
             this.nodeGridView.TabIndex = 35;
+            this.nodeGridView.DoubleClick += new System.EventHandler(this.nodeGridView_DoubleClick);
             // 
             // NodeId
             // 
             this.NodeId.DataPropertyName = "NODEID";
             this.NodeId.HeaderText = "节点ID";
             this.NodeId.Name = "NodeId";
-            this.NodeId.Width = 200;
             // 
             // NodeDesc
             // 
             this.NodeDesc.DataPropertyName = "NODEDESC";
             this.NodeDesc.HeaderText = "类别名称";
             this.NodeDesc.Name = "NodeDesc";
-            this.NodeDesc.Width = 900;
+            this.NodeDesc.Width = 500;
             // 
             // NodeName
             // 
             this.NodeName.DataPropertyName = "NODENAME";
             this.NodeName.HeaderText = "类别英文";
             this.NodeName.Name = "NodeName";
-            this.NodeName.Width = 600;
+            this.NodeName.Width = 400;
             // 
             // BrowseNodes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1669, 907);
+            this.ClientSize = new System.Drawing.Size(1242, 605);
             this.Controls.Add(this.nodeGridView);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.browse_nodes);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BrowseNodes";
             this.Text = "推荐节点选择";
             ((System.ComponentModel.ISupportInitialize)(this.nodeGridView)).EndInit();

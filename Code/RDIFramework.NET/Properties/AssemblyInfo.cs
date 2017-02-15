@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("普斯林国际贸易有限公司")]
 [assembly: AssemblyProduct("RDIFramework.NET")]
 [assembly: AssemblyCopyright("Copyright © 普斯林国际贸易有限公司 2017")]
-[assembly: AssemblyTrademark("http://www.rdiframework.net/")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // 将 ComVisible 设置为 false 使此程序集中的类型

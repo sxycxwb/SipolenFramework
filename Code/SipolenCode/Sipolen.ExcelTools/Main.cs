@@ -404,6 +404,7 @@ namespace Sipolen.ExcelTools
             targetExcelPath = targetPath;
             //执行复制操作
             File.Copy(templatePath, targetPath);
+            MessageBox.Show("国家及模板已确定");
         }
 
         /// <summary>
@@ -429,6 +430,7 @@ namespace Sipolen.ExcelTools
             var dt = SipolenExcelUtility.MoveDataTable(sourceTb, targetTb);
 
             SipolenExcelUtility.ExportExcelFromDt(dt, targetExcelPath, currentCountryTemplate.TemplateSheetName);
+            MessageBox.Show("移表成功，请查看！");
         }
 
 
@@ -568,6 +570,7 @@ namespace Sipolen.ExcelTools
                     }
                 }
                 txtKeyWordInfo.Visible = true;
+                GenericKeywords1 = string.IsNullOrEmpty(GenericKeywords1)? genericKeywords : GenericKeywords1;
                 txtKeyWordInfo.Text = string.IsNullOrEmpty(keywordInfoSb.ToString())? $"Keywords1:字符数[{genericKeywords.Length}],词组数[{genericKeywords.Split(',').Length}]":
                 keywordInfoSb.ToString();
             }

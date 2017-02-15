@@ -37,59 +37,59 @@ namespace RDIFramework.NET
             SystemInfo.AppIco = Path.Combine(Application.StartupPath, SystemInfo.AppIco);
 
             #region check and download new version program 启动自动升级
-            
-            //bool bHasError = false;
-            //IAutoUpdater autoUpdater = new AutoUpdater();
-            //try
-            //{
-            //     autoUpdater.Update();
-            //}
-            //catch (WebException ex)
-            //{
-            //    LogHelper.WriteException(ex);
-            //    MessageBoxHelper.ShowErrorMsg("连接自动升级服务器出错，请检查网络连接或联系软件提供商。");
-            //    bHasError = true;
-            //}
-            //catch (XmlException ex)
-            //{
-            //    LogHelper.WriteException(ex);
-            //    bHasError = true;
-            //    MessageBoxHelper.ShowErrorMsg("AutoUpdate Error:Download the upgrade file error");
-            //}
-            //catch (NotSupportedException ex)
-            //{
-            //    LogHelper.WriteException(ex);
-            //    bHasError = true;
-            //    MessageBoxHelper.ShowErrorMsg("AutoUpdate Error:Upgrade address configuration error");
-            //}
-            //catch (ArgumentException ex)
-            //{
-            //    LogHelper.WriteException(ex);
-            //    bHasError = true;
-            //    MessageBoxHelper.ShowErrorMsg("AutoUpdate Error:Download the upgrade file error");
-            //}
-            //catch (Exception ex)
-            //{
-            //    LogHelper.WriteException(ex);
-            //    bHasError = true;
-            //    MessageBoxHelper.ShowErrorMsg("AutoUpdate Error:An error occurred during the upgrade process");
-            //}
 
-            //finally
-            //{
-            //    if (bHasError == true)
-            //    {
-            //        try
-            //        {
-            //            autoUpdater.RollBack();
-            //        }
-            //        catch (Exception ex)
-            //        {
-            //            LogHelper.WriteException(ex);                       
-            //        }
-            //    }
-            //}
-            
+            bool bHasError = false;
+            IAutoUpdater autoUpdater = new AutoUpdater();
+            try
+            {
+                autoUpdater.Update();
+            }
+            catch (WebException ex)
+            {
+                LogHelper.WriteException(ex);
+                MessageBoxHelper.ShowErrorMsg("连接自动升级服务器出错，请检查网络连接或联系软件提供商。");
+                bHasError = true;
+            }
+            catch (XmlException ex)
+            {
+                LogHelper.WriteException(ex);
+                bHasError = true;
+                MessageBoxHelper.ShowErrorMsg("AutoUpdate Error:Download the upgrade file error");
+            }
+            catch (NotSupportedException ex)
+            {
+                LogHelper.WriteException(ex);
+                bHasError = true;
+                MessageBoxHelper.ShowErrorMsg("AutoUpdate Error:Upgrade address configuration error");
+            }
+            catch (ArgumentException ex)
+            {
+                LogHelper.WriteException(ex);
+                bHasError = true;
+                MessageBoxHelper.ShowErrorMsg("AutoUpdate Error:Download the upgrade file error");
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteException(ex);
+                bHasError = true;
+                MessageBoxHelper.ShowErrorMsg("AutoUpdate Error:An error occurred during the upgrade process");
+            }
+
+            finally
+            {
+                if (bHasError == true)
+                {
+                    try
+                    {
+                        autoUpdater.RollBack();
+                    }
+                    catch (Exception ex)
+                    {
+                        LogHelper.WriteException(ex);
+                    }
+                }
+            }
+
             #endregion
 
             // 获取配置信息

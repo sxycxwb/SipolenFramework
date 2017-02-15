@@ -753,7 +753,7 @@
     <!--UCStartPage  End-->
     
     <!-- FrmRDIFrameworkNav Begin -->
-    <item key="FrmRDIFrameworkNav">RDIFramework.NET ━ .NET快速信息化系统开发框架 V3.0</item>
+    <item key="FrmRDIFrameworkNav">思普林国际贸易业务系统</item>
     <item key="FrmRDIFrameworkNav_biFile">文件(&amp;F)</item>
     <item key="FrmRDIFrameworkNav_biExitApplication">退出系统(ALT+F4)</item>
     <item key="FrmRDIFrameworkNav_biSet">系统设置(&amp;S)</item>
@@ -781,7 +781,7 @@
     <!-- FrmRDIFrameworkNav End -->
 
     <!-- FrmRDIFrameworkTree Begin -->
-    <item key="FrmRDIFrameworkTree">RDIFramework.NET ━ .NET快速信息化系统开发框架 V3.0</item>
+    <item key="FrmRDIFrameworkTree">思普林国际贸易业务系统</item>
     <item key="FrmRDIFrameworkTree_biFile">文件(&amp;F)</item>
     <item key="FrmRDIFrameworkTree_biExitApplication">退出系统(ALT+F4)</item>
     <item key="FrmRDIFrameworkTree_biSet">系统设置(&amp;S)</item>
@@ -809,7 +809,7 @@
     <!-- FrmRDIFrameworkTree End -->
     
     <!-- FrmRDIFrameworkRibbon Begin -->
-    <item key="FrmRDIFrameworkRibbon">RDIFramework.NET ━ .NET快速信息化系统开发框架 V3.0</item>
+    <item key="FrmRDIFrameworkRibbon">思普林国际贸易业务系统</item>
     <item key="FrmRDIFrameworkRibbon_btnItemAbout">关于(&amp;A)...</item>
     <item key="FrmRDIFrameworkRibbon_btnItemChangePassword">修改密码...</item>
     <item key="FrmRDIFrameworkRibbon_btnItemExitSystem">退出系统</item>
