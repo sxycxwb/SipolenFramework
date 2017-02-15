@@ -30,3 +30,9 @@ D:\sipolen\code\framework\SipolenFramework\Bin\dotnet4.0\Sipolen.Code.pdb
 D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.dll
 D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.pdb
 D:\sipolen\code\framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.csprojResolveAssemblyReference.cache
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\Sipolen.Code.dll.config
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\Sipolen.Code.dll
+E:\E420\My\Framework\SipolenFramework\Bin\dotnet4.0\Sipolen.Code.pdb
+E:\E420\My\Framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.dll
+E:\E420\My\Framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.pdb
+E:\E420\My\Framework\SipolenFramework\Code\SipolenCode\Sipolen.Code\obj\Debug\Sipolen.Code.csprojResolveAssemblyReference.cache
